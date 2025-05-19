@@ -22,8 +22,18 @@
 
 ### :watch: Course Plan and Status
 
-| **Lecture No.** |  **Topic**        | **Remarks**                                      |   **Reference Video(s)** |
-|:---------------:|-------------------|--------------------------------------------------|:-------------------------:|
+| **Lecture No.** |  **Topic**                                  | **Remarks**                                      |   **Reference Video(s)** |
+|:---------------:|---------------------------------------------|--------------------------------------------------|:-------------------------:|
+|     1           | What is Blockchain?                         |                                                  |    [YouTube Video](https://www.youtube.com/watch?v=PLmRFCNgX2M) |
+|     2           | Cryptographic Primitives of Blockchain      |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=MPiD3yOa9Dw) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=Gs2YWQM3s4s) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=-m1zCOAOm2M) <br/> [YouTube Video - 4](https://www.youtube.com/watch?v=QCbJhqHVtHg) <br/> [YouTube Video - 5](https://www.youtube.com/watch?v=5C7kF8gBObw) |
+|    X            | Elements of Blockchain                      |                                                  |   [YouTube Video - 1](https://www.youtube.com/watch?v=-rBAHkE69Og) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=Kfem6-1YmpY) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=O--8gqO55T0) <br/> [YouTube Video - 4](https://www.youtube.com/watch?v=SJw8H_eYZ0w) <br/> [YouTube Video - 5](https://www.youtube.com/watch?v=gYEIm9ERN7Q) | 
+|    X            | Ethereum Blockchain                         |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=KVqA1ZgLZ88) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=xOXxK3ee5TU) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=vmtGEd-qhyU) <br/> [YouTube Video - 4](https://www.youtube.com/watch?v=W-X4fTDtxEY) | 
+|    X            | Hyperledger Fabric Blockchain               |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=rqe7krfsZK4) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=qeBg1cGBDWE) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=G8KppgMjTao) <br/> [YouTube Video - 4](https://www.youtube.com/watch?v=7dlmzNprHoE) | 
+|    X            | Identity Management                         |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=u6SBIIKBXjw) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=ILMZbVF1Ibw) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=52cSFan-c7I) | 
+|    X            | Hyperledger Indy Blockchain                 |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=xTwfHIZYEfw) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=X5fYJwcA68w) | 
+|    X            | Consensus Algorithms                        |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=dcDxQ7oDFYg) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=V0L9VfRZdzE) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=Eyj7aMVqNW4) <br/> [YouTube Video - 4](https://www.youtube.com/watch?v=weLmEomQzMI) <br/> [YouTube Video - 5](https://www.youtube.com/watch?v=oW6h7MMRKzU) | 
+|    X            | Challenges                                  |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=H_Sr2w6lgRg) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=1FAsaGBFlWs) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=vzhgWnzcOl8) | 
+    
 
 ### Evaluation Criteria
 
