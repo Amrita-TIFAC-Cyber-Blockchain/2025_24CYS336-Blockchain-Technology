@@ -5,7 +5,7 @@
 # 24CYS336 - Blockchain-Technology
 ![](https://img.shields.io/badge/Batch-22UCYS-lightgreen) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 ![](https://img.shields.io/badge/Lecture-2-orange) ![](https://img.shields.io/badge/Practical-3-orange)  ![](https://img.shields.io/badge/Credits-3-orange) <br/>
-![](https://img.shields.io/badge/Students-26-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CSE-1-blue) ![](https://img.shields.io/badge/CCE-5-blue) ![](https://img.shields.io/badge/ECE-11-blue) ![](https://img.shields.io/badge/ELC-1-blue) ![](https://img.shields.io/badge/EEE-1-blue) <br/> 
+![](https://img.shields.io/badge/Students-36-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CSE-7-blue) ![](https://img.shields.io/badge/CCE-7-blue) ![](https://img.shields.io/badge/ECE-13-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
 ![](https://img.shields.io/badge/Course_Outcome_Attainment-TBD-blue) ![](https://img.shields.io/badge/Average_Marks-TBD-blue) ![](https://img.shields.io/badge/Course_Feedback-TBD-blue) 
 
 #### Course Instructor:  Mr. Ramaguru Radhakrishnan, Assistant Professor (Senior Grade), TIFAC-CORE in Cyber Security.
@@ -46,6 +46,34 @@
 
 ### Dates and Deadlines
 
-| Course Start | 18 - Jun - 2025 | Deadline | 
-|--------------|-----------------|:--------:|
+|             Course Start             | 18 - Jun - 2025 | Deadline | 
+|--------------------------------------|:---------------:|:--------:|
+| Quiz - 1                             | W3 |                       |
+| Lab Evaluation - 1                   | W5 |                       |    
+| Quiz - 2                             | W8 |                       |
+| Mid-Term Examination                 | W9 |                       |
+| End Semester Examination             | W17 |                      |
+| Publication of Results               | Nov - 2025 |               |
+
+#### Lab Schedule 
+
+| Lab Number   |     Date         |         Exercise         | 
+|:------------:|:----------------:|:------------------------:|
+|    BT-L1     |     W2           |  [Wallet Creation]()     |
+|    BT-L2     |     W3           |  [Blockchain Explorer]() |
+|    BT-L3     |     W4           |  []()                    |
+|    BT-LE1    |     W5           |                          |
+|    BT-L4     |     W6           |                          |
+|    BT-L5     |     W7           |                          |
+|    BT-LR     |     W8           |                          |
+
+### Text Book
+1. Imran Bashir, **Mastering Blockchain** 2017.
+2. Narayanan, J. Bonneau, E. Felten, A. Miller, S. Goldfeder, **Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction**, Princeton Univ Press; 2016
+3. Alex Leverington, **Ethereum Programming**, Packt Publishing Limited; 2017.
+
+### References
+1. Andreas M. Antonopoulos, **Mastering Bitcoin - Programming the Open Blockchain**, O'Reilly Media Inc.; 2017
+2. Draft NISTIR 8202, **Blockchain Technology Overview - NIST CSRC**; 2018.
+3. Roger Wattenhofer, CreateSpace, **The Science of the Blockchain**, Independent Publishing Platform; 2016 
 
