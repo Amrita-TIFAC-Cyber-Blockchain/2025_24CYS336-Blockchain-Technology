@@ -38,10 +38,11 @@
 ### Evaluation Criteria
 
 | Component | Marks |
-|:---------:|:-----:|
-| Quizzes & NPTEL Quiz | 5 + 5 + 4 |
+|:----------|:-----:|
+| Quizzes | 5 + 5 |
+| Lab Evaluation | 5 + 5 |
+| Mini-Project | 5 + 5 | 
 | Mid-Term Examination | 30 | 
-| Mini-Project | 2 + 5 + 5 + 4 | 
 | End Semester | 40 | 
 
 ### Dates and Deadlines
