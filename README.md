@@ -2,8 +2,8 @@
     <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
 </p>
 
-# 24CYS336 - Blockchain-Technology
-![](https://img.shields.io/badge/Batch-22UCYS-lightgreen) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
+# 24CYS336 - Blockchain-Technology  ![](https://img.shields.io/badge/Live-blue)
+![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 ![](https://img.shields.io/badge/Lecture-2-orange) ![](https://img.shields.io/badge/Practical-3-orange)  ![](https://img.shields.io/badge/Credits-3-orange) <br/>
 ![](https://img.shields.io/badge/Students-36-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CSE-7-blue) ![](https://img.shields.io/badge/CCE-7-blue) ![](https://img.shields.io/badge/ECE-13-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
 ![](https://img.shields.io/badge/Course_Outcome_Attainment-TBD-blue) ![](https://img.shields.io/badge/Average_Marks-TBD-blue) ![](https://img.shields.io/badge/Course_Feedback-TBD-blue) 
@@ -49,24 +49,30 @@
 
 |             Course Start             | 18 - Jun - 2025 | Deadline | 
 |--------------------------------------|:---------------:|:--------:|
-| Quiz - 1                             | W3 |                       |
-| Lab Evaluation - 1                   | W5 |                       |    
-| Quiz - 2                             | W8 |                       |
-| Mid-Term Examination                 | W9 |                       |
-| End Semester Examination             | W17 |                      |
-| Publication of Results               | Nov - 2025 |               |
+| Mini-Project Team Finalization       | 25 - Jun - 2025 |          |
+| Mini-Project Topic Finalization      | 30 - Jun - 2025 |          |
+| Quiz - 1                             | 28 - Jul - 2025 |          |
+| Lab Evaluation - 1                   | 28 - Jul - 2025 |          |
+| Mini-Project Review - 1              | 04 - Aug - 2025 |          |
+| Mid-Term Examination                 | Aug - 2025      |          |
+| Quiz - 2                             | Sept - 2025     |          |
+| Lab Evaluation - 2                   | Sept - 2025     |          |
+| Mini-Project Review - 2              | Oct - 2025      |          |
+| End Semester Examination             | Oct - 2025      |          |
+| Publication of Results               | Nov - 2025      |          |
 
 #### Lab Schedule 
 
 | Lab Number   |     Date         |         Exercise         | 
 |:------------:|:----------------:|:------------------------:|
-|    BT-L1     |     W2           |  [Wallet Creation]()     |
-|    BT-L2     |     W3           |  [Blockchain Explorer]() |
-|    BT-L3     |     W4           |  []()                    |
-|    BT-LE1    |     W5           |                          |
-|    BT-L4     |     W6           |                          |
-|    BT-L5     |     W7           |                          |
-|    BT-LR     |     W8           |                          |
+|    BT-L1     | 21 - Jun - 2025  |  [Wallet Creation]()     |
+|    BT-L2     | 23 - Jun - 2025  |  [Crypto Primitives]()   |
+|    BT-L3     | 30 - Jun - 2025  |  [Blockchain Explorer]() |
+|    BT-L4     | 07 - Jul - 2025  |  [Bitcoin]()             |                         
+|    BT-LE     | 14 - Jul - 2025  |  []()                    |                          
+|    BT-L5     | 21 - Jul - 2025  |  [Ethereum IDE]()        |                          
+|    BT-LE     | 28 - Jul - 2025  |  Lab Evaluation - 1      |                          
+|    BT-L6     | 04 - Jul - 2025  |  [Smart Contracts]()     |
 
 ### Text Book
 1. Imran Bashir, **Mastering Blockchain** 2017.
