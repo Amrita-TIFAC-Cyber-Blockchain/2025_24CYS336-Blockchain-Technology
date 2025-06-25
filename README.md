@@ -33,7 +33,28 @@
 |    X            | Hyperledger Indy Blockchain                 |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=xTwfHIZYEfw) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=X5fYJwcA68w) | 
 |    X            | Consensus Algorithms                        |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=dcDxQ7oDFYg) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=V0L9VfRZdzE) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=Eyj7aMVqNW4) <br/> [YouTube Video - 4](https://www.youtube.com/watch?v=weLmEomQzMI) <br/> [YouTube Video - 5](https://www.youtube.com/watch?v=oW6h7MMRKzU) | 
 |    X            | Challenges                                  |                                                  |    [YouTube Video - 1](https://www.youtube.com/watch?v=H_Sr2w6lgRg) <br/> [YouTube Video - 2](https://www.youtube.com/watch?v=1FAsaGBFlWs) <br/> [YouTube Video - 3](https://www.youtube.com/watch?v=vzhgWnzcOl8) | 
-    
+
+
+### Tools
+- **Wallets**
+    - [Metamask](https://metamask.io/)
+    - [Bitcoin Core](https://bitcoin.org/en/download)
+- **Faucets**
+    - [Sepolia Ethereum - Google Cloud App](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
+    - [Sepolia Ethereum - Alchemy](https://www.alchemy.com/faucets/ethereum-sepolia)
+- **Blockchain Explorer**
+    - [Etherscan](https://etherscan.io/)
+        - [Sepolia Testnet](https://sepolia.etherscan.io/)
+    - [Multichain Explorer](https://www.blockchain.com/explorer)
+    - [Mempool Space](https://mempool.space/)
+- **Ethereum**
+    - [Remix IDE](https://remix.ethereum.org/)
+    - [Soliditiy Documentation](https://docs.soliditylang.org/en/v0.8.30/)
+
+### Applications References
+- **NFTs**
+    - [CryptoKitties](https://www.cryptokitties.co/)
+    - [CryptoPunks](https://cryptopunks.app/)
 
 ### Evaluation Criteria
 
