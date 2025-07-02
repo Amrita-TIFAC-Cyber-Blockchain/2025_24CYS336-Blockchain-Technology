@@ -11,7 +11,7 @@
 |          Name       |          Address              |
 |:--------------------|:-----------------------------:|
 | Agilprasanna P      | [0x70f56eCBb644721FcF49eac1Ba95fc777EED448B](https://sepolia.etherscan.io/address/0x70f56eCBb644721FcF49eac1Ba95fc777EED448B) |
-| Charan K            | [](https://sepolia.etherscan.io/address/) |
+| Charan K            | [0x3514C0A7507e9c32079D607CE10a42f2dcBAEC89](https://sepolia.etherscan.io/address/0x3514C0A7507e9c32079D607CE10a42f2dcBAEC89) |
 | Hemadhri P C        | [0x04Fc4e9E713ba83A887E223ACAa02E13C607709e](https://sepolia.etherscan.io/address/0x04Fc4e9E713ba83A887E223ACAa02E13C607709e) |
 | Deepak Kumar S      | [0x5F00D0Cc1b6c10909F742dEd501cEC95a02142Aa](https://sepolia.etherscan.io/address/0x5F00D0Cc1b6c10909F742dEd501cEC95a02142Aa) |
 | Jose Rohit M        | [0xB5e0E725f2EDEd534e3674142662Ce926cd734BF](https://sepolia.etherscan.io/address/0xB5e0E725f2EDEd534e3674142662Ce926cd734BF) |
@@ -44,7 +44,7 @@
 | Gajan S             | [](https://sepolia.etherscan.io/address/) |
 | Hariharan K R       | [0x87741208978ba9FCC1F6D700Fb3aE7baf9970f11](https://sepolia.etherscan.io/address/0x87741208978ba9FCC1F6D700Fb3aE7baf9970f11) |
 | Kadiri Sree Charitha| [0x12030f6a4693f52b731303FEC9aBbBE83eDd5FD4](https://sepolia.etherscan.io/address/0x12030f6a4693f52b731303FEC9aBbBE83eDd5FD4) |
-| Karthick A          | [](https://sepolia.etherscan.io/address/) |
+| Karthick A          | [0x2a9B32C743cf1BB12e2EA04f5e1dc588Cb791714](https://sepolia.etherscan.io/address/0x2a9B32C743cf1BB12e2EA04f5e1dc588Cb791714) |
 | Viyas K             | [0x3a5344C3084Bd5EbE99Bdb253eD55B702ff08846](https://sepolia.etherscan.io/address/0x3a5344C3084Bd5EbE99Bdb253eD55B702ff08846) |
 | Yuvanesh M          | [0x80D8e3a93fc807A9E8a20d8ba7981109C6066ee3](https://sepolia.etherscan.io/address/0x80D8e3a93fc807A9E8a20d8ba7981109C6066ee3) |
 | Shyam Suresh Mohanaradha | [0x8005Dc8B2EBBFAc096e26D6650F6b49fC535A35f](https://sepolia.etherscan.io/address/0x8005Dc8B2EBBFAc096e26D6650F6b49fC535A35f) |
