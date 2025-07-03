@@ -5,7 +5,7 @@
 # 24CYS336 - Blockchain-Technology  ![](https://img.shields.io/badge/Live-blue)
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 ![](https://img.shields.io/badge/Lecture-2-orange) ![](https://img.shields.io/badge/Practical-3-orange)  ![](https://img.shields.io/badge/Credits-3-orange) <br/>
-![](https://img.shields.io/badge/Students-38-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CCE-15-blue) ![](https://img.shields.io/badge/ECE-14-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
+![](https://img.shields.io/badge/Students-40-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CCE-14-blue) ![](https://img.shields.io/badge/ECE-17-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
 ![](https://img.shields.io/badge/Course_Outcome_Attainment-TBD-blue) ![](https://img.shields.io/badge/Average_Marks-TBD-blue) ![](https://img.shields.io/badge/Course_Feedback-TBD-blue) 
 
 #### Course Instructor:  Mr. Ramaguru Radhakrishnan, Assistant Professor (Senior Grade), TIFAC-CORE in Cyber Security.
@@ -58,20 +58,21 @@
 
 ### Evaluation Criteria
 
-| Component | Marks |
-|:----------|:-----:|
-| Quizzes | 5 + 5 |
-| Lab Evaluation | 5 + 5 |
-| Mini-Project | 5 + 5 | 
-| Mid-Term Examination | 30 | 
-| End Semester | 40 | 
+|       Component      |  Marks  |
+|:---------------------|:-------:|
+| Quizzes              |  5 + 5  |
+| Lab Evaluation       |  5 + 5  |
+| Mini-Project         |  5 + 5  | 
+| Mid-Term Examination |  30     | 
+| End Semester         |  40     | 
 
 ### Dates and Deadlines
 
 |             Course Start             | 18 - Jun - 2025 | Deadline | 
 |--------------------------------------|:---------------:|:--------:|
-| Mini-Project Team Finalization       | 26 - Jun - 2025 |          |
-| Mini-Project Topic Finalization      | 30 - Jun - 2025 |          |
+| Mini-Project Team Finalization       | 26 - Jun - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen) |
+| Mini-Project Topic Finalization      | 06 - Jul - 2025 |          |
+| Mini-Project Review - 0              | 21 - Jul - 2025 |          |
 | Quiz - 1                             | 28 - Jul - 2025 |          |
 | Lab Evaluation - 1                   | 28 - Jul - 2025 |          |
 | Mini-Project Review - 1              | 04 - Aug - 2025 |          |
@@ -87,13 +88,12 @@
 | Lab Number   |     Date         |         Exercise         | 
 |:------------:|:----------------:|:------------------------:|
 |    BT-L1     | 21 - Jun - 2025  |  [Wallet Creation]()     |
-|    BT-L2     | 23 - Jun - 2025  |  [Crypto Primitives]()   |
-|    BT-L3     | 30 - Jun - 2025  |  [Blockchain Explorer]() |
-|    BT-L4     | 07 - Jul - 2025  |  [Bitcoin]()             |                         
-|    BT-LE     | 14 - Jul - 2025  |  []()                    |                          
-|    BT-L5     | 21 - Jul - 2025  |  [Ethereum IDE]()        |                          
+|    BT-L2     | 30 - Jun - 2025  |  [Blockchain Explorer]() |
+|    BT-L3     | 07 - Jun - 2025  |  [Crypto Primitives]()   |
+|    BT-L4     | 14 - Jul - 2025  |  [Bitcoin]()             |                         
+|    BT-L5     | 21 - Jul - 2025  |  [Bitcoin Contracts]()   |                                                   
 |    BT-LE     | 28 - Jul - 2025  |  Lab Evaluation - 1      |                          
-|    BT-L6     | 04 - Jul - 2025  |  [Smart Contracts]()     |
+|    BT-L6     | 04 - Aug - 2025  |  [Smart Contracts]()     |
 
 ### Text Book
 1. Imran Bashir, **Mastering Blockchain** 2017.
