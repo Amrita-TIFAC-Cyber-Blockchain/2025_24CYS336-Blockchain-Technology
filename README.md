@@ -2,7 +2,7 @@
     <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
 </p>
 
-# 24CYS336 - Blockchain-Technology  ![](https://img.shields.io/badge/Live-blue)
+# 24CYS336 - Blockchain Technology  ![](https://img.shields.io/badge/Live-blue)
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 ![](https://img.shields.io/badge/Lecture-2-orange) ![](https://img.shields.io/badge/Practical-3-orange)  ![](https://img.shields.io/badge/Credits-3-orange) <br/>
 ![](https://img.shields.io/badge/Students-40-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CCE-14-blue) ![](https://img.shields.io/badge/ECE-17-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
@@ -71,7 +71,7 @@
 |             Course Start             | 18 - Jun - 2025 | Deadline | 
 |--------------------------------------|:---------------:|:--------:|
 | Mini-Project Team Finalization       | 26 - Jun - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen) |
-| Mini-Project Topic Finalization      | 06 - Jul - 2025 |          |
+| Mini-Project Topic Finalization      | 06 - Jul - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen) |
 | Mini-Project Review - 0              | 21 - Jul - 2025 |          |
 | Quiz - 1                             | 28 - Jul - 2025 |          |
 | Lab Evaluation - 1                   | 28 - Jul - 2025 |          |
