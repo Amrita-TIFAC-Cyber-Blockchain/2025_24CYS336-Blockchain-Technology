@@ -10,9 +10,21 @@
 
 ## Cryptographic Hash Algorithm
 
+<p align="center">
+    <img src="../images/hashing-vs-encryption.png" alt ="Hash" width="500" />
+</p>
+
 ## Symmetric Key Cryptography
 
+<p align="center">
+    <img src="../images/Symmetric-Encryption.png" alt ="Symmetric Key" width="500" />
+</p>
+
 ## Asymmetric Key (Public Key Cryptography)
+
+<p align="center">
+    <img src="../images/Asymmetric-Encryption.png" alt ="Public Key" width="500" />
+</p>
 
 ### Encryption and Decryption
 
@@ -28,9 +40,9 @@
 
 #### (a) Encrypt the symmetric key using the public key:
 The encryption formula is:  
-\[
+```
 C = (M^e) mod n
-\]
+```
 Where:  
 \[
 M = 44,  e = 5, n = 119
@@ -49,16 +61,16 @@ C = 74
 ---
 #### (b) Decrypt the encrypted symmetric key using the private key:
 The decryption formula is:  
-\[
+```
 M = (C^d) mod n
-\]
+```
 Where:  
 \[
 C = 74, d = 77, n = 119
 \]
 
 **Step-by-step modular exponentiation:**  
-1. \( 74^2 mod 119 = 3136 mod 119 = 2 \)  
+1. \( 74^2 mod 119 = 5476 mod 119 = 2 \)  
 2. \( 74^32 mod 119 = (2^16) mod 119 = 86 \)
 3. \( 74^{77} mod 119 = (86 o 86 o 16 o 4 o 74) mod 119 = 35027456 mod 119 = 44 \)  
 
@@ -81,12 +93,9 @@ M = 44
 #### (a) Encrypt the symmetric key using the public key:
 The encryption formula is:  
 \[
-C = (M^e) mod n
+C = (45^7) mod 119
 \]
-Where:  
-\[
-M = 45,  e = 7, n = 119
-\]
+
 
 **Step-by-step modular exponentiation:**  
 1. \( 45^2 mod 119 = 2025 mod 119 = 2 \)  
@@ -102,22 +111,18 @@ C = 3
 #### (b) Decrypt the encrypted symmetric key using the private key:
 The decryption formula is:  
 \[
-M = (C^d) mod n
-\]
-Where:  
-\[
-C = 3, d = 103, n = 119
+M = (3^103) mod 119
 \]
 
 **Step-by-step modular exponentiation:**  
-1. \( 3^8 mod 119 = 6581 mod 119 = 36 \)
-2. \( 3^32 mod 119 = (36^4) mod 119 = 50 \)
-3. \( 3^64 mod 119 = (50^2) mod 119 = 1 \)
-4. \( 3^{103} mod 119 = (1 o 50 o 81 o 27 ) mod 119 = 3648 mod 119 = 108 \)  
+1. \( 3^8 mod 119 = 6561 mod 119 = 16 \)
+2. \( 3^32 mod 119 = (16^4) mod 119 = 86 \)
+3. \( 3^64 mod 119 = (86^2) mod 119 = 18 \)
+4. \( 3^{103} mod 119 = (18 o 86 o 81 o 27 ) mod 119 =  (1548 o 2187) mod 119 =  (1 o 45 )108 \)  
 
 **Decrypted Symmetric Key:**  
 \[
-M = 108
+M = 45
 \]
 
 ---
@@ -128,3 +133,5 @@ As per RSA Algorithm:
 ```
   e * d mod phi(n) = 1
 ```
+
+#### Additional Resource: [RSA Calculator](https://www.cs.drexel.edu/~popyack/IntroCS/HW/RSAWorksheet.html)
