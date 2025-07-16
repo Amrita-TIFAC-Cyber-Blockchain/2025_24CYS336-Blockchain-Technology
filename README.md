@@ -72,11 +72,11 @@
 |--------------------------------------|:---------------:|:--------:|
 | Mini-Project Team Finalization       | 26 - Jun - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen) |
 | Mini-Project Topic Finalization      | 06 - Jul - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen) |
-| Mini-Project Review - 0              | 21 - Jul - 2025 |          |
+| Mini-Project Review - 0              | 21 - Jul - 2025 & <br/> 21 - Jul - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen)  |
 | Quiz - 1                             | 28 - Jul - 2025 |          |
 | Lab Evaluation - 1                   | 28 - Jul - 2025 |          |
 | Mini-Project Review - 1              | 04 - Aug - 2025 |          |
-| Mid-Term Examination                 | Aug - 2025      |          |
+| Mid-Term Examination                 | 26 - Aug - 2025 |          |
 | Quiz - 2                             | Sept - 2025     |          |
 | Lab Evaluation - 2                   | Sept - 2025     |          |
 | Mini-Project Review - 2              | Oct - 2025      |          |
@@ -89,8 +89,7 @@
 |:------------:|:----------------:|:------------------------:|
 |    BT-L1     | 21 - Jun - 2025  |  [Wallet Creation]()     |
 |    BT-L2     | 30 - Jun - 2025  |  [Blockchain Explorer]() |
-|    BT-L3     | 07 - Jun - 2025  |  [Crypto Primitives]()   |
-|    BT-L4     | 14 - Jul - 2025  |  [Bitcoin]()             |                         
+|    BT-L3     | 07 - Jun - 2025  |  [Crypto Primitives]()   |                  
 |    BT-L5     | 21 - Jul - 2025  |  [Bitcoin Contracts]()   |                                                   
 |    BT-LE     | 28 - Jul - 2025  |  Lab Evaluation - 1      |                          
 |    BT-L6     | 04 - Aug - 2025  |  [Smart Contracts]()     |
