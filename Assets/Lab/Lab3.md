@@ -8,29 +8,52 @@
 
 ## Lab 3: Crypto Primitives
 
+
 ## Cryptographic Hash Algorithm
+
+Crytographic Hash Function is a one-way mathematical function which takes any arbitary length input and generates a fixed length output. 
+
+Let us consider _x_ is the input _f(x)_ is the cryptographic hash function which will provide hash value _Y_, then we can say _f(x) = Y._
 
 <p align="center">
     <img src="../images/hashing-vs-encryption.png" alt ="Hash" width="500" />
 </p>
 
+Most commonly used Cryptographic Hash Algorithm includes Message Digest (MD) Family and Secure Hash Algorithm (SHA) Family. 
+
+Explore more [here](https://www.pelock.com/products/hash-calculator)
+
 ## Symmetric Key Cryptography
+
+Symmetric Key Cryptography uses the same key for _encryption_ and _decryption_.  The challenge here is the Key Exchange. 
 
 <p align="center">
     <img src="../images/Symmetric-Encryption.png" alt ="Symmetric Key" width="500" />
 </p>
 
-## Asymmetric Key (Public Key Cryptography)
+## Asymmetric Key Cryptography (Public Key Cryptography)
+
+Asymmetric Key Cryptography uses the two different keys for _encryption_ and _decryption_. _Public Key_ and _Private Key_ pairs are generated, where _Public Key_ is made available to everyone through a central database and _Private Key_ is made available ONLY to the concerend user. 
+
+### Encryption and Decryption
+
+When it comes to ensuring the Confidentiality of the data, we encrypt and decrypt the data. Encryption is using the Receiver's Public Key and Decryption is using the Receiver's Private Key. 
 
 <p align="center">
     <img src="../images/Asymmetric-Encryption.png" alt ="Public Key" width="500" />
 </p>
 
-### Encryption and Decryption
-
+---
 ### Digital Signature
 
-### Assymmetric Key Encryption and Decryption (using RSA) for Symmetric Key Exchange [Correct]
+When it comes to ensuring the Integrity of the data, we sign (encrypt) and verify (decrypt) the hash of the data. Signing (Encryption) is using the Senders's Private Key and Verification (Decryption) is using the Sender's Public Key. 
+
+<p align="center">
+    <img src="../images/Digital_Signature.png" alt ="Public Key" width="500" />
+</p>
+
+---
+### Example 1 : Assymmetric Key Encryption and Decryption (using RSA) for Symmetric Key Exchange
 
 #### Given:
 - **Public Key (n, e):** (119, 5)  
@@ -58,7 +81,6 @@ M = 44,  e = 5, n = 119
 C = 74
 \]
 
----
 #### (b) Decrypt the encrypted symmetric key using the private key:
 The decryption formula is:  
 ```
@@ -81,14 +103,13 @@ M = 44
 
 ---
 
-### Assymmetric Key Encryption and Decryption (using RSA) for Symmetric Key Exchange [InCorrect]
+### Example 2: Assymmetric Key Encryption and Decryption (using RSA) for Symmetric Key Exchange (Special Case)
 
 #### Given:
 - **Public Key (n, e):** (119, 7)  
 - **Private Key (n, d):** (119, 103)  
 - **Symmetric Key:** 45  
 
----
 
 #### (a) Encrypt the symmetric key using the public key:
 The encryption formula is:  
@@ -106,7 +127,6 @@ C = (45^7) mod 119
 C = 3
 \]
 
----
 
 #### (b) Decrypt the encrypted symmetric key using the private key:
 The decryption formula is:  
@@ -127,7 +147,7 @@ M = 45
 
 ---
 
-#### (c) Reason for Incorrectness 
+### Verification of e and d pairs.
 As per RSA Algorithm:
 - Following condition should be satisfied for the values of _e_ and _d_
 ```
@@ -135,3 +155,6 @@ As per RSA Algorithm:
 ```
 
 #### Additional Resource: [RSA Calculator](https://www.cs.drexel.edu/~popyack/IntroCS/HW/RSAWorksheet.html)
+
+### Exercise 
+Implement a Menu-driven Program in Python (or language of your choice) that performs RSA Encryption and Decryption. The values of e, d, and n can be either received as input or hardcorded. 
