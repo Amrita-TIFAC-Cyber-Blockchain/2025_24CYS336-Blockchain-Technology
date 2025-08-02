@@ -21,11 +21,11 @@
 | BT#08		  |         Abishek R 		        |     CB.EN.U4CCE23003 | AI based Fraud Detection in DeFi/DEX                       |
 | BT#09	 	  |         K B Vishal 	            |     CB.EN.U4CCE23019 | Digital Twin                                               | 
 | BT#10		  |         Rithiik S 		        |     CB.EN.U4CCE23040 | ML assisted Blockchain Application                         |
-| BT#11		  |         Shyam Suresh M          |     CB.EN.U4CCE23066 |                                                          |
-| BT#12	      |         Shankar N K 	        |     CB.EN.U4ECE23048 | Secure Machine Learning Models using Blockchain            |
-| BT#13		  |         Viyas K 		        |     CB.EN.U4ECE23254 | Supply Chain Management                                    | 
-| BT#14		  |         Yuvanesh M 		        |     CB.EN.U4ECE23256 | E-Waste Collection and Tracking System                     |
-| BT#15		  | Jaiwanthi R <br/> Beeraka Varsha  | CB.EN.U4CCE23017 <br/> CB.EN.U4ECE23062 | Blockchain Data Analytics         | 
+| BT#11	      |         Shankar N K 	        |     CB.EN.U4ECE23048 | Secure Machine Learning Models using Blockchain            |
+| BT#12		  |         Viyas K 		        |     CB.EN.U4ECE23254 | Supply Chain Management                                    | 
+| BT#13		  |         Yuvanesh M 		        |     CB.EN.U4ECE23256 | E-Waste Collection and Tracking System                     |
+| BT#14       | Duvvuru Akshaya Saketh Reddy <br/> Shyam Suresh M   |  CB.EN.U4CCE23011 <br/>   CB.EN.U4CCE23066 |                                                          |
+| BT#15		  | Jaiwanthi R <br/> Beeraka Varsha  |  CB.EN.U4CCE23017  <br/> CB.EN.U4ECE23062 | Blockchain Data Analytics             | 
 | BT#16		  | Namrata B G <br/> Chithirala Harithavalli Bhavya Sri | CB.EN.U4CCE23029 <br/> CB.EN.U4ECE23215 | Voting System      | 
 | BT#17		  | Praveen S <br/> Akshay R | CB.EN.U4CCE23035 <br/> CB.EN.U4ECE23102 | Voting System <br/> ⁠Digital Art <br/> ⁠Education |
 | BT#18		  | Sriharish V J <br/> Hithesh B S | CB.EN.U4CCE23051 <br/> CB.EN.U4ECE23120 | NFTs |
@@ -35,4 +35,6 @@
 | BT#22		  | Rajith S <br/> T Ragulraj <br/> Mithun Chakkarawarthy S |  CB.EN.U4CCE23039 <br/> CB.EN.U4ECE23049 <br/> CB.EN.U4ECE23127 | AI-integrated Forex Prediction with Blockchain Logging <br/> Blockchain for Digital Identity Management | 
 | BT#23		  | Vasantha Kumar G R <br/> Ashwin Kumar K S <br/>  Karthick A | CB.EN.U4CCE23062 <br/> CB.EN.U4ECE23007 <br/> CB.EN.U4ECE23225 | Blockchain based social media content/in-game asset ownership | 
 | BT#24		  | Harshan S <br/> Deepana <br/> Mukesh Singh <br/>  | CB.EN.U4ECE23119 <br/> CB.EN.U4EEE23109 <br/> CB.EN.U4ELC23027 | Energy Trading for Blockchain enabled Smart Grids |
+| BT#25       | Akilesh Senthil Kumar <br/> Rahul Krishna J | CB.EN.U4ECE23203 <br/> CB.EN.U4ECE23203 |  |
+
 
