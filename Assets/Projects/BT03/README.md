@@ -47,4 +47,5 @@ The application of blockchain technology to academic credential management is a 
 -----
 
 ### References
+- Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
 
