@@ -4,7 +4,7 @@
 
 ## BT#09
 
-![](https://img.shields.io/badge/Member-1-gold)  ![](https://img.shields.io/badge/Name-K_B_Vishal-orange) <br/>
+![](https://img.shields.io/badge/Member-K_B_Vishal-gold)  <br/>
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -29,4 +29,5 @@
 -----
 
 ### References
+
 
