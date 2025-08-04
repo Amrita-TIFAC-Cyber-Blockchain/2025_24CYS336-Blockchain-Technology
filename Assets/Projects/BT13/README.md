@@ -4,7 +4,7 @@
 
 ## BT#13
 
-![](https://img.shields.io/badge/MemberYUVANESH_M-TBD-gold)  <br/> 
+![](https://img.shields.io/badge/Member-Yuvanesh_M-gold)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -30,4 +30,5 @@
 -----
 
 ### References
+
 
