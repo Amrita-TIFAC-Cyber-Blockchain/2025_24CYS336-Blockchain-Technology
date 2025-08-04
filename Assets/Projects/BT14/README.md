@@ -4,7 +4,8 @@
 
 ## BT#14
 
-![](https://img.shields.io/badge/Member-TBD-gold)  <br/> 
+![](https://img.shields.io/badge/Member-Duvvuru_Akshaya_Saketh_Reddy-g)  <br/> 
+![](https://img.shields.io/badge/Member-Shyam-gold)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -54,3 +55,4 @@ Blockchain technology offers an effective solution to these problems. It enables
 -----
 
 ### References
+
