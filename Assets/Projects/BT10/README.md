@@ -4,7 +4,7 @@
 
 ## BT#10 - "A Blockchain-Guarded AI Diagnosis Platform with Patient-Controlled EHR Access and Gas Price Prediction"
 
-![](https://img.shields.io/badge/Member-1-gold)  ![](https://img.shields.io/badge/Member-Rithiik_S-red)  <br/> 
+![](https://img.shields.io/badge/Member-Rithiik_S-red)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -29,5 +29,6 @@
 -----
 
 ### References
+
 
 
