@@ -1,6 +1,6 @@
 
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject_-_BLOCKCHAIN_-blue) ![](https://img.shields.io/badge/Batch_-22UCYS-gold) <br/>
+![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject_-_BLOCKCHAIN_-blue) ![](https://img.shields.io/badge/Batch_-23CYS336-gold) <br/>
 
 ## BT#12 -  Food Safety Traceability System using Blockchain and EPCIS
 
@@ -29,6 +29,7 @@
 -----
 
 ### References
+
 
 
 
