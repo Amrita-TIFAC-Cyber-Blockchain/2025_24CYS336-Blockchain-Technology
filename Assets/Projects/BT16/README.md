@@ -16,7 +16,7 @@
 -----
 ### Literature Survey 
 
-j
+
 -----
 ### Architectural Diagram
 
@@ -29,4 +29,5 @@ j
 -----
 
 ### References
+
 
