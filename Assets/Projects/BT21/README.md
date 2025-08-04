@@ -5,8 +5,8 @@
 ## BT#21
 
 ![](https://img.shields.io/badge/Member-Mithra_K-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-K_Sree_Charitha-brown) <br/>
-![](https://img.shields.io/badge/Reviewed-Teena_Chowdri-brown) <br/>
+![](https://img.shields.io/badge/Member-K_Sree_Charitha-gold)  <br/> 
+![](https://img.shields.io/badge/Member-Teena_Chowdri-gold)  <br/> 
 
 ------
 
@@ -94,3 +94,4 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
