@@ -16,6 +16,15 @@ Traditional evidence management systems are highly susceptible to tampering, una
 
 -----
 ### Literature Survey 
+The traditional methods of managing digital forensic evidence often face significant challenges such as data manipulation, loss of integrity, and lack of proper chain-of-custody tracking. To address these issues, researchers have explored the use of blockchain technology in forensic and legal evidence systems.
+
+Patil et al. (2021) emphasized the importance of enhancing the security of forensic evidence using blockchain, proposing a framework to prevent unauthorized modifications. Similarly, Omi Akter et al. (2020) discussed the challenges of cloud forensics and how blockchain can be integrated to maintain transparency and traceability of evidence across distributed networks.
+
+Harihara Gopalan et al. (2019) explored digital forensics using blockchain, highlighting how the immutable nature of blockchain can ensure data authenticity. Bonomi et al. (2019) introduced B-CoCA, a blockchain-based Chain of Custody model, which enables secure evidence management and transfer among stakeholders in digital forensics.
+
+Rao et al. (2021) proposed a novel approach for digital evidence management using blockchain, enabling tamper-proof logging and traceability. Giova (2011) focused on improving the chain of custody in electronic system investigations, stressing the need for systematic and verifiable handling of digital proof.
+
+Neovius and Westerlund (2018) proposed distributed ledger-based solutions to provide tamper-resistant audit trails in cloud forensics, which helps in validating digital evidence across platforms.
 
 
 -----
@@ -30,5 +39,6 @@ Traditional evidence management systems are highly susceptible to tampering, una
 -----
 
 ### References
+
 
 
