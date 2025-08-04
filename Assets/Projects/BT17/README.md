@@ -5,7 +5,8 @@
 ## BT#17
 
 ![](https://img.shields.io/badge/Member-Praveen_S-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-Akshay_R-brown) <br/>
+![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
+![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
 
@@ -29,4 +30,5 @@
 -----
 
 ### References
+
 
