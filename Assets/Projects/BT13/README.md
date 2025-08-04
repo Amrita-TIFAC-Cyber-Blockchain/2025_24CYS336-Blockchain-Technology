@@ -30,5 +30,7 @@
 -----
 
 ### References
+Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
+
 
 
