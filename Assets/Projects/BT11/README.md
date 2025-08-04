@@ -4,7 +4,7 @@
 
 ## BT#11
 
-![](https://img.shields.io/badge/Member-TBD-gold)  Shankar  <br/> 
+![](https://img.shields.io/badge/Member-Shankar-gold) <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -29,4 +29,5 @@
 -----
 
 ### References
+
 
