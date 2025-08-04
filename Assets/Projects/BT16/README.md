@@ -2,7 +2,7 @@
 # 24CYS336 - Blockchain-Technology 
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#16
+## BT#16 - Voting System 
 
 ![](https://img.shields.io/badge/Member-Namrata_B_G-gold)  ![](https://img.shields.io/badge/Member-Ch_Bhavya-gold) <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
@@ -65,6 +65,7 @@ Efficient and secure without high energy use.
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959-59969.
 
 <2>Denis González, C., Frias Mena, D., Massó Muñoz, A., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531.
+
 
 
 
