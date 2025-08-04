@@ -4,8 +4,7 @@
 
 ## BT#16
 
-![](https://img.shields.io/badge/Member1-Namrata-gold) <br/> 
-![](https://img.shields.io/badge/Member2-Bhavya-gold) <br/> 
+![](https://img.shields.io/badge/Member-Namrata_B_G-gold) <br/>  ![](https://img.shields.io/badge/Member-Ch_Bhavya-gold) <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -63,6 +62,7 @@ Efficient and secure without high energy use.
 -----
 
 ### References
+
 
 
 
