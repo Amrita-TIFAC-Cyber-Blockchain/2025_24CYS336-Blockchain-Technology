@@ -17,7 +17,9 @@
 ### Literature Survey 
 
 paper 1: A Framework to Make Voting System Transparent Using Blockchain Technology
+
 Authors: MUHAMMAD SHOAIB FAROOQ , USMAN IFTIKHAR AND ADEL KHELIFI​
+
 Published in: IEEE Access, June 3,2022
 
 Problem : Traditional voting systems lack transparency, are prone to tampering, human error, and centralized control.
@@ -32,7 +34,9 @@ Smart contracts prevent double voting and tampering.
 Voters can verify their vote via transaction hash.
 
 paper 2: Electronic Voting System Using an Enterprise Blockchain
+
 Authors: Camilo Denis González  , Daniel Frias Mena  , Alexi Massó Muñoz  , Omar Rojas , and Guillermo Sosa-Gómez ​
+
 Published in: Applied Sciences,6 january 2022(Journal)
 
 Problem: Centralized systems and permissionless blockchains are inefficient and lack scalability.
@@ -59,6 +63,7 @@ Efficient and secure without high energy use.
 -----
 
 ### References
+
 
 
 
