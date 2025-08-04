@@ -11,9 +11,7 @@
 ------
 
 ### Problem Statement
-<p><h3>bhaaa</h3></p>
-
-
+Traditional voting systems, whether physical or digital, are often vulnerable to tampering, hacking, and fraud. Centralized voting systems are prone to data manipulation and errors during the counting process. Additionally, voters have no way to verify whether their votes are counted accurately or securely. There is also the possibility of multiple voting by a single person due to weak authentication systems. This creates trust issues in the election process, undermining the legitimacy of the results. To address these challenges, there is a need for a transparent, secure, and verifiable voting system that can ensure fairness and integrity.
 -----
 ### Literature Survey 
 
@@ -30,6 +28,7 @@
 -----
 
 ### References
+
 
 
 
