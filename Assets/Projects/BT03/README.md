@@ -40,7 +40,7 @@ The application of blockchain technology to academic credential management is a 
 
 | SDG | Alignment |
 |:---|:----------|
-| Goal 4 - Quality Education| By making credentials tamper-proof and instantly verifiable, our project upholds the integrity of academic qualifications, ensuring a fairer and more credible educational system for all. |
+| Goal 4 - Quality Education| By making credentials tamper-proof and instantly verifiable, my project upholds the integrity of academic qualifications, ensuring a fairer and more credible educational system for all. |
 | Goal 8 - Decent Work and Economic Growth | The DCDVS reduces verification time and cost, streamlining hiring and promoting a productive, merit-based workforce. |
 | Goal 16 - Peace, Justice and Strong Institutions | By creating a permissioned blockchain network, the system builds a framework for greater accountability and transparency, strengthening institutional integrity and providing a verifiable record of individual achievements.  |
 
@@ -48,4 +48,5 @@ The application of blockchain technology to academic credential management is a 
 
 ### References
 - Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
+
 
