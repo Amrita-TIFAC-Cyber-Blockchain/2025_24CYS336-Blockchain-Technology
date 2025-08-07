@@ -15,10 +15,15 @@ In India, the process of adopting stray dogs is often informal, unregulated, and
 transparency. There is no unified, verifiable digital registry to track the adoption status, 
 vaccination records, or ownership history of rescued dogs. This gap leads to critical issues such 
 as: 
+
 1.Re-abandonment of adopted dogs (without consequences) 
-2.Fake or unverifiable vaccination/sterilization claims 
+
+2.Fake or unverifiable vaccination/sterilization claims
+
 3.Duplicate dog registrations across multiple NGOs 
+
 4.Illegal dog trade and resale of adopted animals 
+
 5.Lack of accountability and traceability in the system
 
 These challenges not only reduce public trust in adoption systems but also harm the welfare of street dogs. There is a pressing need for a decentralized, tamper-proof, and privacy-respecting solution that allows NGOs, adopters, and the public to interact with the system securely and transparently.
@@ -93,5 +98,6 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
