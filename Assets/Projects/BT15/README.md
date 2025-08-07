@@ -37,7 +37,12 @@ A Comprehensive Data Analytics Study on the Use of Blockchain Technology in Real
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
-
+| **SDG**                                              | **Alignment with Your Project**                                                                                                                                                                                                                       |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal 9 – Industry, Innovation and Infrastructure** | Your project uses cutting-edge technologies like blockchain, machine learning, and geospatial analytics to modernize the real estate industry. It promotes innovation, digital transformation, and resilient infrastructure in property transactions. |
+| **Goal 11 – Sustainable Cities and Communities**     | By ensuring secure, transparent, and fraud-proof land ownership records, your system supports inclusive and safe urban development. It prevents land disputes and illegal constructions, promoting sustainable housing practices.                     |
+| **Goal 16 – Peace, Justice and Strong Institutions** | Through immutable records and smart contracts, your project reduces corruption and fraud in real estate. It strengthens institutional trust by offering verifiable and transparent property transactions.                                             |
+| **Goal 8 – Decent Work and Economic Growth**         | Automating real estate processes reduces transaction costs, eliminates inefficiencies, and promotes a healthy investment environment. This supports economic growth and increases trust in property markets.                                          |
 
 -----
 
@@ -45,5 +50,6 @@ A Comprehensive Data Analytics Study on the Use of Blockchain Technology in Real
 Suganya, M., Madhavi, K., Yadav, K., Abbas, H. M., & Ganesh, N. (2024, November). Developing a Blockchain-Based Decentralized Application for Real Estate Transactions. In 2024 International Conference on IoT, Communication and Automation Technology (ICICAT) (pp. 1356-1360). IEEE.
 
 Miah, M. (2022). A comprehensive data analytics study on the use of blockchain technology in real estate. International Journal of Engineering Science and Computing, 12(10).
+
 
 
