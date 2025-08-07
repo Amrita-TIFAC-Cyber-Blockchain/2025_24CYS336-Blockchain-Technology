@@ -19,12 +19,10 @@ as:
 2.Fake or unverifiable vaccination/sterilization claims 
 3.Duplicate dog registrations across multiple NGOs 
 4.Illegal dog trade and resale of adopted animals 
-5.Lack of accountability and traceability in the system 
+5.Lack of accountability and traceability in the system
 
-These challenges not only reduce public trust in adoption systems but also harm the welfare of 
-street dogs. There is a pressing need for a decentralized, tamper-proof, and privacy-respecting 
-solution that allows NGOs, adopters, and the public to interact with the system securely and 
-transparently. 
+These challenges not only reduce public trust in adoption systems but also harm the welfare of street dogs. There is a pressing need for a decentralized, tamper-proof, and privacy-respecting solution that allows NGOs, adopters, and the public to interact with the system securely and transparently.
+
 -----
 ### Literature Survey 
 1. We studied the paper titled “Provoke and Approach for Developing PET DApp using 
@@ -81,11 +79,12 @@ Limitations:
 
 
 ------
-
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 SDG 11: Sustainable Cities and Communities: The project's goal to formalize and bring transparency to the adoption of stray dogs in India could contribute to creating safer and more inclusive urban environments for both animals and people. By addressing issues like re-abandonment and illegal trade, it promotes a more responsible and humane approach to managing stray animal populations in communities.
 SDG 16: Peace, Justice and Strong Institutions: The project aims to build a transparent and accountable system for dog adoption. By using a decentralized, tamper-proof blockchain system, it creates a verifiable digital registry for tracking adoption status, vaccination records, and ownership history, which reduces fraud and increases public trust. The system's immutability ensures that all adoptions and actions are permanent and traceable.
 SDG 17: Partnerships for the Goals: The project's design facilitates interaction between NGOs, adopters, and the public within a secure and transparent framework. This collaborative model, powered by a decentralized network, encourages different stakeholders to work together towards the common goal of improving dog welfare and adoption practices
+
+
 -----
 
 ### References
@@ -94,4 +93,5 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
