@@ -42,3 +42,4 @@ What stood out was the emphasis on user identity verification—something blockc
 1. Goncharova, A. (2024). Blockchain in digital notary services. Visegrad Journal on Human Rights, (2),16–20.
 2. Nasr, E., Nakhle, F., Nasr, J., El Khatib, O., & El Khatib, L. (2023, December). A Disruptive Blockchain Framework for Notary: Smart Contract and Digital Record Keeping. In 2023 IEEE 4th International Multidisciplinary Conference on Engineering Technology (IMCET) (pp. 253-258). IEEE.
 3. Deepika, K. B., Babu, M. S., & Reddy, A. P. (2025). Digital Trust Redefined: Blockchain-Based Notarization System Using Eid Card. Metallurgical and Materials Engineering, 38-46.
+
