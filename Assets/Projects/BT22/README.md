@@ -31,9 +31,16 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
+| SDG | Alignment |
+|:---|:----------|
+| Goal 16 - Peace, Justice and Strong Institutions| By creating a decentralized and immutable system for identity, the project directly supports SDG Target 16.9 (provide legal identity for all). It strengthens institutional integrity by reducing fraud and corruption, building a foundation of trust between citizens and service providers. |
+| Goal 9 - Industry, Innovation, and Infrastructure | This project represents a significant innovation in digital infrastructure. It provides a secure, resilient, and user-centric foundation upon which industries like finance, healthcare, and e-governance can build next-generation services, fostering a robust digital economy. |
+| Goal 8 - Decent Work and Economic Growth | A Self-Sovereign Identity (SSI) system streamlines hiring and credential verification, reducing friction in the labor market. It empowers individuals to easily prove their qualifications, promoting a merit-based workforce and enabling smoother participation in the modern and gig economies.  |
+| Goal 1 - No Poverty | A secure and accessible digital identity is crucial for financial inclusion. It enables marginalized populations to access bank accounts, credit, and government social safety nets securely and efficiently, ensuring that aid reaches the intended recipients and providing a pathway out of poverty.  |
 
 -----
 
 ### References
+
 
 
