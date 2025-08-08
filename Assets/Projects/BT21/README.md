@@ -96,7 +96,7 @@ SDG 16: Peace, Justice and Strong Institutions: The project aims to build a tran
 
 
 ------
-SDG 17: Partnerships for the Goals: The project's design facilitates interaction between NGOs, adopters, and the public within a secure and transparent framework. This collaborative model, powered by a decentralized network, encourages different stakeholders to work together towards the common goal of improving dog welfare and adoption practices
+SDG 17: Partnerships for the Goals: The project's design facilitates interaction between NGOs, adopters, and the public within a secure and transparent framework. This collaborative model, powered by a decentralized network, encourages different stakeholders to work together towards the common goal of improving dog welfare and adoption practices.
 
 -------
 
@@ -108,6 +108,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
