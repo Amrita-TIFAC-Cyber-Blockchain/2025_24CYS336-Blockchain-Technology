@@ -15,22 +15,10 @@ This project proposes a **non-custodial, blockchain-powered P2P lending marketpl
 
 -----
 
-### Literature Survey 
-The application of blockchain to P2P lending introduces transparency, programmability, and disintermediation. The following literature review draws from current research and industry examples, focusing on non-custodial stablecoin lending.
+### Literature Survey
+The integration of blockchain technology into peer-to-peer (P2P) lending has introduced new possibilities for transparency, automation, and trustless transactions. Traditional custodial lending platforms, such as BlockFi and Nexo, provide crypto-backed loans but require users to transfer control of their assets to a centralized entity, which introduces counterparty risk and vulnerability to platform failures or hacks. In contrast, decentralized lending protocols like Aave and Compound have demonstrated how smart contracts can enable non-custodial lending, eliminating the need for intermediaries. However, these protocols primarily operate on pooled liquidity models, where borrowers interact with an aggregated fund rather than directly negotiating terms with individual lenders. 
 
-#### Existing Solutions
-- **Custodial Lending Platforms:** Centralized platforms like BlockFi and Nexo offer crypto-backed loans but hold user funds in custody, creating trust and counterparty risks. Any compromise of the custodian can lead to loss of funds.
-  
-- **Non-Custodial Lending Protocols:** Protocols like Aave and Compound introduced fully on-chain, smart contract–driven lending markets. While decentralized, they often cater to pooled liquidity markets, which may not allow direct borrower-lender agreements or tailored loan terms.
-
-- **P2P Smart Contract Models:** Projects such as ETHLend (now Aave’s predecessor) attempted direct P2P matching but faced adoption and liquidity fragmentation challenges. Research shows that specialized marketplaces with automated risk enforcement can better address niche borrower-lender needs.
-
-#### Research Gaps
-- **Direct, Secured P2P Lending:** Most DeFi lending solutions focus on pooled lending rather than direct matching between a specific borrower and lender with custom terms.
-  
-- **Stablecoin-Centric Lending:** While collateral may be volatile crypto, the disbursed loan amount in many systems is also volatile. There is a gap in systems designed to always lend in stablecoins to ensure predictable repayment amounts.
-  
-- **Non-Custodial Collateral Management:** Many platforms require custody of collateral or rely on third-party escrow. A fully non-custodial smart contract architecture with transparent liquidation rules is still underdeveloped in niche P2P contexts.
+Early attempts at direct P2P lending, such as ETHLend (Aave’s predecessor), experimented with borrower-lender matching but faced challenges in liquidity aggregation, adoption, and the complexity of managing custom loan terms on-chain. Recent research and market trends highlight a growing opportunity for specialized, non-custodial marketplaces that enable secured, direct P2P lending agreements with stablecoin-based loan disbursements. By ensuring loans are always denominated and repaid in stablecoins, such systems offer predictability in repayment amounts and protection from market volatility. Additionally, fully on-chain collateral management with transparent liquidation rules can ensure that lenders maintain control over risk exposure without relying on third-party custodians or escrow services. This approach positions non-custodial, stablecoin-focused P2P lending platforms as a viable evolution of current DeFi lending models, addressing both user trust and market stability.
 
 -----
 
@@ -54,3 +42,4 @@ The application of blockchain to P2P lending introduces transparency, programmab
 - Chen, Y., & Bellavitis, C. (2020). Blockchain disruption and decentralized finance: The rise of decentralized business models. *Journal of Business Venturing Insights*, 13, e00151.
 - Aave Protocol Documentation. (n.d.). Retrieved from [https://docs.aave.com](https://docs.aave.com)
 - Compound Protocol Documentation. (n.d.). Retrieved from [https://compound.finance/docs](https://compound.finance/docs)
+
