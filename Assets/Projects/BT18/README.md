@@ -13,19 +13,19 @@
 ### Problem Statement
 The increasing globalisation of education and employment has made reliable academic credential verification systems essential for ensuring trust, preventing fraud, and enabling seamless recognition of qualifications across borders. Traditional, paper-based credentialing methods often suffer from inefficiencies, susceptibility to forgery, lengthy verification times, and difficulties in cross-institutional validation. In response, modern digital and blockchain-based solutions have emerged, offering improved security and verifiability. However, despite these advancements, both traditional systems and current blockchain-based approaches continue to encounter notable limitations, which can be summarised as follows:
 
-1. Process Inefficiencies and Security Vulnerabilities of Traditional Systems
+#### Process Inefficiencies and Security Vulnerabilities of Traditional Systems:
 The conventional method of authenticating academic qualifications is characterised by its slow and costly process. The fact that it involves paper certificates makes it a laborious process, especially for foreign students who have to go through slow, multi-step procedures of translation, attestation, and legalisation in order to validate their documents. These paper-based procedures, by creating unnecessary delays and bureaucratic obstacles, are most susceptible to misuse by fraudsters.
 
 The epidemic of credential forgery poses a critical threat to professional and academic integrity, with the fake degree industry becoming a multi-billion-dollar market. Conventional systems, together with some of the first digital systems, do not possess the tamper-evident and clear data origin required to properly resist counterfeiting. Consequently, this prevents employers and other parties from being able to track the historical origin of a credential and ascertain the validity of the issuing institution, and hence erodes trust in the overall academic system.
 
-2. Limitations in User Control and Data Ownership
+#### Limitations in User Control and Data Ownership
 
 Another significant limitation of many existing credentialing frameworks, including several blockchain-based systems, is the lack of autonomy of the students. Once a certificate is shared, students tend to lose control over its sharing and do not have the power to withdraw access. These systems are also often institution-centric, making students entirely dependent on the issuer for any authentication or administrative roles.
 
  Moreover, the existing models do not provide the ability for students to build custom, objective-oriented representations of their academic records, like sharing only coursework that is pertinent to a particular application for a job. These restrictions do not enable students to effectively maintain and utilise their education information.
  
+#### Scalability, Cost, and Compliance Issues in Current Blockchain Models
 
-3. Scalability, Cost, and Compliance Issues in Current Blockchain Models
 Most blockchain platforms are not natively compliant with rigorous data protection regulations such as the General Data Protection Regulation (GDPR). The immutability of public blockchains is in direct opposition to the "right to erasure" (Art. 17) and the "right to rectification" (Art. 16). Storage of personal data on the blockchain itself, even hashed and encrypted, is a huge privacy risk since future advances in computational power can eventually crack the encryption and the data cannot be deleted.
 
 In addition, public blockchains are generally constrained by their low transaction rate (about 15 per second in Ethereum) and nondeterministic, high transaction cost (gas fees). These systems are economically unviable for large issuance and make functionality like the generation of large numbers of filtered views extremely expensive for students. Experimental networks have seen transaction rates as low as 0.02 transactions per second, which emphasises the staggering scalability problem.
@@ -56,5 +56,6 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
