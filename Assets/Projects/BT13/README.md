@@ -25,23 +25,21 @@ Existing solutions
 •	A blockchain-based DAO for waste micromanagement. 
 
 •	Converts waste into valuable outputs like electricity, metals, and plastics.
-
 •	Uses tools like:
-
      o	SwATA (Big Data Analytics) for route optimization and reporting.
      o	SwATEL (Adaptive Intelligence) for automated decision-making.
      o SwIOT for IoT integration with bins, vehicles, and plants.
      o	SwBIN smart bins with QR-based user identification and reward points in Swachh Tokens.
 •	Built on Ethereum smart contracts.
 
-**Recereum**
+Recereum
 •	Rewards households with ERC20-based Recereum coins for proper waste sorting.
 
 •	Records transactions on Ethereum.
 
 •	Can be integrated with recycling machines and battery collection points.
 
-**Plastic Bank**
+Plastic Bank
 •	Incentivizes plastic waste collection to prevent ocean pollution.
 
 •	Collectors are rewarded with “Social Plastic” value tokens recorded on blockchain.
@@ -54,6 +52,11 @@ Research Gaps
 
 -----
 ### Architectural Diagram
+| **SDG**                                              | **Alignment**                                                                                                                                                                       |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal 11 – Sustainable Cities and Communities**     | By using blockchain to track e-waste disposal and recycling activities, the project improves transparency in waste management, helping communities stay cleaner and more organized. |
+| **Goal 12 – Responsible Consumption and Production** | Rewards proper segregation and recycling of e-waste, ensuring valuable resources like metals and plastics are recovered instead of being wasted.                                    |
+| **Goal 13 – Climate Action**                         | Prevents hazardous e-waste from being dumped into landfills, reducing environmental pollution and helping lower potential greenhouse gas emissions.                                 |
 
 
 ------
@@ -65,6 +68,7 @@ Research Gaps
 
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
+
 
 
 
