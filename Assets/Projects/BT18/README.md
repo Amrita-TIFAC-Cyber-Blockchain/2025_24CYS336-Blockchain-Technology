@@ -55,7 +55,12 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
-
+| SDG                                                          | Project's Alignment Towards The Goal                                                                                                                                             |
+| ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SDG 4: Quality Education**                              | This project uses NFTs to create globally portable and instantly verifiable credentials, enhancing the quality and accessibility of education by ensuring qualifications are universally recognized and trusted. |
+| **SDG 9: Industry, Innovation, and Infrastructure**          | The system builds a resilient, innovative digital infrastructure for the global education sector by applying cutting-edge NFT technology to solve long-standing challenges in credential management. |
+| **SDG 8: Decent Work and Economic Growth**                  | By providing a fraud-proof method for verifying skills, the system fosters a fairer and more efficient job market, empowering individuals with greater control over their professional identity. |
+| **SDG 16: Peace, Justice, and Strong Institutions**          | This project directly combats credential fraud, a form of institutional corruption, and enhances accountability through the transparent, immutable, and auditable provenance of NFTs. |
 -----
 
 ### References
@@ -65,6 +70,7 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
 
