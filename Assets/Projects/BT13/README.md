@@ -23,7 +23,6 @@ Existing solutions
 
 **Swachhcoin**
 •	A blockchain-based DAO for waste micromanagement. 
-
 •	Converts waste into valuable outputs like electricity, metals, and plastics.
 •	Uses tools like:
      o	SwATA (Big Data Analytics) for route optimization and reporting.
@@ -32,17 +31,13 @@ Existing solutions
      o	SwBIN smart bins with QR-based user identification and reward points in Swachh Tokens.
 •	Built on Ethereum smart contracts.
 
-Recereum
+Recereum:
 •	Rewards households with ERC20-based Recereum coins for proper waste sorting.
 
-•	Records transactions on Ethereum.
+•	Records transactions on Ethereum,Can be integrated with recycling machines and battery collection points.
 
-•	Can be integrated with recycling machines and battery collection points.
-
-Plastic Bank
-•	Incentivizes plastic waste collection to prevent ocean pollution.
-
-•	Collectors are rewarded with “Social Plastic” value tokens recorded on blockchain.
+Plastic Bank:
+•	Incentivizes plastic waste collection to prevent ocean pollution and Collectors are rewarded with “Social Plastic” value tokens recorded on blockchain.
 
 
 Research Gaps
@@ -68,6 +63,7 @@ Research Gaps
 
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
+
 
 
 
