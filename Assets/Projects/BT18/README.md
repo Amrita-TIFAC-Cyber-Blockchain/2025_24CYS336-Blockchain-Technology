@@ -5,7 +5,7 @@
 ## BT#18: NFT-Based Educational Credential Verification System
 
 ![](https://img.shields.io/badge/Member-Hithesh_B.S-gold)  <br/> 
-![](https://img.shields.io/badge/Member-Sriharish-gold)  <br/> 
+![](https://img.shields.io/badge/Member-Sriharish_V_J-gold)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -65,6 +65,7 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
 
