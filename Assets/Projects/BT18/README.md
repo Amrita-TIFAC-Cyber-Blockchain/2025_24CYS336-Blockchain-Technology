@@ -37,7 +37,16 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 -----
 ### Literature Survey 
 
+ In [1], Zhao and Si proposed NFTCert, a permissioned blockchain framework to issue verifiable academic certificates as ERC-721 tokens and improve user experience by supporting traditional online payment channels. Their approach is to mint NFT certificates on a permissioned blockchain and keep only a SHA-256 hash of the integrated student and certificate data in the token metadata to preserve privacy. The system also uses a blockchain oracle to connect smart contracts with traditional payment gateways like PayPal and Alipay so that users do not have to rely on volatile cryptocurrencies. The system specifies the protocols for schema definition, minting, verification, and revocation and strives for usability, confidentiality, authenticity, transparency, and availability as its minimal design objectives.
+ 
+ In [2], Delgado-von-Eitzen et al. proposed a GDPR-friendly NFT model that divides public and private attributes to balance blockchain immutability with data-protection rights. Their privacy-by-design architecture keeps personal academic information off-chain within institutional databases, while issuing NFTs whose tokenURI references a web service that dynamically creates metadata based on the requester's rights, which allows students to grant, revoke, or limit third-party access and facilitates erasure and rectification processes. By utilizing the chain only for trust anchors like signatures and leaving mutable personal data to controlled off-chain systems, the model is lawful while maintaining blockchain-based authentication.
+ 
+ In [3], Khati et al. proposed a student-centric credential sharing technique through the use of a viewNFT abstraction. Students can mint viewNFTs from underlying certificate NFTs to provide filtered and context-specific credential representations with provenance and authenticity. Their solution combines decentralised authentication (ERC-4361 Sign-In with Ethereum), storage of metadata with IPFS, and an on-chain smart contract that enforces access control and time-dependent viewing rules. The receivers authenticate through inspection of the issuer's signature and hash linkage to the original NFT. Their testing, on the Kaleido testbed, shows low transaction latency (around 4.16 seconds), thus verifying the methodology's effectiveness and efficiency for controlled deployments.
 
+ In [4], Kumar et al. proposed a 3-layered structure consisting of web interface, Ethereum blockchain, and IPFS for efficient management of large educational content. They store the original content within the IPFS, which returns a Content Identifier (CID), and the cryptographic hash of the CID is stored on Ethereum as NFT metadata, resulting in an immutable on-chain pointer to the off-chain asset. The structure has incentivised mining and storage nodes for validating and storing assets before tokenisation, thus effectively coming at an affordable price with community verification. Thus, the system demonstrates a cost-effective means of linking NFTs with large educational content without paying excessive on-chain storage prices.
+
+ In [5], Rahman et al. proposed Verifi-Chain, a semi-decentralised proof-of-concept for credential verification that incorporates a human-in-the-loop pre-verification process, where a trusted administrator manually verifies submitted credentials with the issuing entity, uploads verified documents to IPFS to obtain a CID, and anchors the CID on-chain. The system employs tiered access control that allows applicants to accept or reject employer view requests, maintaining applicant privacy and offering direct control over sharing. While this does involve a centralised verification actor, the pre-verification process significantly mitigates fraud risk through limiting recording on the immutable ledger to pre-checked documents only.
+ 
 -----
 ### Architectural Diagram
 
@@ -56,6 +65,7 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
 
