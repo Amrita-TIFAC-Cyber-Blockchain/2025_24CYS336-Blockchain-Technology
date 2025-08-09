@@ -10,8 +10,9 @@
 ------
 
 ### Problem Statement:
+
 How can small-scale farmers access affordable credit, timely payments, and fair trade without intermediaries? This project leverages Ethereum smart contracts and DeFi to build a decentralized, secure, and transparent ecosystem that empowers farmers with direct financial access and market participation.
------
+
 ### Literature Survey :
 	“Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts”
 	Authors:  M.S. Minu,S. Rohit Suryaa,J. Jovan Titus,S. Sharan
@@ -60,13 +61,31 @@ This paper establishes a transformative model for the agricultural sector by int
 
 ------
 
-### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+### Mapping the Project to Relevant Sustainable Development Goals (SDGs):
+
+Goal 1 – No Poverty
+Through blockchain-based DeFi lending, the project removes middlemen and reduces transaction costs, allowing underserved communities (like small-scale farmers) to access affordable credit and improve financial resilience.
+
+
+Goal 8 – Decent Work and Economic Growth
+By enabling peer-to-peer financing and tokenized asset trading via decentralized exchange infrastructure (DEXI), the project creates an open, merit-based financial system that promotes entrepreneurship, job creation, and rural economic growth.
+
+
+Goal 9 – Industry, Innovation, and Infrastructure
+The integration of blockchain, smart contracts, and decentralized storage builds a secure and modern digital financial infrastructure, fostering innovation in agricultural financing and asset management.
+
+
+
+Goal 16 – Peace, Justice, and Strong Institutions
+Blockchain’s immutable ledger ensures transparent loan terms, fair contract execution, and verifiable transaction histories, reducing fraud, increasing accountability, and strengthening institutional trust in rural finance
+
 
 
 -----
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
+
 
 
 
