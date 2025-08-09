@@ -23,7 +23,9 @@ Existing solutions
 
 **Swachhcoin**
 •	A blockchain-based DAO for waste micromanagement. 
+
 •	Converts waste into valuable outputs like electricity, metals, and plastics.
+
 •	Uses tools like:
      o	SwATA (Big Data Analytics) for route optimization and reporting.
      o	SwATEL (Adaptive Intelligence) for automated decision-making.
@@ -41,9 +43,11 @@ Plastic Bank:
 
 
 Research Gaps
-     •Incomplete Waste Lifecycle Management – Most solutions handle only one part of waste management, like collection or sorting, instead of tracking it from creation to final recycling or disposal.
-     •Scalability Limitations – Many systems become slow or too expensive when used for large areas or high amounts of waste.
-     •Lack of Enforcement Mechanisms – There is no proper system to check if rules are being followed or to give penalties when they are broken.
+     1)Incomplete Waste Lifecycle Management – Most solutions handle only one part of waste management, like collection or sorting, instead of tracking it from creation to final recycling or disposal
+     
+     2)Scalability Limitations – Many systems become slow or too expensive when used for large areas or high amounts of waste
+     
+     3)Lack of Enforcement Mechanisms – There is no proper system to check if rules are being followed or to give penalties when they are broken.
 
 -----
 ### Architectural Diagram
@@ -63,6 +67,7 @@ Research Gaps
 
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
+
 
 
 
