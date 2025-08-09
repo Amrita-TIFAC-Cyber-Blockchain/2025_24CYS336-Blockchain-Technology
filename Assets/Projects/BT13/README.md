@@ -30,6 +30,8 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 
 -----
 ### Architectural Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e974f7b5-cdf2-448a-8fce-9388664ad28f" />
+
 
 
 
@@ -44,6 +46,8 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
+Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
+
 
 
 
