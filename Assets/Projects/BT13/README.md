@@ -12,61 +12,39 @@
 
 ### Problem Statement
 Waste management is one of the most global issues that must be addressed to ensure environmental In particular, the improper disposal of electronic waste (e-waste) has emerged as a critical concern, as it releases toxic substances such as mercury, lead, and cadmium into the environment.
-These hazardous materials casue serious risks to human health and contribute to long-term environmental degradation. Furthermore, valuable resources embedded in electronic devices—such as gold, copper, and rare earth metals—are often lost due to inefficient or improper recycling methods.
+These hazardous materials casue serious risks to human health and contribute to long-term environmental degradation. Furthermore, valuable resources embedded in electronic devices—such as gold, copper, and rare earth metals are often lost due to inefficient or improper recycling methods.
 The current e-waste management  faces several challenges, including the lack of real-time tracking mechanisms, limited accountability among stakeholders, and insufficient public awareness. Without transparent and traceable systems, it becomes increasingly difficult to monitor the flow of e-waste from its source to recycling facilities, leading to untracked disposal and potential misuse.
 This project aims to address these challenges by developing a blockchain-based e-waste management and tracking system that ensures transparency, traceability, and accountability across the e-waste lifecycle. By integrating an incentive-driven reward mechanism, the system encourages proper disposal practices, enhances stakeholder participation, and enables secure, immutable tracking of e-waste from generation to final recycling.
 
 -----
 ### Literature Survey 
-The base paper “Blockchain Based Waste Management” by Preethi Gopalakrishnan and Ramaguru R discusses the integration of blockchain into the waste management cycle, analyzing existing solutions and their effectiveness.
-Existing solutions
 
-**Swachhcoin**
-•	A blockchain-based DAO for waste micromanagement. 
+I read the paper "E-Waste Management System using Blockchain" from A. P. Shah Institute of Technology (April 2022)
 
-•	Converts waste into valuable outputs like electricity, metals, and plastics.
+which suggests a blockchain-based system to monitor the flow of e-waste from producers to recycling facilities. Each of the several modules covered in the paper Authorization, Producer, Retailer, Consumer, and Return & Exchange handles a distinct phase of the lifecycle of e-waste. To ensure transparency, smart contracts are used to implement the system on the Ethereum blockchain. Along with penalties for delays or misuse, it introduces an incentive system that rewards consumers for disposing of waste responsibly. Improving compliance, stopping unlawful disposal, and making sure recyclables are processed correctly are the main objectives of the paper.
 
-•	Uses tools like:
-     o	SwATA (Big Data Analytics) for route optimization and reporting.
-     o	SwATEL (Adaptive Intelligence) for automated decision-making.
-     o SwIOT for IoT integration with bins, vehicles, and plants.
-     o	SwBIN smart bins with QR-based user identification and reward points in Swachh Tokens.
-•	Built on Ethereum smart contracts.
+I also looked at the paper "Blockchain Based Waste Management" by Preethi Gopalakrishnan and Ramaguru R (2019)
 
-Recereum:
-•	Rewards households with ERC20-based Recereum coins for proper waste sorting.
+We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopalakrishnan and Ramaguru R (2019), which talks about how blockchain technology can be used in waste management to guarantee traceability and transparency. It looks at current blockchain-based waste solutions like Plastic Bank, which encourages plastic collection to lessen ocean pollution; Recereum, which gives households ERC20 tokens for proper waste sorting; and Swachhcoin, which uses big data analytics, adaptive intelligence, and IoT integration for waste micromanagement. The study points out problems like inadequate lifecycle coverage, scalability problems, and a lack of enforcement mechanisms. It also recommends blockchain as a tool for safe tracking, rewarding appropriate disposal, and facilitating stakeholder accountability
 
-•	Records transactions on Ethereum,Can be integrated with recycling machines and battery collection points.
-
-Plastic Bank:
-•	Incentivizes plastic waste collection to prevent ocean pollution and Collectors are rewarded with “Social Plastic” value tokens recorded on blockchain.
-
-
-Research Gaps
-     1)Incomplete Waste Lifecycle Management – Most solutions handle only one part of waste management, like collection or sorting, instead of tracking it from creation to final recycling or disposal
-     
-     2)Scalability Limitations – Many systems become slow or too expensive when used for large areas or high amounts of waste
-     
-     3)Lack of Enforcement Mechanisms – There is no proper system to check if rules are being followed or to give penalties when they are broken.
 
 -----
 ### Architectural Diagram
-| **SDG**                                              | **Alignment**                                                                                                                                                                       |
-| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Goal 11 – Sustainable Cities and Communities**     | By using blockchain to track e-waste disposal and recycling activities, the project improves transparency in waste management, helping communities stay cleaner and more organized. |
-| **Goal 12 – Responsible Consumption and Production** | Rewards proper segregation and recycling of e-waste, ensuring valuable resources like metals and plastics are recovered instead of being wasted.                                    |
-| **Goal 13 – Climate Action**                         | Prevents hazardous e-waste from being dumped into landfills, reducing environmental pollution and helping lower potential greenhouse gas emissions.                                 |
+
 
 
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
-
-
------
+| **SDG Goal**                                         | **Alignment with the Project**                                                                                                                                                                      |
+| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal 12 – Responsible Consumption and Production** | By promoting proper e-waste disposal and recycling through blockchain-based tracking and incentives, the project ensures more sustainable consumption patterns and reduces waste sent to landfills. |
+| **Goal 13 – Climate Action**                         | Encouraging responsible disposal and recycling of e-waste helps reduce pollution, minimize greenhouse gas emissions from informal burning, and lower the overall environmental impact.              |
+| **Goal 16 – Peace, Justice and Strong Institutions** | Blockchain technology provides transparency, traceability, and accountability in the e-waste lifecycle, ensuring trust among all stakeholders and strengthening institutional processes.            |
 
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
+
 
 
 
