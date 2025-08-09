@@ -21,9 +21,47 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 
 -----
 ### Literature Survey 
+### Paper 1: Digital Identity Management System Using Blockchain  
+**Authors:** Sulochana Devi, Shrineeth Kotian, Manish Kumavat, Dixit Patel  
+
+**Key Insights:**  
+- Utilizes **IPFS** for secure off-chain document storage.  
+- Employs **Zero-Knowledge Proofs (ZKPs)** for privacy-preserving authentication.  
+- Promotes **self-sovereign identity** with full user control.  
+- Implements **smart contracts** for automated access and revocation.  
+
+**Project Impact:**  
+- Guided our **off-chain + blockchain** design approach.  
+- Inspired the use of **hashed data** for privacy protection.  
+- Reinforced our model for **user-controlled consent**.
+
+### Paper 2: Digital Identity Using Blockchain Technology  
+**Authors:** Alexandru-Cristian Careja, Nicolae Tapus  
+
+**Key Insights:**  
+- Utilizes **ECDSA** for identity signature and verification.  
+- Employs **Ethereum smart contracts** to validate without revealing sensitive data.  
+- Focuses on **digital identity wallets** for user empowerment.  
+
+**Project Impact:**  
+- Influenced our use of **cryptographic signatures**.  
+- Guided the decision to store only **references/hashes** on-chain.
+
+### Paper 3: How Digital Identity on Blockchain Can Contribute in a Smart City Environment  
+**Authors:** Robledo, Rivera, Avalos, Larios  
+**Affiliation:** Universidad de Guadalajara, IBM Mexico  
+
+**Key Insights:**  
+- Maps **smart city use cases** for blockchain-based identity.  
+- Highlights **real-world implementations** such as Estonia’s e-ID.  
+- Identifies gaps in **cross-platform identity** and **legal standards**.  
+
+**Project Impact:**  
+- Expanded our focus to **urban governance** applications.  
+- Validated the **system-level impact** and **long-term relevance** of our work.  
 
 
------
+
 ### Architectural Diagram
 
 
@@ -41,6 +79,20 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 -----
 
 ### References
+
+1. Sulochana Devi, Shrineeth Kotian, Manish Kumavat, Dixit Patel.  
+   *Digital Identity Management System Using Blockchain.*  
+   [Details: Uses IPFS for off-chain storage, ZKPs for authentication, self-sovereign identity, and smart contract automation.]  
+
+2. Alexandru-Cristian Careja, Nicolae Tapus.  
+   *Digital Identity Using Blockchain Technology.*  
+   [Details: ECDSA for signatures, Ethereum smart contracts for privacy, and digital identity wallets for empowerment.]  
+
+3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
+   *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
+   [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
+
 
 
 
