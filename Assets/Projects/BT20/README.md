@@ -16,29 +16,10 @@ In today’s digital healthcare environment, patient data is frequently stored a
 
 -----
 ### Literature Survey 
-1) “A System for the Promotion of Traceability and Ownership of Health Data Using Blockchain”
-     - **Authors:** Rui P. Pinto, Bruno M. C. Silva, Pedro R. M. Inacio
-	  - **Source:** IEEE Access, Volume 10, Pages 92760-92773, 2022 
 
-   -> **Relevant Details:** 
-      - **Hyperledger Fabric Implementation:** Utilises consortium blockchain architecture that provides superior performance characteristics compared to public blockchain implementations, achieving throughput increase and latency reduction.
-      - **Dual-Database Architecture:** Implements separation of personally identifiable information from health data, using blockchain-stored IDs for secure connection while achieving true anonymity and maintaining complete data traceability.
-      - **Anonymous Traceability System:** Develops a blockchain-based framework that maintains complete data ownership transparency while ensuring patient anonymity.
+We studied the paper “A System for the Promotion of Traceability and Ownership of Health Data Using Blockchain” by Rui P. Pinto and colleagues (2022), and it shows how blockchain can be used to give patients greater control over their health information without sacrificing privacy or performance. Using Hyperledger Fabric, the authors created a system that stores personal details separately from medical records, linking them through secure, blockchain-based IDs. This makes it possible to track who owns and accesses the data while keeping identities hidden. In our project, this idea led us to use hashed on-chain identities to protect user privacy, along with smart contracts that automatically log and monitor access - putting privacy and transparency at the heart of the design.
 
-    -> **Takeaways:**
-      - This paper establishes that anonymous health data traceability can be achieved through database separation and blockchain-mediated linkage, providing patients with data ownership transparency while maintaining privacy and delivering performance improvements through consortium blockchain architecture suitable for real-world healthcare deployments.
-
-2) “A Patient-Centric Health Information Exchange Framework Using Blockchain Technology”
-      **Authors:** Yan Zhuang, Chi-Ren Shyu, Shenda Hong, Pengfei Li, Luxia Zhang
-      **Source:** IEEE Journal of Biomedical and Health Informatics, Volume 24, Issue 8, Pages 2169-2176, 2020
-
-    -> **Relevant Details:**
-      - **Single-Patient Control Approach:** Utilizes blockchain technology to shift data ownership from healthcare providers to patients, implementing a patient-centric health information exchange (HIE) design that gives patients complete control over their health records.
-      - **Blockchain-Generated Global Patient IDs:** Creates secure patient identifiers that can map across multiple healthcare facilities while maintaining anonymity, solving the persistent challenge of patient matching across different healthcare systems.
-      - **Touchpoint-Based Data Selection:** Introduces a new 'touchpoint' method that allows patients to share specific parts of their medical records instead of their full history, enabling more precise and controlled data exchange compared to traditional Health Information Exchange (HIE) systems.
-
-    -> **Takeaways:**
-      - This paper demonstrates that blockchain technology can effectively protect data security, privacy, and patient control, enabling patient-centric health information exchange through touchpoint-based selective sharing and blockchain-generated patient identifiers, with proven scalability through large-scale simulation testing on resource-constrained systems.
+We studied the paper “A Patient-Centric Health Information Exchange Framework Using Blockchain Technology” by Yan Zhuang and team (2020), and the paper takes the approach a step further by putting patients fully in charge of how their data is shared. They introduced blockchain-generated global IDs that allow secure, anonymous sharing across different healthcare providers, and a “touchpoint” method where patients can share just the specific pieces of their records needed for a given purpose. Inspired by this, we built our system to use pseudonymous blockchain IDs and smart contracts that enforce selective sharing rules. We also store documents securely off-chain with only essential details on-chain, so users have full control over exactly what they share and with whom.
 
 -----
 ### Architectural Diagram
@@ -47,10 +28,16 @@ In today’s digital healthcare environment, patient data is frequently stored a
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+**SDG 3:** Good Health and Well-Being: Achieve universal health coverage, including access to quality healthcare services and access to safe, effective, and affordable medicines and vaccines for everyone. The project supports universal health coverage by improving access to individual health records and making data exchange between institutions secure, and transparent, allowing better informed care for patients. This project ensures data privacy and ownership enables trust in digital healthcare systems and supports adoption.
 
+**SDG 9:**  Industry, Innovation, and Infrastructure: Enhance scientific research, upgrade technological capabilities of industrial sectors, and encourage innovation. This project leverages latest blockchain technology to modernize healthcare infrastructure, enable interoperability, and promote solutions for health data management.
+
+**SDG 16:** Peace, Justice, and Strong Institutions: Develops effective, accountable, and transparent institutions at all levels. The system’s decentralized and tamper-proof architecture involves transparency and accountability in the management of sensitive healthcare data, reducing the risk of abuse or fraud and ensuring that patients’ rights over their data are protected. This project gives patients control over their data, the project upholds principles of justice and empowerment.
 
 -----
 
 ### References
-1. Pinto, R. P., Silva, B. M., & Inacio, P. R. (2022). A system for the promotion of traceability and ownership of health data using blockchain. IEEE Access, 10, 92760-92773.
-2. Zhuang, Y., Sheets, L. R., Chen, Y. W., Shae, Z. Y., Tsai, J. J., & Shyu, C. R. (2020). A patient-centric health information exchange framework using blockchain technology. IEEE journal of biomedical and health informatics, 24(8), 2169-2176.
+[1] Pinto, R. P., Silva, B. M., & Inacio, P. R. (2022). A system for the promotion of traceability and ownership of health data using blockchain. IEEE Access, 10, 92760-92773.
+
+[2] Zhuang, Y., Sheets, L. R., Chen, Y. W., Shae, Z. Y., Tsai, J. J., & Shyu, C. R. (2020). A patient-centric health information exchange framework using blockchain technology. IEEE journal of biomedical and health informatics, 24(8), 2169-2176.
+
