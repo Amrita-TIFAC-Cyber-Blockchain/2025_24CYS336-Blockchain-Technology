@@ -17,6 +17,9 @@
 - Add the 4 checksum bytes from stage 7 at the end of extended RIPEMD-160 hash. This is the 25-byte binary Bitcoin Address.
 - Convert the result from a byte string into a base58 string using Base58Check encoding. This is the most commonly used Bitcoin Address format
 
+<p align="center">
+    <img src="../../images/Addr_Gen.gif" alt="Address Generation" width=900 />
+</p>
 
 ```
 """
@@ -92,4 +95,5 @@ def generate_bitcoin_address():
 
 if __name__ == "__main__":
     generate_bitcoin_address()
+
 ```
