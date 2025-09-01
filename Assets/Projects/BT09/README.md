@@ -15,7 +15,13 @@ Digital Twin technology is increasingly adopted across industries to create virt
 
 -----
 ### Literature Survey 
+The management of Digital Twins (DTs) is constrained by two fundamental challenges: ensuring the integrity of their data and establishing clear, verifiable ownership. This project addresses these issues by building upon two complementary academic papers to create a single, cohesive solution.
 
+The first pillar, established by Nielsen et al. in their "Digital Twin and... Proof of Concept," focuses on achieving data integrity. This foundational work demonstrates how a distributed ledger can serve as an immutable record for all DT-related transactions. By creating a tamper-proof and transparent audit trail, it guarantees that the asset’s data history is trustworthy, fostering a reliable environment for all stakeholders. This approach solves the critical problem of establishing trust in the data itself.
+
+The second pillar provides a mechanism for verifiable ownership, as detailed in the research on the "Digital twin non-fungible token (DT-NFT)." This concept introduces the use of a Non-Fungible Token as a unique, non-replicable digital title for the Digital Twin. The DT-NFT links the asset to a specific owner's digital wallet, providing unequivocal proof of ownership and a secure, standardized protocol for its transfer. This elegantly solves the challenge of asset provenance and control.
+
+While these studies are foundational, they address separate facets of the overall problem. Nielsen et al. answer the question, "Is this data trustworthy?" while the DT-NFT concept answers, "Who owns this data?" The significant contribution of this project is the synthesis of these two pillars. It aims to develop an integrated framework where a DT-NFT proves ownership of a Digital Twin whose data history is simultaneously secured by an immutable distributed ledger. This holistic approach provides a complete solution for the secure and transparent lifecycle management of digital assets.
 
 -----
 ### Architectural Diagram
@@ -29,6 +35,7 @@ Digital Twin technology is increasingly adopted across industries to create virt
 -----
 
 ### References
+
 
 
 
