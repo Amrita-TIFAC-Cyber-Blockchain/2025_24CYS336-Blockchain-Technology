@@ -30,11 +30,17 @@ While these studies are foundational, they address separate facets of the overal
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
-
+SDG	Goal Title	Relevance to the DT-NFT Project
+SDG 9	Industry, Innovation, and Infrastructure	Direct Impact: The project is a core enabler for this goal. By providing a secure and transparent digital infrastructure for industrial assets, it fosters innovation. Digital Twins allow for predictive maintenance, optimizing industrial processes, reducing downtime, and building more resilient and sustainable industrial systems.
+SDG 11	Sustainable Cities and Communities	Direct Impact: Digital Twins are critical for managing complex urban infrastructure. This framework can be used to create trusted digital replicas of public utilities, smart buildings, and transport systems. This leads to more efficient energy consumption, better resource management, and more reliable city services.
+SDG 12	Responsible Consumption and Production	Strong Impact: The DT-NFT provides a complete, verifiable lifecycle history of a physical asset. This promotes a circular economy by enabling better tracking of materials, facilitating repairs over replacement, and ensuring responsible end-of-life decommissioning. It helps organizations prove their sustainable production patterns.
+SDG 16	Peace, Justice, and Strong Institutions	Supporting Impact: The project's use of an immutable distributed ledger builds trust and transparency, which are the foundations of strong institutions. By providing clear, indisputable proof of ownership and data integrity, the framework reduces the potential for fraud, disputes, and corruption in asset management and transfer.
+SDG 17	Partnerships for the Goals	Supporting Impact: A permissioned distributed ledger is, by design, a tool for multi-stakeholder collaboration. This technology provides a neutral ground for public-private partnerships to manage shared infrastructure, ensuring that all parties operate from a single, trusted source of information.
 
 -----
 
 ### References
+
 
 
 
