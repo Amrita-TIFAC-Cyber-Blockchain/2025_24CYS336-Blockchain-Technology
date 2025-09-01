@@ -22,6 +22,7 @@ The first approach, established by Nielsen et al. in their "Digital Twin and... 
 The second key concept provides a mechanism for verifiable ownership, as detailed in the research on the "Digital twin non-fungible token (DT-NFT)." This introduces the use of a Non-Fungible Token as a unique, non-replicable digital title for the Digital Twin. The DT-NFT links the asset to a specific owner's digital wallet, providing unequivocal proof of ownership and a secure, standardized protocol for its transfer. This elegantly solves the challenge of asset provenance and control.
 
 While these studies are foundational, they address separate facets of the overall problem. Nielsen et al. answer the question, "Is this data trustworthy?" while the DT-NFT concept answers, "Who owns this data?" The significant contribution of this project is the synthesis of these two approaches. It aims to develop an integrated framework where a DT-NFT proves ownership of a Digital Twin whose data history is simultaneously secured by an immutable distributed ledger. This holistic approach provides a complete solution for the secure and transparent lifecycle management of digital assets.
+
 -----
 ### Architectural Diagram
 
@@ -34,6 +35,7 @@ While these studies are foundational, they address separate facets of the overal
 -----
 
 ### References
+
 
 
 
