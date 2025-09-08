@@ -18,7 +18,7 @@
 | N Meera             | [0x6613e36bFA50FA200bDd24439CDC4edb80106591](https://sepolia.etherscan.io/address/0x6613e36bFA50FA200bDd24439CDC4edb80106591) |
 | B Vijay Nishanth    | [0xac5F2D240472dcA92C38C604B9a4e78fb27352bd](https://sepolia.etherscan.io/address/0xac5F2D240472dcA92C38C604B9a4e78fb27352bd) |
 | Abishek R           | [0x5bBf30968CfC4b2aadBa5A1e61751Ff836Dd2fc0](https://sepolia.etherscan.io/address/0x5bBf30968CfC4b2aadBa5A1e61751Ff836Dd2fc0) |
-| Duvvuru Akshaya Saketh Reddy | [](https://sepolia.etherscan.io/address/) |
+| Duvvuru Akshaya Saketh Reddy | [0x6189d117c810859cFD24755FC06eBb4bE69Ccce4](https://sepolia.etherscan.io/address/0x6189d117c810859cFD24755FC06eBb4bE69Ccce4) |
 | E Eeshwar           | [0x5bD54880bF4d01bc69F04e0e591c5019512f37B7](https://sepolia.etherscan.io/address/0x5bD54880bF4d01bc69F04e0e591c5019512f37B7) |
 | Jaiwanthi R         | [0xCB7b3856f21Ed97BFaa5C451DF2aA57A7151e743](https://sepolia.etherscan.io/address/0xCB7b3856f21Ed97BFaa5C451DF2aA57A7151e743) |
 | K B Vishal          | [0xCB78a6860eb8d9B08C40bFe12321B97A4a2FEe97](https://sepolia.etherscan.io/address/0xCB78a6860eb8d9B08C40bFe12321B97A4a2FEe97) |
