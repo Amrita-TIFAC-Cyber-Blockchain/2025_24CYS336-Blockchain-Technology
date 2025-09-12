@@ -12,7 +12,8 @@
 
 ### Lab X - Lab Name  
 
-| Smart Contract Address | << Paste the Smart Contract Address>> |
+| Smart Contract Address | 0xa51594451db17222cbd2e99cbf33c5ecbc14f9dd |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | 0x4779b83ab9c1cd37205485685d1b645d6de8e16bf5800f06a8e361eb6eec22a6                 |
+
 
