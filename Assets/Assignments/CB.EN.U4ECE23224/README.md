@@ -7,11 +7,13 @@
 ## Assignments - <<NAME>>
 ![](https://img.shields.io/badge/Name-YourName-blue) <br/>
 
-| Wallet Address | <<paste your Metamask Wallet Address>> | 
+| Wallet Address | 0x12030f6a4693f52b731303FEC9aBbBE83eDd5FD4 | 
 |:--------------:|:-----------------------------:|
 
 ### Lab X - Lab Name  
 
-| Smart Contract Address | << Paste the Smart Contract Address>> |
+| Smart Contract Address | 0x8f0da18f4ac2f1c86c1d7410f10be0fa64fb2588
+ |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | <<Transaction ID>>                    |
+
