@@ -14,4 +14,5 @@
 
 | Smart Contract Address | << Paste the Smart Contract Address>> |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | <<Transaction ID>>                    |
+| Transaction Desc.      | 0x4779b83ab9c1cd37205485685d1b645d6de8e16bf5800f06a8e361eb6eec22a6                 |
+
