@@ -4,14 +4,15 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
-![](https://img.shields.io/badge/Name-YourName-blue) <br/>
+## Assignments - <<Tarun Sri Vathsan K>>
+![](https://img.shields.io/badge/Name-Tarun_Sri_Vathsan_K-blue) <br/>
 
-| Wallet Address | <<paste your Metamask Wallet Address>> | 
+| Wallet Address | 0x0Ed24BB50b2201565Aa5E5D2180E9A9AE2d43971 | 
 |:--------------:|:-----------------------------:|
 
 ### Lab X - Lab Name  
 
-| Smart Contract Address | << Paste the Smart Contract Address>> |
+| Smart Contract Address | 0x9ccd4138d71efa324f7fa676bd63c29ff863e2de |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | <<Transaction ID>>                    |
+| Transaction Desc.      | 0xcbcdd63cbedaff2a3e91d2e98725939e59720466705d7f9abb61b86991a609ce                    |
+
