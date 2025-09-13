@@ -15,4 +15,3 @@
 | Smart Contract Address | << https://sepolia.etherscan.io/tx/0x53b22df8487525c61198027d16f9db9d1995b0b4f364d4b209c502a8c726d289> |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | <<Transaction ID>>                    |
-
