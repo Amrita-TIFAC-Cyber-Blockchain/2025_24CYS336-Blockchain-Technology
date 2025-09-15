@@ -4,7 +4,7 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
+## Assignments - <<Shankar N K>>
 ![](https://img.shields.io/badge/Name-YourName-blue) <br/>
 
 | Wallet Address | 0x75Dd20566F7A622C799D6929CdA1CB4b5E76c1Ea | 
@@ -15,5 +15,6 @@
 | Smart Contract Address |0x2FA414917A8d74451cA60Fb1982d48d84fa8974b|
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | https://sepolia.etherscan.io/address/0x2FA414917A8d74451cA60Fb1982d48d84fa8974b            |
+
 
 
