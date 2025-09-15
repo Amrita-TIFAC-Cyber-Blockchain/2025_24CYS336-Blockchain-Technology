@@ -10,10 +10,11 @@
 | Wallet Address | <<paste your Metamask Wallet Address>> | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
+### Lab X - Introduction to Solidity 
 
-| Smart Contract Address | << Paste the Smart Contract Address>> |
+| Smart Contract Address | <<https://sepolia.etherscan.io/tx/0x3da76fc82d3933f991e32192b215012da9b3adea18179452849da5917ed00a44>> |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | <<Transaction ID>>                    |
+
 
 
