@@ -4,17 +4,18 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
+## Assignments - CB.EN.U4CCE23035
 ![](https://img.shields.io/badge/Name-PRAVEEN_S-blue) <br/>
 
-| Wallet Address | 0xf0D3c08210f05352423d55639d782eabbf8C73d5 | 
+| Wallet Address | [0xf0D3c08210f05352423d55639d782eabbf8C73d5](https://sepolia.etherscan.io/address/0xf0D3c08210f05352423d55639d782eabbf8C73d5) | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
+### Lab X - Introduction to Solidity  
 
-| Smart Contract Address | 0x2a39a1fb67c34e3a455154e8782bd7e08ea6ec73 |
+| Smart Contract Address | [0x2a39a1fb67c34e3a455154e8782bd7e08ea6ec73](https://sepolia.etherscan.io/address/0x2a39a1fb67c34e3a455154e8782bd7e08ea6ec73) |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | 0x81f1ec94245087ae41c9c70e27f42907ff9716857df03115a6235c37d9fee328 |
+| Store value            | 0x0dd6efa0de74dbbb018ab93d9b62d651717e528380a73f5dde91c0282d123428 |
+
 
 
 
