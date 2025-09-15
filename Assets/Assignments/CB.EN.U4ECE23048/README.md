@@ -12,9 +12,10 @@
 
 ### Lab X - Introduction to Solidity
 
-| Smart Contract Address |0x2FA414917A8d74451cA60Fb1982d48d84fa8974b|
+| Smart Contract Address |[0x2FA414917A8d74451cA60Fb1982d48d84fa8974b](https://sepolia.etherscan.io/address/0x2FA414917A8d74451cA60Fb1982d48d84fa8974b )|
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | https://sepolia.etherscan.io/address/0x2FA414917A8d74451cA60Fb1982d48d84fa8974b            |
+
 
 
 
