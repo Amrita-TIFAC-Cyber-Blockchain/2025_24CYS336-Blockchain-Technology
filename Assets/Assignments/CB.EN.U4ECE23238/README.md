@@ -6,14 +6,12 @@
 
 ## Assignments - CB.EN.U4ECE23238
 ![RAHUL-KRISHNA-J](https://img.shields.io/badge/NAME-RAHULKRIHSNAJ-blue) <br/>
+![DATE](https://img.shields.io/badge/DATE-08--09--2025-green) <br/>
 
 | Wallet Address | 0x120837dB0c8E662875082055eB2195baB5B66c0E | 
 |:--------------:|:-----------------------------------------:|
 
 ### LAB 6 - INTRODUCTION TO REMIX IDE AND SOLIDITY PROGRAMMING
-
-| Date           | 08-09-2025 |
-|:--------------:|:----------:|
 
 | Smart Contract Address | https://sepolia.etherscan.io/address/0x901eb257c7fc9a736328d3b3b12439f2dba557b8 |
 |:----------------------:|:------------------------------------------------------------------------------:|
