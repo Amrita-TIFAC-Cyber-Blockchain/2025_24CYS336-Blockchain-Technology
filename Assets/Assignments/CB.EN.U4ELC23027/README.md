@@ -13,8 +13,12 @@
 
 ### Lab X - Introduction to solidity  
 
-| Smart Contract Address | << Paste the Smart Contract Address>> |
+| Smart Contract Address | [0xa863B94A9F38DeEEBB576fd34b4517aCFB919863] |
 |:----------------------:|:-------------------------------------:|
-| Store     | <<Transaction ID>>                    |
+| Store     | <<0x1c0a01ac2cdbe3e10714e844ac1fb2dd54bff1df36ce000c54bd91bf12b447ae>> |
+| Smart Contract Deployment Failed |
+(https://etherscan.io/address/0xa863B94A9F38DeEEBB576fd34b4517aCFB919863#analytics)
+
+
 
 
