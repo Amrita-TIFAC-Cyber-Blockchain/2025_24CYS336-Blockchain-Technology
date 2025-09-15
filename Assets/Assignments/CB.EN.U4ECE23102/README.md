@@ -4,17 +4,19 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - 
-![](https://img.shields.io/badge/Name-AkshayR-blue) <br/>
+## Assignments - CB.EN.U4ECE23102
+![](https://img.shields.io/badge/Name-Akshay_R-blue) <br/>
 
-| Wallet Address | 0xDCD20eb5A2f9Fc3352e939De09779B3790168571 | 
+| Wallet Address | [0xDCD20eb5A2f9Fc3352e939De09779B3790168571](https://sepolia.etherscan.io/address/0xDCD20eb5A2f9Fc3352e939De09779B3790168571) | 
 |:--------------:|:-----------------------------:|
 
 ### Lab X - Lab Name  
 
-| Smart Contract Address | 0xb5371a4955b076801f15992fdd37832a93fd0ecc |
+| Smart Contract Address | [0xb5371a4955b076801f15992fdd37832a93fd0ecc](https://sepolia.etherscan.io/address/0xb5371a4955b076801f15992fdd37832a93fd0ecc) |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | 0x2faa4490094f3d6e6f7b00e56c11209b5d42769f36d9789a245ef287a176dc2f |
+| Store 1      | [0x5bc534394a5182efb7cc595dbc04073f537d8d9b2fe99e2b0bbca198e4bb0fbb](https://sepolia.etherscan.io/tx/0x5bc534394a5182efb7cc595dbc04073f537d8d9b2fe99e2b0bbca198e4bb0fbb) |
+| Store 2      | [0x6437374c6c6ae61272f6688d8a76588cfbcebbfcf2ad8204b5f8f7a0614b616e](https://sepolia.etherscan.io/tx/0x6437374c6c6ae61272f6688d8a76588cfbcebbfcf2ad8204b5f8f7a0614b616e) |
+
 
 
 
