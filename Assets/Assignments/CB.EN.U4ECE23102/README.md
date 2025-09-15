@@ -22,8 +22,9 @@
 ### Lab X - Introduction to Solidity and Remix IDE (15/9/25)  
 | Smart Contract Address | [0xf347fE254aB6141cE0C0c19D4B380E60A3160262](https://sepolia.etherscan.io/address/0xf347fe254ab6141ce0c0c19d4b380e60a3160262) |
 |:----------------------:|:-------------------------------------:|
-| Store 1      | [0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a](https://sepolia.etherscan.io/tx/0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a) |
-| Store 2      | [0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c](https://sepolia.etherscan.io/tx/0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c) |
+| Store and retrieve 1      | [0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a](https://sepolia.etherscan.io/tx/0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a) |
+| Store and retrieve 2      | [0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c](https://sepolia.etherscan.io/tx/0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c) |
+
 
 
 
