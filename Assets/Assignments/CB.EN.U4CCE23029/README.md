@@ -20,6 +20,11 @@
 
 ### Lab X - More about Solidity 
 ![](https://img.shields.io/badge/Date-15th_Sep-blue) <br/>
+| Smart Contract Address | [0x40311fb85b982dbcd2d3ba99984c942538ea45b2](https://sepolia.etherscan.io/tx/0x1dc44d60389423baf3e2aee5ac82252e2bc1841c8ed6171225df06a117fd32ea) |
+|:----------------------:|:-------------------------------------:|
+| Voter 001         | [0x38fadb8e3d140ab4ed995a6b7b0130379aa54ca5145865548214619c2d27384b](https://sepolia.etherscan.io/tx/0x38fadb8e3d140ab4ed995a6b7b0130379aa54ca5145865548214619c2d27384b) |
+| Voter 613         | [0x2915daf0f552ebab5979ef2b9526551ea1612d724f6e5ac1a802903a2a69f507](https://sepolia.etherscan.io/tx/0x2915daf0f552ebab5979ef2b9526551ea1612d724f6e5ac1a802903a2a69f507) |
+| Voter 524         | [0x55de648b8d5af19462fb651a31261a3104234df551e984981868f55742924f40](https://sepolia.etherscan.io/tx/0x55de648b8d5af19462fb651a31261a3104234df551e984981868f55742924f40) |
 
 
 
