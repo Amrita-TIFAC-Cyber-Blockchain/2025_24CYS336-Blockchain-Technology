@@ -17,7 +17,17 @@
 |:----------------------:|:-------------------------------------|
 | Store value            | [0x7fc7a968f0da9a9ee009a2ec94884b7631fcefaa56a16dacdeefa144ac991021](https://sepolia.etherscan.io/tx/0x7fc7a968f0da9a9ee009a2ec94884b7631fcefaa56a16dacdeefa144ac991021)                    |
 
+### Lab - More about Solidity
+![](https://img.shields.io/badge/Date-15th_Sept-purple)
+
+| Smart Contract Address |  |
+|:----------------------:|:-------------------------------------|
+| Store value            | | 
+
+
+
  
+
 
 
 
