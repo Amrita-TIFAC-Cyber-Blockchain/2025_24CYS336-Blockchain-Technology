@@ -16,7 +16,7 @@
 |:----------------------:|:-------------------------------------:|
 | Store 1      | [0x5bc534394a5182efb7cc595dbc04073f537d8d9b2fe99e2b0bbca198e4bb0fbb](https://sepolia.etherscan.io/tx/0x5bc534394a5182efb7cc595dbc04073f537d8d9b2fe99e2b0bbca198e4bb0fbb) |
 | Store 2      | [0x6437374c6c6ae61272f6688d8a76588cfbcebbfcf2ad8204b5f8f7a0614b616e](https://sepolia.etherscan.io/tx/0x6437374c6c6ae61272f6688d8a76588cfbcebbfcf2ad8204b5f8f7a0614b616e) |
-|:--------------:|:-----------------------------:|
+
 
 ![](https://img.shields.io/badge/Date-15/9/25-purple) <br/>
 ### Lab X - Introduction to Solidity and Remix IDE (15/9/25)  
@@ -24,7 +24,8 @@
 |:----------------------:|:-------------------------------------:|
 | Store 1      | [0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a](https://sepolia.etherscan.io/tx/0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a) |
 | Store 2      | [0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c](https://sepolia.etherscan.io/tx/0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c) |
-|:--------------:|:-----------------------------:|
+
+
 
 
 
