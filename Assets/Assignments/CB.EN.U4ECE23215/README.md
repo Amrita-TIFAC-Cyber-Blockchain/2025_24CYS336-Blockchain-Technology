@@ -4,17 +4,18 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
+## Assignments - CB.EN.U4ECE23215
 ![](https://img.shields.io/badge/Name-Ch.Bhavya_Sri-blue) <br/>
 
-| Wallet Address | 0xCed59dD2e74D43d330850f9257C0c11cEf66f0e9 | 
+| Wallet Address | [0xCed59dD2e74D43d330850f9257C0c11cEf66f0e9](https://sepolia.etherscan.io/address/0xCed59dD2e74D43d330850f9257C0c11cEf66f0e9) | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
+### Lab X - Introduction to Solidity
 
-| Smart Contract Address | 0xd9145CCE52D386f254917e481eB44e9943F39138 |
+| Smart Contract Address | [0xc225aF1835578648DbEa6E2e8200A0D581c0b1bf](https://sepolia.etherscan.io/address/0xc225af1835578648dbea6e2e8200a0d581c0b1bf) |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | 0x5e2955bc9d6b2e8d3a0251042c901879601c0b34d6ee57609ed23dc9da100b59 |
+| Store      |[0x5e2955bc9d6b2e8d3a0251042c901879601c0b34d6ee57609ed23dc9da100b59](https://sepolia.etherscan.io/tx/0x5e2955bc9d6b2e8d3a0251042c901879601c0b34d6ee57609ed23dc9da100b59)|
+
 
 
 
