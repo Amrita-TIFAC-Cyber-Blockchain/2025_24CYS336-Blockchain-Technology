@@ -12,7 +12,7 @@
 | Wallet Address | [0x650933554e06A8e02f2e28Df3bb805d7A8206cB4](https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)  
 |:--------------:|:-----------------------------:|
 
-### Lab X - Introductio to solidity  
+### Lab 7 - Introduction to solidity  
 
 | Smart Contract Address | [0x6c2bed6b141c29c8f33f4aec2c8cf10455ade730](https://sepolia.etherscan.io/address/0x6c2bed6b141c29c8f33f4aec2c8cf10455ade730)|
 |:----------------------:|:-------------------------------------:|
@@ -20,6 +20,12 @@
 
 
 
+### Lab - More about Solidity
+![](https://img.shields.io/badge/Date-15th_Sept-purple)
+
+| Smart Contract Address | [0xfd85b6867d7bc281070afcddd12be7e232f0a563](https://sepolia.etherscan.io/tx/0x5f8c44871bf36624b4f6edd66358539b454be07934a0f371f33d9309842f2263) |
+|:----------------------:|:-------------------------------------|
+| Store value            | [0xFD85b6867D7BC281070aFCddd12Be7e232F0A563](https://sepolia.etherscan.io/tx/0x5507fb6837e45e39a4f8a62075ce91919eab05cfe0d5b39661915e1bbaaab96c) |
 
 
 
