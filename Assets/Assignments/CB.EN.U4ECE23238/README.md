@@ -4,16 +4,19 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments
-![RAHUL-KRISHNA-J](https://img.shields.io/badge/Name-RAHULKRIHSNAJ-blue) <br/>
+## Assignments - CB.EN.U4ECE23238
+![RAHUL-KRISHNA-J](https://img.shields.io/badge/NAME-RAHULKRIHSNAJ-blue) <br/>
 
 | Wallet Address | 0x120837dB0c8E662875082055eB2195baB5B66c0E | 
 |:--------------:|:-----------------------------:|
 
 ### LAB 6 -INTRODUCTION TO REMIX IDE AND SOLIDITY PROGRAMMING
+![DATE :](https://img.shields.io/badge/DATE-:-08-09-2025-blue) <br/>
+
 | Smart Contract Address |https://sepolia.etherscan.io/address/0x901eb257c7fc9a736328d3b3b12439f2dba557b8|
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | 0x1 Transaction mined and execution succeed                    |
+
 
 
 
