@@ -4,17 +4,19 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - Smart Contract Transaction
+## Assignments - CB.EN.U4CCE233029
 ![](https://img.shields.io/badge/Name-Namrata_B_G-blue) <br/>
 
-| Wallet Address | 0xCd5c864D56e2F9b4212094c3170Dcd6D8907EDc6 | 
+| Wallet Address | [0xCd5c864D56e2F9b4212094c3170Dcd6D8907EDc6](https://sepolia.etherscan.io/address/0xCd5c864D56e2F9b4212094c3170Dcd6D8907EDc6) | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
+### Lab X - Introduction to Solidity 
 
-| Smart Contract Address | 0x34643a3efdc5101685eab409f8c998a98bef7239 |
+| Smart Contract Address | [0x34643a3efdc5101685eab409f8c998a98bef7239](https://sepolia.etherscan.io/address/0x34643a3efdc5101685eab409f8c998a98bef7239) |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | 0xa828dbb267ab80b43b7e0f3732bc1451fc01d1882e02e0138c33cee473d38415 |
+| Store Value 57         | [0xa828dbb267ab80b43b7e0f3732bc1451fc01d1882e02e0138c33cee473d38415](https://sepolia.etherscan.io/tx/0xa828dbb267ab80b43b7e0f3732bc1451fc01d1882e02e0138c33cee473d38415) |
+| Store Value 57         | [0xdc07141d3325dc86ccb731c5a8121cb8d94ddaf604bea52474c5d0c0cd004b83](https://sepolia.etherscan.io/tx/0xdc07141d3325dc86ccb731c5a8121cb8d94ddaf604bea52474c5d0c0cd004b83) |
+
 
 
 
