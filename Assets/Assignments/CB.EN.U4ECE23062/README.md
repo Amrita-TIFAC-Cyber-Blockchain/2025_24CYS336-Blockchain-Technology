@@ -1,6 +1,3 @@
-
-| Transaction Desc.      | 0x4779b83ab9c1cd37205485685d1b645d6de8e16bf5800f06a8e361eb6eec22a6                 |
-
 <p align="center">
     <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
 </p>
@@ -21,6 +18,7 @@
 | Store value            | [0xdf5d0cd8cec6db78317c942181028ce50d332f98e51e996a7d9d9e8741b5e2e3](https://sepolia.etherscan.io/tx/0xdf5d0cd8cec6db78317c942181028ce50d332f98e51e996a7d9d9e8741b5e2e3)                    |
 
  
+
 
 
 
