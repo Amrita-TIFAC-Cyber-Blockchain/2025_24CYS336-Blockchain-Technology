@@ -13,11 +13,12 @@
 ### Lab - Introduction to Solidity 
 ![](https://img.shields.io/badge/Date-08th_Sept-purple)
 
-| Smart Contract Address | [0xf06ca8325d077a9770314ede30dfe8be3286a301](https://sepolia.etherscan.io/address/0xf06ca8325d077a9770314ede30dfe8be3286a301) |
+| Smart Contract Address | [0x7855275e437f16a8ffaB8DA383714193Eb969085](https://sepolia.etherscan.io/address/0x7855275e437f16a8ffaB8DA383714193Eb969085) |
 |:----------------------:|:-------------------------------------|
 | Store value            | [0x7fc7a968f0da9a9ee009a2ec94884b7631fcefaa56a16dacdeefa144ac991021](https://sepolia.etherscan.io/tx/0x7fc7a968f0da9a9ee009a2ec94884b7631fcefaa56a16dacdeefa144ac991021)                    |
 
  
+
 
 
 
