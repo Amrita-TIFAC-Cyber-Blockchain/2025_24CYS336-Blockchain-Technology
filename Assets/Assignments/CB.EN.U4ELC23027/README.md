@@ -26,13 +26,40 @@
 
 ### Lab 1.2 - Introduction to solidity 
 
-| Smart Contract Address | [0xaE036c65C649172b43ef7156b009c6221B596B8b] |
+| Smart Contract Address 1 | [0xD4Fc541236927E2EAf8F27606bD7309C1Fc2cbee] |
 | Smart Contract Deployment successfully |
+(https://etherscan.io/address/0xD4Fc541236927E2EAf8F27606bD7309C1Fc2cbee)
 
 | From : 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4 |
 | To : 0xaE036c65C649172b43ef7156b009c6221B596B8b |
 | Execution cost : 2472 |
 | Output : "0": "uint64: 1" |
+
+
+ ![My Image](1.jpg)                                                             ![My Image](2.jpg)  
+
+| Smart Contract Address 2 | [0xaE036c65C649172b43ef7156b009c6221B596B8b] |
+| Smart Contract Deployment successfully |
+| From : 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4 |
+| To : 0xaE036c65C649172b43ef7156b009c6221B596B8b |
+| Execution cost : 8732 |
+| Input : 0x2fd3ffc4 |
+| Output : {
+	"0": "uint64: 1",
+	"1": "string: Jodhpur",
+	"2": "uint64: 1000000",
+	"3": "uint64: 12",
+	"4": "uint64: 5",
+	"5": "uint64: 100000"
+} |
+(https://etherscan.io/address/0x5B38Da6a701c568545dCfcB03FcB875f56beddC4)
+
+
+
+
+![My Image](1.jpg)                                                          ![My Image](2.jpg)        
+
+
 
 
 
