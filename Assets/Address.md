@@ -47,3 +47,4 @@
 | Yuvanesh M          | [0x80D8e3a93fc807A9E8a20d8ba7981109C6066ee3](https://sepolia.etherscan.io/address/0x80D8e3a93fc807A9E8a20d8ba7981109C6066ee3) |
 | Shyam Suresh Mohanaradha | [0x8005Dc8B2EBBFAc096e26D6650F6b49fC535A35f](https://sepolia.etherscan.io/address/0x8005Dc8B2EBBFAc096e26D6650F6b49fC535A35f) |
 | Beeraka Varsha      | [0x48E26B7647EB2a619D90aB0ea8cc5aC5e01e4e02](https://sepolia.etherscan.io/address/0x48E26B7647EB2a619D90aB0ea8cc5aC5e01e4e02) |
+| Rahul Krishna J     | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) |
