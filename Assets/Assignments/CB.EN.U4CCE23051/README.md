@@ -18,9 +18,11 @@
 
 ### Lab 7 - <<Name>>  
 
-| Smart Contract Address | [0x13564d9a053f909fcc66eb35a745ded6b0b83651](https://sepolia.etherscan.io/address/0x13564d9a053f909fcc66eb35a745ded6b0b83651) |
+| Smart Contract Address | [0xe89fceea38c404e2947123c9d4eb55bb4e272fbf](https://sepolia.etherscan.io/address/0xe89fceea38c404e2947123c9d4eb55bb4e272fbf) |
 |:----------------------:|:-------------------------------------:|
-| Store Value      | [0xd49ed9b878f32f3496a0211423a014f3af92c5032ed049d6507757ac55352cd9](https://sepolia.etherscan.io/tx/0xd49ed9b878f32f3496a0211423a014f3af92c5032ed049d6507757ac55352cd9)                   |
+| Store Value 1     | [0x741673f4c9bf700d55b939cfbd063b7ee4d2d6a86383ec0e664525b7aeec2859](https://sepolia.etherscan.io/tx/0x741673f4c9bf700d55b939cfbd063b7ee4d2d6a86383ec0e664525b7aeec2859)                   |
+| Store Value 2     | [0xe43311d18c3337a2f067eb8ec64a3a4fd80e37463dfca2094fb68ec0eea3d7da](https://sepolia.etherscan.io/tx/0xe43311d18c3337a2f067eb8ec64a3a4fd80e37463dfca2094fb68ec0eea3d7da)                   |
+
 
 
 
