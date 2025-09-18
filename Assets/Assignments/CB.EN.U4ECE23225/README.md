@@ -10,8 +10,9 @@
 | Wallet Address | <<paste your Metamask Wallet Address>> | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
+### Lab 7 - Introduction to smart contracts 
 
-| Smart Contract Address | << Paste the Smart Contract Address>> |
+| Smart Contract Address | [0xa8a29E6798A415E9842e035BE3f706E00e6b8d64] (https://sepolia.etherscan.io/address/0xa8a29E6798A415E9842e035BE3f706E00e6b8d64) |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | <<Transaction ID>>                    |
+| Store Value {25, 23225, Karthick, Amrita, 12Sep, Graduation}    |[0xc9e93036c059a24186ef2d6371b41e04672ae6c37158b370c229bd187d9f42e8] (https://sepolia.etherscan.io/address/0xc9e93036c059a24186ef2d6371b41e04672ae6c37158b370c229bd187d9f42e8)                   |
+
