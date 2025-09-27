@@ -25,6 +25,7 @@ While these studies are foundational, they address separate facets of the overal
 
 -----
 ### Architectural Diagram
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/23b36b1a-d3de-40ff-b7b9-c763d735e50b" />
 
 
 ------
@@ -47,6 +48,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
