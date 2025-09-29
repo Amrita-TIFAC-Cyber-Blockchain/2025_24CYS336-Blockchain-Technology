@@ -7,7 +7,7 @@
 ## Assignments - CB.EN.U4ECE23238
 ![RAHUL-KRISHNA-J](https://img.shields.io/badge/NAME-RAHULKRIHSNAJ-blue) <br/>
 
-| Wallet Address | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
+| WALLET ADDRESS / FROM ADDRESS | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
 |:--------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
 
 ### LAB 6 - INTRODUCTION TO REMIX IDE AND SOLIDITY PROGRAMMING
@@ -38,6 +38,7 @@
 | Smart Contract Address | [0xC5f8992f04222C9418b40C4516ef34a0a08E4eE4](https://sepolia.etherscan.io/address/0xC5f8992f04222C9418b40C4516ef34a0a08E4eE4) |
 |:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
 | Store Value            | [0x806f45f6add2bab13f862be52ed519081829cc353f0f03e3e6ab89c815b59a91](https://sepolia.etherscan.io/tx/0x806f45f6add2bab13f862be52ed519081829cc353f0f03e3e6ab89c815b59a91) |
+
 
 
 
