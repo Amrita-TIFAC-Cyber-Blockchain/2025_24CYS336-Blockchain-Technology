@@ -35,7 +35,8 @@
 | BT#22		  | Rajith S <br/> T Ragulraj <br/> Mithun Chakkarawarthy S |  CB.EN.U4CCE23039 <br/> CB.EN.U4ECE23049 <br/> CB.EN.U4ECE23127 | AI-integrated Forex Prediction with Blockchain Logging <br/> Blockchain for Digital Identity Management | 
 | BT#23		  | Vasantha Kumar G R <br/> Ashwin Kumar K S <br/>  Karthick A | CB.EN.U4CCE23062 <br/> CB.EN.U4ECE23007 <br/> CB.EN.U4ECE23225 | Blockchain based social media content/in-game asset ownership | 
 | BT#24		  | Harshan S <br/> Deepana <br/> Mukesh Singh <br/>  | CB.EN.U4ECE23119 <br/> CB.EN.U4EEE23109 <br/> CB.EN.U4ELC23027 | Energy Trading for Blockchain enabled Smart Grids |
-| BT#25       | Akilesh Senthil Kumar <br/> Rahul Krishna J | CB.EN.U4ECE23203 <br/> CB.EN.U4ECE23238 |  |
+| BT#25       | Akilesh Senthil Kumar <br/> Rahul Krishna J | CB.EN.U4ECE23203 <br/> CB.EN.U4ECE23238 |  Blockchain Applications in Defence Logistics|
+
 
 
 
