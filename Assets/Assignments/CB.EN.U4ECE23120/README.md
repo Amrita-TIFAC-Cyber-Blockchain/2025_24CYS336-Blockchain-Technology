@@ -4,14 +4,15 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
+## Assignments - <<Introduction to Solidity>>
 ![](https://img.shields.io/badge/Name-YourName-blue) <br/>
 
 | Wallet Address | <<paste your Metamask Wallet Address>> | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
+### Lab X - Solidity  
 
 | Smart Contract Address | << Paste the Smart Contract Address>> |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | <<Transaction ID>>                    |
+
