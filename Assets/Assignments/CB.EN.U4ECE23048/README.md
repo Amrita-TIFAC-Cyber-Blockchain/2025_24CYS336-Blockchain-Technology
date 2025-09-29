@@ -18,12 +18,21 @@
 | Store     | [0xc01fd6f9de6cfa55f4c8a3da1d392a8e1e5d63815977b78168941a92ff8a7c0c](https://sepolia.etherscan.io/tx/0xc01fd6f9de6cfa55f4c8a3da1d392a8e1e5d63815977b78168941a92ff8a7c0c)|
 
 
-### Lab - More about Solidity
+### Lab - More about Solidity, customised solidity use case programming
 ![](https://img.shields.io/badge/Date-15th_Sept-purple)
 
-| Smart Contract Address | [0x284f71422717C716d7ec0D6b3105a71Da13a98E3](https://sepolia.etherscan.io/address/0x284f71422717C716d7ec0D6b3105a71Da13a98E3) |
+| Smart Contract Address(product tracker) | [0x284f71422717C716d7ec0D6b3105a71Da13a98E3](https://sepolia.etherscan.io/address/0x284f71422717C716d7ec0D6b3105a71Da13a98E3) |
 |:----------------------:|:-------------------------------------|
 | product tracker           | [0x4bbe5abc0427c297cbcaf584fabdad8bd5c34f4f9025bf4fc85c65e81f1a3d2e](https://sepolia.etherscan.io/tx/0x4bbe5abc0427c297cbcaf584fabdad8bd5c34f4f9025bf4fc85c65e81f1a3d2e)| 
+
+
+### Lab - exploring Structs, retaining data
+![](https://img.shields.io/badge/Date-29th_Sept-purple)
+
+| Smart Contract Address (updated product tracker) | [0x6A3Ce5Be4244F6EF472a76Ba1984829C4615ac84](https://sepolia.etherscan.io/address/0x6a3ce5be4244f6ef472a76ba1984829c4615ac84) |
+|:----------------------:|:-------------------------------------|
+| add product(3 same actions can be found under conract address)     | [0xdee09b0c7c5d9af27d8e4528c702348c022f2bab4937628028087b1dea47822e](https://sepolia.etherscan.io/tx/0xdee09b0c7c5d9af27d8e4528c702348c022f2bab4937628028087b1dea47822e)| 
+
 
 
 
