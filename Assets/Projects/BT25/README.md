@@ -4,8 +4,8 @@
 
 ## BT#24
 
-![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/Member--gold)  <br/> 
-![RAHUL KRISHNA J](https://img.shields.io/badge/Member--gold)  <br/> 
+![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/Member-AKILESH--SENTHIL--KUMAR-gold)  <br/> 
+![RAHUL KRISHNA J](https://img.shields.io/badge/Member-RAHUL--KRISHNA--J-gold)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -30,5 +30,6 @@
 -----
 
 ### References
+
 
 
