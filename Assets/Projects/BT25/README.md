@@ -4,7 +4,8 @@
 
 ## BT#24
 
-![](https://img.shields.io/badge/Member-TBD-gold)  <br/> 
+![](https://img.shields.io/badge/Member-AKILESH-SENTHIL-KUMAR-gold)  <br/> 
+![](https://img.shields.io/badge/Member-RAHUL-KRISHNA-J-gold)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -29,4 +30,5 @@
 -----
 
 ### References
+
 
