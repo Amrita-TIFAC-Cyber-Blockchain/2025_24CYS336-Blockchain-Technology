@@ -53,9 +53,26 @@ Blockchain technology offers an effective solution to these problems. It enables
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
-This decentralized medical records system addresses critical issues of data ownership, security, and interoperability by leveraging the Polygon blockchain and IPFS. The system is architected to give patients complete control over their health information. When a doctor creates a new record, the actual, encrypted file is stored off-chain on the decentralized IPFS network, which makes it resilient and secure against a single point of failure. Simultaneously, an immutable, tamper-proof reference (a hash) to that encrypted file is permanently stored on the Polygon blockchain. This on-chain reference ensures the integrity and verifiability of the record, while the high speed and low cost of the Polygon network make the system efficient for real-world use.
+Vulnerability to Hacking and Database Breaches
+Our system stores data off-chain on the IPFS network, which is a distributed, peer-to-peer system. The data is encrypted before being uploaded, meaning even if an attacker gains access to the files on IPFS, they are unreadable without the patient's private key. The Polygon blockchain only holds the secure, unhackable reference to the data, not the data itself, eliminating the risk of a single database breach leaking all patient information.
 
-The core of the system’s security and privacy model lies with the patient’s blockchain wallet. This wallet acts as the patient’s digital identity and the sole key to their medical data. Patients can use their wallet to explicitly grant and revoke access to their encrypted records, giving them granular control over who can view their information and for how long. This design not only makes it incredibly difficult for unauthorized parties to access sensitive data but also empowers patients to seamlessly share their complete medical history with any healthcare provider, regardless of their native EHR system. By placing data ownership directly in the hands of the patient, this system fundamentally shifts the paradigm from institutional control to individual sovereignty.
+#### Mutable and Alterable Medical Records:
+The Polygon blockchain provides a permanent, immutable record of every transaction. Once a hash of a medical record is written to the blockchain, it cannot be changed or deleted. Any subsequent changes require a new transaction, creating a verifiable and transparent audit trail. This design makes data tampering nearly impossible and instantly detectable.
+
+#### Lack of Trust in Data Provenance:
+The blockchain's public ledger provides a cryptographically secure timestamp and a clear record of who uploaded the data (using their wallet address) and when. This verifiable provenance ensures that every record is authentic, building trust in the data's origin and integrity.
+
+#### No True Patient Ownership or Immediate Access:
+The blockchain's public ledger provides a cryptographically secure timestamp and a clear record of who uploaded the data (using their wallet address) and when. This verifiable provenance ensures that every record is authentic, building trust in the data's origin and integrity.
+
+#### Fragmented, Siloed, and Non-Interoperable Data:
+By using a single, unified system, patients can aggregate all of their medical records in one place. The decentralized nature of IPFS and the consistent data referencing on the Polygon blockchain creates a single, comprehensive view of the patient's health history, making the data interoperable across different healthcare providers and eliminating information silos.
+
+#### Restricted Data Sharing and Lack of Patient Control:
+Patients have granular control over their data. Using their wallet, they can grant a doctor, a specialist, or even a researcher temporary, specific access to their records. The process is entirely automated and controlled by the patient, giving them full autonomy.
+
+#### Data Integrity Risks and Lack of Audit Trail:
+The blockchain's immutable ledger serves as a perfect, verifiable audit trail. Every action—from adding a new record to granting a doctor access—is logged as a transaction. This provides a transparent history of all data access, making compliance checks and security audits straightforward and reliable.
 
 
 -----
@@ -64,5 +81,6 @@ The core of the system’s security and privacy model lies with the patient’s 
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
