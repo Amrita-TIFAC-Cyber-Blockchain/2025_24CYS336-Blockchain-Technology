@@ -22,6 +22,37 @@
 |:----------------------:|:-------------------------------------:|
 | Deploy-Certificate |[0x20acb15f23d5d876650ae83663e099bf5a84ab66369be8b4ca0c178942b8cb2c](https://sepolia.etherscan.io/tx/0x20acb15f23d5d876650ae83663e099bf5a84ab66369be8b4ca0c178942b8cb2c)|
 
+### Lab X - IPFS
+| Hash ID | QmZn9mmdP84WqjNtAa4VpaaxQfbstCVAbzkdHJLCy6C2Lg  |
+|:----------------------:|:-------------------------------------:|
+
+<P><STRONG>IPFS INIT:</STRONG></P>
+<img width="700" height="140" alt="image" src="https://github.com/user-attachments/assets/33c0b84d-2472-40e8-b1ef-e6cfeaa6bc7d" />
+
+
+<P><STRONG>IPFS ADD & CAT:</STRONG></P>
+<img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/b40468e6-0456-40db-a703-e0bdf88ce5a4" />
+
+
+<P><STRONG>IPFS DAG STAT:</STRONG></P>
+<img width="1400" height="250" alt="image" src="https://github.com/user-attachments/assets/4b88e5f7-cf64-4c05-a3cb-a8cefe7c0b12" />
+
+
+<P><STRONG>IPFS get:</STRONG></P>
+<img width="1400" height="100" alt="image" src="https://github.com/user-attachments/assets/ef1b3f17-c3b9-499a-98e5-bccc10ce588a" />
+<p><h3>Hence file saved with hash id and without extension</h3></p>
+<img width="1000" height="300" alt="image" src="https://github.com/user-attachments/assets/fa3ee2fb-215d-4018-a776-f8ab746ddace" />
+
+
+<p><h3>added file with more mb and you can observe more no.of blocks </h3></p>
+<img width="1000" height="100" alt="image" src="https://github.com/user-attachments/assets/f4ea957f-e7c4-4152-9dec-418d4fb99d8f" />
+<img width="1000" height="100" alt="image" src="https://github.com/user-attachments/assets/ad1657b2-24d2-4cef-a868-ddebdc0412e3" />
+
+
+
+ 
+
+
 
 
 
