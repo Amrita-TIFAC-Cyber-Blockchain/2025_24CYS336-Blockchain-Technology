@@ -78,3 +78,141 @@
 
 ---
 
+---------------------------------------------------------------------------------------------------------------
+![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
+
+## LAB 7 - CERTIFICATE STORAGE SMART CONTRACT
+
+### 🧠 Smart Contract Description
+This Solidity smart contract enables **certificate issuance and verification** on the Ethereum blockchain.  
+Only the **owner (issuer)** can issue certificates, and anyone can verify their authenticity using a unique certificate ID (`certId`).
+
+---
+### SOLIDITY CODE FOR CERTIFICATE VERIFICATION
+```SOLIDITY 
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.8.2 <0.9.0;
+
+/**
+ * @title CertificateStorage
+ * @dev Issue & retrieve certificates (owner-restricted issuance)
+ */
+contract CertificateStorage {
+
+    address public owner;
+
+    // Certificate structure
+    struct Certificate {
+        string certId;
+        string rollNo;
+        string recipientName;
+        string issuerOrg;
+        string issueDate;
+        string eventName;
+        bool issued;            // explicit flag to indicate existence
+    }
+
+    // Mapping certId => Certificate
+    mapping(string => Certificate) private certificates;
+
+    // Emitted when a certificate is issued
+    event CertificateIssued(
+        string indexed certId,
+        string rollNo,
+        string recipientName,
+        string issuerOrg,
+        string issueDate,
+        string eventName,
+        address indexed issuedBy
+    );
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner");
+        _;
+    }
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    /**
+     * @dev Issue a certificate and store on-chain (owner only)
+     * @param _certId Certificate ID (unique)
+     * @param _rollNo Student roll number
+     * @param _recipientName Recipient name
+     * @param _issuerOrg Issuing organization name
+     * @param _issueDate Date string (e.g., "08-09-2025")
+     * @param _eventName Event or course name
+     */
+    function issueCertificate(
+        string memory _certId,
+        string memory _rollNo,
+        string memory _recipientName,
+        string memory _issuerOrg,
+        string memory _issueDate,
+        string memory _eventName
+    ) public onlyOwner {
+        require(bytes(_certId).length > 0, "certId required");
+        require(!certificates[_certId].issued, "Certificate already issued");
+
+        certificates[_certId] = Certificate({
+            certId: _certId,
+            rollNo: _rollNo,
+            recipientName: _recipientName,
+            issuerOrg: _issuerOrg,
+            issueDate: _issueDate,
+            eventName: _eventName,
+            issued: true
+        });
+
+        emit CertificateIssued(_certId, _rollNo, _recipientName, _issuerOrg, _issueDate, _eventName, msg.sender);
+    }
+
+    /**
+     * @dev Retrieve certificate details by ID
+     */
+    function getCertificate(string memory _certId)
+        public
+        view
+        returns (
+            string memory certId,
+            string memory rollNo,
+            string memory recipientName,
+            string memory issuerOrg,
+            string memory issueDate,
+            string memory eventName,
+            bool issued
+        )
+    {
+        Certificate memory cert = certificates[_certId];
+        return (
+            cert.certId,
+            cert.rollNo,
+            cert.recipientName,
+            cert.issuerOrg,
+            cert.issueDate,
+            cert.eventName,
+            cert.issued
+        );
+    }
+
+    /**
+     * @dev Verify whether a certificate exists (quick check)
+     * @param _certId Certificate ID
+     * @return true if certificate exists, false otherwise
+     */
+    function verifyCertificate(string memory _certId) public view returns (bool) {
+        return certificates[_certId].issued;
+    }
+
+    /**
+     * @dev Transfer contract ownership (owner only)
+     * @param newOwner new owner address
+     */
+    function transferOwnership(address newOwner) external onlyOwner {
+        require(newOwner != address(0), "zero address");
+        owner = newOwner;
+    }
+}
+
+
