@@ -83,9 +83,9 @@
 ---------------------------------------------------------------------------------------------------------------
 ![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
 
-<h2>LAB 7 - CERTIFICATE STORAGE SMART CONTRACT</h2>
+<h2>LAB 6 - STORAGE SMART CONTRACT</h2>
 
-<h3>🧠 Smart Contract Description</h3>
+<h3>🧠 SMART CONTRACT PROGRAM USING SOLIDITY</h3>
 
 <p style="font-size:15px;">
 This Solidity smart contract enables <b>certificate issuance and verification</b> on the Ethereum blockchain.  
@@ -224,6 +224,7 @@ contract CertificateStorage {
 -----------------------------------------
 NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 -----------------------------------------
+
 
 
 
