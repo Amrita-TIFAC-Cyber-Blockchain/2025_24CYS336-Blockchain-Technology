@@ -64,24 +64,10 @@
 | Value                  | 0 ETH |
 | Transaction Fee         | 0.000470710503451877 ETH |
 | Gas Price               | 1.500000011 Gwei |
-
----
-
-![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
-
-| Smart Contract Address | [0xe324cc3225ba4f49b7270ac4d2b7a690b559b695](https://sepolia.etherscan.io/address/0xe324cc3225ba4f49b7270ac4d2b7a690b559b695) |
-|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
-| Transaction Hash       | [0x28bb626de5273f858fd7e03bb6d933ab61b4661ec989d61f441531b563472e27](https://sepolia.etherscan.io/tx/0x28bb626de5273f858fd7e03bb6d933ab61b4661ec989d61f441531b563472e27) |
-| Block                  | 9362848 |
-| Timestamp              | Oct-07-2025 04:05:48 PM UTC |
-| Value                  | 0 ETH |
-| Transaction Fee         | 0.000470723158032959 ETH |
-| Gas Price               | 1.500040337 Gwei |
-
 ---
 
 ---------------------------------------------------------------------------------------------------------------
-![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
+![DATE](https://img.shields.io/badge/DATE-29--09--2025-green) <br/>
 
 <h2>LAB 6 - STORAGE SMART CONTRACT</h2>
 
@@ -224,6 +210,22 @@ contract CertificateStorage {
 -----------------------------------------
 NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 -----------------------------------------
+```
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
+
+| Smart Contract Address | [0xe324cc3225ba4f49b7270ac4d2b7a690b559b695](https://sepolia.etherscan.io/address/0xe324cc3225ba4f49b7270ac4d2b7a690b559b695) |
+|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Transaction Hash       | [0x28bb626de5273f858fd7e03bb6d933ab61b4661ec989d61f441531b563472e27](https://sepolia.etherscan.io/tx/0x28bb626de5273f858fd7e03bb6d933ab61b4661ec989d61f441531b563472e27) |
+| Block                  | 9362848 |
+| Timestamp              | Oct-07-2025 04:05:48 PM UTC |
+| Value                  | 0 ETH |
+| Transaction Fee         | 0.000470723158032959 ETH |
+| Gas Price               | 1.500040337 Gwei |
+
+---
 
 
 
