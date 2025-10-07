@@ -81,12 +81,19 @@
 ---------------------------------------------------------------------------------------------------------------
 ![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
 
-## LAB 7 - CERTIFICATE STORAGE SMART CONTRACT
-### 🧠Smart Contract Description
-This Solidity smart contract enables **certificate issuance and verification** on the Ethereum blockchain.  
-Only the **Issuer** can issue certificates, and anyone can verify their authenticity using a unique certificate ID (`certId`).
----
-### ⚙️SOLIDITY CODE
+<h2>LAB 7 - CERTIFICATE STORAGE SMART CONTRACT</h2>
+
+<h3>🧠 Smart Contract Description</h3>
+
+<p style="font-size:15px;">
+This Solidity smart contract enables <b>certificate issuance and verification</b> on the Ethereum blockchain.  
+Only the <b>Issuer</b> can issue certificates, and anyone can verify their authenticity using a unique certificate ID (<code>certId</code>).
+</p>
+
+<hr>
+
+<h3>⚙️ Solidity Code</h3>
+
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
@@ -212,6 +219,4 @@ contract CertificateStorage {
         owner = newOwner;
     }
 }
-------------------------------------------------------------------------------------
-IMAGE OUTPUTS ARE ADDED TO FOLDER NAMED :IMAGES
-------------------------------------------------------------------------------------
+NOTE :=OUTPUTS ARE IN FOLDER NAMED IMAGES
