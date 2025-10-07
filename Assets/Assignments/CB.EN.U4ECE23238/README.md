@@ -83,10 +83,9 @@
 
 ## LAB 7 - CERTIFICATE STORAGE SMART CONTRACT
 
-### 🧠 Smart Contract Description
+### DESCRIPTION :
 This Solidity smart contract enables **certificate issuance and verification** on the Ethereum blockchain.  
 Only the **owner (issuer)** can issue certificates, and anyone can verify their authenticity using a unique certificate ID (`certId`).
-
 ---
 ### SOLIDITY CODE FOR CERTIFICATE VERIFICATION
 ```SOLIDITY 
@@ -214,5 +213,6 @@ contract CertificateStorage {
         owner = newOwner;
     }
 }
-
-
+-------------------------------------------------------------------------------------------------------------------
+IMAGES OF THE CODE OUTPUT ARE ATTCHED IN IMAGE FOLDER
+-------------------------------------------------------------------------------------------------------------------
