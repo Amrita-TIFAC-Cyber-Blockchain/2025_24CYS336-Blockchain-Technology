@@ -219,4 +219,6 @@ contract CertificateStorage {
         owner = newOwner;
     }
 }
-NOTE :=OUTPUTS ARE IN FOLDER NAMED IMAGES
+-----------------------------------------
+NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
+-----------------------------------------
