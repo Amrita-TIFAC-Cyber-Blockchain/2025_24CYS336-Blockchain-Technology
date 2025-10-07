@@ -82,8 +82,7 @@
 ![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
 
 ## LAB 7 - CERTIFICATE STORAGE SMART CONTRACT
-
-### DESCRIPTION :
+DESCRIPTION :
 This Solidity smart contract enables **certificate issuance and verification** on the Ethereum blockchain.  
 Only the **owner (issuer)** can issue certificates, and anyone can verify their authenticity using a unique certificate ID (`certId`).
 ---
@@ -216,3 +215,4 @@ contract CertificateStorage {
 -------------------------------------------------------------------------------------------------------------------
 IMAGES OF THE CODE OUTPUT ARE ATTCHED IN IMAGE FOLDER
 -------------------------------------------------------------------------------------------------------------------
+
