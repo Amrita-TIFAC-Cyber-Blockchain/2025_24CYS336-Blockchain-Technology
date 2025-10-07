@@ -5,8 +5,9 @@
 # 24CYS336 - Blockchain-Technology 
 
 ## ASSIGNMENTS - CB.EN.U4ECE23238
-![RAHUL-KRISHNA-J](https://img.shields.io/badge/NAME-RAHULKRIHSNAJ-blue) <br/>
-![CB-EN-U4ECE23238](https://img.shields.io/badge/ROLL-NO-CB-EN-U4ECE23238-blue) <br/>
+
+![NAME - RAHUL KRISHNA J](https://img.shields.io/badge/NAME-RAHUL%20KRISHNA%20J-blue)  
+![ROLL NO - CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)
 
 | WALLET ADDRESS / FROM ADDRESS | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
 |:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
