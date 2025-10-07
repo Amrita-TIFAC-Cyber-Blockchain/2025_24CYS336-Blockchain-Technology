@@ -7,15 +7,6 @@
 ## Assignments - CB.EN.U4ECE23238
 ![RAHUL-KRISHNA-J](https://img.shields.io/badge/NAME-RAHULKRIHSNAJ-blue) <br/>
 
-<p align="center">
-    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
-</p>
-
-# 24CYS336 - Blockchain-Technology 
-
-## Assignments - CB.EN.U4ECE23238
-![RAHUL-KRISHNA-J](https://img.shields.io/badge/NAME-RAHULKRIHSNAJ-blue) <br/>
-
 | WALLET ADDRESS / FROM ADDRESS | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
 |:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
 
