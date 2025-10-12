@@ -30,7 +30,8 @@
 | Smart Contract Address | [0x809f6b0d671F2cdF33101Be13A0094bcbA5396AD](https://sepolia.etherscan.io/address/0x809f6b0d671F2cdF33101Be13A0094bcbA5396AD) |
 |:----------------------:|:-------------------------------------|
 | Store value 1            | [0xe95c93b08dcb64b3cf8860154ac3de88403930e9144e358023476d69bb0ae80f](https://sepolia.etherscan.io/tx/0xe95c93b08dcb64b3cf8860154ac3de88403930e9144e358023476d69bb0ae80f)| 
-| Store value 2            | [0x729274f1674d416c6494adbce5d0d352359e4aab385672d949dcca709745e9f9](https://sepolia.etherscan.io/tx/0x729274f1674d416c6494adbce5d0d352359e4aab385672d949dcca709745e9f9)| 
+| Store value 2            | [0x6511812b0e6bc7d547ff3e2e66269faa830a46dedabcb1886cc82fe8e947aeef](https://sepolia.etherscan.io/tx/0x6511812b0e6bc7d547ff3e2e66269faa830a46dedabcb1886cc82fe8e947aeef)| 
+
 
 
 
