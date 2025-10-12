@@ -28,6 +28,85 @@
 
 ### Lab X - IPFS
 
+IPFS initialisation:
+```
+C:\kubo>ipfs init
+generating ED25519 keypair...done
+peer identity: 12D3KooWF7Kr73TvqPT5me5f1wQqHRcc5en8A9dy4HibmvJAxtS7
+initializing IPFS node at C:\Users\DELL\.ipfs
+```
+
+Adding a file:
+```
+C:\kubo>ipfs add build-log
+ 1.25 KiB / 1.25 KiB [========================================================================================] 100.00%←added QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq build-log
+ 1.25 KiB / 1.25 KiB [========================================================================================] 100.00%
+```
+Opening a file:
+```
+C:\kubo>ipfs cat QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+←[1;31m----------
+Hello there
+NOTICE:
+
+You have tried to upgrade to asdf 0.16.0 or newer. Versions 0.16.0 is a
+complete rewrite of asdf in Go. This text is being printed by the older
+Bash implementation. If you are seeing this you have not migrated to
+asdf 0.16.0. Please follow the instructions on the upgrade guide to
+migrate to the new version.
+(continued)
+```
+
+Downloading IPFS object:
+```
+C:\kubo>ipfs get QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+Saving file(s) to QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+ 1.25 KiB / 1.25 KiB [=====================================================================================] 100.00% 0s
+```
+
+Block distribution of the file:
+```
+C:\kubo>ipfs dag stat QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+
+CID                                             Blocks          Size
+QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq  1               1292
+
+Summary
+Total Size: 1292
+Unique Blocks: 1
+Shared Size: 0
+Ratio: 1.000000
+```
+
+Block distribution of a bigger file:
+```
+C:\kubo>ipfs add "E:\3rd sem\Digital Communication\9492_[John_G._Proakis,_Masoud_Salehi]_Fundamentals_of_C(b-ok.org).pdf"
+ 14.21 MiB / 14.21 MiB [======================================================================================] 100.00%←added QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3 9492_[John_G._Proakis,_Masoud_Salehi]_Fundamentals_of_C(b-ok.org).pdf
+ 14.21 MiB / 14.21 MiB [======================================================================================] 100.00%
+C:\kubo>ipfs dag stat
+ipfs: Reading from /dev/stdin; send Ctrl-z to stop.
+^ZError: argument "root" is required
+
+C:\kubo>ipfs dag stat QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3
+CID: QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3, Size: 264904, NumBlocks: 2
+CID: QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3, Size: 264904, NumBlocks: 2
+CID: QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3, Size: 527062, NumBlocks: 3
+CID: QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3, Size: 789220, NumBlocks: 4
+.
+.
+.
+CID: QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3, Size: 14683594, NumBlocks: 57
+CID: QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3, Size: 14899142, NumBlocks: 58
+
+CID                                             Blocks          Size
+QmbYtCKjb4Y3RCyEyFXa7U5mFoK2rqtmMNjqgZ1tib9yh3  58              14899142
+
+Summary
+Total Size: 14899142
+Unique Blocks: 58
+Shared Size: 0
+Ratio: 1.000000
+```
 
 
 
