@@ -16,6 +16,4 @@
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | [https://sepolia.etherscan.io/address/0x47E35A39Dd22714e46DFdA67B706Cb0874463fF7]                  |
 
-
-
-
+### Lab  - Solidity Contract depolyment
