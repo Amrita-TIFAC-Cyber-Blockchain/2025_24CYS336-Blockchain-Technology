@@ -24,6 +24,13 @@
 |:----------------------:|:-------------------------------------|
 | Transfer value            | [0x5c378e2fd12b5af8eb43f2ba599e878f77c27a9feffa1f00f9eb1e5faba93026](https://sepolia.etherscan.io/tx/0x5c378e2fd12b5af8eb43f2ba599e878f77c27a9feffa1f00f9eb1e5faba93026)                    |
 
+### Lab - Mapping
+![](https://img.shields.io/badge/Date-29th_Sept-purple)
+
+| Smart Contract Address | [0x809f6b0d671F2cdF33101Be13A0094bcbA5396AD](https://sepolia.etherscan.io/address/0x809f6b0d671F2cdF33101Be13A0094bcbA5396AD) |
+|:----------------------:|:-------------------------------------|
+| Store value 1            | [0x5ecc55fb9baa86d6909e115f3a9bfe7608ad4cc531908c65eec7c80e9f7d2e48](https://sepolia.etherscan.io/tx/0x5ecc55fb9baa86d6909e115f3a9bfe7608ad4cc531908c65eec7c80e9f7d2e48)| 
+| Store value 2            | [0x729274f1674d416c6494adbce5d0d352359e4aab385672d949dcca709745e9f9](https://sepolia.etherscan.io/tx/0x729274f1674d416c6494adbce5d0d352359e4aab385672d949dcca709745e9f9)| 
 
 
 
