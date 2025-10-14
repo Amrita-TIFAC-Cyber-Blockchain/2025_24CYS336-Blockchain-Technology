@@ -43,6 +43,7 @@ To overcome blockchain’s storage limitations, large media files are stored off
 ### Literature Survey 
 
 **Paper - 1 : Non-Fungible Token Enhanced Blockchain-Based Online Social Network**
+
 The authors propose a model where every social media post can be converted into an NFT, enabling it to be sold, traded, and owned by users. The paper addresses limitations in existing social networks such as centralization, censorship, lack of user ownership, fake posts, and digital rights management issues.
 
 **Major Components:**
@@ -76,6 +77,7 @@ _Image taken from paper-1_
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
