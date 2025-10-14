@@ -4,8 +4,8 @@
 
 ## BT#23
 
-![](https://img.shields.io/badge/Vasantha_Kumar.G.R-CB.EN.U4CCE23062-gold)  <br/> 
-![](https://img.shields.io/badge/Ashwin_Kumar.K.S-CB.EN.U4ECE23007-gold)  <br/>
+![](https://img.shields.io/badge/Vasantha_Kumar_G_R-CB.EN.U4CCE23062-gold)  <br/> 
+![](https://img.shields.io/badge/Ashwin_Kumar_K_S-CB.EN.U4ECE23007-gold)  <br/>
 ![](https://img.shields.io/badge/Karthick.A-CB.EN.U4ECE23225-gold)  <br/>
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
@@ -71,6 +71,7 @@ _Image taken from paper-1_
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
