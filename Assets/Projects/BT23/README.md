@@ -27,9 +27,13 @@ Users cannot trace the full transaction history of an asset (creation, transfer,
 To address these limitations, this project proposes the integration of blockchain to establish a decentralized, tamper-proof digital ownership system for content and in-game assets. By utilizing smart contracts deployed on a blockchain, ownership information such as asset ID, content hash , current owner’s wallet address, and timestamp of registration can be recorded immutably on the ledger.
 
 **This enables:**
+
 **Proof of existence:** content authenticity can be verified through hash comparison.
+
 **Proof of ownership:** smart contracts associate each asset with a specific blockchain address.
+
 **Transferability:** ownership can be securely transferred via contract functions without intermediary control.
+
 **Traceability:** all transactions are permanently recorded, ensuring transparent provenance.
 
 To overcome blockchain’s storage limitations, large media files are stored off-chain in IPFS, while only the file hash and reference link are stored on-chain to preserve efficiency.
@@ -40,6 +44,7 @@ To overcome blockchain’s storage limitations, large media files are stored off
 
 **Paper - 1 : Non-Fungible Token Enhanced Blockchain-Based Online Social Network**
 The authors propose a model where every social media post can be converted into an NFT, enabling it to be sold, traded, and owned by users. The paper addresses limitations in existing social networks such as centralization, censorship, lack of user ownership, fake posts, and digital rights management issues.
+
 **Major Components:**
 1. **IPFS** for storing posts.
 2. Posts are minted as **NFTs** and **Smart Contracts** to handle registration and Ownership.
@@ -71,6 +76,7 @@ _Image taken from paper-1_
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
