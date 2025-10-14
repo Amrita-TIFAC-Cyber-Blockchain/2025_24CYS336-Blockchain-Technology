@@ -10,20 +10,52 @@
 ------
 
 ### Problem Statement
-With the growing popularity of online platforms such as Steam and Pinterest, a vast number of digital contents — including in-game assets, images, and artworks — are being created and exchanged daily. However, the current ownership model of these assets is largely centralized, where the platform retains control over users’ digital items.
+The rapid expansion of digital ecosystems such as Steam (gaming) and Pinterest (creative content sharing) has resulted in a vast exchange of digital assets — including in-game items, images, artworks, and user-generated content.
+In current systems, asset ownership and control are centralized within the platform’s database.
+Although these platforms allow users to purchase or create assets, the ownership is effectively licensed rather than absolute, as all metadata and transaction history are stored on a central server controlled by the provider.
 
-This creates several challenges:
+This centralized structure introduces multiple technical and security challenges:
 
-Lack of verifiable proof of ownership once the content is uploaded or purchased.
+Lack of Verifiable Ownership:
+Asset metadata (creator ID, timestamp, ownership record) is stored in a mutable centralized database. Users cannot independently verify asset ownership without trusting the service provider.
 
-Limited portability of assets across platforms.
+Single Point of Failure and Data Integrity Risks:
+Centralized databases are vulnerable to unauthorized modifications, data corruption, or shutdown of services, leading to loss or alteration of ownership information.
 
-Risk of duplication or unauthorized redistribution.
+Duplication and Authenticity Issues:
+Digital assets can be easily copied or re-uploaded under different accounts. Current content management systems rely on weak hashing or watermarking mechanisms that can be bypassed.
 
-Loss of access if the platform discontinues service or restricts a user account.
+Limited Interoperability:
+Ownership data stored in proprietary formats cannot be transferred between platforms. For instance, an in-game item on Steam cannot be verifiably traded or displayed on another marketplace.
 
-To overcome these issues, blockchain technology can be utilized to ensure secure, transparent, and decentralized ownership of digital assets.
-The objective of this project is to design a conceptual framework and basic prototype of a blockchain-based digital asset ownership system that enables users to register, verify, and transfer ownership of their assets using smart contracts.
+Lack of Transparency in Asset Transactions:
+Users cannot trace the full transaction history of an asset (creation, transfer, resale). This creates distrust and enables fraudulent trading activities.
+
+To address these limitations, this project proposes the integration of blockchain technology to establish a decentralized, tamper-proof digital ownership system for content and in-game assets.
+
+By utilizing smart contracts deployed on a blockchain (e.g., Ethereum testnet), ownership information such as:
+
+asset ID,
+
+content hash (SHA-256 or Keccak-256),
+
+current owner’s wallet address, and
+
+timestamp of registration
+
+can be recorded immutably on the ledger.
+
+This enables:
+
+Proof of existence: content authenticity can be verified through hash comparison.
+
+Proof of ownership: smart contracts associate each asset with a specific blockchain address.
+
+Transferability: ownership can be securely transferred via contract functions without intermediary control.
+
+Traceability: all transactions are permanently recorded, ensuring transparent provenance.
+
+Additionally, to overcome blockchain’s storage limitations, large media files are stored off-chain in a distributed file system (IPFS), while only the file hash and reference link are stored on-chain to preserve efficiency.
 
 
 -----
@@ -42,4 +74,5 @@ The objective of this project is to design a conceptual framework and basic prot
 -----
 
 ### References
+
 
