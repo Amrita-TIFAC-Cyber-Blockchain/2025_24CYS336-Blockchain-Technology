@@ -24,7 +24,7 @@ Digital assets can be easily copied or re-uploaded under different accounts.
 4. **Lack of Transparency in Asset Transactions:**
 Users cannot trace the full transaction history of an asset (creation, transfer, resale). This creates distrust and enables fraudulent trading activities.
 
-To address these limitations, this project proposes the integration of blockchain technology to establish a decentralized, tamper-proof digital ownership system for content and in-game assets. By utilizing smart contracts deployed on a blockchain, ownership information such as asset ID, content hash (SHA-256 or Keccak-256), current owner’s wallet address, and timestamp of registration can be recorded immutably on the ledger.
+To address these limitations, this project proposes the integration of blockchain to establish a decentralized, tamper-proof digital ownership system for content and in-game assets. By utilizing smart contracts deployed on a blockchain, ownership information such as asset ID, content hash , current owner’s wallet address, and timestamp of registration can be recorded immutably on the ledger.
 
 **This enables:**
 **Proof of existence:** content authenticity can be verified through hash comparison.
@@ -71,6 +71,7 @@ _Image taken from paper-1_
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
