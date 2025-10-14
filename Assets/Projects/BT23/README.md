@@ -45,10 +45,18 @@ To overcome blockchain’s storage limitations, large media files are stored off
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
+| **SDG**    | **Goal Title**                           | **Project Contribution**                                                              |
+| ---------- | ---------------------------------------- | ------------------------------------------------------------------------------------- |
+| **SDG 9**  | Industry, Innovation, and Infrastructure | Promotes innovative, decentralized digital infrastructure for ownership verification. |
+| **SDG 12** | Responsible Consumption and Production   | Encourages ethical creation, ownership, and sharing of digital assets.                |
+| **SDG 16** | Peace, Justice, and Strong Institutions  | Enhances transparency and fairness in online transactions and ownership management.   |
+
+
 
 -----
 
 ### References
+
 
 
 
