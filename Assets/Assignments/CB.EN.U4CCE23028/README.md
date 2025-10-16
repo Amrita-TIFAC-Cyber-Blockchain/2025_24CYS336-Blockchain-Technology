@@ -23,9 +23,16 @@
 ### Lab - More about Solidity
 ![](https://img.shields.io/badge/Date-15th_Sept-purple)
 
-| Smart Contract Address | [0xfd85b6867d7bc281070afcddd12be7e232f0a563](https://sepolia.etherscan.io/tx/0x5f8c44871bf36624b4f6edd66358539b454be07934a0f371f33d9309842f2263) |
+| Smart Contract Address | [0xfd85b6867d7bc281070afcddd12be7e232f0a563](https://sepolia.etherscan.io/tx/0x5f8c44871bf36624b4f6edd66358539b454be07934a0f371f33d9309842f2263)|
 |:----------------------:|:-------------------------------------|
 | Store value            | [0xFD85b6867D7BC281070aFCddd12Be7e232F0A563](https://sepolia.etherscan.io/tx/0x5507fb6837e45e39a4f8a62075ce91919eab05cfe0d5b39661915e1bbaaab96c) |
+
+### Lab - More about Solidity
+![](https://img.shields.io/badge/Date-29th_Sept-purple)
+
+| Smart Contract Address | [0xe00a3bb6ed1a05cd8c9b93639c684df28e89d9bea14dfb31496d084f0a1765bf](https://sepolia.etherscan.io/tx/0xe00a3bb6ed1a05cd8c9b93639c684df28e89d9bea14dfb31496d084f0a1765bf) |
+|:----------------------:|:-------------------------------------|
+| Store value            | [0x1cee36174d644899631efd23fa7b97d20fb4b58079f6110deed94491507fb182](https://sepolia.etherscan.io/tx/0x5507fb6837e45e39a4f8a62075ce91919eab05cfe0d5b39661915e1bbaaab96c) |
 
 
 
@@ -65,6 +72,7 @@ view the block of the file
 
 
 <img width="1689" height="657" alt="image" src="https://github.com/user-attachments/assets/898930db-aaed-4bc1-b090-0d2493ec1466" />
+
 
 
 
