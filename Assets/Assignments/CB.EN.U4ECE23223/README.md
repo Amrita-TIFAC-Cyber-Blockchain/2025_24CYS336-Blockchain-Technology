@@ -15,7 +15,7 @@
 |:----------------------:|:--------------------------------------:|
 | Transaction Desc.      | [0x074b529e5f2bdd62766250617dd7970693421f001d400c141269f80a87464a4d](https://sepolia.etherscan.io/tx/0x074b529e5f2bdd62766250617dd7970693421f001d400c141269f80a87464a4d) |
 
-###  solidity - institution design(certificate register) 
+###  Solidity - institution design(certificate register) 
 ###  Added new insttitytion(only ownwer/admin can add institution  , issued cirtificate (only institution can issue certificates ), student has been registered 
 ### all necessary details are successfully called
 <img width="270" height="589" alt="Screenshot 2025-10-17 at 12 42 19 AM" src="https://github.com/user-attachments/assets/e6fed1c9-d2cd-4d73-9d09-6d2520ae14bb" />
@@ -48,6 +48,7 @@
 ### hash 2 (second image) - QmbmiSyjhKKFxKManypos3XpyyDrnZu1QNZu3JwDhJzM7U
 
 <img width="1438" height="898" alt="Screenshot 2025-10-17 at 1 50 42 AM" src="https://github.com/user-attachments/assets/1e43c896-4d38-4842-9bd3-7536a4a054c4" />
+
 
 
 
