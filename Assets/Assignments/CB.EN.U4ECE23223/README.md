@@ -12,7 +12,8 @@
 
 ### Lab X - Lab Name  
 
-| Smart Contract Address | << Paste the Smart Contract Address >> |
+| Smart Contract Address | [0x87741208978ba9FCC1F6D700Fb3aE7baf9970f11](https://sepolia.etherscan.io/address/0x87741208978ba9fcc1f6d700fb3ae7baf9970f11) |
 |:----------------------:|:--------------------------------------:|
 | Transaction Desc.      | << Transaction ID >>                   |
+
 
