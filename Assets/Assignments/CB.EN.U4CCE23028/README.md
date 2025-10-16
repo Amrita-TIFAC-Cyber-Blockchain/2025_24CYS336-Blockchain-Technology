@@ -30,7 +30,7 @@
 
 
 ### Lab - IPFS
-![](https://img.shields.io/badge/Date-6th_Oct-purple)
+
 
 
 ipfs initialisation 
@@ -43,6 +43,28 @@ Adding File to Ipfs
 
 
 <img width="1691" height="179" alt="image" src="https://github.com/user-attachments/assets/3872cb04-9abe-42f3-9d53-bbbb71803bc9" />
+
+
+Retrieve the file
+
+
+
+<img width="1693" height="109" alt="image" src="https://github.com/user-attachments/assets/7e0d008f-0929-4134-91ff-860b7f08d054" />
+
+
+
+Open the file
+
+
+
+<img width="1658" height="66" alt="image" src="https://github.com/user-attachments/assets/a06f06e0-de79-4efe-82b6-6075b64370e5" />
+
+
+
+view the block of the file
+
+
+<img width="1689" height="657" alt="image" src="https://github.com/user-attachments/assets/898930db-aaed-4bc1-b090-0d2493ec1466" />
 
 
 
