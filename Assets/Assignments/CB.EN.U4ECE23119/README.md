@@ -18,4 +18,14 @@
 | Transaction Desc.      | [0x0c29739b7eef6071f86978f826f30df50b93bcff5aef78a95825f7fe9d22beb3](https://sepolia.etherscan.io/tx/0x0c29739b7eef6071f86978f826f30df50b93bcff5aef78a95825f7fe9d22beb3) |
 
 
+### Lab X - solidity 
+
+| Smart Contract Address | [0xCC0303509BbCa23062FFE25c52585aa428AaBbCF](https://sepolia.etherscan.io/tx/0xb6a210f514091de02eef740fbf5962358a78fec772d4bf387b7251b367ded9d9) |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+
+<img width="753" height="813" alt="image" src="https://github.com/user-attachments/assets/36008c31-f322-4bc7-9fb8-949371870306" />
+
+
+
+
 
