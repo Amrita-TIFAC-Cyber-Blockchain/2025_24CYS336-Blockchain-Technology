@@ -22,8 +22,10 @@
 
 | Smart Contract Address | [0xCC0303509BbCa23062FFE25c52585aa428AaBbCF](https://sepolia.etherscan.io/tx/0xb6a210f514091de02eef740fbf5962358a78fec772d4bf387b7251b367ded9d9) |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Transaction Desc.      | [0x7f00a3d1c35ecac6bee77c5ef362330853a54e75654962dc5d5ccdecf8bba004](https://sepolia.etherscan.io/address/0xe72d07B2BCf69aC9D48D5A75DFE9EEc20bc7251c) |
 
 <img width="376" height="406" alt="image" src="https://github.com/user-attachments/assets/36008c31-f322-4bc7-9fb8-949371870306" />
+
 
 
 
