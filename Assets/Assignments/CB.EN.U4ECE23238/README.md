@@ -80,138 +80,98 @@ Only the <b>Issuer</b> can issue certificates, and anyone can verify their authe
 
 <hr>
 
-<h3>⚙️ Solidity Code</h3>
+<h3>⚙️SOLIDITY CODE </h3>
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
+
 pragma solidity >=0.8.2 <0.9.0;
 
-/**
- * @title CertificateStorage
- * @dev Issue & retrieve certificates (owner-restricted issuance)
- */
-contract CertificateStorage {
+contract CertificateRegistry {
 
-    address public owner;
-
-    // Certificate structure
     struct Certificate {
-        string certId;
-        string rollNo;
-        string recipientName;
-        string issuerOrg;
-        string issueDate;
-        string eventName;
-        bool issued;            // explicit flag to indicate existence
+        string studentName;
+        string course;
+        string grade;
+        string ipfsHash;
+        uint256 issuedOn;
     }
 
-    // Mapping certId => Certificate
-    mapping(string => Certificate) private certificates;
+    mapping(address => Certificate) studentCertificates;
 
-    // Emitted when a certificate is issued
-    event CertificateIssued(
-        string indexed certId,
-        string rollNo,
-        string recipientName,
-        string issuerOrg,
-        string issueDate,
-        string eventName,
-        address indexed issuedBy
-    );
+    Certificate c;
 
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Only owner");
+    // -------------------- Roles --------------------
+    address admin;
+    address institution1;
+    address institution2;
+
+    constructor() {
+        // Fixed Admin address
+        admin = 0xe71ABd7cB0c19f7A8A821E7D977a2742874fD635 ;
+
+        // Predefined Institutions
+        institution1 = 0x120837dB0c8E662875082055eB2195baB5B66c0E;
+        institution2 = 0x80217b294D7a2D0902484783c61fda5A1EFc7bff;
+    }
+
+    // -------------------- Modifiers --------------------
+    modifier isAdmin() {
+        require(msg.sender == admin, "Only Admin can call this function");
         _;
     }
 
-    constructor() {
-        owner = msg.sender;
+    modifier isInstitution() {
+        require(msg.sender == institution1 || msg.sender == institution2, "Only Institution can call this function");
+        _;
     }
 
-    /**
-     * @dev Issue a certificate and store on-chain (owner only)
-     * @param _certId Certificate ID (unique)
-     * @param _rollNo Student roll number
-     * @param _recipientName Recipient name
-     * @param _issuerOrg Issuing organization name
-     * @param _issueDate Date string (e.g., "08-09-2025")
-     * @param _eventName Event or course name
-     */
+    // -------------------- Admin Functions --------------------
+    function addInstitution1(address _instAddress) public isAdmin {
+        institution1 = _instAddress;
+    }
+
+    function addInstitution2(address _instAddress) public isAdmin {
+        institution2 = _instAddress;
+    }
+
+    // -------------------- Institution Functions --------------------
     function issueCertificate(
-        string memory _certId,
-        string memory _rollNo,
-        string memory _recipientName,
-        string memory _issuerOrg,
-        string memory _issueDate,
-        string memory _eventName
-    ) public onlyOwner {
-        require(bytes(_certId).length > 0, "certId required");
-        require(!certificates[_certId].issued, "Certificate already issued");
+        address _student,
+        string memory _studentName,
+        string memory _course,
+        string memory _grade,
+        string memory _ipfsHash
+    ) public isInstitution {
+        c.studentName = _studentName;
+        c.course = _course;
+        c.grade = _grade;
+        c.ipfsHash = _ipfsHash;
+        c.issuedOn = block.timestamp;
 
-        certificates[_certId] = Certificate({
-            certId: _certId,
-            rollNo: _rollNo,
-            recipientName: _recipientName,
-            issuerOrg: _issuerOrg,
-            issueDate: _issueDate,
-            eventName: _eventName,
-            issued: true
-        });
-
-        emit CertificateIssued(_certId, _rollNo, _recipientName, _issuerOrg, _issueDate, _eventName, msg.sender);
+        studentCertificates[_student] = c;
     }
 
-    /**
-     * @dev Retrieve certificate details by ID
-     */
-    function getCertificate(string memory _certId)
-        public
-        view
-        returns (
-            string memory certId,
-            string memory rollNo,
-            string memory recipientName,
-            string memory issuerOrg,
-            string memory issueDate,
-            string memory eventName,
-            bool issued
-        )
-    {
-        Certificate memory cert = certificates[_certId];
-        return (
-            cert.certId,
-            cert.rollNo,
-            cert.recipientName,
-            cert.issuerOrg,
-            cert.issueDate,
-            cert.eventName,
-            cert.issued
-        );
+    // -------------------- Student / Public Functions --------------------
+    function getCertificate(address _student) public view returns (string memory, string memory, string memory, string memory, uint256) {
+        Certificate memory c1 = studentCertificates[_student];
+        return (c1.studentName, c1.course, c1.grade, c1.ipfsHash, c1.issuedOn);
     }
 
-    /**
-     * @dev Verify whether a certificate exists (quick check)
-     * @param _certId Certificate ID
-     * @return true if certificate exists, false otherwise
-     */
-    function verifyCertificate(string memory _certId) public view returns (bool) {
-        return certificates[_certId].issued;
+    function verifyCertificate(address _student, string memory _ipfsHash) public view returns (bool) {
+        Certificate memory c1 = studentCertificates[_student];
+        if (keccak256(abi.encodePacked(c1.ipfsHash)) == keccak256(abi.encodePacked(_ipfsHash))) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
-    /**
-     * @dev Transfer contract ownership (owner only)
-     * @param newOwner new owner address
-     */
-    function transferOwnership(address newOwner) external onlyOwner {
-        require(newOwner != address(0), "zero address");
-        owner = newOwner;
-    }
 }
 -----------------------------------------
 NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 -----------------------------------------
 ```
-
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 ![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
@@ -234,9 +194,9 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 | Transaction Hash [REFER INSTITUTE IMAGE]     | [0x80217b294D7a2D0902484783c61fda5A1EFc7bff](https://sepolia.etherscan.io/address/0x80217b294D7a2D0902484783c61fda5A1EFc7bff) |
 
 ---
-
-
+The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY , for certificate issual in which the Admin account only have the authority to add institutions , and institutions have permission to add students or issue the certificate of the student.If anyother accounts are used for the ADMIN or INSTITUTE transactions respectively , the Transaction will be revited and a display message will be print stating the authority of respective accounts.The verification of certificate can be called by any account.
 ---
+
 
 
 
