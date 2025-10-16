@@ -38,6 +38,15 @@ Storing and retrieving online asset information
 <img width="366" height="168" alt="image" src="https://github.com/user-attachments/assets/c498003a-b0f6-4a44-beaa-ac7c6d824b05" />
 
 
+### Lab  - Solidity Contract deployment with modifiers
+
+
+| Smart Contract Address | 0x71A88A64FFDc09264fd6Da2679F7D4859a03b79f |
+|:----------------------:|:-------------------------------------:|
+| Transaction Desc.      | [https://sepolia.etherscan.io/address/0x71A88A64FFDc09264fd6Da2679F7D4859a03b79f] |
+
+
+
 
 
 
