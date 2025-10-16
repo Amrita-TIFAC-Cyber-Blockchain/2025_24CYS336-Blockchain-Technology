@@ -194,8 +194,12 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 | Transaction Hash [REFER INSTITUTE IMAGE]     | [0x80217b294D7a2D0902484783c61fda5A1EFc7bff](https://sepolia.etherscan.io/address/0x80217b294D7a2D0902484783c61fda5A1EFc7bff) |
 
 ---
-The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY , for certificate issual in which the Admin account only have the authority to add institutions , and institutions have permission to add students or issue the certificate of the student.If anyother accounts are used for the ADMIN or INSTITUTE transactions respectively , the Transaction will be revited and a display message will be print stating the authority of respective accounts.The verification of certificate can be called by any account.
+<sub>
+The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY, for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
+</sub>
+
 ---
+
 
 
 
