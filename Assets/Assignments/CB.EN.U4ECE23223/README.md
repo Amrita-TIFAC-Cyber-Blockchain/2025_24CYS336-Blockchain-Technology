@@ -33,20 +33,21 @@
 
 <img width="264" height="398" alt="Screenshot 2025-10-17 at 1 43 19 AM" src="https://github.com/user-attachments/assets/f590b159-dad5-4547-994d-9d29f5e27357" />
 <img width="686" height="192" alt="Screenshot 2025-10-17 at 1 44 00 AM" src="https://github.com/user-attachments/assets/fbb793c6-f230-4ae5-92a6-c1506eb66071" />
-###
 
-###products can be viewed by anyone ,evereything is called 
+### products can be viewed by anyone ,evereything is called 
 
 <img width="273" height="691" alt="Screenshot 2025-10-17 at 1 45 05 AM" src="https://github.com/user-attachments/assets/6c425e33-e445-407b-beb8-0d8a62a03aa4" />
 <img width="691" height="411" alt="Screenshot 2025-10-17 at 1 45 25 AM" src="https://github.com/user-attachments/assets/d684fe38-0018-4048-b951-7917add1a7d1" />
 
+### IPFS 
 
+### files are imported to ipfs and hash value is generated
 
+### hash 1 (first image) - QmaVLKr1Po889FRAA7HPt2vmwSFLBsxUJq4MTsD63AmKou
 
+### hash 2 (second image) - QmbmiSyjhKKFxKManypos3XpyyDrnZu1QNZu3JwDhJzM7U
 
-
-
-
+<img width="1438" height="898" alt="Screenshot 2025-10-17 at 1 50 42 AM" src="https://github.com/user-attachments/assets/1e43c896-4d38-4842-9bd3-7536a4a054c4" />
 
 
 
