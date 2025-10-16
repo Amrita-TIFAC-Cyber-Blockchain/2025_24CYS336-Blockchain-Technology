@@ -29,6 +29,27 @@
 
 
 
+### Lab - IPFS
+![](https://img.shields.io/badge/Date-6th_Oct-purple)
+
+
+ipfs initialisation 
+
+
+<img width="991" height="92" alt="image" src="https://github.com/user-attachments/assets/7bdfc650-f1c9-45aa-aeb9-c84d263f6549" />
+
+
+Adding File to Ipfs 
+
+
+<img width="1691" height="179" alt="image" src="https://github.com/user-attachments/assets/3872cb04-9abe-42f3-9d53-bbbb71803bc9" />
+
+
+
+
+
+
+
 
 
 
