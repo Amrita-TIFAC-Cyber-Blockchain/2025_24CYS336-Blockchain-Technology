@@ -16,17 +16,18 @@
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | https://sepolia.etherscan.io/address/0x39Ede4bba9F1a5d0C2D29c22bdB467D97164A0A7         
 
-### Lab - Solidity 
+### Lab - Solidity - Customised solidity use case programming 
 
 |  Contract Deployment | 0xc1b3558da2b659e94156f8cf9005e33a621f6a7769605c56d711b9fde4e3a1d6 |
 |:----------------------:|:-------------------------------------:|
 |  Store   | 0x5f39ec6f47b34b60685b483570144da8365115d9cc823c57d035d1aa77b88dfd    |
 
-### Lab - Solidity 
+### Lab - Solidity - Structs 
 
 |  Contract Deployment | 0x15dd8a45b01e2a1d70c9350ed8686455b108b17045b6b754da65ccfdf71d43a7|
 |:----------------------:|:-------------------------------------:|
 |  Store   | 0x6e14921c7a69ad83f0ccce76a4fc77159322ab63db84d650551bd8e1e85d79dd   |
+
 
 
 
