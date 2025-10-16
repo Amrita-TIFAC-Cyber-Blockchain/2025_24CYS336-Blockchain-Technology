@@ -23,7 +23,8 @@
 | Smart Contract Address | [0xCC0303509BbCa23062FFE25c52585aa428AaBbCF](https://sepolia.etherscan.io/tx/0xb6a210f514091de02eef740fbf5962358a78fec772d4bf387b7251b367ded9d9) |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 
-<img width="753" height="813" alt="image" src="https://github.com/user-attachments/assets/36008c31-f322-4bc7-9fb8-949371870306" />
+<img width="376" height="406" alt="image" src="https://github.com/user-attachments/assets/36008c31-f322-4bc7-9fb8-949371870306" />
+
 
 
 
