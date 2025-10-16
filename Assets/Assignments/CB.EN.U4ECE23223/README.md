@@ -4,7 +4,7 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
+## Assignments - Solidity
 ![](https://img.shields.io/badge/Name-YourName-blue) <br/>
 
 | Wallet Address | [0x87741208978ba9FCC1F6D700Fb3aE7baf9970f11](https://sepolia.etherscan.io/address/0x87741208978ba9fcc1f6d700fb3ae7baf9970f11) |
@@ -15,3 +15,4 @@
 | Smart Contract Address | << Paste the Smart Contract Address >> |
 |:----------------------:|:--------------------------------------:|
 | Transaction Desc.      | << Transaction ID >>                   |
+
