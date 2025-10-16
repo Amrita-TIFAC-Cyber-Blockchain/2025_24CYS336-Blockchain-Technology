@@ -10,11 +10,12 @@
 | Wallet Address | 0xD00be8030b9f34941f37e0F305cC1Cb9CCbeb9e3 | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Introduction to Solidity 
+### Lab - Introduction to Solidity 
 
 | Smart Contract Address | 0x39Ede4bba9F1a5d0C2D29c22bdB467D97164A0A7 |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | https://sepolia.etherscan.io/address/0x39Ede4bba9F1a5d0C2D29c22bdB467D97164A0A7                   |
+
 
 
 
