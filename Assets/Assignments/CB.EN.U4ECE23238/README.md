@@ -10,10 +10,7 @@
 ![ROLL NO - CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)
 
 | WALLET ADDRESS ACCOUNT 1 | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
-
 |:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
-
-
 | WALLET ADDRESS ACCOUNT 2 | [0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7](https://sepolia.etherscan.io/address/0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7) | 
 
 
@@ -204,6 +201,7 @@ The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY, fo
 </sub>
 
 ---
+
 
 
 
