@@ -199,10 +199,16 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 <sub>
 The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY, for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
 </sub>
+<img width="332" height="156" alt="image" src="https://github.com/user-attachments/assets/7edde9c7-3a84-405d-b396-9bb871d5189d" />
+The above image represents the accounts created for INSTITUTE AND ADMIN RESPECTIVELY.
+<img width="258" height="363" alt="image" src="https://github.com/user-attachments/assets/917f1ba0-9ad5-4f54-b6bf-e975221b6aa1" />
+Above image represents the accounts [Account 1 , Account 2 , INSTITUTE Account , ADMIN Account] added to REMIX IDE.
+<img width="591" height="159" alt="image" src="https://github.com/user-attachments/assets/76a95de6-938d-4f0f-b3da-00a0977ae0ff" />
+The constructer in code represents the Account Address connected to METAMASK.
+
+
 
 ---
-
-
 
 
 
