@@ -195,15 +195,17 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 |:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
 | Transaction Hash [REFER INSTITUTE IMAGE]     | [0x80217b294D7a2D0902484783c61fda5A1EFc7bff](https://sepolia.etherscan.io/address/0x80217b294D7a2D0902484783c61fda5A1EFc7bff) |
 ---
-
+<sub>
 <img width="332" height="156" alt="image" src="https://github.com/user-attachments/assets/7edde9c7-3a84-405d-b396-9bb871d5189d" />
-The above image represents the accounts created for INSTITUTE AND ADMIN RESPECTIVELY.
+The above image represents the accounts created for INSTITUTE AND ADMIN RESPECTIVELY.</sub>
 
+<sub>
 <img width="258" height="363" alt="image" src="https://github.com/user-attachments/assets/917f1ba0-9ad5-4f54-b6bf-e975221b6aa1" />
-Above image represents the accounts [Account 1 , Account 2 , INSTITUTE Account , ADMIN Account] added to REMIX IDE.
+Above image represents the accounts [Account 1 , Account 2 , INSTITUTE Account , ADMIN Account] added to REMIX IDE.</sub>
 
+<sub>
 <img width="591" height="159" alt="image" src="https://github.com/user-attachments/assets/76a95de6-938d-4f0f-b3da-00a0977ae0ff" />
-The constructer in code represents the Account Address connected to METAMASK.
+The constructer in code represents the Account Address connected to METAMASK.</sub>
 
 ---
 <sub>
@@ -212,6 +214,7 @@ The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY (@L
 
 
 ---
+
 
 
 
