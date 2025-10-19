@@ -195,21 +195,44 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 |:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
 | Transaction Hash [REFER INSTITUTE IMAGE]     | [0x80217b294D7a2D0902484783c61fda5A1EFc7bff](https://sepolia.etherscan.io/address/0x80217b294D7a2D0902484783c61fda5A1EFc7bff) |
 ---
-<sub>
-    The Below image represents the accounts created for INSTITUTE AND ADMIN RESPECTIVELY.
-<img width="332" height="156" alt="image" src="https://github.com/user-attachments/assets/7edde9c7-3a84-405d-b396-9bb871d5189d"/>
-</sub>
+
+### **1. Institute and Admin Accounts**
 
 <sub>
-    Below image represents the accounts [Account 1 , Account 2 , INSTITUTE Account , ADMIN Account] added to REMIX IDE.
-<img width="258" height="363" alt="image" src="https://github.com/user-attachments/assets/917f1ba0-9ad5-4f54-b6bf-e975221b6aa1" />
+The below image represents the accounts created for **INSTITUTE** and **ADMIN** respectively.
 </sub>
+
+<img width="332" height="156" alt="Institute and Admin Accounts" src="https://github.com/user-attachments/assets/7edde9c7-3a84-405d-b396-9bb871d5189d"/>
+
+---
+
+### **2. Accounts Added to Remix IDE**
 
 <sub>
-    The constructer in code represents the Account Address connected to METAMASK.
-<img width="591" height="159" alt="image" src="https://github.com/user-attachments/assets/76a95de6-938d-4f0f-b3da-00a0977ae0ff" />
+The below image represents the accounts (**Account 1**, **Account 2**, **INSTITUTE Account**, and **ADMIN Account**) added to **Remix IDE**.
 </sub>
 
+<img width="258" height="363" alt="Accounts in Remix IDE" src="https://github.com/user-attachments/assets/917f1ba0-9ad5-4f54-b6bf-e975221b6aa1" />
+
+---
+
+### **3. Constructor Representation in Solidity Code**
+
+<sub>
+The below image represents the **constructor** in the smart contract code, which connects to the **Metamask Account Address** used during contract deployment.
+</sub>
+
+<img width="591" height="159" alt="Constructor Code Representation" src="https://github.com/user-attachments/assets/76a95de6-938d-4f0f-b3da-00a0977ae0ff" />
+
+---
+
+### **Summary**
+
+- The **Admin** account is authorized to add institutions.  
+- The **Institute** account can add students and issue certificates.  
+- The **constructor** links the deployed contract to the **Metamask wallet address**, ensuring authenticity and authority during deployment.
+
+---
 ---
 <sub>
 The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY (@Lab6.md), for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
@@ -217,6 +240,7 @@ The Transactions done on 17-10-2025 were based on LAB2 QUESTIONS ON SOLIDITY (@L
 
 
 ---
+
 
 
 
