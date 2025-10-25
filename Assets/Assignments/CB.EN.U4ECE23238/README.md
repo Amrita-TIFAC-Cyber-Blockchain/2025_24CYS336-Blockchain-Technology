@@ -195,11 +195,11 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 |:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
 | Transaction Hash [REFER INSTITUTE IMAGE]     | [0x80217b294D7a2D0902484783c61fda5A1EFc7bff](https://sepolia.etherscan.io/address/0x80217b294D7a2D0902484783c61fda5A1EFc7bff) |
 ---
-## 🧩 Blockchain Project: Institute and Admin Account Setup
+## EXPLANATION FOR SOLIDITY CODE AND OUTPUTS: 
 
 ---
 
-### 1️⃣ Institute and Admin Accounts
+### 1️⃣ INSTITUTE AND ADMIN ACCOUNTS :
 
 The below image represents the accounts created for **INSTITUTE** and **ADMIN** respectively.
 
@@ -209,7 +209,7 @@ The below image represents the accounts created for **INSTITUTE** and **ADMIN** 
 
 ---
 
-### 2️⃣ Accounts Added to Remix IDE
+### 2️⃣ ACCOUNTS ADDED TO REMIX IDE :
 
 The below image represents the accounts — **Account 1**, **Account 2**, **INSTITUTE Account**, and **ADMIN Account** — added to **Remix IDE**.
 
@@ -219,7 +219,7 @@ The below image represents the accounts — **Account 1**, **Account 2**, **INST
 
 ---
 
-### 3️⃣ Constructor Representation in Solidity Code
+### 3️⃣ CONSTRUCTOR REPRESENTATION IN SOLIDITY CODE :
 
 The below image represents the **constructor** in the Solidity smart contract,  
 which connects to the **Metamask Account Address** used during contract deployment.
@@ -235,6 +235,7 @@ The Transactions done on 17-10-2025 were practised based on LAB2 QUESTIONS ON SO
 
 
 ---
+
 
 
 
