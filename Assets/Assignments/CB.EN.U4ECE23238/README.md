@@ -230,11 +230,12 @@ which connects to the **Metamask Account Address** used during contract deployme
 
 ---
 <sub>
-The Transactions done on 17-10-2025 were practised based on LAB2 QUESTIONS ON SOLIDITY, for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
+The Transactions done on 17-10-2025 were practised for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
 </sub>
 
 
 ---
+
 
 
 
