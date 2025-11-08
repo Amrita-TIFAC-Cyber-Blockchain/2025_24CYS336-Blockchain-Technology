@@ -10,45 +10,14 @@
 ------
 
 ### Problem Statement
+
 Traditional voting systems, whether physical or digital, are often vulnerable to tampering, hacking, and fraud. Centralized voting systems are prone to data manipulation and errors during the counting process. Additionally, voters have no way to verify whether their votes are counted accurately or securely. There is also the possibility of multiple voting by a single person due to weak authentication systems. This creates trust issues in the election process, undermining the legitimacy of the results. To address these challenges, there is a need for a transparent, secure, and verifiable voting system that can ensure fairness and integrity.
 
 -----
 ### Literature Survey 
 
-Paper 1: A Framework to Make Voting System Transparent Using Blockchain Technology
-
-Authors: MUHAMMAD SHOAIB FAROOQ , USMAN IFTIKHAR AND ADEL KHELIFI​
-
-Published in: IEEE Access, June 3,2022
-
-Problem : Traditional voting systems lack transparency, are prone to tampering, human error, and centralized control.
-
-Solution: A decentralized blockchain-based Voting Management System (VMS) using smart contracts, OTP login, voting coins, and transaction hashes to ensure security, transparency, and voter verification.
-
-Highlights:
-Votes stored as blockchain transactions.
-
-Smart contracts prevent double voting and tampering.
-
-Voters can verify their vote via transaction hash.
-
-Paper 2: Electronic Voting System Using an Enterprise Blockchain
-
-Authors: Camilo Denis González  , Daniel Frias Mena  , Alexi Massó Muñoz  , Omar Rojas , and Guillermo Sosa-Gómez ​
-
-Published in: Applied Sciences,6 january 2022(Journal)
-
-Problem: Centralized systems and permissionless blockchains are inefficient and lack scalability.
-
-Solution: Uses Hyperledger Fabric (a permissioned blockchain) with NFTs as ballots, smart contracts for role control, and SoftHSM for secure key storage.
-
-Highlights:
-
-Ballots as unique NFTs for traceability.
-
-Role-based voting using smart contracts.
-
-Efficient and secure without high energy use.
+Farooq et al. (2022) proposed a decentralized blockchain-based Voting Management System (VMS) that leverages smart contracts, OTP-based authentication, and voting coins to ensure enhanced security and transparency. Their framework stores votes as immutable blockchain transactions, with smart contracts preventing double voting and unauthorized manipulation. The system enables individual voters to independently verify their votes using unique transaction hashes, promoting transparency and trust in the electoral process.
+González et al. (2022) addressed the limitations of both centralized systems and permissionless blockchains, which suffer from scalability issues and computational inefficiency. They presented an enterprise blockchain solution built on Hyperledger Fabric, a permissioned blockchain platform. The system utilizes Non-Fungible Tokens (NFTs) as digital ballots to enable complete traceability and prevent duplication. Smart contracts enforce role-based access control, ensuring only authorized participants can cast votes. Unlike energy-intensive proof-of-work systems, their permissioned blockchain architecture provides high performance and security with significantly lower energy consumption, making it practical for large-scale electoral applications.
 
 -----
 ### Architectural Diagram
@@ -65,6 +34,7 @@ Efficient and secure without high energy use.
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959-59969.
 
 <2>Denis González, C., Frias Mena, D., Massó Muñoz, A., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531.
+
 
 
 
