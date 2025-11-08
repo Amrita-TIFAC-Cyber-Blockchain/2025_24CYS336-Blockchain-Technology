@@ -27,6 +27,10 @@ González et al. (2022) addressed the limitations of both centralized systems an
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
+| SDG | Alignment |
+|:---|:----------|
+| SDG 16 - Peace, Justice & Strong Institutions | A secure, tamper-proof voting system enhances transparency, accountability, and trust in democratic institutions.A verifiable voting system ensures that every citizen’s vote counts and is recorded correctly, promoting genuine participation.By enabling verifiable results , the system supports citizens’ right to accurate information and fair elections. |
+| SDG 9 - Industry, Innovation & Infrastructure | The project leverages advanced technologies (e.g., blockchain, secure digital identity systems) to innovate electoral processes. |
 
 -----
 
@@ -34,6 +38,7 @@ González et al. (2022) addressed the limitations of both centralized systems an
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959-59969.
 
 <2>Denis González, C., Frias Mena, D., Massó Muñoz, A., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531.
+
 
 
 
