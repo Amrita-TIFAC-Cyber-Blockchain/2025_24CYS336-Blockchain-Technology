@@ -32,6 +32,13 @@ To overcome these issues, this project proposes a blockchain-based verification 
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+| **SDG**                                             | **Project’s Alignment Towards the Goal**                                                                                                                                                                                                |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SDG 9: Industry, Innovation, and Infrastructure** | This project fosters technological innovation by applying blockchain and smart contracts to create a transparent and tamper-proof system for verifying digital artworks, strengthening digital infrastructure in the creative industry. |
+| **SDG 8: Decent Work and Economic Growth**          | By providing artists with a secure way to prove ownership of their creations, the project supports fair recognition, prevents fraud, and promotes sustainable economic growth within the digital art community.                         |
+| **SDG 16: Peace, Justice, and Strong Institutions** | Through blockchain’s immutable and transparent nature, the project enhances accountability, prevents copyright manipulation, and builds trust, contributing to stronger and fairer digital institutions.                                |
+| **SDG 12: Responsible Consumption and Production**  | The system encourages ethical creation and distribution of digital art by preventing duplication and unauthorized use, promoting originality and responsible digital content management.                                                |
+| **SDG 17: Partnerships for the Goals**              | The project encourages collaboration among artists, technologists, and organizations, showcasing how decentralized technology can unite different sectors to create a transparent and equitable art ecosystem.                          |
 
 
 -----
@@ -40,6 +47,7 @@ To overcome these issues, this project proposes a blockchain-based verification 
 [1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
 
 [2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
 
