@@ -11,7 +11,9 @@
 ------
 
 ### Problem Statement
+In today’s digital era, artists often face serious challenges in proving the originality and ownership of their digital artworks. Since digital files can be easily copied, edited, or shared without permission, it becomes difficult to identify the real creator or to verify the authenticity of a piece of art. Traditional systems rely on centralized databases that can be tampered with or manipulated, which reduces trust and transparency.
 
+To overcome these issues, this project proposes a blockchain-based verification system that uses smart contracts to securely record and validate digital artworks. Blockchain plays an important role here because it offers decentralization, immutability, and transparency, ensuring that once an artwork’s details are stored, they cannot be altered or deleted by anyone. This makes it possible to create a permanent proof of authorship and authenticity for each artwork, protecting the rights of digital artists and increasing trust in the digital art ecosystem.
 
 
 -----
@@ -30,9 +32,9 @@
 -----
 
 ### References
-1. Prihatno, A. T., Suryanto, N., Oh, S., Le, T. T. H., & Kim, H. (2023). NFT image plagiarism check using EfficientNet-based deep neural network with triplet semi-hard loss. Applied Sciences, 13(5), 3072.
-2. JINLONG, W. DETECTION AND PROTECTION OF DIGITAL ARTWORKS USING BLOCKCHAIN TECHNOLOGY.
-3. Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership Verification For Digital Art Using Smart Contract And Blockchain Technology. In 2023 17th International Conference on Open Source Systems and Technologies (ICOSST) (pp. 1-6). IEEE.
-4. Wanjiku, N. U. J. The Impact of Blockchain Technology on ART Authentication and Provenance.
+[1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
+
+[2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
