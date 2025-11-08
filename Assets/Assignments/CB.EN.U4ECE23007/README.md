@@ -1,4 +1,4 @@
-<p align="center">
+[endsem.sol (1).txt](https://github.com/user-attachments/files/23432701/endsem.sol.1.txt)<p align="center">
     <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
 </p>
 
@@ -48,8 +48,48 @@ Storing and retrieving online asset information
 
 ### End Sem Lab
 [CB.EN.U4ECE23007_Endsem_copy.pdf](https://github.com/user-attachments/files/23432672/CB.EN.U4ECE23007_Endsem_copy.pdf)
-[Uploading endsem.sol (1).txt…]()
 
+
+
+[Uploading// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.7.0 <0.9.0;
+
+contract PlotRegistry{
+    address govtAdmin;
+
+    struct Plot{
+        uint PlotID;
+        string PlotOwner;
+        uint PlotSize;
+        string PlotLocation;
+        uint PlotPrice;
+        string date;
+    }
+
+    mapping(uint => Plot) public plots;
+
+    constructor(){
+        govtAdmin = msg.sender;
+    }
+    modifier onlyGovtAdmin(){
+        require(msg.sender == govtAdmin, "Government Admin privilege required");
+        _;
+    }
+
+    function addPlotDetails(uint _PlotID, string memory _PlotOwner, uint _PlotSize, string memory _PlotLocation, uint _PlotPrice, string memory _date)
+    public
+     onlyGovtAdmin{
+        plots[_PlotID] = Plot(_PlotID, _PlotOwner, _PlotSize, _PlotLocation, _PlotPrice, _date);
+    }
+
+    function viewPlots(uint _PlotID) public view returns(Plot memory){
+        return plots[_PlotID];
+    }
+
+}
+
+ endsem.sol (1).txt…]()
 
 
 
