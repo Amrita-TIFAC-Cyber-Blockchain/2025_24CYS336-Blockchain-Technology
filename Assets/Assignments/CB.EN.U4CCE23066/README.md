@@ -17,7 +17,8 @@
 | Store Value - 3045      | https://sepolia.etherscan.io/tx/0x6de833df5bf7d51420d8b1c73a5ec8d865dd91f4d102d4c3ddec5190b85a56c4                  |
 
 
-### Lab 1 - Inroduction to Smart Contract 
+### Lab 2 - Inroduction to Smart Contract 
 | Smart Contract Address | https://sepolia.etherscan.io/address/0xF84c1d951935e65DB30520b771ca07dC20E2DA5A |
 |:----------------------:|:-------------------------------------:|
 | Store Value      | https://sepolia.etherscan.io/tx/0x6de833df5bf7d51420d8b1c73a5ec8d865dd91f4d102d4c3ddec5190b85a56c4                  |
+
