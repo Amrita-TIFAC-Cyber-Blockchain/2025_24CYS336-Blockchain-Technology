@@ -41,13 +41,13 @@ This article propose a blockchain-based solution for securely storing and verify
 The implementation of a **blockchain-based digital notary** represents a forward-thinking application of technology that enhances efficiency and builds resilient digital infrastructure.  
 It modernizes traditional notarial and legal systems through secure, decentralized, and transparent processes, fostering innovation and sustainable technological advancement.  
 
----
+
 
 ### **SDG 12: Responsible Consumption and Production**  
 By transitioning from paper-based notarization to an electronic blockchain framework, the project significantly reduces paper waste and associated environmental impacts.  
 This aligns with sustainable consumption and production practices, promoting a digital-first, eco-conscious approach to documentation and verification.  
 
----
+
 
 ### **SDG 16: Peace, Justice, and Strong Institutions**  
 The project strengthens institutional trust by providing a transparent, tamper-proof mechanism for verifying and timestamping documents.  
@@ -65,6 +65,7 @@ Additionally, it facilitates reliable digital identities and registries, promoti
 2. Nasr, E., Nakhle, F., Nasr, J., El Khatib, O., & El Khatib, L. (2023, December). A Disruptive Blockchain Framework for Notary: Smart Contract and Digital Record Keeping. In 2023 IEEE 4th International Multidisciplinary Conference on Engineering Technology (IMCET) (pp. 253-258). IEEE.
 3. Tanriverdí, M. (2024). Publiceduchain: A framework for sharing student-owned educational data on public blockchain network. IEEE Access, 12, 51772-51785.
 4. Mainali, A., Rathore, P., Maheshwari, A., & Sharma, R. (2025). Blockchain-Based Document Verification System. Soft Computing Fusion with Applications.
+
 
 
 
