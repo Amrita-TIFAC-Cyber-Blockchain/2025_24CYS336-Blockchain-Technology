@@ -28,40 +28,7 @@ Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockch
 -----
 ### ARCHITECTURAL DIAGRAM
 
-flowchart TD
-    PARTICIPANTS[Participants\n(Logistics Officer, Supplier, Agency)]
-    UI[User Interface Layer\n(Web/App with MetaMask)]
-    SC[Application Layer\n(Solidity Smart Contracts)\n- Asset Registration\n- Ownership Transfer\n- Asset Tracking\n- Event Logging]
-    BC[Blockchain Layer\n(Sepolia Testnet)]
-    OF[Off-chain Storage\n(IPFS/Cloud for Docs & Certificates)]
-    API[Integration/API Layer\n(Defense ERP, IoT Trackers, Audit)]
-
-    PARTICIPANTS --> UI
-    UI --> SC
-    SC --> BC
-    SC --> OF
-    BC --> API
-    OF --> API
-
-    %% Layer Descriptions
-    subgraph Layer_1 [Participants Layer]
-        PARTICIPANTS
-    end
-    subgraph Layer_2 [User Interface Layer]
-        UI
-    end
-    subgraph Layer_3 [Application Layer]
-        SC
-    end
-    subgraph Layer_4 [Blockchain & Off-chain Layer]
-        BC
-        OF
-    end
-    subgraph Layer_5 [Integration/API Layer]
-        API
-    end
-
-
+<img width="1011" height="351" alt="ARCHITECTURAL BLOCK" src="https://github.com/user-attachments/assets/9cef12a7-4cff-453a-90ab-89a16ea0119e" />
 
 ------
 
@@ -92,6 +59,7 @@ flowchart TD
 
 5. Patel, D. S. (2022). *Blockchain for Challenges in Logistics and Supply Chain.* IEEE ICCES.  
    https://ieeexplore.ieee.org/document/10037294
+
 
 
 
