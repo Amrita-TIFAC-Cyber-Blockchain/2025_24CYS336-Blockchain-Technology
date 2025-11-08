@@ -210,7 +210,7 @@ The below image represents the accounts created for **INSTITUTE** and **ADMIN** 
 # IMAGES (Assets / Assignments)
 
 **Note:** The accounts of `ADMIN` and `INSTITUTE` were used and their respective outputs have been added to the folder:
-[IMAGES folder](./Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/)
+[IMAGES folder](./IMAGES/)
 
 
 ---
@@ -241,6 +241,7 @@ The Transactions done on 17-10-2025 were practised for certificate issuance in w
 
 
 ---
+
 
 
 
