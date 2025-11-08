@@ -4,8 +4,8 @@
 
 ## BT#24
 
-![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/Member-AKILESH--SENTHIL--KUMAR-gold)  <br/> 
-![RAHUL KRISHNA J](https://img.shields.io/badge/Member-RAHUL--KRISHNA--J-gold)  <br/> 
+![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold)  <br/> 
+![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -59,6 +59,7 @@ Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockch
 
 5. Patel, D. S. (2022). *Blockchain for Challenges in Logistics and Supply Chain.* IEEE ICCES.  
    https://ieeexplore.ieee.org/document/10037294
+
 
 
 
