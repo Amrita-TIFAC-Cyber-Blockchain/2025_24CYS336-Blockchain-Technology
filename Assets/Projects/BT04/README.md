@@ -25,7 +25,7 @@ This artical is introduced, allowing students to own and manage their data throu
 This article propose a blockchain-based solution for securely storing and verifying educational certificates. Documents are converted into a one-way hash and stored on the blockchain. Employers can verify authenticity by comparing the hash with the blockchain record. If altered, the hashes won’t match, ensuring tamper-proof credential validation.
 -----
 ### Architectural Diagram
-<img width="1024" height="1536" alt="image" src="" />
+<img width="1024" height="1536" alt="image" src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT04/assets/ARCHITECTURE.png" />
 
 ------
 
@@ -40,3 +40,4 @@ This article propose a blockchain-based solution for securely storing and verify
 1. Goncharova, A. (2024). Blockchain in digital notary services. Visegrad Journal on Human Rights, (4), 44-48.
 2. Tanriverdí, M. (2024). Publiceduchain: A framework for sharing student-owned educational data on public blockchain network. IEEE Access, 12, 51772-51785.
 3. Mainali, A., Rathore, P., Maheshwari, A., & Sharma, R. (2025). Blockchain-Based Document Verification System. Soft Computing Fusion with Applications.
+
