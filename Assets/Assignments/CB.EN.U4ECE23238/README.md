@@ -207,11 +207,8 @@ The below image represents the accounts created for **INSTITUTE** and **ADMIN** 
   <img width="400" height="180" alt="Institute and Admin Accounts" src="https://github.com/user-attachments/assets/7edde9c7-3a84-405d-b396-9bb871d5189d"/>
 </p>
 
-# IMAGES (Assets / Assignments)
-
-**Note:** The accounts of `ADMIN` and `INSTITUTE` were used and their respective outputs have been added to the folder:
-[IMAGES folder](./IMAGES/)
-
+**NOTE :** The accounts of `ADMIN` and `INSTITUTE` were used  and deployed contract outputs , verification of certificates , issual of certificates and their respective outputs have been added to the folder named :
+[IMAGES](./IMAGES/)
 
 ---
 
@@ -241,6 +238,7 @@ The Transactions done on 17-10-2025 were practised for certificate issuance in w
 
 
 ---
+
 
 
 
