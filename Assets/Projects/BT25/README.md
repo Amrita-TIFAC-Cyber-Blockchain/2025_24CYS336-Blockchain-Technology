@@ -4,12 +4,14 @@
 
 ## BT#24
 
-### Team Members
+![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold)<br>
+![CB.EN.U4ECE23203](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23203-blue)
 
-| Name | Roll Number |
-|------|-------------|
-| ![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold) | ![CB.EN.U4ECE23203](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23203-blue) |
-| ![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold) | ![CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue) |
+![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)<br>
+![CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)
+
+![Reviewed](https://img.shields.io/badge/Reviewed-TBD-brown)
+
 
 <br/>
 
