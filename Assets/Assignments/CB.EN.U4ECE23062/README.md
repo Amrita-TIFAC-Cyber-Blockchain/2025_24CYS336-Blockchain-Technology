@@ -33,7 +33,6 @@
 | Store value 2            | [0x6511812b0e6bc7d547ff3e2e66269faa830a46dedabcb1886cc82fe8e947aeef](https://sepolia.etherscan.io/tx/0x6511812b0e6bc7d547ff3e2e66269faa830a46dedabcb1886cc82fe8e947aeef)| 
 
 ### Lab - IPFS
-![](https://img.shields.io/badge/Date-29th_Sept-purple)
 
 ipfs initialization:
 
@@ -46,6 +45,7 @@ adding the file:
 saving the file:
 
 <img width="1451" height="92" alt="image" src="https://github.com/user-attachments/assets/fd94dca5-24d8-4e55-9aa9-e9b11c5a4ec4" />
+
 
 
 
