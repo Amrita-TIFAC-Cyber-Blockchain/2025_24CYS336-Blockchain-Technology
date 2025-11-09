@@ -75,5 +75,9 @@ Code :
     }
 
 
+### Lab - IPFS
+
+<img width="1472" height="701" alt="image" src="https://github.com/user-attachments/assets/a420fb1c-7be0-4cc2-b25a-0bebb1221f78" />
+
 
 
