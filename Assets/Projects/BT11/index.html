@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Decentralized Model Feedback</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+  <h2>Give Feedback</h2>
+  <label>Age: <input id="age" value="25"></label><br>
+  <label>Location:
+  <select id="loc">
+    <option>India</option>
+    <option>USA</option>
+    <option>UK</option>
+    <option>Germany</option>
+  </select>
+  </label><br>
+
+  <label>Gender: 
+    <select id="gender"><option>M</option><option>F</option></select>
+  </label><br>
+  <label>Preference: 
+    <select id="prev">
+      <option>sports</option><option>music</option>
+      <option>tech</option><option>food</option>
+    </select>
+  </label><br><br>
+  <button id="submitBtn">Submit Feedback (MetaMask)</button>
+  <button id="loadBtn">View Updates</button>
+  <pre id="log"></pre>
+
+<script>
+const abi = [
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_modelHash",
+				"type": "string"
+			}
+		],
+		"name": "attachModelHash",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getUpdate",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_userDataHash",
+				"type": "string"
+			}
+		],
+		"name": "submitUserData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "updateCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "updates",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "userDataHash",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "modelHash",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+];
+const contractAddress = "0x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5";
+let web3, contract, accounts;
+
+async function init() {
+  if (!window.ethereum) return alert("Install MetaMask first!");
+  web3 = new Web3(window.ethereum);
+  await window.ethereum.request({ method: "eth_requestAccounts" });
+  accounts = await web3.eth.getAccounts();
+  contract = new web3.eth.Contract(abi, contractAddress);
+  document.getElementById("log").textContent = "Connected: " + accounts[0];
+}
+async function sha256hex(str) {
+  const enc = new TextEncoder();
+  const bytes = enc.encode(str);
+  const buf = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+
+document.getElementById("submitBtn").onclick = async () => {
+  try {
+    const age = document.getElementById("age").value;
+    const loc = document.getElementById("loc").value;
+    const gender = document.getElementById("gender").value;
+    const prev = document.getElementById("prev").value;
+
+    // 1️⃣ Get prediction from Flask
+    const res = await fetch("http://127.0.0.1:5000/predict", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ age, location: loc, gender, prev_pref: prev })
+    });
+    const data = await res.json();
+    console.log("Prediction response:", data);
+    if (!data.possible_pref) return alert("No prediction returned.");
+
+    alert("We think you might like: " + data.possible_pref);
+    const feedback = confirm("Do you agree with this suggestion?");
+
+    // 2️⃣ Send feedback to Flask
+    await fetch("http://127.0.0.1:5000/feedback", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        age, location: loc, gender, previous_pref: prev,
+        possible_pref: data.possible_pref,
+        user_feedback: feedback ? "yes" : "no"
+      })
+    });
+
+    // 3️⃣ Hash data for blockchain
+    const obj = { age, location: loc, gender, previous_pref: prev, possible_pref: data.possible_pref };
+    const userHash = await sha256hex(JSON.stringify(obj));
+    document.getElementById("log").textContent = "User hash: " + userHash + "\nWaiting for MetaMask...";
+    console.log("User hash:", userHash);
+
+    // 4️⃣ MetaMask transaction
+    const from = accounts[0];
+    console.log("Sending tx from:", from);
+    const tx = await contract.methods.submitUserData(userHash).send({ from });
+    document.getElementById("log").textContent += "\nTx mined: " + tx.transactionHash;
+    console.log("Tx result:", tx);
+  } 
+  catch (err) {
+    console.error("Submit handler error:", err);
+    alert("Error: " + err.message);
+  }
+};
+
+document.getElementById("loadBtn").onclick = async () => {
+  const count = await contract.methods.updateCount().call();
+  let text = "Total updates: " + count + "\n";
+  for (let i = 0; i < count; i++) {
+    const u = await contract.methods.getUpdate(i).call();
+    text += `#${i} user:${u[0]} dataHash:${u[1].slice(0,12)}... model:${u[2].slice(0,12)}... time:${new Date(u[3]*1000).toLocaleString()}\n`;
+  }
+  document.getElementById("log").textContent = text;
+};
+
+init();
+</script>
+</body>
+</html>
