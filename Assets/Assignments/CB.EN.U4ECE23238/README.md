@@ -235,11 +235,19 @@ which connects to the **Metamask Account Address** used during contract deployme
 <sub>
 The Transactions done on 17-10-2025 were practised for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
 </sub>
-
-
 ---
 
+IPFS INITIALISATION :
+<img width="537" height="111" alt="image" src="https://github.com/user-attachments/assets/d3b66ad4-0c0a-4f5f-b37a-5fa3dc07cfeb" />
 
+ADDING A FILE INTO IPFS :
+<img width="1350" height="129" alt="image" src="https://github.com/user-attachments/assets/97dce9d1-678f-40a4-8d02-c354f928259b" />
+
+OPENING AND DOWNLOADING AN IPFS OBJECT :
+<img width="1366" height="137" alt="image" src="https://github.com/user-attachments/assets/29ddca43-5f5e-40e9-9d34-90fdae221210" />
+
+BLOCK DISTRIBUTION OF A FILE SEEN VIA IPFS DAG STAT :
+<img width="627" height="146" alt="image" src="https://github.com/user-attachments/assets/dfa4dbac-88dd-48fa-babf-3676b28b518f" />
 
 
 
