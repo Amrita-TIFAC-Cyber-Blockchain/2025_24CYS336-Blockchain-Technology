@@ -32,7 +32,7 @@
 
 
 
-### LAB more about solidity(basic certificate verification and storing only by the owner)
+### LAB more about solidity(basic certificate verification and storing only by the owner(MAPPING))
 ![](https://img.shields.io/badge/Date-29th_Sep-blue) <br/>
 
 | Wallet Address | [0x80D8e3a93fc807A9E8a20d8ba7981109C6066ee3](https://sepolia.etherscan.io/address/0x80d8e3a93fc807a9e8a20d8ba7981109c6066ee3) | 
@@ -40,6 +40,7 @@
 
 | smart contract address for certification only by owner | [0xaF7db52d84621BD4aD8713f43f67365611d390F6](https://sepolia.etherscan.io/address/0xaF7db52d84621BD4aD8713f43f67365611d390F6) |
 |:----------------------:|:-------------------------------------:|  
+
 
 
 
