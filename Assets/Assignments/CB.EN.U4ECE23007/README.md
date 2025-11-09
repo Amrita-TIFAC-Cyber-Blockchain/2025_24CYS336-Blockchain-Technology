@@ -53,7 +53,7 @@ Storing and retrieving online asset information
 
 **Code**
 
-[Uploading// SPDX-License-Identifier: GPL-3.0
+// SPDX-License-Identifier: GPL-3.0
 
 pragma solidity >=0.7.0 <0.9.0;
 
@@ -90,16 +90,4 @@ contract PlotRegistry{
     }
 
 }
-
- endsem.sol (1).txt…]()
-
-
-
-
-
-
-
-
-
-
 
