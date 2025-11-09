@@ -1,4 +1,4 @@
-[endsem.sol (1).txt](https://github.com/user-attachments/files/23432701/endsem.sol.1.txt)<p align="center">
+<p align="center">
     <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
 </p>
 
@@ -92,6 +92,7 @@ contract PlotRegistry{
 }
 
  endsem.sol (1).txt…]()
+
 
 
 
