@@ -4,7 +4,7 @@
 
 ## BT#24
 
-![AKILESH SENTHIL KUMAR CB.EN.U4ECE23203](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR/ROLL-NO-:CB.EN.U4ECE23203-gold)        <br/>
+![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR/ROLL-NO-:CB.EN.U4ECE23203-gold)        <br/>
 
 ![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)                    ![CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)<br/>
 
