@@ -33,6 +33,42 @@ To overcome these issues, this project proposes a blockchain-based verification 
 
 ------
 
+
+-----
+
+### Blockchain Decision Tree (NITI Aayog)
+1) Is there a compelling business case to reduce intermediaries?
+Answer: Yes
+
+2) Are multiple (i.e. 2 or more) stakeholders involved?
+Answer: Yes
+
+3) Are you working with digital assets instead of physical assets?
+Answer: Yes
+
+4) Do multiple parties require shared write access?
+Answer: Yes
+
+5) Do you require high performance/rapid transactions (milliseconds)?
+Answer: No
+
+6) Do you intend to store non-transactional data as part of your solution?
+Answer: No
+
+7) Do you want/need to rely on a trusted party i.e. for compliance reasons?
+Answer: No
+
+8) Do you need the ability to control functionality?
+Answer: No
+
+9) Should transactions be public?
+Answer: Yes
+
+Final Solution: Strong case for Public Blockchain
+
+
+------
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | **SDG**                                             | **Project’s Alignment Towards the Goal**                                                                                                                                                                                                |
@@ -51,6 +87,7 @@ To overcome these issues, this project proposes a blockchain-based verification 
 [1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
 
 [2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
 
