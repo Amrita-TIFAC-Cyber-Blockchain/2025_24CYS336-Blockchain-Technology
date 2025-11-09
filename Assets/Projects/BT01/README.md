@@ -35,11 +35,18 @@ Neovius and Westerlund (2018) proposed distributed ledger-based solutions to pro
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+| **SDG Goal** | **Alignment with the Project** |
+|---------------|--------------------------------|
+| **SDG 9: Industry, Innovation, and Infrastructure** | Builds resilient digital infrastructure using blockchain to modernize evidence management and enhance reliability. |
+| **SDG 12: Responsible Consumption and Production** | Reduces paper use by digitizing custody records, supporting eco-friendly, sustainable justice systems. |
+| **SDG 16: Peace, Justice, and Strong Institutions** | Ensures transparency, trust, and tamper-proof evidence handling, strengthening judicial and law enforcement integrity. |
+
 
 
 -----
 
 ### References
+
 
 
 
