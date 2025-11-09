@@ -36,17 +36,18 @@
 ![](https://img.shields.io/badge/Date-29th_Sept-purple)
 
 ipfs initialization:
-|:----------------------:|:-------------------------------------|
+
 <img width="824" height="229" alt="Screenshot 2025-11-09 093958" src="https://github.com/user-attachments/assets/5875cd33-d712-4c51-beee-5cf5ef613eba" />
-|:----------------------:|:-------------------------------------|
+
 adding the file:
-|:----------------------:|:-------------------------------------|
+
 <img width="1441" height="141" alt="image" src="https://github.com/user-attachments/assets/2563844d-5bad-444b-8d34-04d539117dab" />
-|:----------------------:|:-------------------------------------|
+
 saving the file:
-|:----------------------:|:-------------------------------------|
+
 <img width="1451" height="92" alt="image" src="https://github.com/user-attachments/assets/fd94dca5-24d8-4e55-9aa9-e9b11c5a4ec4" />
-|:----------------------:|:-------------------------------------|
+
+
 
 
 
