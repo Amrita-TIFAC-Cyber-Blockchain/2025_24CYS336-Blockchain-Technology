@@ -238,20 +238,20 @@ The Transactions done on 17-10-2025 were practised for certificate issuance in w
 
 ---
 IPFS INITIALISATION :
-
 <img width="537" height="111" alt="image" src="https://github.com/user-attachments/assets/d3b66ad4-0c0a-4f5f-b37a-5fa3dc07cfeb" />
 
-ADDING A FILE INTO IPFS :
 
+ADDING A FILE INTO IPFS :
 <img width="1350" height="129" alt="image" src="https://github.com/user-attachments/assets/97dce9d1-678f-40a4-8d02-c354f928259b" />
 
-OPENING AND DOWNLOADING AN IPFS OBJECT :
 
+OPENING AND DOWNLOADING AN IPFS OBJECT :
 <img width="1366" height="137" alt="image" src="https://github.com/user-attachments/assets/29ddca43-5f5e-40e9-9d34-90fdae221210" />
 
-BLOCK DISTRIBUTION OF A FILE SEEN VIA IPFS DAG STAT :
 
+BLOCK DISTRIBUTION OF A FILE SEEN VIA IPFS DAG STAT :
 <img width="627" height="146" alt="image" src="https://github.com/user-attachments/assets/dfa4dbac-88dd-48fa-babf-3676b28b518f" />
+
 
 
 
