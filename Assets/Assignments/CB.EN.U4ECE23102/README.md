@@ -28,11 +28,12 @@
 
 ![](https://img.shields.io/badge/Date-22/9/25-purple) <br/>
 ### Lab X - Solidity and Remix IDE (22/9/25)  
-| Smart Contract Address | [0x1d3668b0f9fe2c7460d67253294e0d8cdab6d282](https://sepolia.etherscan.io/tx/0x1cd2158c9d0973a80f9abad3035a52c31f317ebeaa21897cb972d8bff89f63d6) |
+| Smart Contract Address | [0xc94bc18cf3492a81e783a175b342329a3c878013](https://sepolia.etherscan.io/tx/0x2a2e0a91d7a2b29931f31c3b52540cb93ddeb390dc646d55ed03edff849fb385) |
 |:----------------------:|:-------------------------------------:|
-| Store and retrieve 1      | [0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a](https://sepolia.etherscan.io/tx/0xc168d8196f22596b0d8784994c661e126c2b5f7ddb2aaab8f2bfdc493248031a) |
+| Store and retrieve 1      | [0x682177de5beefa8bca0d27165b0a9001fd0583fc9749bf16851ae68f30a73ed6](https://sepolia.etherscan.io/tx/0x682177de5beefa8bca0d27165b0a9001fd0583fc9749bf16851ae68f30a73ed6) |
 | Store and retrieve 2      | [0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c](https://sepolia.etherscan.io/tx/0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c) |
-| Store and retrieve 3      | [0x3791695557c871f79862e0deaf1dd8916c5eefdb0a41ad84f15c682ead46c830](https://sepolia.etherscan.io/tx/0x3791695557c871f79862e0deaf1dd8916c5eefdb0a41ad84f15c682ead46c830) |
+
+
 
 
 
