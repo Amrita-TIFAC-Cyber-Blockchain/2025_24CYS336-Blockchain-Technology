@@ -27,8 +27,12 @@
 | Voter 524         | [0x55de648b8d5af19462fb651a31261a3104234df551e984981868f55742924f40](https://sepolia.etherscan.io/tx/0x55de648b8d5af19462fb651a31261a3104234df551e984981868f55742924f40) |
 
 ### Lab - More about Solidity 
-![](https://img.shields.io/badge/Date-15th_Sep-blue) <br/>
-| Smart Contract Address | [
+
+| Smart Contract Address | [0x3c7efeb3772b319975c639a789b34c8ee4006491](https://sepolia.etherscan.io/address/0x3c7efeb3772b319975c639a789b34c8ee4006491) |
+|:----------------------:|:-------------------------------------:|
+| Add Product 1        | [0x1de39af827f1ea34ebd6737b71620e6615f5ded84d1eff00acab04c1c040ab8d](https://sepolia.etherscan.io/tx/0x1de39af827f1ea34ebd6737b71620e6615f5ded84d1eff00acab04c1c040ab8d) |
+| Add Product 2         | [0x5ce1c68e01665bdbdadee6cc56786a4351998de670ba825a7d9d6640ee4a37f8](https://sepolia.etherscan.io/tx/0x5ce1c68e01665bdbdadee6cc56786a4351998de670ba825a7d9d6640ee4a37f8) |
+| Change Store Manager         | [0x60140890e6370daa4614b2054bcdc8faa3e541738725c7f54cff7128de9d8f5a](https://sepolia.etherscan.io/tx/0x60140890e6370daa4614b2054bcdc8faa3e541738725c7f54cff7128de9d8f5a) |
 
 ### Lab - IPFS
 
@@ -111,6 +115,7 @@ Unique Blocks: 58
 Shared Size: 0
 Ratio: 1.000000
 ```
+
 
 
 
