@@ -34,9 +34,13 @@
 
 ### Practice
 
-| Smart Contract Address | [0xf677f7fa6fe9b963d6646b85df8c039e158ed788](https://sepolia.etherscan.io/tx/0xe13d49009711eac82a6df87f2baa47605005a1e4d37dec95dd63a1eb8561fc81) |
+| Smart Contract Address 1| [0xf677f7fa6fe9b963d6646b85df8c039e158ed788](https://sepolia.etherscan.io/tx/0xe13d49009711eac82a6df87f2baa47605005a1e4d37dec95dd63a1eb8561fc81) |
 |:----------------------:|:-------------------------------------|
-| Store value             | [0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc](https://sepolia.etherscan.io/tx/0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc)| 
+| Store value 1            | [0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc](https://sepolia.etherscan.io/tx/0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc)| 
+
+| Smart Contract Address 2| [0x2ea8e62e14c00ad0f66b755827b67c6bd8dcdddf](https://sepolia.etherscan.io/address/0x2ea8e62e14c00ad0f66b755827b67c6bd8dcdddf) |
+|:----------------------:|:-------------------------------------|
+| Store value 2            | [0x93c558f4705e548c0272c655c5ac1c929f9948bda1d35cdb0bb9bd0a6bc8cbf2](https://sepolia.etherscan.io/tx/0x93c558f4705e548c0272c655c5ac1c929f9948bda1d35cdb0bb9bd0a6bc8cbf2)| 
 
 
 ### Lab - IPFS
@@ -57,6 +61,7 @@ Downloading IPFS object:
 
 Block distribution of the file:
 <img width="1788" height="315" alt="image" src="https://github.com/user-attachments/assets/a4c1e9b5-6d58-4b3b-9983-8dcd1a87bcbd" />
+
 
 
 
