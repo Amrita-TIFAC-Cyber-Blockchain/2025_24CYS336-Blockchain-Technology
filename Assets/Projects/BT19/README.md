@@ -8,14 +8,14 @@
 ![](https://img.shields.io/badge/Subject-Blockchain-blue)  
 <br/>
 
-## 🧠 BT#19 – Blockchain-Based Multi-Energy System  
+##  BT#19 – Blockchain-Based Multi-Energy System  
 
 ![](https://img.shields.io/badge/Member-Gajan%20S%20(cb.en.u4ece23218)%20%7C%20Hariharan%20R%20(cb.en.u4ece23223)-gold)  
 ![](https://img.shields.io/badge/Reviewed-TBD-brown)  
 
 ---
 
-### 🧩 Problem Statement
+###  Problem Statement
 
 The increasing use of solar panels and other renewable energy sources in homes and communities is good for the environment, but it also creates challenges for electricity grids. At certain times, there can be too much energy produced, while at other times there may not be enough. This imbalance can cause stress on the grid and make energy supply less reliable.
 
@@ -31,7 +31,7 @@ Traditional centralized systems can be slow, less transparent, and vulnerable to
 
 ---
 
-### 📚 Literature Survey
+###  Literature Survey
 
 Researchers have been exploring ways to improve local energy systems as more renewable energy sources, like solar panels, are installed. One important approach is the **multi-carrier energy system (MES)**, which combines electricity, heating, cooling, and other energy forms so they can store, convert, and share energy efficiently. Studies show MES can help reduce carbon emissions, improve energy efficiency, and handle the variability of renewable energy.
 
@@ -43,7 +43,7 @@ Previous research has tested various pricing strategies—like real-time pricing
 
 ---
 
-### 🏗️ Architectural Diagram
+###  Architectural Diagram
 
 The architectural diagram of the **Blockchain-Based Multi-Energy System** is shown below.
 
@@ -53,7 +53,7 @@ The architectural diagram of the **Blockchain-Based Multi-Energy System** is sho
 
 ---
 
-### 🗺️ Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | **SDG Goal** | **Alignment with Blockchain-Based Multi-Energy System** |
 |---------------|----------------------------------------------------------|
@@ -67,7 +67,7 @@ The architectural diagram of the **Blockchain-Based Multi-Energy System** is sho
 
 ---
 
-### 📖 References
+###  References
 
 1. Yu, Q., Meeuw, A., & Wortmann, F. (2018). *Design and implementation of a blockchain multi-energy system.* **Energy Informatics**, 1(Suppl 1), 17. [https://doi.org/10.1186/s42162-018-0040-4](https://doi.org/10.1186/s42162-018-0040-4)
 
@@ -86,24 +86,12 @@ The architectural diagram of the **Blockchain-Based Multi-Energy System** is sho
 
 
 
-<p align="center">
-  <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt="Amrita TIFAC" width="700" />
-</p>
 
-# 24CYS336 - Blockchain Technology  
-![](https://img.shields.io/badge/Batch-22UCYS-gold) 
-![](https://img.shields.io/badge/UG-blue) 
-![](https://img.shields.io/badge/Subject-Blockchain-blue)  
-<br/>
 
-## 🧠 BT#19 – Blockchain-Based Multi-Energy System  
+## Blockchain Implementation using Solidity ( REMIX - ETHEREUM IDE ) 
 
-![](https://img.shields.io/badge/Member-Gajan%20S%20(cb.en.u4ece23218)%20%7C%20Hariharan%20R%20(cb.en.u4ece23223)-gold)  
-![](https://img.shields.io/badge/Reviewed-TBD-brown)  
 
----
-
-### 🧩 Problem Statement
+###  Problem Statement
 
 The transition toward renewable energy sources like solar, wind, and hydro has increased decentralized energy production. However, the current centralized grid systems struggle with load balancing, energy distribution, and transaction transparency between producers and consumers.  
 
@@ -117,12 +105,12 @@ This project aims to develop a **Blockchain-Based Multi-Energy System** using So
 
 ---
 
-### ⚙️ System Overview
+###  System Overview
 
 The implemented smart contract — **`MultiEnergyBlocks.sol`** — is designed as a **block representation model** for a decentralized energy trading network.  
 It is not a transactional trading platform but a **data-layer abstraction**, capturing and organizing entities in the energy ecosystem.
 
-#### ✅ Core Components
+####  Core Components
 
 1. **Producer Block**  
    Represents renewable energy producers such as solar or wind farms.  
@@ -147,7 +135,7 @@ It is not a transactional trading platform but a **data-layer abstraction**, cap
 
 ---
 
-### 🧠 Smart Contract Workflow
+###  Smart Contract Workflow
 
 Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 
@@ -171,7 +159,7 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 
 ---
 
-### 🏗️ Architectural Representation
+###  Architectural Representation
 
 <p align="center">
   <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/BT19_Architecture.png" alt="Architecture Diagram" width="800" />
@@ -186,7 +174,7 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 
 ---
 
-### 🗺️ Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | **SDG Goal** | **Alignment with Blockchain-Based Multi-Energy System** |
 |---------------|----------------------------------------------------------|
@@ -200,7 +188,7 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 
 ---
 
-### 📖 References
+###  References
 
 1. Yu, Q., Meeuw, A., & Wortmann, F. (2018). *Design and implementation of a blockchain multi-energy system.* **Energy Informatics**, 1(Suppl 1), 17. [https://doi.org/10.1186/s42162-018-0040-4](https://doi.org/10.1186/s42162-018-0040-4)
 
@@ -212,4 +200,5 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
 
