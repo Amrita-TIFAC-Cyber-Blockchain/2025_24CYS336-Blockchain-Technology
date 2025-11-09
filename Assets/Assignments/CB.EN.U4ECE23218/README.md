@@ -6,7 +6,7 @@
 
 ## ASSIGNMENTS - CB.EN.U4ECE23218
 
-![NAME - Gajan S](https://img.shields.io/badge/NAME-Gajan%20S%20J-blue)  
+![NAME - Gajan S](https://img.shields.io/badge/NAME-Gajan%20S%20-blue)  
 ![ROLL NO - CB.EN.U4ECE23218](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23218-blue)
 
 ---
@@ -16,10 +16,11 @@
 | ROLE | WALLET ADDRESS | NETWORK | LINK |
 |:----:|:---------------|:--------|:-----|
 | **Admin** | `0x950Cb5347259130DA8b631952CDC3A364269c280` | Sepolia | [View on Etherscan](https://sepolia.etherscan.io/address/0x950Cb5347259130DA8b631952CDC3A364269c280) |
+| **Institution 1** | `0xB29078D74f2FCD6bB53Ba8E86a53492e16279fad` | Sepolia | [View on Etherscan](https://sepolia.etherscan.io/address/0xB29078D74f2FCD6bB53Ba8E86a53492e16279fad) |
 | **Institution 2** | `0x3434d8C187591FC131295282937a2aD50CB6E3F6` | Sepolia | [View on Etherscan](https://sepolia.etherscan.io/address/0x3434d8C187591FC131295282937a2aD50CB6E3F6) |
 | **Student (for testing)** | `0x2D996a60c8EBB5386918CbB4289bAB1754b990F1` | Sepolia | [View on Etherscan](https://sepolia.etherscan.io/address/0x2D996a60c8EBB5386918CbB4289bAB1754b990F1) |
 
----
+--- 
 
 ### 🧠 LAB 6 - CERTIFICATE REGISTRY SMART CONTRACT
 
@@ -132,4 +133,5 @@ contract CertificateRegistry {
 
 }
 ![WhatsApp Image 2025-11-09 at 17 43 09_36900ef9](https://github.com/user-attachments/assets/21669992-4c73-4a83-8367-41ba7b3aa875)
+
 
