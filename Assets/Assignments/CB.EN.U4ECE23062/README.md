@@ -32,6 +32,18 @@
 | Store value 1            | [0xe95c93b08dcb64b3cf8860154ac3de88403930e9144e358023476d69bb0ae80f](https://sepolia.etherscan.io/tx/0xe95c93b08dcb64b3cf8860154ac3de88403930e9144e358023476d69bb0ae80f)| 
 | Store value 2            | [0x6511812b0e6bc7d547ff3e2e66269faa830a46dedabcb1886cc82fe8e947aeef](https://sepolia.etherscan.io/tx/0x6511812b0e6bc7d547ff3e2e66269faa830a46dedabcb1886cc82fe8e947aeef)| 
 
+
+### Practice
+
+| Smart Contract Address 1| [0xf677f7fa6fe9b963d6646b85df8c039e158ed788](https://sepolia.etherscan.io/tx/0xe13d49009711eac82a6df87f2baa47605005a1e4d37dec95dd63a1eb8561fc81) |
+|:----------------------:|:-------------------------------------|
+| Store value 1            | [0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc](https://sepolia.etherscan.io/tx/0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc)| 
+
+| Smart Contract Address 2| [0x2ea8e62e14c00ad0f66b755827b67c6bd8dcdddf](https://sepolia.etherscan.io/address/0x2ea8e62e14c00ad0f66b755827b67c6bd8dcdddf) |
+|:----------------------:|:-------------------------------------|
+| Store value 2            | [0x93c558f4705e548c0272c655c5ac1c929f9948bda1d35cdb0bb9bd0a6bc8cbf2](https://sepolia.etherscan.io/tx/0x93c558f4705e548c0272c655c5ac1c929f9948bda1d35cdb0bb9bd0a6bc8cbf2)| 
+
+
 ### Lab - IPFS
 
 ipfs initialization:
@@ -45,6 +57,7 @@ adding the file:
 saving the file:
 
 <img width="1451" height="92" alt="image" src="https://github.com/user-attachments/assets/fd94dca5-24d8-4e55-9aa9-e9b11c5a4ec4" />
+
 
 
 
