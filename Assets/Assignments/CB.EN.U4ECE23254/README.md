@@ -27,6 +27,30 @@
 | Gas Price               | 1.500084281 Gwei |
 
 ---
+![DATE](https://img.shields.io/badge/DATE-17/10/2025-red) <br/>
+
+| Smart Contract Address |[0xc20f07Ea69fB4256742095529Dcce85Af109CaAe](https://sepolia.etherscan.io/address/0xc20f07Ea69fB4256742095529Dcce85Af109CaAe) |
+|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Transaction Hash       | [0xc90dadf6d8fa19f86e91a77d4f0ecc1b0b58ba67dcefd44a4cab31446ca4bf93](https://sepolia.etherscan.io/tx/0xc90dadf6d8fa19f86e91a77d4f0ecc1b0b58ba67dcefd44a4cab31446ca4bf93) |
+| Status                 | Success |
+| Block                  | 9428951 |
+| Timestamp              | Oct-17-2025 05:16:00 AM UTC |
+| Value                  | 0 ETH |
+| Transaction Fee         | 0.001611909009671454 ETH |
+| Gas Price               | 1.500000009 Gwei |
+
+---
+![DATE](https://img.shields.io/badge/DATE-17/10/2025-red) <br/>
+
+| Smart Contract Address |[0xebE14A6D30865003968450192dAd4444C30Ca0b3](https://sepolia.etherscan.io/address/0xebE14A6D30865003968450192dAd4444C30Ca0b3) |
+|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Transaction Hash       | [0x4b544d0c08fe79e8159eb0a927d145d043ebff92a033045d5f33bd57b400136a](https://sepolia.etherscan.io/tx/0x4b544d0c08fe79e8159eb0a927d145d043ebff92a033045d5f33bd57b400136a) |
+| Status                 | Success |
+| Block                  | 9428979 |
+| Timestamp              | Oct-17-2025 05:21:36 AM UTC |
+| Value                  | 0 ETH |
+| Transaction Fee         | 0.001611909009671454 ETH |
+| Gas Price               | 1.500000009 Gwei |
 
 
 
