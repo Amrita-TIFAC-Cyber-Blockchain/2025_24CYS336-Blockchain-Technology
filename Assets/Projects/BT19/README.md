@@ -48,7 +48,8 @@ Previous research has tested various pricing strategies—like real-time pricing
 The architectural diagram of the **Blockchain-Based Multi-Energy System** is shown below.
 
 <p align="center">
-  <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/BT19_Architecture.png" alt="Architecture Diagram" width="800" />
+  <img width="500" height="315" alt="image" src="https://github.com/user-attachments/assets/a555c80b-0030-4a77-b0ee-a3e5a568b1c8" />
+
 </p>
 
 ---
@@ -160,7 +161,8 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 ###  Architectural Representation
 
 <p align="center">
-  <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/BT19_Architecture.png" alt="Architecture Diagram" width="800" />
+ <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2fd8c451-c504-4b71-bbde-9240226c7e17" />
+
 </p>
 
 #### Architecture Description
@@ -198,6 +200,7 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
 
 
 
