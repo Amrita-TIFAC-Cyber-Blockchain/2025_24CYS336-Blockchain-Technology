@@ -131,3 +131,5 @@ contract CertificateRegistry {
     }
 
 }
+![WhatsApp Image 2025-11-09 at 17 43 09_36900ef9](https://github.com/user-attachments/assets/21669992-4c73-4a83-8367-41ba7b3aa875)
+
