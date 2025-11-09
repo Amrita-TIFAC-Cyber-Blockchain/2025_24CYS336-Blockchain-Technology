@@ -59,8 +59,9 @@ Opening a file:
 Downloading IPFS object:
 <img width="1902" height="122" alt="image" src="https://github.com/user-attachments/assets/727a3e90-50fc-4137-af60-bcef1608de76" />
 
-Block distribution of the file:
+Block and size of the file:
 <img width="1788" height="315" alt="image" src="https://github.com/user-attachments/assets/a4c1e9b5-6d58-4b3b-9983-8dcd1a87bcbd" />
+
 
 
 
