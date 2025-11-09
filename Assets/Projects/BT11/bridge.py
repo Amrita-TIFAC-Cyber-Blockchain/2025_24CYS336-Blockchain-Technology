@@ -50,7 +50,7 @@ def predict():
     }])
     df.to_csv(CSV_FILE, mode='a', header=not os.path.exists(CSV_FILE), index=False)
 
-    return jsonify({"possible_pref": possible_pref})   # <--- notice only "possible_pref" now
+    return jsonify({"possible_pref": possible_pref})  
 
 
 @app.route("/feedback", methods=["POST"])
@@ -66,3 +66,4 @@ def feedback():
 
 if __name__ == "__main__":
     app.run(port=5000)
+
