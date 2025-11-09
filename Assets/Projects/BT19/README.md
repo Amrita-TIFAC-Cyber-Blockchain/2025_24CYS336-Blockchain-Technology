@@ -88,8 +88,7 @@ The architectural diagram of the **Blockchain-Based Multi-Energy System** is sho
 
 
 
-## Blockchain Implementation using Solidity ( REMIX - ETHEREUM IDE ) 
-
+<p style="color: green;">## Blockchain Implementation using Solidity ( REMIX - ETHEREUM IDE )</p>
 
 ###  Problem Statement
 
@@ -200,5 +199,6 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
 
 
