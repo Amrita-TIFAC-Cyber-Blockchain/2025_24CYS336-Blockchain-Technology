@@ -130,3 +130,104 @@ contract DefenceLogistics {
 }
 
 ```
+TEST CASES USED AND RESPECTIVE OUTPUTS ARE PRESENT IN IMAGES FOLDER : [LINK FOR IMAGES FOLDER](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/tree/main/Assets/Projects/BT25/IMAGES)
+
+
+## 1. Successful Asset Registration
+- **From Address:** Logistics Officer  
+- **Function:** `registerAsset(1, "Night Vision Goggles", "OrdnanceSupplierLtd", "QmAF123...ipfs", "Initial Issue Batch")`  
+- **Expected Result:**  
+  - Transaction succeeds  
+  - `AssetRegistered` event emitted  
+  - Asset ID `1` stored with correct details  
+
+---
+
+## 2. Attempt Registration by Wrong Address
+- **From Address:** Depot Manager  
+- **Function:** `registerAsset(2, "Drone", "AeroTech", "Qm324ipfs...", "Attempt by wrong role")`  
+- **Expected Result:**  
+  - Transaction reverts  
+  - Error: **"Only logistics officer"**
+
+---
+
+## 3. Ownership Transfer by Depot Manager
+- **From Address:** Depot Manager  
+- **Function:** `transferAsset(1, 0x123...abc, "In-Transit", "Dispatched to field")`  
+- **Expected Result:**  
+  - Transaction succeeds  
+  - `currentHolder` updated to `0x123...abc`  
+  - `AssetTransferred` event emitted  
+
+---
+
+## 4. Ownership Transfer by Unauthorized User
+- **From Address:** Agency Auditor  
+- **Function:** `transferAsset(1, 0x222...efg, "Lost", "Fake transfer")`  
+- **Expected Result:**  
+  - Transaction reverts  
+  - Error: **"Only depot manager"**
+
+---
+
+## 5. Change Supplier by Logistics Officer
+- **From Address:** Logistics Officer  
+- **Function:** `changeSupplier(1, "NewDefenceSupplierInc")`  
+- **Expected Result:**  
+  - Transaction succeeds  
+  - Supplier updated to `NewDefenceSupplierInc`  
+  - `SupplierChanged` event emitted  
+
+---
+
+## 6. Supplier Change by Unauthorized User
+- **From Address:** Depot Manager  
+- **Function:** `changeSupplier(1, "NotAllowedInc")`  
+- **Expected Result:**  
+  - Transaction reverts  
+  - Error: **"Only logistics officer"**
+
+---
+
+## 7. Audit Asset by Auditor
+- **From Address:** Agency Auditor  
+- **Function:** `auditAsset(1, "Checked, all serials match manifests.")`  
+- **Expected Result:**  
+  - Transaction succeeds  
+  - `AssetAudited` event emitted  
+  - Audit entry appended to audit history  
+
+---
+
+## 8. Check Asset Details
+- **From Address:** Any  
+- **Function:** `getAsset(1)`  
+- **Expected Result:**  
+  - Returns:
+    - Part Name  
+    - Supplier  
+    - Current Holder  
+    - Registration Timestamp  
+    - IPFS Hash  
+
+---
+
+## 9. Check Asset History (Audit Trail)
+- **From Address:** Any  
+- **Function:** `getAssetHistory(1)`  
+- **Expected Result:**  
+  - Returns ordered event history including:
+    - Registration  
+    - Transfers  
+    - Supplier Changes  
+    - Audits  
+
+---
+
+## 10. Attempt to Register Same Asset Twice
+- **From Address:** Logistics Officer  
+- **Function:** `registerAsset(1, "Recoilless Rifle", "ArmTech", "QmAnother...", "Duplicate")`  
+- **Expected Result:**  
+  - Transaction reverts  
+  - Error: **"Asset already registered"**
