@@ -78,7 +78,12 @@ Code :
 ### Lab - IPFS
 ![](https://img.shields.io/badge/Date-13th_oct-purple) 
 
+
 <img width="1472" height="701" alt="image" src="https://github.com/user-attachments/assets/a420fb1c-7be0-4cc2-b25a-0bebb1221f78" />
+
+#### IPFS ID
+<img width="1121" height="230" alt="image" src="https://github.com/user-attachments/assets/3c43897a-705e-4f99-83ed-88e139727252" />
+
 
 #### Initialising IPFS
 <img width="886" height="121" alt="image" src="https://github.com/user-attachments/assets/13b14674-5d4c-4469-acd1-67e966281b17" />
@@ -92,6 +97,7 @@ Code :
 
 | File hash | QmZVGmE5Ss6eRHjnfehAxNxPydVYuXsiFp1fzrXsFWfP7B |
 |:----------------------:|:-------------------------------------:|
+
 
 
 
