@@ -27,5 +27,53 @@
 | Store Value      | [0x3b179cb42bde5e4cf70ebd5ac444fe17e95c0b8692b8ae3d667fabdb30c786f5](https://sepolia.etherscan.io/tx/0x3b179cb42bde5e4cf70ebd5ac444fe17e95c0b8692b8ae3d667fabdb30c786f5) |
 
 
+### Lab - Mapping in Solidity
+
+| Smart Contract Address | [0x34a3630a8cff7e200ff39009c971f67fa7b6b2a4](https://sepolia.etherscan.io/tx/0xc4676e3ad0d517f5202d377a4ba24c7e51b0af0822a3b7d9a7633a5a9854b551) |
+|:----------------------:|:-------------------------------------:|
+| Store Value      | [0xf60d20699c06a7deca50d20cd1de42fd05354a0753b3b1e02a76b595b79540a4](https://sepolia.etherscan.io/tx/0xf60d20699c06a7deca50d20cd1de42fd05354a0753b3b1e02a76b595b79540a4) |
+
+Code :
+
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.0;
+
+    contract StudentRecords {
+        struct Student {
+            string name;
+            uint256 rollNo;
+            string place;
+            string college;
+            uint256 number;
+        }
+
+    mapping(uint256 => Student) public students;
+
+    function addStudent(
+        uint256 _rollNo,
+        string memory _name,
+        string memory _place,
+        string memory _college,
+        uint256 _number
+    ) public {
+        students[_rollNo] = Student({
+            name: _name,
+            rollNo: _rollNo,
+            place: _place,
+            college: _college,
+            number: _number
+        });
+    }
+
+    function getStudent(uint256 _rollNo)
+        public
+        view
+        returns (Student memory)
+    {
+        return students[_rollNo];
+    }
+    }
+
+
 
 
