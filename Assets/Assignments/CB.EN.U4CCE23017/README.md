@@ -31,9 +31,11 @@
 ### Lab - Mapping
 ![](https://img.shields.io/badge/Date-29th_Sept-purple)
 
-| Smart Contract Address | [0x6F082898e3F2E2F5819Cf011EF4b5E991372558C](https://sepolia.etherscan.io/address/0x6F082898e3F2E2F5819Cf011EF4b5E991372558C) |
+| Smart Contract Address | [0x115CA33566605927202377B2973EC387763d4205](https://sepolia.etherscan.io/address/0x115CA33566605927202377B2973EC387763d4205) |
 |:----------------------:|:-------------------------------------|
-| Store value            | [0xbe5d93ac2118a5fd0d0431ae22549feb18cd6120c3b2f4be24d0d043e61c0aa1](https://sepolia.etherscan.io/tx/0xbe5d93ac2118a5fd0d0431ae22549feb18cd6120c3b2f4be24d0d043e61c0aa1) |
+| Store value 1 - Add product         | [0xcbdcdf79452c016d2d72988e3f7ed65f054b01395c5d1ef2459182b975f1b621](https://sepolia.etherscan.io/tx/0xcbdcdf79452c016d2d72988e3f7ed65f054b01395c5d1ef2459182b975f1b621) |
+| Store value 2 - ChangeStoreManager  | [0x63db0e9e2912e2b459e9bb52862a3d188020f0a2ce570d3460d7b9df695f4e1a](https://sepolia.etherscan.io/tx/0x63db0e9e2912e2b459e9bb52862a3d188020f0a2ce570d3460d7b9df695f4e1a) |
+
 
 
 
