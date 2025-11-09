@@ -41,8 +41,30 @@
 
 ### Lab - IPFS
 IPFS initialisation:
-
 <img width="1088" height="213" alt="image" src="https://github.com/user-attachments/assets/101bb85e-a2ad-4a2a-8860-4122d853edcd" />
+
+Adding a file:
+<img width="1714" height="217" alt="image" src="https://github.com/user-attachments/assets/07fae630-f531-410e-b2af-7d84f9f61656" />
+
+Using 'ipfs pin add' to Prevent Garbage Collection:
+<img width="1721" height="111" alt="image" src="https://github.com/user-attachments/assets/0c37260f-111a-41d0-91e8-ae99ed43c3b9" />
+
+Opening a file:
+<img width="1706" height="660" alt="image" src="https://github.com/user-attachments/assets/6cbe7b95-f42c-4e56-83d5-856eaa39ccfe" />
+
+Downloading IPFS object:
+<img width="1902" height="122" alt="image" src="https://github.com/user-attachments/assets/727a3e90-50fc-4137-af60-bcef1608de76" />
+
+Block distribution of the file:
+<img width="1788" height="315" alt="image" src="https://github.com/user-attachments/assets/a4c1e9b5-6d58-4b3b-9983-8dcd1a87bcbd" />
+
+
+
+
+
+
+
+
 
 
 
