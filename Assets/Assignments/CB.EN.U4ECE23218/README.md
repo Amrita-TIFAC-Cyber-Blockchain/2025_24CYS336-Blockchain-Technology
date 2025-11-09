@@ -126,6 +126,6 @@ contract CertificateRegistry {
 
 }
 
-![WhatsApp Image 2025-11-09 at 17 43 09_a1d53312](https://github.com/user-attachments/assets/3fd4a801-f5ea-4c2e-8a5e-0f6668e93e9e)
+
 
 
