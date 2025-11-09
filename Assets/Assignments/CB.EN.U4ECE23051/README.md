@@ -32,6 +32,15 @@
 | Store value 1            | [0x5ecc55fb9baa86d6909e115f3a9bfe7608ad4cc531908c65eec7c80e9f7d2e48](https://sepolia.etherscan.io/tx/0x5ecc55fb9baa86d6909e115f3a9bfe7608ad4cc531908c65eec7c80e9f7d2e48)| 
 | Store value 2            | [0x729274f1674d416c6494adbce5d0d352359e4aab385672d949dcca709745e9f9](https://sepolia.etherscan.io/tx/0x729274f1674d416c6494adbce5d0d352359e4aab385672d949dcca709745e9f9)| 
 
+### Practice
+![](https://img.shields.io/badge/Date-29th_Sept-purple)
+
+| Smart Contract Address | [0xf677f7fa6fe9b963d6646b85df8c039e158ed788](https://sepolia.etherscan.io/tx/0xe13d49009711eac82a6df87f2baa47605005a1e4d37dec95dd63a1eb8561fc81) |
+|:----------------------:|:-------------------------------------|
+| Store value 1            | [0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc](https://sepolia.etherscan.io/tx/0x5ff248d1d0302c67099d7274050c260dd26132ac372f2c7cf70e1ef3c083b7dc)| 
+
+
+
 
 
 
