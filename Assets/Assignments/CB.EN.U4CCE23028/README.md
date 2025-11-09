@@ -75,6 +75,14 @@ view the block of the file
 
 
 
+### Lab - Mapping
+![](https://img.shields.io/badge/Date-29th_Sept-purple)
+
+| Smart Contract Address | [0x82C8556CDE542acAb17e3b20775040Bd984dd473](https://sepolia.etherscan.io/tx/0xbcf6c96e6d5f854937291355ad90bf938c6b5376ff0c6e8315bad67551df6ada) |
+|:----------------------:|:-------------------------------------|
+| Store value 1 - Add product         | [0x036dee6a4d3fad9305a7f8b781e9f09a887ca0a130a239f065d9f958154d1ab7](https://sepolia.etherscan.io/tx/0x036dee6a4d3fad9305a7f8b781e9f09a887ca0a130a239f065d9f958154d1ab7) |
+| Store value 2 - ChangeStoreManager  | [0x4534821e77b861aed84407db7518a0f24fd11f2df1f567013e94321e03a5f074](https://sepolia.etherscan.io/tx/0x4534821e77b861aed84407db7518a0f24fd11f2df1f567013e94321e03a5f074) |
+
 
 
 
