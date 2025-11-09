@@ -52,7 +52,7 @@ Storing and retrieving online asset information
 [CB.EN.U4ECE23007_Endsem_copy.pdf](https://github.com/user-attachments/files/23432672/CB.EN.U4ECE23007_Endsem_copy.pdf)
 
 **Code**
-
+```
 // SPDX-License-Identifier: GPL-3.0
 
 pragma solidity >=0.7.0 <0.9.0;
@@ -90,4 +90,5 @@ contract PlotRegistry{
     }
 
 }
+```
 
