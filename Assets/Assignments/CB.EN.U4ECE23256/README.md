@@ -41,6 +41,57 @@
 | smart contract address for certification only by owner | [0xaF7db52d84621BD4aD8713f43f67365611d390F6](https://sepolia.etherscan.io/address/0xaF7db52d84621BD4aD8713f43f67365611d390F6) |
 |:----------------------:|:-------------------------------------:|  
 
+### Lab - IPFS
+
+IPFS initialisation:
+```
+C:\kubo>ipfs init
+generating ED25519 keypair...done
+peer identity: 12D3KooWF7Kr73TvqPT5me5f1wQqHRcc5en8A9dy4HibmvJAxtS7
+initializing IPFS node at C:\Users\DELL\.ipfs
+```
+Adding a file:
+```
+C:\kubo>ipfs add build-log
+ 1.25 KiB / 1.25 KiB [========================================================================================] 100.00%←added QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq build-log
+ 1.25 KiB / 1.25 KiB [========================================================================================] 100.00%
+```
+Opening a file:
+```
+C:\kubo>ipfs cat QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+←[1;31m----------
+Hello there
+NOTICE:
+
+You have tried to upgrade to asdf 0.16.0 or newer. Versions 0.16.0 is a
+complete rewrite of asdf in Go. This text is being printed by the older
+Bash implementation. If you are seeing this you have not migrated to
+asdf 0.16.0. Please follow the instructions on the upgrade guide to
+migrate to the new version.
+(continued)
+```
+
+Downloading IPFS object:
+```
+C:\kubo>ipfs get QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+Saving file(s) to QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+ 1.25 KiB / 1.25 KiB [=====================================================================================] 100.00% 0s
+```
+
+Block distribution of the file:
+```
+C:\kubo>ipfs dag stat QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq
+
+CID                                             Blocks          Size
+QmTuw8SvMbMnReQGWQiAcodEyqDndEikvwpVwsPAQJi7Hq  1               1250
+
+Summary
+Total Size: 1250
+Unique Blocks: 1
+Shared Size: 0
+Ratio: 1.000000
+```
+
 
 
 
