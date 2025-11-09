@@ -29,7 +29,8 @@ Neovius and Westerlund (2018) proposed distributed ledger-based solutions to pro
 
 -----
 ### Architectural Diagram
-![ Architecture Diagram] (https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT01/architecture.png?raw=true)
+![Architecture Diagram](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT01/architecture.png?raw=true)
+
 
 ------
 
@@ -39,6 +40,7 @@ Neovius and Westerlund (2018) proposed distributed ledger-based solutions to pro
 -----
 
 ### References
+
 
 
 
