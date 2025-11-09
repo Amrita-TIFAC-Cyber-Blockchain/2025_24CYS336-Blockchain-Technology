@@ -10,7 +10,7 @@
 | Wallet Address | [0xf0D3c08210f05352423d55639d782eabbf8C73d5](https://sepolia.etherscan.io/address/0xf0D3c08210f05352423d55639d782eabbf8C73d5) | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Introduction to Solidity
+### Lab - Introduction to Solidity
 
 ![](https://img.shields.io/badge/Date-8th_September-purple) <br/>
 
@@ -19,13 +19,25 @@
 | Store value            | [0x0dd6efa0de74dbbb018ab93d9b62d651717e528380a73f5dde91c0282d123428](https://sepolia.etherscan.io/tx/0x0dd6efa0de74dbbb018ab93d9b62d651717e528380a73f5dde91c0282d123428) |
 
 
-### Lab X - Exploration of Solidity
+### Lab - Exploration of Solidity
 
 ![](https://img.shields.io/badge/Date-15th_September-purple) <br/>
 
-| Smart Contract Address | [0x5a5034a677Cbe6c4c549117fb49C15C63F88c488](https://sepolia.etherscan.io/address/0x5a5034a677cbe6c4c549117fb49c15c63f88c488) |
+| Smart Contract Address | [0xB6bF49bcb4C7348913135cCba7804a18d6665c21](https://sepolia.etherscan.io/address/0xb6bf49bcb4c7348913135ccba7804a18d6665c21) |
 |:----------------------:|:-------------------------------------:|
-| Store value            | [0x59005fb0500d203f493400d468926809a498d6fb5fcab8fb0651a17762694593](https://sepolia.etherscan.io/tx/0x59005fb0500d203f493400d468926809a498d6fb5fcab8fb0651a17762694593) |
+| Store value 1          | [0xf9eab94a1c4549d8e7b04b551820e7f248eab956ea5c4bc2560d74dfcc0582c3](https://sepolia.etherscan.io/tx/0xf9eab94a1c4549d8e7b04b551820e7f248eab956ea5c4bc2560d74dfcc0582c3) |
+| Store value 2          | [0xe85c37b378dc52a21861a316f4ab47dc21d0a2daf7902cd634e9ec76b2c61cc4](https://sepolia.etherscan.io/tx/0xe85c37b378dc52a21861a316f4ab47dc21d0a2daf7902cd634e9ec76b2c61cc4) |
+
+
+### Lab - Mapping
+
+![](https://img.shields.io/badge/Date-29th_September-purple) <br/>
+
+| Smart Contract Address | [0xB6bF49bcb4C7348913135cCba7804a18d6665c21](https://sepolia.etherscan.io/address/0xb6bf49bcb4c7348913135ccba7804a18d6665c21) |
+|:----------------------:|:-------------------------------------:|
+| Store value 1          | [0xf9eab94a1c4549d8e7b04b551820e7f248eab956ea5c4bc2560d74dfcc0582c3](https://sepolia.etherscan.io/tx/0xf9eab94a1c4549d8e7b04b551820e7f248eab956ea5c4bc2560d74dfcc0582c3) |
+| Store value 2          | [0xe85c37b378dc52a21861a316f4ab47dc21d0a2daf7902cd634e9ec76b2c61cc4](https://sepolia.etherscan.io/tx/0xe85c37b378dc52a21861a316f4ab47dc21d0a2daf7902cd634e9ec76b2c61cc4) |
+
 
 
 
