@@ -50,6 +50,40 @@
 | Store value 2 - RegisterStudent          | [0x5c5d366d775aa38976050787a90bcaa5355e65c22aa7fd0600c1f563b5d05082](https://sepolia.etherscan.io/tx/0x5c5d366d775aa38976050787a90bcaa5355e65c22aa7fd0600c1f563b5d05082) |
 | Store value 3 - issueCertificate         | [0x73c0d26e2721c6268f9b949455e5cdbce9dd55ccdd81ecc579deea067cc3d610](https://sepolia.etherscan.io/tx/0x73c0d26e2721c6268f9b949455e5cdbce9dd55ccdd81ecc579deea067cc3d610) |
 
+### Lab - IPFS
+
+IPFS Initialization:
+
+
+<img width="635" height="138" alt="image" src="https://github.com/user-attachments/assets/9ee5fd1b-e07e-4c24-bfdb-bf2122ba2fdd" />
+
+
+
+Adding a file:
+
+
+<img width="1344" height="62" alt="image" src="https://github.com/user-attachments/assets/63461479-8485-43b2-b579-bd09b0a9ab11" />
+
+
+
+Saving the file:
+
+
+<img width="1349" height="64" alt="image" src="https://github.com/user-attachments/assets/ddc98764-34ee-4201-aa4c-c30b24e901fc" />
+
+
+
+| IPFS Gateway | [QmeSNMc4SQoADD2ZrkNz5NeRmjfdvjDTsRMuAEbqcPf6Gc](http://127.0.0.1:8080/ipfs/QmeSNMc4SQoADD2ZrkNz5NeRmjfdvjDTsRMuAEbqcPf6Gc) |
+
+
+<img width="1126" height="159" alt="image" src="https://github.com/user-attachments/assets/30347536-d56e-4b47-a7bf-23d9ef6b2dca" />
+
+
+
+
+
+
+
 
 
 
