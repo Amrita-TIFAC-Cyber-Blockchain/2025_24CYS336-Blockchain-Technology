@@ -36,19 +36,7 @@
 | Store value 1 - Add product         | [0xcbdcdf79452c016d2d72988e3f7ed65f054b01395c5d1ef2459182b975f1b621](https://sepolia.etherscan.io/tx/0xcbdcdf79452c016d2d72988e3f7ed65f054b01395c5d1ef2459182b975f1b621) |
 | Store value 2 - ChangeStoreManager  | [0x63db0e9e2912e2b459e9bb52862a3d188020f0a2ce570d3460d7b9df695f4e1a](https://sepolia.etherscan.io/tx/0x63db0e9e2912e2b459e9bb52862a3d188020f0a2ce570d3460d7b9df695f4e1a) |
 
-### ENDSEM - PRACTICE
 
-| Admin Address                  | [0x5B38Da6a701c568545dCfcB03FcB875f56beddC4](https://sepolia.etherscan.io/address/0x5B38Da6a701c568545dCfcB03FcB875f56beddC4) |
-
-| Institution Address    | [0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2](https://sepolia.etherscan.io/address/0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2) |
-
-| Student Address        | [0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db](https://sepolia.etherscan.io/address/0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db) |
-
-| Smart Contract Address | [0xd9145CCE52D386f254917e481eB44e9943F39138](https://sepolia.etherscan.io/address/0xd9145CCE52D386f254917e481eB44e9943F39138) |
-|:----------------------:|:-------------------------------------|
-| Store value 1 - Add Institution          | [0x754bf58278730287330c21692c3228d8fae5de7a85b060a269237e55b9896702](https://sepolia.etherscan.io/tx/0x754bf58278730287330c21692c3228d8fae5de7a85b060a269237e55b9896702) |
-| Store value 2 - RegisterStudent          | [0x5c5d366d775aa38976050787a90bcaa5355e65c22aa7fd0600c1f563b5d05082](https://sepolia.etherscan.io/tx/0x5c5d366d775aa38976050787a90bcaa5355e65c22aa7fd0600c1f563b5d05082) |
-| Store value 3 - issueCertificate         | [0x73c0d26e2721c6268f9b949455e5cdbce9dd55ccdd81ecc579deea067cc3d610](https://sepolia.etherscan.io/tx/0x73c0d26e2721c6268f9b949455e5cdbce9dd55ccdd81ecc579deea067cc3d610) |
 
 ### Lab - IPFS
 
@@ -77,6 +65,22 @@ Saving the file:
 
 
 <img width="1126" height="159" alt="image" src="https://github.com/user-attachments/assets/30347536-d56e-4b47-a7bf-23d9ef6b2dca" />
+
+
+### ENDSEM - PRACTICE
+
+| Admin Address                  | [0x5B38Da6a701c568545dCfcB03FcB875f56beddC4](https://sepolia.etherscan.io/address/0x5B38Da6a701c568545dCfcB03FcB875f56beddC4) |
+
+| Institution Address    | [0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2](https://sepolia.etherscan.io/address/0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2) |
+
+| Student Address        | [0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db](https://sepolia.etherscan.io/address/0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db) |
+
+| Smart Contract Address | [0xd9145CCE52D386f254917e481eB44e9943F39138](https://sepolia.etherscan.io/address/0xd9145CCE52D386f254917e481eB44e9943F39138) |
+|:----------------------:|:-------------------------------------|
+| Store value 1 - Add Institution          | [0x754bf58278730287330c21692c3228d8fae5de7a85b060a269237e55b9896702](https://sepolia.etherscan.io/tx/0x754bf58278730287330c21692c3228d8fae5de7a85b060a269237e55b9896702) |
+| Store value 2 - RegisterStudent          | [0x5c5d366d775aa38976050787a90bcaa5355e65c22aa7fd0600c1f563b5d05082](https://sepolia.etherscan.io/tx/0x5c5d366d775aa38976050787a90bcaa5355e65c22aa7fd0600c1f563b5d05082) |
+| Store value 3 - issueCertificate         | [0x73c0d26e2721c6268f9b949455e5cdbce9dd55ccdd81ecc579deea067cc3d610](https://sepolia.etherscan.io/tx/0x73c0d26e2721c6268f9b949455e5cdbce9dd55ccdd81ecc579deea067cc3d610) |
+
 
 
 
