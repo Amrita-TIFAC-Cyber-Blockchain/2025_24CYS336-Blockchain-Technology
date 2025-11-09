@@ -19,7 +19,9 @@
 
 -----
 ### Architectural Diagram
-
+<p align = "center">
+  <img src="architectural diagram modelupdatelogger_.png" alt="diagram" width="600">
+</p>
 
 ------
 
@@ -29,6 +31,7 @@
 -----
 
 ### References
+
 
 
 
