@@ -41,10 +41,10 @@
 
 ### Lab - IPFS
 IPFS initialisation:
-```
+
 <img width="1088" height="213" alt="image" src="https://github.com/user-attachments/assets/101bb85e-a2ad-4a2a-8860-4122d853edcd" />
 
-```
+
 
 
 
