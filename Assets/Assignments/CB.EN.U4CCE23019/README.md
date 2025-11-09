@@ -76,6 +76,7 @@ Code :
 
 
 ### Lab - IPFS
+![](https://img.shields.io/badge/Date-13th_oct-purple) 
 
 <img width="1472" height="701" alt="image" src="https://github.com/user-attachments/assets/a420fb1c-7be0-4cc2-b25a-0bebb1221f78" />
 
@@ -85,8 +86,13 @@ Code :
 #### Adding and retrieval 
 <img width="1863" height="232" alt="image" src="https://github.com/user-attachments/assets/d38cf251-d09c-4ff5-a6d8-8ffc65fe89d0" />
 
+#### Saving the file to local storage and Block Distribution 
+<img width="1457" height="373" alt="image" src="https://github.com/user-attachments/assets/535bfbc7-c562-415a-b427-3a9b58251dac" />
+
+
 | File hash | QmZVGmE5Ss6eRHjnfehAxNxPydVYuXsiFp1fzrXsFWfP7B |
 |:----------------------:|:-------------------------------------:|
+
 
 
 
