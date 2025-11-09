@@ -10,7 +10,7 @@
 
 ## 🧠 BT#19 – Blockchain-Based Multi-Energy System  
 
-![](https://img.shields.io/badge/Member-TBD-gold)  
+![](https://img.shields.io/badge/Member-Gajan%20S%20(cb.en.u4ece23218)%20%7C%20Hariharan%20R%20(cb.en.u4ece23223)-gold)  
 ![](https://img.shields.io/badge/Reviewed-TBD-brown)  
 
 ---
@@ -212,3 +212,4 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
