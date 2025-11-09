@@ -45,10 +45,10 @@
 ### LAB (practice lab--Academic registeration )
 ![](https://img.shields.io/badge/_Sep-blue) <br/>
 
-| Wallet Address | [0x80D8e3a93fc807A9E8a20d8ba7981109C6066ee3](https://sepolia.etherscan.io/address/0x80d8e3a93fc807a9e8a20d8ba7981109c6066ee3) | 
+| Wallet Address | [0x5B38Da6a701c568545dCfcB03FcB875f56beddC4](https://etherscan.io/address/0x5B38Da6a701c568545dCfcB03FcB875f56beddC4) | 
 |:--------------:|:-----------------------------:|
 
-| smart contract address for certification only by owner | [0xaF7db52d84621BD4aD8713f43f67365611d390F6](https://sepolia.etherscan.io/address/0xaF7db52d84621BD4aD8713f43f67365611d390F6) |
+| smart contract address for registeration by class advisor | [0xE73E34dc58E839eF58B64B3FC81F37BC864a9065](https://etherscan.io/address/0xE73E34dc58E839eF58B64B3FC81F37BC864a9065) |
 |:----------------------:|:-------------------------------------:|  
 
 ### Lab - IPFS
@@ -101,6 +101,7 @@ Unique Blocks: 1
 Shared Size: 0
 Ratio: 1.000000
 ```
+
 
 
 
