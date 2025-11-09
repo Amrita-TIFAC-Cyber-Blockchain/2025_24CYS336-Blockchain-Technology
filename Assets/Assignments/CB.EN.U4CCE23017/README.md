@@ -28,7 +28,7 @@
 | Store value 2            | [0x6e462b62b1e6d4df940a646e51c46a372f91693ddc72a1f93646f0fd51b4a50a](https://sepolia.etherscan.io/tx/0x6e462b62b1e6d4df940a646e51c46a372f91693ddc72a1f93646f0fd51b4a50a) |
 
 
-### Lab - Mapping
+### Lab - Mapping and Modifier
 ![](https://img.shields.io/badge/Date-29th_Sept-purple)
 
 | Smart Contract Address | [0x115CA33566605927202377B2973EC387763d4205](https://sepolia.etherscan.io/address/0x115CA33566605927202377B2973EC387763d4205) |
@@ -77,6 +77,7 @@ Saving the file:
 
 
 <img width="1126" height="159" alt="image" src="https://github.com/user-attachments/assets/30347536-d56e-4b47-a7bf-23d9ef6b2dca" />
+
 
 
 
