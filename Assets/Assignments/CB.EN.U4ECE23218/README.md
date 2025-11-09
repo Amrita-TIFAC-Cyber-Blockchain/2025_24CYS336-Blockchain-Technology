@@ -134,14 +134,22 @@ contract CertificateRegistry {
 }
 ```
 ![WhatsApp Image 2025-11-09 at 17 42 02_07dfa1a7](https://github.com/user-attachments/assets/424bca6b-c3bd-45d7-8e6e-825e481e72ef)
+
+
 ![WhatsApp Image 2025-11-09 at 17 42 41_615962d3](https://github.com/user-attachments/assets/a54ddbba-ae5c-43b5-a4b5-1cc05de9cdcb)
 
 
 ![WhatsApp Image 2025-11-09 at 17 43 13_4904fb37](https://github.com/user-attachments/assets/6951ebd1-e7d6-47e6-a2bc-ac6bd954b923)
+
+
 ![WhatsApp Image 2025-11-09 at 17 43 30_35ba4554](https://github.com/user-attachments/assets/842633f1-4225-4cf3-a818-97c64fc5d61d)
 
+
 ![WhatsApp Image 2025-11-09 at 17 37 43_cf8f7dd8](https://github.com/user-attachments/assets/a6a12ca2-5b4a-43ae-87b7-59fddbc47f41)
+
+
 ![WhatsApp Image 2025-11-09 at 17 41 32_684041d9](https://github.com/user-attachments/assets/e326cf8d-1e21-42bc-bec5-72851d351835)
+
 
 
 
