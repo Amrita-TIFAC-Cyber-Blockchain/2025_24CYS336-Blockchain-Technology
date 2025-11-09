@@ -65,15 +65,16 @@ Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockch
    
 OTHER REFERENCE ARTICLES :
 
-7. https://covertaccessteam.substack.com/p/military-grade-equipment-keeps-disappearing
+6. https://covertaccessteam.substack.com/p/military-grade-equipment-keeps-disappearing
 
-8. https://cybersrcc.com/2024/07/24/indian-military-and-police-data-breach/
+7. https://cybersrcc.com/2024/07/24/indian-military-and-police-data-breach/
 
-9. https://timesofindia.indiatimes.com/city/pune/high-security-ordnance-factory-theft-3-ak-47s-and-2-galil-rifles-stolen-in-jalgaon/articleshow/114559395.cms
+8. https://timesofindia.indiatimes.com/city/pune/high-security-ordnance-factory-theft-3-ak-47s-and-2-galil-rifles-stolen-in-jalgaon/articleshow/114559395.cms
 
-10. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
+9. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
-11. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+10. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
