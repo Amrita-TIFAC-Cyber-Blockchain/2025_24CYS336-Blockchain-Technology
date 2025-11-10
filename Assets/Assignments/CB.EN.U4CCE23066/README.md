@@ -32,7 +32,7 @@
 | College | 0xfec4485cd3228067022137044afbb232fb005699  |
 | Student      | 0x9640338c1b3cc2aa1322fcb6f777dda5f806ac65                  |
 
-#### Smart Contract Address : https://sepolia.etherscan.io/tx/0x26dc3dd34a07f8d886cf9a5a1ade93518c84cc1d9dc7d9d5253f0fb0349ad98a
+#### Smart Contract Address : https://etherscan.io/address/0x9e867455213F75e37fC41148a49B73D9d13fF0A0
 
 ### Lab  - IPFS - Interplanetary File Sysytem 
 
@@ -49,6 +49,7 @@
 
 #### 4.Getting File from IPFS CID
 <img width="1726" height="92" alt="image" src="https://github.com/user-attachments/assets/aba65af8-5161-4ef8-8283-fd11887fbb57" />
+
 
 
 
