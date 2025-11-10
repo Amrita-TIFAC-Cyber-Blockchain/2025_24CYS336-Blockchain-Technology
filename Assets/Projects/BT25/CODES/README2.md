@@ -15,5 +15,6 @@ This DApp interfaces with the `DefenceLogistics` smart contract deployed on the 
 
 
 ## 📁 FILE REFERENCE
-The DApp’s frontend source is hosted here: [GitHub Pages](https://github.com/JRK-007/DAPP/tree/main)  
+
+The DApp’s frontend source is hosted here: [DAPP REPO LINK ](https://github.com/JRK-007/DAPP/tree/main)  
 ---
