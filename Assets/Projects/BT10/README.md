@@ -119,11 +119,12 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 
 ---
 -----
-
 ### References
-[1] A. Alabdulatif, M. Al Asqah, T. Moulahi, and S. Zidi, “Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making Framework,” Applied Sciences, vol. 13, no. 2, p. 1035, Jan. 2023. [Online]. Available: https://doi.org/10.3390/app13021035
+- Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
+  
+- Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
 
-[2] V. Mandarino, G. Pappalardo, and E. Tramontana, “A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency,” Computers, vol. 13, no. 6, p. 132, Jun. 2024. [Online]. Available: https://doi.org/10.3390/computers13060132
+
 
 
 
