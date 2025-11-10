@@ -28,9 +28,9 @@
 
 ### Lab - Mapping and Modifier 
 | Smart Contract Address | [0x3c7efeb3772b319975c639a789b34c8ee4006491](https://sepolia.etherscan.io/address/0x3c7efeb3772b319975c639a789b34c8ee4006491) |
+|:----------------------:|:-------------------------------------:|
 | Store Owner | [0xcd5c864d56e2f9b4212094c3170dcd6d8907edc6](https://sepolia.etherscan.io/address/0xcd5c864d56e2f9b4212094c3170dcd6d8907edc6) |
 | Store Manager | [0x63056e3dccb4d15a246ff3f387cc342e29fa3176](https://sepolia.etherscan.io/address/0x63056e3dccb4d15a246ff3f387cc342e29fa3176) |
-|:----------------------:|:-------------------------------------:|
 | Add Product 1 (By Store Manager)       | [0x1de39af827f1ea34ebd6737b71620e6615f5ded84d1eff00acab04c1c040ab8d](https://sepolia.etherscan.io/tx/0x1de39af827f1ea34ebd6737b71620e6615f5ded84d1eff00acab04c1c040ab8d) |
 | Add Product 2 (By Store Manager)       | [0x5ce1c68e01665bdbdadee6cc56786a4351998de670ba825a7d9d6640ee4a37f8](https://sepolia.etherscan.io/tx/0x5ce1c68e01665bdbdadee6cc56786a4351998de670ba825a7d9d6640ee4a37f8) |
 | Change Store Manager (By Store Owner)       | [0x60140890e6370daa4614b2054bcdc8faa3e541738725c7f54cff7128de9d8f5a](https://sepolia.etherscan.io/tx/0x60140890e6370daa4614b2054bcdc8faa3e541738725c7f54cff7128de9d8f5a) |
@@ -119,12 +119,13 @@ Ratio: 1.000000
 
 ### Lab - Endsem Practice
 | Smart Contract Address | [0x6a34a67d9ff45b83cd86ddc1d7fb520a1533444e](https://sepolia.etherscan.io/address/0x6a34a67d9ff45b83cd86ddc1d7fb520a1533444e) |
+|:----------------------:|:-------------------------------------:|
 | Admin | [0xcd5c864d56e2f9b4212094c3170dcd6d8907edc6](https://sepolia.etherscan.io/address/0xcd5c864d56e2f9b4212094c3170dcd6d8907edc6) |
 | Institution | [0x63056e3dccb4d15a246ff3f387cc342e29fa3176](https://sepolia.etherscan.io/address/0x63056e3dccb4d15a246ff3f387cc342e29fa3176) |
-|:----------------------:|:-------------------------------------:|
 | Issue Certificate (By Institution)       | [0x7537c99bf8bb36c3ec8cba400a2485cac3fd1162f8ee950ae06bb6db1c0d79bb](https://sepolia.etherscan.io/tx/0x7537c99bf8bb36c3ec8cba400a2485cac3fd1162f8ee950ae06bb6db1c0d79bb) |
-| Get Certificate       | [View Image](https://sepolia.etherscan.io/tx/0x5ce1c68e01665bdbdadee6cc56786a4351998de670ba825a7d9d6640ee4a37f8) |
+| Get Certificate       | [View Image](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CCE23029/Images/Screenshot%202025-11-10%20123815.png) |
 | Add Institution (By Admin)       | [0x788a8400e1d8251c8ec1eb5cc74283c8df1e7010e737304dcead19504896bec0](https://sepolia.etherscan.io/tx/0x788a8400e1d8251c8ec1eb5cc74283c8df1e7010e737304dcead19504896bec0) |
+
 
 
 
