@@ -35,7 +35,9 @@
 
 
 ### Lab X - Endsem lab
-https://github.com/<username>/<repo>/blob/main/68bc0f63-ae26-44e4-8ae6-87d4209abe38.pdf
+[CB.EN.U4ECE23119 ENDSEM LAB](https://github.com/<username>/<repo>/blob/main/CB.EN.U4ECE23119%20ENDSEM%20LAB.pdf)
+
+
 
 
 
