@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Defence Logistics DApp</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .loader { border: 3px solid #f3f3f3; border-top: 3px solid #3b82f6; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .hidden { display: none; }
+    .status-badge { padding: 4px 12px; border-radius: 9999px; font-size: 12px; font-weight: 600; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white min-h-screen">
+  <div class="container mx-auto p-4 md:p-8 max-w-7xl">
+    <!-- Header -->
+    <div class="text-center mb-8">
+      <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 mb-2">
+        🛡️ Defence Logistics Management
+      </h1>
+      <p class="text-gray-400">Blockchain-Powered Asset Tracking System</p>
+    </div>
+    <!-- Connection Status Bar -->
+    <div id="connectionStatus" class="bg-gray-800 rounded-lg p-4 mb-6 flex items-center justify-between flex-wrap gap-4">
+      <div id="networkInfo" class="text-sm text-gray-400">Not Connected</div>
+      <div id="accountDisplay" class="text-sm"></div>
+      <button id="disconnectBtn" class="hidden bg-red-600 text-white px-3 py-1 rounded text-sm hover:bg-red-700">Disconnect</button>
+    </div>
+    <!-- Login Section (Fallback if Auto Fails) -->
+    <div id="loginSection" class="bg-gray-800 rounded-lg p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-center">Select Role (If Auto-Detect Fails)</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <button id="loginOfficer" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4 rounded-lg hover:from-blue-700 hover:to-blue-800 transition transform hover:scale-105 shadow-lg">
+          <div class="text-lg font-bold">👮 Logistics Officer</div>
+          <div class="text-sm opacity-80">0x84be...2a6</div>
+        </button>
+        <button id="loginDepot" class="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-4 rounded-lg hover:from-green-700 hover:to-green-800 transition transform hover:scale-105 shadow-lg">
+          <div class="text-lg font-bold">🏭 Depot Manager</div>
+          <div class="text-sm opacity-80">0x8434...d232</div>
+        </button>
+        <button id="loginAuditor" class="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-4 rounded-lg hover:from-purple-700 hover:to-purple-800 transition transform hover:scale-105 shadow-lg">
+          <div class="text-lg font-bold">🔍 Auditor</div>
+          <div class="text-sm opacity-80">0xac43...4d7</div>
+        </button>
+      </div>
+      <div class="mt-4 p-2 bg-yellow-900 bg-opacity-50 rounded text-xs text-yellow-300">
+        <strong>Warning:</strong> Unauthorized (0x580f...5e9) & Government (0x1208...c0e) mapped for testing. Gov: View-only. Unauthorized: Fails.
+      </div>
+      <p class="text-xs text-gray-500 text-center mt-2">Auto-connect attempts on load. Wrong account? Switch in MetaMask.</p>
+    </div>
+    <!-- Main Content -->
+    <div id="mainContent" class="hidden">
+      <!-- IPFS Upload Section -->
+      <div class="bg-gray-800 rounded-lg p-6 mb-6 shadow-xl">
+        <h2 class="text-2xl font-bold mb-4 flex items-center gap-2">
+          <span>📁</span> IPFS Document Upload
+        </h2>
+        <div class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium mb-2">Upload File/Folder</label>
+            <input type="file" id="ipfsFile" class="block w-full text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700 cursor-pointer bg-gray-700 rounded-lg" multiple />
+            <p class="text-xs text-gray-400 mt-1">Max 100MB. Uses Pinata public gateway (add keys below). Local IPFS needs CORS-enabled node.</p>
+          </div>
+          <div class="flex gap-3">
+            <button id="uploadIPFS" class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-2 rounded-lg hover:from-indigo-700 hover:to-purple-700 transition flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
+              <span id="uploadBtnText">Upload to IPFS</span>
+              <div id="uploadLoader" class="loader hidden"></div>
+            </button>
+          </div>
+          <div id="ipfsResult" class="hidden bg-gray-900 rounded-lg p-4 border border-green-500">
+            <h3 class="font-bold text-green-400 mb-2">✅ Success</h3>
+            <div class="space-y-2 text-sm">
+              <div><span class="text-gray-400">Hash:</span> <code id="ipfsHashDisplay" class="text-cyan-400 font-mono break-all"></code></div>
+              <div><span class="text-gray-400">Name(s):</span> <span id="ipfsFileName"></span></div>
+              <div><span class="text-gray-400">Size:</span> <span id="ipfsFileSize"></span></div>
+              <div><span class="text-gray-400">Type(s):</span> <span id="ipfsFileType"></span></div>
+              <div><span class="text-gray-400">Time:</span> <span id="ipfsUploadTime"></span></div>
+              <div class="flex gap-2 mt-3">
+                <a id="ipfsGatewayLink" href="#" target="_blank" class="text-blue-400 hover:text-blue-300 underline text-sm">View →</a>
+                <button id="copyHashBtn" class="text-gray-400 hover:text-white text-sm">📋 Copy</button>
+              </div>
+            </div>
+          </div>
+          <div id="ipfsError" class="hidden bg-red-900 bg-opacity-30 border border-red-500 rounded-lg p-4 text-red-300 text-sm"></div>
+        </div>
+      </div>
+      <!-- Role-Specific Actions -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        <!-- Logistics Officer -->
+        <div id="officerActions" class="hidden bg-gray-800 rounded-lg p-6 shadow-xl">
+          <h3 class="text-xl font-bold mb-4 text-blue-400">👮 Register Asset</h3>
+          <div class="space-y-3">
+            <input id="assetId" type="number" placeholder="Asset ID" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+            <input id="assetName" placeholder="Name" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+            <input id="supplierName" placeholder="Supplier" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+            <input id="ipfsHashInput" placeholder="IPFS Hash" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+            <textarea id="note" placeholder="Notes" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none" rows="2"></textarea>
+            <button id="registerBtn" class="w-full bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700 font-semibold transition flex items-center justify-center gap-2 disabled:opacity-50">
+              <span id="registerBtnText">Register</span>
+              <div id="registerLoader" class="loader hidden"></div>
+            </button>
+          </div>
+        </div>
+        <!-- Depot Manager -->
+        <div id="depotActions" class="hidden bg-gray-800 rounded-lg p-6 shadow-xl">
+          <h3 class="text-xl font-bold mb-4 text-green-400">🏭 Transfer Asset</h3>
+          <div class="space-y-3">
+            <input id="transferId" type="number" placeholder="Asset ID" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none">
+            <input id="newHolder" placeholder="New Holder (0x...)" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none">
+            <select id="transferStatus" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none">
+              <option value="">Status</option>
+              <option value="In Transit">In Transit</option>
+              <option value="Delivered">Delivered</option>
+              <option value="In Storage">In Storage</option>
+              <option value="Under Maintenance">Under Maintenance</option>
+              <option value="Deployed">Deployed</option>
+            </select>
+            <textarea id="transferNote" placeholder="Notes" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-green-500 outline-none" rows="2"></textarea>
+            <button id="transferBtn" class="w-full bg-green-600 text-white px-4 py-3 rounded-lg hover:bg-green-700 font-semibold transition flex items-center justify-center gap-2 disabled:opacity-50">
+              <span id="transferBtnText">Transfer</span>
+              <div id="transferLoader" class="loader hidden"></div>
+            </button>
+          </div>
+        </div>
+        <!-- Auditor -->
+        <div id="auditorActions" class="hidden bg-gray-800 rounded-lg p-6 shadow-xl">
+          <h3 class="text-xl font-bold mb-4 text-purple-400">🔍 Audit Asset</h3>
+          <div class="space-y-3">
+            <input id="auditId" type="number" placeholder="Asset ID" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none">
+            <textarea id="auditNote" placeholder="Findings" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-purple-500 outline-none" rows="3"></textarea>
+            <button id="auditBtn" class="w-full bg-purple-600 text-white px-4 py-3 rounded-lg hover:bg-purple-700 font-semibold transition flex items-center justify-center gap-2 disabled:opacity-50">
+              <span id="auditBtnText">Audit</span>
+              <div id="auditLoader" class="loader hidden"></div>
+            </button>
+          </div>
+        </div>
+        <!-- Government/Owner View-Only -->
+        <div id="govActions" class="hidden bg-gray-800 rounded-lg p-6 shadow-xl col-span-1 lg:col-span-2">
+          <h3 class="text-xl font-bold mb-4 text-gray-400">🏛️ Government/Owner: View-Only</h3>
+          <p class="text-gray-300 mb-4">No transact. Use view tools below.</p>
+        </div>
+        <!-- View Asset -->
+        <div class="bg-gray-800 rounded-lg p-6 shadow-xl col-span-1 lg:col-span-2">
+          <h3 class="text-xl font-bold mb-4">🔎 View Asset</h3>
+          <div class="space-y-3">
+            <input id="viewId" type="number" placeholder="Asset ID" class="w-full bg-gray-700 text-white p-3 rounded-lg focus:ring-2 focus:ring-gray-500 outline-none">
+            <button id="viewBtn" class="w-full bg-gray-700 text-white px-4 py-3 rounded-lg hover:bg-gray-600 font-semibold transition flex items-center justify-center gap-2">
+              <span>Get Details</span>
+              <div id="viewLoader" class="loader hidden"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Asset Details -->
+      <div id="assetDetailsSection" class="hidden bg-gray-800 rounded-lg p-6 shadow-xl mb-6">
+        <h3 class="text-xl font-bold mb-4">Asset Info</h3>
+        <div id="assetDetails" class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm"></div>
+        <div id="assetHistorySection" class="hidden mt-6">
+          <h4 class="text-lg font-bold mb-3 text-cyan-400">History</h4>
+          <div id="assetHistory" class="space-y-2"></div>
+        </div>
+      </div>
+      <!-- Events -->
+      <div class="bg-gray-800 rounded-lg p-6 shadow-xl mb-6">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-bold">📋 Events</h3>
+          <button id="refreshEvents" class="bg-gray-700 px-3 py-1 rounded text-sm hover:bg-gray-600">Refresh</button>
+        </div>
+        <div id="eventLogs" class="space-y-2 max-h-96 overflow-y-auto"></div>
+      </div>
+      <!-- Assets List -->
+      <div class="bg-gray-800 rounded-lg p-6 shadow-xl">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-xl font-bold">📦 All Assets</h3>
+          <input id="searchAsset" type="number" placeholder="Search ID..." class="bg-gray-700 px-3 py-1 rounded text-sm outline-none focus:ring-2 focus:ring-blue-500">
+          <button id="loadAllBtn" class="bg-gray-700 px-3 py-1 rounded text-sm hover:bg-gray-600">Load All</button>
+        </div>
+        <div id="assetsList" class="space-y-2">
+          <p class="text-gray-400 text-center py-4">Click Load All to scan (1-100 IDs)</p>
+        </div>
+      </div>
+    </div>
+    <!-- Toast -->
+    <div id="toast" class="fixed bottom-4 right-4 bg-gray-800 border-l-4 rounded-lg p-4 shadow-2xl hidden max-w-md z-50"></div>
+  </div>
+  <script>
+    let web3, contract, account, currentRole;
+    const CONTRACT_ADDRESS = "0xDD10d50BB5bf22ea363Dc1B873aF386A9E0A7014"; // DEPLOY ON REMIX & REPLACE THIS - OR IT ALL FAILS
+    const PINATA_API_KEY = "dbefbe6519cba1ecace8"; // GET FREE @ pinata.cloud
+    const PINATA_SECRET = "c5f57d56415753a0179c3dda20e1d732400e5e8930369a805fcbac39ac654066";
+
+    // Hardcoded addresses (lowercase)
+    const ROLES = {
+      'Logistics Officer': '0x84be682c7eb7cb778c2d062596c404a08b93f2a6',
+      'Depot Manager': '0x8434bcc016df78caf6f1d469d44714334229d232',
+      'Auditor': '0xac4336fa91e6b2b849115c0c5f9f0a37c47594d7',
+      'Unauthorized': '0x580f2cae6f05b2649b424d090e9494b2717355e9'
+    };
+
+    // Full ABI
+    const CONTRACT_ABI = [
+      {"inputs":[],"stateMutability":"nonpayable","type":"constructor"},
+      {"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"assetId","type":"uint256"},{"indexed":false,"internalType":"address","name":"auditor","type":"address"},{"indexed":false,"internalType":"string","name":"auditNote","type":"string"},{"indexed":false,"internalType":"uint256","name":"time","type":"uint256"}],"name":"AssetAudited","type":"event"},
+      {"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"assetId","type":"uint256"},{"indexed":false,"internalType":"string","name":"name","type":"string"},{"indexed":false,"internalType":"string","name":"supplier","type":"string"},{"indexed":false,"internalType":"string","name":"ipfsHash","type":"string"},{"indexed":false,"internalType":"address","name":"holder","type":"address"},{"indexed":false,"internalType":"uint256","name":"time","type":"uint256"}],"name":"AssetRegistered","type":"event"},
+      {"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"assetId","type":"uint256"},{"indexed":false,"internalType":"address","name":"from","type":"address"},{"indexed":false,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"string","name":"newStatus","type":"string"},{"indexed":false,"internalType":"string","name":"note","type":"string"},{"indexed":false,"internalType":"uint256","name":"time","type":"uint256"}],"name":"AssetTransferred","type":"event"},
+      {"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"assetId","type":"uint256"},{"indexed":false,"internalType":"string","name":"oldSupplier","type":"string"},{"indexed":false,"internalType":"string","name":"newSupplier","type":"string"},{"indexed":false,"internalType":"uint256","name":"time","type":"uint256"}],"name":"SupplierChanged","type":"event"},
+      {"inputs":[],"name":"agencyAuditor","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"","type":"uint256"}],"name":"assetRecords","outputs":[{"internalType":"string","name":"name","type":"string"},{"internalType":"string","name":"supplier","type":"string"},{"internalType":"address","name":"currentHolder","type":"address"},{"internalType":"uint256","name":"registeredAt","type":"uint256"},{"internalType":"string","name":"ipfsHash","type":"string"}],"stateMutability":"view","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"assetId","type":"uint256"},{"internalType":"string","name":"note","type":"string"}],"name":"auditAsset","outputs":[],"stateMutability":"nonpayable","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"assetId","type":"uint256"},{"internalType":"string","name":"newSupplier","type":"string"}],"name":"changeSupplier","outputs":[],"stateMutability":"nonpayable","type":"function"},
+      {"inputs":[],"name":"depotManager","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"assetId","type":"uint256"}],"name":"getAsset","outputs":[{"internalType":"string","name":"","type":"string"},{"internalType":"string","name":"","type":"string"},{"internalType":"address","name":"","type":"address"},{"internalType":"uint256","name":"","type":"uint256"},{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"assetId","type":"uint256"}],"name":"getAssetHistory","outputs":[{"components":[{"internalType":"string","name":"status","type":"string"},{"internalType":"uint256","name":"timestamp","type":"uint256"},{"internalType":"string","name":"note","type":"string"}],"internalType":"struct DefenceLogistics.StatusEvent[]","name":"","type":"tuple[]"}],"stateMutability":"view","type":"function"},
+      {"inputs":[],"name":"logisticsOfficer","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+      {"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"assetId","type":"uint256"},{"internalType":"string","name":"name","type":"string"},{"internalType":"string","name":"supplier","type":"string"},{"internalType":"string","name":"ipfsHash","type":"string"},{"internalType":"string","name":"note","type":"string"}],"name":"registerAsset","outputs":[],"stateMutability":"nonpayable","type":"function"},
+      {"inputs":[{"internalType":"uint256","name":"assetId","type":"uint256"},{"internalType":"address","name":"newHolder","type":"address"},{"internalType":"string","name":"newStatus","type":"string"},{"internalType":"string","name":"note","type":"string"}],"name":"transferAsset","outputs":[],"stateMutability":"nonpayable","type":"function"}
+    ];
+
+    // Utilities
+    function showToast(message, type = 'info') {
+      const toast = document.getElementById('toast');
+      const colors = { success: 'border-green-500 bg-green-900', error: 'border-red-500 bg-red-900', info: 'border-blue-500 bg-blue-900', warning: 'border-yellow-500 bg-yellow-900' };
+      toast.className = `fixed bottom-4 right-4 ${colors[type]} border-l-4 rounded-lg p-4 shadow-2xl max-w-md z-50`;
+      toast.textContent = message;
+      toast.classList.remove('hidden');
+      setTimeout(() => toast.classList.add('hidden'), 5000);
+    }
+
+    function setLoading(btnId, loaderId, loading, text = '') {
+      const btn = document.getElementById(btnId);
+      const loader = document.getElementById(loaderId);
+      const textEl = document.getElementById(`${btnId}Text`);
+      btn.disabled = loading;
+      if (loading) {
+        loader.classList.remove('hidden');
+        if (textEl) textEl.textContent = text || 'Processing...';
+      } else {
+        loader.classList.add('hidden');
+        if (textEl) textEl.textContent = text;
+      }
+    }
+
+    function formatAddress(addr) {
+      return addr ? `${addr.slice(0, 6)}...${addr.slice(-4)}` : '';
+    }
+
+    function formatDate(timestamp) {
+      return new Date(Number(timestamp) * 1000).toLocaleString();
+    }
+
+    // Auto-Connect on Load
+    async function initAutoConnect() {
+      if (!window.ethereum) return showToast('No MetaMask. Install it.', 'error');
+      try {
+        web3 = new Web3(window.ethereum);
+        const chainId = await web3.eth.getChainId();
+        if (chainId !== 11155111) return showToast('Sepolia testnet only.', 'error');
+        let accounts = await web3.eth.getAccounts();
+        if (accounts.length === 0) {
+          await window.ethereum.request({ method: 'eth_requestAccounts' });
+          accounts = await web3.eth.getAccounts();
+        }
+        account = accounts[0];
+
+        contract = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
+
+        // Cross-check with contract roles
+        const [contractOfficer, contractDepot, contractAuditor, contractOwner] = await Promise.all([
+          contract.methods.logisticsOfficer().call(),
+          contract.methods.depotManager().call(),
+          contract.methods.agencyAuditor().call(),
+          contract.methods.owner().call()
+        ]);
+
+        const normAccount = account.toLowerCase();
+        let role = null;
+        if (normAccount === ROLES['Logistics Officer'].toLowerCase() || normAccount === contractOfficer.toLowerCase()) role = 'Logistics Officer';
+        else if (normAccount === ROLES['Depot Manager'].toLowerCase() || normAccount === contractDepot.toLowerCase()) role = 'Depot Manager';
+        else if (normAccount === ROLES['Auditor'].toLowerCase() || normAccount === contractAuditor.toLowerCase()) role = 'Auditor';
+        else if (normAccount === ROLES['Government'].toLowerCase() || normAccount === contractOwner.toLowerCase()) role = 'Government';
+        else if (normAccount === ROLES['Unauthorized'].toLowerCase()) return showToast('Unauthorized account detected. Access denied.', 'error');
+
+        if (!role) return showToast(`Account ${formatAddress(account)} unmatched. Expected: ${Object.entries(ROLES).map(([r, a]) => `${r}=${formatAddress(a)}`).join(', ')}`, 'error');
+
+        currentRole = role;
+        const network = await web3.eth.net.getNetworkType();
+        document.getElementById('networkInfo').innerHTML = `<span class="text-green-400">● Auto-Connected</span> | ${network} | Chain: ${chainId}`;
+        document.getElementById('accountDisplay').innerHTML = `<span class="text-gray-400">Role:</span> <span class="font-bold text-${role === 'Logistics Officer' ? 'blue' : role === 'Depot Manager' ? 'green' : role === 'Auditor' ? 'purple' : 'gray'}-400">${role}</span> | <code class="text-cyan-400">${formatAddress(account)}</code>`;
+
+        document.getElementById('loginSection').classList.add('hidden');
+        document.getElementById('mainContent').classList.remove('hidden');
+        document.getElementById('disconnectBtn').classList.remove('hidden');
+
+        if (role === 'Logistics Officer') document.getElementById('officerActions').classList.remove('hidden');
+        if (role === 'Depot Manager') document.getElementById('depotActions').classList.remove('hidden');
+        if (role === 'Auditor') document.getElementById('auditorActions').classList.remove('hidden');
+        if (role === 'Government') document.getElementById('govActions').classList.remove('hidden');
+
+        showToast(`Auto-connected as ${role}.`, 'success');
+        loadEventLogs();
+      } catch (error) {
+        console.error(error);
+        showToast(`Auto-connect failed: ${error.message}. Use buttons or fix contract address.`, 'error');
+      }
+    }
+
+    // Fallback buttons
+    document.getElementById('loginOfficer').onclick = () => { currentRole = 'Logistics Officer'; initAutoConnect(); };
+    document.getElementById('loginDepot').onclick = () => { currentRole = 'Depot Manager'; initAutoConnect(); };
+    document.getElementById('loginAuditor').onclick = () => { currentRole = 'Auditor'; initAutoConnect(); };
+
+    document.getElementById('disconnectBtn').onclick = () => location.reload();
+
+    window.addEventListener('load', initAutoConnect);
+
+    // IPFS (Public Gateway Only - Fixed)
+    document.getElementById('uploadIPFS').onclick = async () => {
+      const files = Array.from(document.getElementById('ipfsFile').files);
+      if (!files.length) return showToast('Select files.', 'warning');
+      const totalSize = files.reduce((a, f) => a + f.size, 0);
+      if (totalSize > 100 * 1024 * 1024) return showToast('>100MB.', 'error');
+      const startTime = Date.now();
+      setLoading('uploadIPFS', 'uploadLoader', true);
+      try {
+        const formData = new FormData();
+        files.forEach(f => formData.append('file', f));
+        const res = await fetch('https://api.pinata.cloud/pinning/pinFileToIPFS', {
+          method: 'POST',
+          body: formData,
+          headers: { 'pinata_api_key': PINATA_API_KEY, 'pinata_secret_api_key': PINATA_SECRET }
+        });
+        if (!res.ok) throw new Error(`Pinata failed (${res.status}): Add keys or check quota.`);
+        const data = await res.json();
+        const hash = data.IpfsHash;
+        const endTime = Date.now();
+        document.getElementById('ipfsHashDisplay').textContent = hash;
+        document.getElementById('ipfsFileName').textContent = files.map(f => f.name).join(', ');
+        document.getElementById('ipfsFileSize').textContent = `${(totalSize / 1024 / 1024).toFixed(2)} MB`;
+        document.getElementById('ipfsFileType').textContent = [...new Set(files.map(f => f.type || 'Unknown'))].join(', ');
+        document.getElementById('ipfsUploadTime').textContent = `${((endTime - startTime) / 1000).toFixed(1)}s`;
+        document.getElementById('ipfsGatewayLink').href = `https://ipfs.io/ipfs/${hash}`;
+        document.getElementById('ipfsHashInput').value = hash;
+        document.getElementById('ipfsResult').classList.remove('hidden');
+        showToast('Uploaded. Hash ready.', 'success');
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        setLoading('uploadIPFS', 'uploadLoader', false, 'Upload');
+      }
+    };
+
+    document.getElementById('copyHashBtn').onclick = () => {
+      navigator.clipboard.writeText(document.getElementById('ipfsHashDisplay').textContent);
+      showToast('Copied.', 'success');
+    };
+
+    // Register
+    document.getElementById('registerBtn').onclick = async () => {
+      const [id, name, supplier, ipfsHash, note] = [
+        parseInt(document.getElementById('assetId').value),
+        document.getElementById('assetName').value.trim(),
+        document.getElementById('supplierName').value.trim(),
+        document.getElementById('ipfsHashInput').value.trim(),
+        document.getElementById('note').value.trim()
+      ];
+      if (!id || !name || !supplier || !ipfsHash) return showToast('Fill all fields.', 'warning');
+      setLoading('registerBtn', 'registerLoader', true);
+      try {
+        const tx = await contract.methods.registerAsset(id, name, supplier, ipfsHash, note).send({ from: account });
+        showToast(`Registered ${id}. Tx: ${formatAddress(tx.transactionHash)}`, 'success');
+        document.getElementById('assetId').value = document.getElementById('assetName').value = document.getElementById('supplierName').value = document.getElementById('note').value = '';
+        loadEventLogs();
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        setLoading('registerBtn', 'registerLoader', false, 'Register');
+      }
+    };
+
+    // Transfer
+    document.getElementById('transferBtn').onclick = async () => {
+      const [id, newHolder, status, note] = [
+        parseInt(document.getElementById('transferId').value),
+        document.getElementById('newHolder').value.trim(),
+        document.getElementById('transferStatus').value,
+        document.getElementById('transferNote').value.trim()
+      ];
+      if (!id || !newHolder || !status) return showToast('Fill all fields.', 'warning');
+      if (!web3.utils.isAddress(newHolder)) return showToast('Invalid address.', 'error');
+      setLoading('transferBtn', 'transferLoader', true);
+      try {
+        const tx = await contract.methods.transferAsset(id, newHolder, status, note).send({ from: account });
+        showToast(`Transferred ${id}. Tx: ${formatAddress(tx.transactionHash)}`, 'success');
+        document.getElementById('transferId').value = document.getElementById('newHolder').value = document.getElementById('transferStatus').value = document.getElementById('transferNote').value = '';
+        loadEventLogs();
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        setLoading('transferBtn', 'transferLoader', false, 'Transfer');
+      }
+    };
+
+    // Audit
+    document.getElementById('auditBtn').onclick = async () => {
+      const [id, note] = [
+        parseInt(document.getElementById('auditId').value),
+        document.getElementById('auditNote').value.trim()
+      ];
+      if (!id || !note) return showToast('Fill all fields.', 'warning');
+      setLoading('auditBtn', 'auditLoader', true);
+      try {
+        const tx = await contract.methods.auditAsset(id, note).send({ from: account });
+        showToast(`Audited ${id}. Tx: ${formatAddress(tx.transactionHash)}`, 'success');
+        document.getElementById('auditId').value = document.getElementById('auditNote').value = '';
+        loadEventLogs();
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        setLoading('auditBtn', 'auditLoader', false, 'Audit');
+      }
+    };
+
+    // View
+    document.getElementById('viewBtn').onclick = async () => {
+      const id = parseInt(document.getElementById('viewId').value);
+      if (!id) return showToast('Enter ID.', 'warning');
+      document.getElementById('viewLoader').classList.remove('hidden');
+      try {
+        const [data, history] = await Promise.all([
+          contract.methods.getAsset(id).call(),
+          contract.methods.getAssetHistory(id).call()
+        ]);
+        if (data[3] === '0') return showToast('Asset not found.', 'error');
+        document.getElementById('assetDetails').innerHTML = `
+          <div class="bg-gray-900 p-3 rounded"><span class="text-gray-400">Name:</span> <span class="font-bold">${data[0]}</span></div>
+          <div class="bg-gray-900 p-3 rounded"><span class="text-gray-400">Supplier:</span> <span class="font-bold">${data[1]}</span></div>
+          <div class="bg-gray-900 p-3 rounded"><span class="text-gray-400">Holder:</span> <code class="text-cyan-400">${formatAddress(data[2])}</code></div>
+          <div class="bg-gray-900 p-3 rounded"><span class="text-gray-400">Registered:</span> <span>${formatDate(data[3])}</span></div>
+          <div class="bg-gray-900 p-3 rounded col-span-2"><span class="text-gray-400">IPFS:</span> ${data[4] ? `<a href="https://ipfs.io/ipfs/${data[4]}" target="_blank" class="text-blue-400 underline">${data[4]}</a>` : 'None'}</div>
+        `;
+        if (history.length) {
+          document.getElementById('assetHistory').innerHTML = history.map(e => `
+            <div class="bg-gray-900 p-3 rounded-lg border-l-4 border-cyan-500">
+              <div class="flex justify-between mb-1">
+                <span class="font-bold text-cyan-400">${e.status}</span>
+                <span class="text-xs text-gray-500">${formatDate(e.timestamp)}</span>
+              </div>
+              <div class="text-sm text-gray-300">${e.note || 'No note'}</div>
+            </div>
+          `).join('');
+          document.getElementById('assetHistorySection').classList.remove('hidden');
+        }
+        document.getElementById('assetDetailsSection').classList.remove('hidden');
+        showToast('Details loaded.', 'success');
+      } catch (e) {
+        showToast(e.message, 'error');
+      } finally {
+        document.getElementById('viewLoader').classList.add('hidden');
+      }
+    };
+
+    // Events
+    async function loadEventLogs() {
+      if (!contract) return;
+      try {
+        const events = await contract.getPastEvents('allEvents', { fromBlock: 0, toBlock: 'latest' });
+        document.getElementById('eventLogs').innerHTML = events.reverse().slice(0, 10).map(e => {
+          const color = e.event === 'AssetRegistered' ? 'blue' : e.event === 'AssetTransferred' ? 'green' : e.event === 'AssetAudited' ? 'purple' : 'yellow';
+          return `<div class="bg-gray-900 border-l-4 border-${color}-500 p-3 rounded">
+            <div class="flex justify-between mb-1">
+              <span class="font-bold text-sm">${e.event}</span>
+              <span class="text-xs text-gray-500">Block ${e.blockNumber}</span>
+            </div>
+            <div class="text-xs text-gray-400">ID: ${e.returnValues.assetId || ''} | ${e.returnValues.name || ''}</div>
+          </div>`;
+        }).join('') || '<p class="text-gray-400 text-center py-4">No events</p>';
+      } catch (e) {
+        console.error(e);
+        showToast('Events load failed: ' + e.message, 'error');
+      }
+    }
+    document.getElementById('refreshEvents').onclick = loadEventLogs;
+
+    // Load All Assets (New: Scans 1-100)
+    document.getElementById('loadAllBtn').onclick = async () => {
+      if (!contract) return showToast('Connect first.', 'warning');
+      const listEl = document.getElementById('assetsList');
+      listEl.innerHTML = '<p class="text-gray-400 text-center py-4">Scanning...</p>';
+      try {
+        let assets = [];
+        for (let id = 1; id <= 100; id++) {
+          try {
+            const data = await contract.methods.getAsset(id).call();
+            if (data[3] !== '0') assets.push({ id, ...Object.fromEntries(['name', 'supplier', 'currentHolder', 'registeredAt', 'ipfsHash'].map((k, i) => [k, data[i]])) });
+          } catch {} // Skip errors
+        }
+        if (assets.length === 0) {
+          listEl.innerHTML = '<p class="text-gray-400 text-center py-4">No assets found (1-100)</p>';
+        } else {
+          listEl.innerHTML = assets.map(a => `
+            <div class="bg-gray-900 p-3 rounded cursor-pointer hover:bg-gray-800" onclick="document.getElementById('viewId').value='${a.id}'; document.getElementById('viewBtn').click();">
+              <div class="font-bold">${a.name} (ID: ${a.id})</div>
+              <div class="text-xs text-gray-400">Holder: ${formatAddress(a.currentHolder)} | Reg: ${formatDate(a.registeredAt)}</div>
+            </div>
+          `).join('');
+        }
+        showToast(`${assets.length} assets loaded.`, 'success');
+      } catch (e) {
+        showToast('Scan failed: ' + e.message, 'error');
+        listEl.innerHTML = '<p class="text-gray-400 text-center py-4">Scan error</p>';
+      }
+    };
+
+    // Search
+    document.getElementById('searchAsset').oninput = (e) => {
+      if (e.target.value.length >= 3) {
+        document.getElementById('viewId').value = e.target.value;
+        document.getElementById('viewBtn').click();
+      }
+    };
+  </script>
+</body>
+</html>
