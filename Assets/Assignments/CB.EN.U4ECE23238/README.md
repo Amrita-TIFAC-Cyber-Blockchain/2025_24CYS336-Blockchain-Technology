@@ -75,21 +75,16 @@
 <h3>🧠 SMART CONTRACT PROGRAM USING SOLIDITY FOR CERTIFICATE ISSUAL AND VERIFICATION</h3>
 
 ## 📘 DESCRIPTION
-
-his Solidity smart contract  
-([**File Path on GitHub**](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/certificate_issual.sol))  
-enables **certificate issuance and verification** on the Ethereum blockchain.  
-
+This Solidity smart contract  ([**SOLIDITY CODE **](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/certificate_issual.sol)) enables **certificate issuance and verification** on the blockchain.  
 Only the **Issuer** can issue certificates, and **anyone** can verify their authenticity using a unique certificate ID (`certId`).
 
 ---
-
-## ⚙️ Key Functionalities
+## Key Functionalities
 - **Certificate Issuance:**  
   Only the authorized issuer can create new certificates and store their details securely on-chain.  
 
 - **Certificate Verification:**  
-  Any blockchain user can verify the validity and authenticity of a certificate using its `certId`.
+  Any user can verify the validity and authenticity of a certificate using its `certId`.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -116,149 +111,107 @@ Only the **Issuer** can issue certificates, and **anyone** can verify their auth
 ---
 ## EXPLANATION FOR SOLIDITY CODE AND OUTPUTS: 
 ---
-
 ## 🖼️ 1. CONTRACT DEPLOYMENT
-### Description:
-Shows the **initial deployment** of the certificate issuance smart contract on the **Sepolia Test Network** through **Remix IDE**.  
-Deployment confirms successful compilation and connection with MetaMask.
-
-![Contract Deployment](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT.png)
+The smart contract was compiled and deployed successfully using **Remix IDE** on the **Sepolia Test Network**.  
+![CONTRACT DEPLOYMENT]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT.png))
 
 ---
 
 ## 🖼️ 2. CONTRACT DEPLOYMENT OF ADMIN
-### Description:
-Displays the contract deployed from the **Admin account** (owner) who controls the certificate system.  
-The admin later assigns issuance privileges to institutions.
-
-![Contract Deployment of Admin](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT%20OF%20ADMIN.png)
+Displays contract deployment by the **Admin account**.  
+The Admin acts as the owner who manages the overall certificate system and issuing authority.
+![CONTRACT DEPLOYMENT OF ADMIN]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT%20OF%20ADMIN.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT%20OF%20ADMIN.png))
 
 ---
 
 ## 🖼️ 3. OWNER TO ADMIN TRANSACTION
-### Description:
-Illustrates the Ethereum transaction where **ownership is transferred** to the **Admin account**.  
-Executed on the Sepolia network to establish contract governance hierarchy.
-
-![Owner to Admin Transaction](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20ADMIN%20TRANSACTION.png)
+Shows the **transaction transfer** from the **Owner** to the **Admin** account.  
+This transaction establishes the Admin as the primary controller of certificate issuance.
+![OWNER TO ADMIN TRANSACTION]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20ADMIN%20TRANSACTION.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20ADMIN%20TRANSACTION.png))
 
 ---
 
 ## 🖼️ 4. OWNER TO INSTITUTE TRANSACTION
-### Description:
-Depicts the Admin assigning issuance privileges to an **Institute account**, allowing it to issue certificates.  
-This enforces a **multi-role structure** for decentralized control.
-
-![Owner to Institute Transaction](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20INSTUTE%20TRANSACTION.png)
+The Admin delegates authority to an **Institute account**, allowing it to issue certificates.  
+![OWNER TO INSTITUTE TRANSACTION]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20INSTUTE%20TRANSACTION.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20INSTUTE%20TRANSACTION.png))
 
 ---
 
 ## 🖼️ 5. ISSUE CERTIFICATE PAGE
-### Description:
-Screenshot from Remix showing the **`issueCertificate()`** function execution.  
-The issuer (Institute account) creates a new certificate on-chain with metadata and a unique `certId`.
-
-![Issue Certificate Function](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ISSUE%20CERTIFICATE%20PAGE.png)
+This image captures the **Remix IDE interface** showing the `issueCertificate()` function being called by the Institute account.  
+The certificate is created and registered with a unique `certId`.
+![ISSUE CERTIFICATE FUNCTION]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ISSUE%20CERTIFICATE%20PAGE.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ISSUE%20CERTIFICATE%20PAGE.png))
 
 ---
 
-## 🖼️ 6. METAMASK TRANSACTION FOR CERTIFICATE [SOLIDITY CODE REF]
-### Description:
-Displays the **MetaMask transaction prompt** confirming the certificate issuance.  
-It includes **gas fee**, **to address**, and **data payload** from the smart contract.
-
-![MetaMask Transaction for Certificate](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/METAMASK_TRANSACTION%20FOR%20CERTIFICATE_%5BSOLIDITY%20CODE%20REF%5D.png)
+## 🖼️ 6. CERTIFICATE ISSUAL_SOLIDITY CODE
+Displays the Solidity code implementation for **certificate issuance**, showing logic for role-based access control and event emission.
+![CERTIFICATE ISSUAL_SOLIDITY CODE]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20ISSUAL_SOLIDITY%20CODE.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20ISSUAL_SOLIDITY%20CODE.png))
 
 ---
 
-## 🖼️ 7. SUCCESSFUL DEPLOYMENT OF ISSUE CERTIFICATE
-### Description:
-Shows the **Remix IDE console output** confirming that the certificate issuance transaction executed successfully and the blockchain state was updated.
-
-![Successful Deployment of Issue Certificate](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SUCCESSFULL%20DEPLOYMENT%20OF%20ISSUE%20CERTIFICATE.png)
+## 🖼️ 7. METAMASK TRANSACTION FOR CERTIFICATE [SOLIDITY CODE REF]
+Shows the **MetaMask confirmation popup** triggered by the `issueCertificate()` function.  
+Displays the transaction gas fee and smart contract address, confirming blockchain interaction.
+![METAMASK TRANSACTION FOR CERTIFICATE]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/METAMASK_TRANSACTION%20FOR%20CERTIFICATE_%5BSOLIDITY%20CODE%20REF%5D.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/METAMASK_TRANSACTION%20FOR%20CERTIFICATE_%5BSOLIDITY%20CODE%20REF%5D.png))
 
 ---
 
-## 🖼️ 8. CERTIFICATE ISSUAL_SOLIDITY CODE
-### Description:
-This image contains the Solidity code implementation of the **Certificate Issuance** function,  
-demonstrating how roles and ownership are managed in the contract.
-
-![Certificate Issual Solidity Code](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20ISSUAL_SOLIDITY%20CODE.png)
+## 🖼️ 8. SUCCESSFUL DEPLOYMENT OF ISSUE CERTIFICATE
+Depicts the Remix console showing successful execution of the certificate issuance transaction.  
+It verifies that the certificate has been stored on-chain successfully.
+![SUCCESSFUL DEPLOYMENT OF ISSUE CERTIFICATE]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SUCCESSFULL%20DEPLOYMENT%20OF%20ISSUE%20CERTIFICATE.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SUCCESSFULL%20DEPLOYMENT%20OF%20ISSUE%20CERTIFICATE.png))
 
 ---
 
 ## 🖼️ 9. CERTIFICATE VERIFICATION
-### Description:
-Depicts the **`verifyCertificate()`** function output showing certificate authenticity using its `certId`.
-
-![Certificate Verification](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATION.png)
+Demonstrates the **verification process** where anyone can check a certificate’s authenticity by using its unique `certId`.
+![CERTIFICATE VERIFICATION]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATION.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATION.png))
 
 ---
 
-## 🖼️ 10. CERTIFICATE VERIFICATTION_SOLIDITY CODE
-### Description:
-Shows the Solidity code segment for the **verification logic**, ensuring that the certificate ID exists and was issued by an authorized issuer.
-
-![Certificate Verification Solidity Code](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATTION%20_SOLIDITY%20CODE.png)
+## 🖼️ 10. CERTIFICATE VERIFICATTION_SOLIDITY CODE 
+Shows the Solidity function responsible for verifying whether a given `certId` exists and was issued by an authorized entity.
+![CERTIFICATE VERIFICATTION_SOLIDITY CODE ]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATTION%20_SOLIDITY%20CODE.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATTION%20_SOLIDITY%20CODE.png))
 
 ---
 
-## 🖼️ 11. GETBACK OR CALLING BACK CERTIFICATE USING CERTID
-### Description:
-Displays how a user retrieves certificate details using `certId`.  
-This ensures verifiable proof of authenticity from the blockchain record.
-
-![Get Certificate by certId](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/GETBACK%20OR%20CALLING%20BACK%20CERTIFICATE%20USING%20CERTID.png)
+## 🖼️ 11. CALLING BACK CERTIFICATE USING CERTID
+Displays the **retrieval of certificate details** by entering a valid `certId` in the `getCertificate()` function.  
+This confirms the certificate’s existence on the blockchain.
+![CALLING BACK CERTIFICATE USING CERTID]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/GETBACK%20OR%20CALLING%20BACK%20CERTIFICATE%20USING%20CERTID.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/GETBACK%20OR%20CALLING%20BACK%20CERTIFICATE%20USING%20CERTID.png))
 
 ---
 
 ## 🖼️ 12. SEPOLIA TRANSACTION AND CONTRACT INTERACTION
-### Description:
-Shows the **transaction confirmation and contract call** logs from the **Sepolia Testnet**, confirming blockchain-level verification.
-
-![Sepolia Transaction and Contract Interaction](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SEPOLIA%20TRANSACTION%20AND%20CONTRACT%20INTERACTION.png)
+Shows the **transaction logs** from the Sepolia Testnet confirming that all certificate-related transactions were executed successfully.
+![SEPOLIA TRANSACTION AND CONTRACT INTERACTION]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SEPOLIA%20TRANSACTION%20AND%20CONTRACT%20INTERACTION.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SEPOLIA%20TRANSACTION%20AND%20CONTRACT%20INTERACTION.png))
 
 ---
 
-## 🖼️ 13. ETHERSCAN SEPOLIA ACCOUNT (0x120837dB0c8E662875082055eB2195baB5B66c0E)
-### Description:
-Screenshot from **Etherscan** showing the **Sepolia account activity** used to deploy and interact with the contract.  
-Verifies transparency and confirms transaction hashes.
-
-![Etherscan Sepolia Account](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ETHERSCAN%20SEPOLIA%20_ACCOUNT_0x120837dB0c8E662875082055eB2195baB5B66c0E.png)
+## 🖼️ 13. TRANSACTION CONFIRMATION OF ADMIN ACCOUNT  
+Shows the confirmed transaction receipt received by the Admin account on Sepolia network.  
+This ensures the Admin’s successful interaction with the blockchain.
+![TRANSACTION CONFIRMATION OF ADMIN ACCOUNT]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/TRANSACTION%20CONFIRMATION%20OF%20ADMIN%20ACCOUNT.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/TRANSACTION%20CONFIRMATION%20OF%20ADMIN%20ACCOUNT.png))
 
 ---
 
-## 🖼️ 14. TRANSACTION CONFIRMATION OF ADMIN ACCOUNT
-### Description:
-Displays the **transaction confirmation** received by the **Admin account** for a certificate issuance or ownership update.
-
-![Transaction Confirmation of Admin](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/TRANSACTION%20CONFIRMATION%20OF%20ADMIN%20ACCOUNT.png)
+## 🖼️ 14. ETHERSCAN SEPOLIA ACCOUNT (0x120837dB0c8E662875082055eB2195baB5B66c0E)
+Screenshot of the **Etherscan Sepolia account** showing transactions related to the certificate contract, confirming on-chain validation.
+![ETHERSCAN SEPOLIA ACCOUNT]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ETHERSCAN%20SEPOLIA%20_ACCOUNT_0x120837dB0c8E662875082055eB2195baB5B66c0E.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ETHERSCAN%20SEPOLIA%20_ACCOUNT_0x120837dB0c8E662875082055eB2195baB5B66c0E.png))
 
 ---
 
 ## 🖼️ 15. IPFS INIT
-### Description:
-Shows the **IPFS (InterPlanetary File System)** initialization process used to store certificate metadata or supporting documents off-chain.
-
-![IPFS Initialization](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/IPFS%20INIT.png)
+Shows the **IPFS initialization process**, confirming that distributed file storage was set up successfully for storing off-chain certificate documents.
+![IPFS INIT]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/IPFS%20INIT.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/IPFS%20INIT.png))
 
 ---
 
-## 🖼️ 16. WIN_POWERSHELL_IPFS_LAB
-### Description:
-Displays the **Windows PowerShell IPFS Lab setup**, confirming that IPFS node was successfully started and connected for decentralized file storage.
+## 🖼️ 16. WIN_POWERSHELL_IPFS
+Demonstrates the **Windows PowerShell IPFS node setup**, which enables certificate metadata pinning and retrieval using IPFS hashes.
 
-![Windows PowerShell IPFS Lab](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/WIN_POWERSHELL_IPFS_LAB.png)
-
----
-
-
-
-
-
-
+![WIN POWERSHELL IPFS]([https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/47befa701045197d8f8dff6d2852ce4ab223aa0d/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/WIN_POWERSHELL_IPFS_LAB.png](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/WIN_POWERSHELL_IPFS_LAB.png))
 
 ---
 
@@ -300,6 +253,9 @@ The Transactions done on 17-10-2025 were practised for certificate issuance in w
 </sub>
 
 ---
+
+#IPFS CONCEPTS PRACTISED :
+
 IPFS INITIALISATION  USING IPFS INIT :
 <img width="1350" height="129" alt="image" src="https://github.com/user-attachments/assets/d3b66ad4-0c0a-4f5f-b37a-5fa3dc07cfeb" />
 
@@ -314,6 +270,7 @@ OPENING AND DOWNLOADING AN IPFS OBJECT :
 
 BLOCK DISTRIBUTION OF A FILE SEEN VIA IPFS DAG STAT :
 <img width="627" height="146" alt="image" src="https://github.com/user-attachments/assets/dfa4dbac-88dd-48fa-babf-3676b28b518f" />
+
 
 
 
