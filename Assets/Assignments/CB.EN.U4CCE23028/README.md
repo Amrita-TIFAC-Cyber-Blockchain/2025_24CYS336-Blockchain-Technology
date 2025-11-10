@@ -87,6 +87,20 @@ view the block of the file
 
 
 
+### ENDSEM - PRACTICE
+
+| Admin Address                  | [0x5B38Da6a701c568545dCfcB03FcB875f56beddC4](https://sepolia.etherscan.io/address/0x5B38Da6a701c568545dCfcB03FcB875f56beddC4) |
+
+| Institution Address    | [0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2](https://sepolia.etherscan.io/address/0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2) |
+
+| Student Address        | [0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db](https://sepolia.etherscan.io/address/0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db) |
+
+| Smart Contract Address | [0xA4e80Ab3beBcD872EE7130573fD4efC380E5C760](https://sepolia.etherscan.io/tx/0xdc1676ced6230bbd4dc9f9059ce0c9a7c340e86da78af5069d413396cc81442c) |
+|:----------------------:|:-------------------------------------|
+| Store value 1 - Add product (done only by store manager)          | [0x1F55baA6fD375E254084e27C59F7142F328bb593](https://sepolia.etherscan.io/tx/0xc4d6986159db5a1bb0bd888bca9e639c556f122b3ef6536141847ea97f2ad4e1) |
+| Store value 2 - change store owner (done by store owner)          | [0x650933554e06A8e02f2e28Df3bb805d7A8206cB4](https://sepolia.etherscan.io/tx/0x96633419b715b8f00b082a816a3f5e025741cc847ce5cd00a5a40531e082e4d8) |
+
+
 
 
 
