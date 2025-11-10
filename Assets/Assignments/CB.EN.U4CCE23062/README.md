@@ -26,6 +26,25 @@
 ![](https://img.shields.io/badge/Date-8/9/25-purple) <br/>
 ### Lab 3 - IPFS
 
+#### 1. IPFS
+<img width="747" height="931" alt="Screenshot 2025-11-10 121506" src="https://github.com/user-attachments/assets/cb5d8f33-b4c0-4777-898f-5cc26cd44715" />
+
+#### 2. Initializing IPFS
+
+<img width="485" height="114" alt="image" src="https://github.com/user-attachments/assets/40735695-7ad1-4f9a-bd7d-b245f97613f5" />
+
+#### 3. Adding Files to IPFS
+
+<img width="1112" height="55" alt="image" src="https://github.com/user-attachments/assets/093a6d31-034e-4080-9be1-6644fe54e015" />
+IPFS CID :  QmdUfMokeyLdB7DRyzJF355DBzJJjMdgiPkgyXZfkMrzDF
+
+##### IPFS CID : QmdEEjKYJ2hhxryV3xNh56ne8VD6Uhy2PReXwzzbjCU7DJ
+
+#### 4.Getting File from IPFS CID
+
+<img width="796" height="65" alt="image" src="https://github.com/user-attachments/assets/5f246135-5ad1-4c0c-b189-bd201b811bf9" />
+
+
 
 
 
