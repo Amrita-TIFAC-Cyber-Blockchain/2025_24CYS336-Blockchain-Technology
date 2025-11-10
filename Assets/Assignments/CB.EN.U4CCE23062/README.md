@@ -34,9 +34,6 @@ Roles:
 
 Transactions:
 | Smart Contract Address | [0x54d5d556c2fb271589ba69195db3e30d34e95692](https://sepolia.etherscan.io/address/0x54d5d556c2fb271589ba69195db3e30d34e95692 ) |
-|:----------------------:|:-------------------------------------:|
-| Add Institution | [0xd3984ced375862155c59287b0ad5c34293b733f68e7226693bdfadf382807f77](https://sepolia.etherscan.io/tx/0xd3984ced375862155c59287b0ad5c34293b733f68e7226693bdfadf382807f77) |
-| Issue Certificate - Student | [0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992](https://sepolia.etherscan.io/tx/0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992) |
 
 
 ![](https://img.shields.io/badge/Date-8/9/25-purple) <br/>
@@ -59,6 +56,7 @@ IPFS CID :  QmdUfMokeyLdB7DRyzJF355DBzJJjMdgiPkgyXZfkMrzDF
 #### 4.Getting File from IPFS CID
 
 <img width="796" height="65" alt="image" src="https://github.com/user-attachments/assets/5f246135-5ad1-4c0c-b189-bd201b811bf9" />
+
 
 
 
