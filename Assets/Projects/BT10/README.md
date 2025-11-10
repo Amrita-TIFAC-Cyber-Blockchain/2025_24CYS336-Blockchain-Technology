@@ -86,17 +86,6 @@ These approaches not only enhance **security and scalability** but also align yo
 
 ---
 
-##  Summary
-The existing literature shows that merging **AI, Blockchain, and Edge Computing** leads to safer and smarter healthcare ecosystems.  
-- **AI** provides accurate and predictive insights.  
-- **Blockchain** ensures data trust, transparency, and security.  
-- **Edge computing** enables faster, cost-efficient processing.  
-
-Together, they create a strong foundation for developing modern **E-Health systems** that can handle real-time patient data securely and efficiently.
-
----
-
-
 
 -----
 ### Architectural Diagram
@@ -105,6 +94,58 @@ Together, they create a strong foundation for developing modern **E-Health syste
 
 
 ------
+###  Proposed System Architecture (Workflow Explanation)
+
+The proposed system integrates **Artificial Intelligence (AI)**, **Blockchain**, and **Edge Computing** to create a **secure, efficient, and transparent healthcare system**.  
+It ensures that patient health data and AI-based medical predictions are **tamper-proof, traceable, and accessible only to authorized users**.
+
+---
+
+####  **Workflow Steps**
+
+1. **Data Collection (Edge Layer)**
+   - Patient details, medical reports, and sensor data are collected from **edge devices** (e.g., hospital systems, IoT sensors, or mobile apps).  
+   - The edge layer pre-processes data (validation, encryption) before sending it to the network, reducing delay and bandwidth cost.
+
+2. **AI Decision Support**
+   - The **AI model** analyzes patient data to provide **diagnostic or predictive insights** (e.g., disease risk, health score).  
+   - Each AI output is **hashed and digitally signed**, ensuring it cannot be tampered with later.
+
+3. **Blockchain Integration**
+   - The **hashed records and AI decisions** are stored on the blockchain for **transparency and immutability**.  
+   - The actual patient data remains **off-chain (encrypted)** for privacy.  
+   - **Smart contracts** manage access permissions and enforce who can read or update EHR data.
+
+4. **Access Control & Authorization**
+   - Only **authorized participants** (patients, doctors, healthcare admins) can view or modify data.  
+   - Smart contracts verify **identity, role, and purpose of access** before allowing any transaction.
+
+5. **Audit & Monitoring**
+   - Every action (data upload, access, or update) is recorded as a **blockchain transaction**, creating a permanent **audit trail**.  
+   - This ensures accountability and helps trace the origin of every medical decision or data change.
+
+---
+
+####  **System Components**
+
+| **Component** | **Description** |
+|----------------|-----------------|
+| **Edge Devices / Local Nodes** | Collect patient data and perform local processing to reduce latency. |
+| **AI Engine** | Analyzes medical data and generates predictive results for clinical decision support. |
+| **Blockchain Network** | Stores hashed records and maintains a tamper-proof ledger of all transactions. |
+| **Smart Contracts** | Handle data access policies, authentication, and consent management. |
+| **Off-Chain Storage** | Stores encrypted EHR and large medical files (HIPAA/GDPR compliant). |
+
+---
+
+####  **Key Advantages**
+-  **Security:** Immutable records ensure data cannot be altered or deleted.  
+-  **Efficiency:** Edge computing minimizes latency and reduces server load.  
+-  **Intelligence:** AI supports doctors with reliable, data-driven predictions.  
+-  **Transparency:** All actions are traceable on blockchain for audit and trust.  
+-  **Privacy:** Sensitive data stays encrypted and only accessible to authorized users.
+
+---
 
 ###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -123,6 +164,7 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
+
 
 
 
