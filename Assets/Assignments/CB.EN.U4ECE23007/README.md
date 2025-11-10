@@ -45,6 +45,15 @@ Storing and retrieving online asset information
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | [https://sepolia.etherscan.io/address/0x71A88A64FFDc09264fd6Da2679F7D4859a03b79f] |
 
+### Lab  - IPFS
+Basic ipfs commands
+<img width="767" height="174" alt="image" src="https://github.com/user-attachments/assets/89ce7e3e-3830-44a4-91d4-45f56e597976" />
+
+Adding a file to IPFS
+<img width="1437" height="73" alt="image" src="https://github.com/user-attachments/assets/e0290119-746b-42d7-9b09-574545a58617" />
+
+
+
 
 ### End Sem Lab
 **Document**
@@ -91,4 +100,5 @@ contract PlotRegistry{
 
 }
 ```
+
 
