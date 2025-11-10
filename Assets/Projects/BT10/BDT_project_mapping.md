@@ -1,6 +1,8 @@
 ###  Mapping the Project to IEEE Blockchain Decision Tree (BDT)
 
-The **IEEE Blockchain Decision Tree (BDT)** helps determine if a system truly requires blockchain technology and which type suits it best — **Public**, **Private**, or **Permissioned**.  
+<img width="547" height="757" alt="image" src="https://github.com/user-attachments/assets/be075cbe-e7dc-4100-9314-33485098e123" />
+
+---
 Below is the mapping of my **AI + Blockchain-Based Healthcare System** to the IEEE BDT framework:
 
 | **IEEE BDT Evaluation Step** | **Project Decision** | **Justification for the Healthcare System** |
