@@ -7,7 +7,7 @@ from web3 import Web3
 INFURA_URL = "https://sepolia.infura.io/v3/b13daeeae6704b4eab6348de4a24933d"
 CONTRACT_ADDRESS = "0x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5"
 OWNER_ADDRESS = "0x75Dd20566F7A622C799D6929CdA1CB4b5E76c1Ea"
-PRIVATE_KEY = "0xbbf468ac537617edf191f8e1e8d103adf737e027b11321e4d757aeea0c01d379"    # use a throwaway test key(used original here)
+PRIVATE_KEY = "-"    # use a throwaway test key(used original here)
 ABI = json.load(open("abi.json"))
 
 w3 = Web3(Web3.HTTPProvider(INFURA_URL))
@@ -32,25 +32,13 @@ def hash_model(model):
     }
     return hashlib.sha256(json.dumps(params).encode()).hexdigest()
 
-def synthesize_data(n=20):
-    data = pd.DataFrame({
-        "age": np.random.randint(18,50,n),
-        "location": np.random.choice(["India","USA","UK","Germany"],n),
-        "gender": np.random.choice(["M","F"],n),
-        "prev_pref": np.random.choice(["sports","music","tech","food"],n),
-        "liked": np.random.choice([0,1],n)
-    })
-    data["loc_enc"] = data["location"].apply(encode_location)
-    data["gender_enc"] = data["gender"].apply(encode_gender)
-    data["prev_enc"] = data["prev_pref"].apply(encode_pref)
-    return data
 
 # ---------- Model init ----------
 if os.path.exists(CSV_FILE):
     df = pd.read_csv(CSV_FILE).dropna()
 else:
     df = pd.DataFrame({
-        "age": np.random.randint(18, 50, 20),
+        "age": np.random.randint(10, 70, 20),
         "location": np.random.choice(["India","USA","UK","Germany"], 20),
         "gender": np.random.choice(["M","F"], 20),
         "previous_pref": np.random.choice(PREFERENCE_CHOICES, 20),
@@ -123,3 +111,4 @@ while True:
 
         seen.add(i)
     time.sleep(1)  # check every second
+
