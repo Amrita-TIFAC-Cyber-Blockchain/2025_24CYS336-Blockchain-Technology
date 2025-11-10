@@ -4,7 +4,7 @@
 
 ## BT#12 -  Food Safety Traceability System using Blockchain and EPCIS
 
-![](https://img.shields.io/badge/_Name_-_VIYAS_K_-orange) ![](https://img.shields.io/badge/_Roll_Number_-_CB.EN.U4ECE23254_-orange)  <br/> 
+![](https://img.shields.io/badge/_Name_-_VIYAS_K_-blue) ![](https://img.shields.io/badge/_Roll_Number_-_CB.EN.U4ECE23254_-blue)  <br/> 
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -44,7 +44,9 @@ module. Once the P2P network confirms the transaction, the goods are shipped.
 valid, the Manufacturer’s server shares event information with the Distributor.
  7. Distributor verifies authenticity by comparing the blockchain hash with the received data
 hash.
-------
+<br/> <br/> <img width="420" height="299" alt="Screenshot 2025-11-10 at 11 26 47 AM" src="https://github.com/user-attachments/assets/c6b8d2fe-4fcc-4907-89ef-48c5728bcf6a" />
+
+---
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -52,6 +54,7 @@ hash.
 -----
 
 ### References
+
 
 
 
