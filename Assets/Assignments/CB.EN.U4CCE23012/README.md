@@ -11,6 +11,7 @@
 |:--------------:|:-----------------------------:|
 
 ### Lab 6 - Introduction to RemixIDE and Solidity Programming
+![](https://img.shields.io/badge/Date-8th_September-blue) <br/>
 
 | Smart Contract Address | [0x74c0345a5dc3f042e0c0bcd90a99e47d40dc1e63](https://sepolia.etherscan.io/address/0x74c0345a5dc3f042e0c0bcd90a99e47d40dc1e63) |
 |:----------------------:|:-------------------------------------:|
@@ -108,6 +109,7 @@ Unique Blocks: 329
 Shared Size: 0
 Ratio: 1.000000
 ```
+
 
 
 
