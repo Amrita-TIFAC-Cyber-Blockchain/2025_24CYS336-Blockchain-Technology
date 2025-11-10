@@ -34,7 +34,7 @@
 
 ### Lab - IPFS
 
-IPFS Initialization
+IPFS Initialization <br/>
 <img width="829" height="95" alt="image" src="https://github.com/user-attachments/assets/3d9d9bf2-7955-4010-9478-8590d7473ecc" />
 
 Adding a file to IPFS
@@ -52,6 +52,7 @@ Adding a file to IPFS
 | Smart Contract Address | [0xdf5d72e15d149be10c69c703fe24b62a62ecef23](https://sepolia.etherscan.io/address/0xdf5d72e15d149be10c69c703fe24b62a62ecef23) |
 |:----------------------:|:-------------------------------------:|
 | Store Value 1     | [0xc38c57c8c8cae854b27e4c092433cc63c0d2e1b68e3bc973ec3b97a79b77998e](https://sepolia.etherscan.io/tx/0xc38c57c8c8cae854b27e4c092433cc63c0d2e1b68e3bc973ec3b97a79b77998e)                   |
+
 
 
 
