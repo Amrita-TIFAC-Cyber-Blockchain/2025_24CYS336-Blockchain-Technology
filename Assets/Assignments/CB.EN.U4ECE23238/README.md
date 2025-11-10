@@ -9,9 +9,9 @@
 ![NAME - RAHUL KRISHNA J](https://img.shields.io/badge/NAME-RAHUL%20KRISHNA%20J-blue)  
 ![ROLL NO - CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)
 
-| WALLET ADDRESS ACCOUNT 1 | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
+| ADDRESS OF ACCOUNT 1 | [0x120837dB0c8E662875082055eB2195baB5B66c0E](https://sepolia.etherscan.io/address/0x120837dB0c8E662875082055eB2195baB5B66c0E) | 
 |:------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
-| WALLET ADDRESS ACCOUNT 2 | [0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7](https://sepolia.etherscan.io/address/0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7) | 
+| ADDRESS OF ACCOUNT 2 | [0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7](https://sepolia.etherscan.io/address/0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7) | 
 
 
 ---
@@ -72,108 +72,25 @@
 ![DATE](https://img.shields.io/badge/DATE-29--09--2025-green) <br/>
 
 <h2>LAB 6 - STORAGE SMART CONTRACT</h2>
+<h3>🧠 SMART CONTRACT PROGRAM USING SOLIDITY FOR CERTIFICATE ISSUAL AND VERIFICATION</h3>
 
-<h3>🧠 SMART CONTRACT PROGRAM USING SOLIDITY</h3>
+## 📘 DESCRIPTION
 
-<p style="font-size:15px;">
-This Solidity smart contract enables <b>certificate issuance and verification</b> on the Ethereum blockchain.  
-Only the <b>Issuer</b> can issue certificates, and anyone can verify their authenticity using a unique certificate ID (<code>certId</code>).
-</p>
+his Solidity smart contract  
+([**File Path on GitHub**](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/certificate_issual.sol))  
+enables **certificate issuance and verification** on the Ethereum blockchain.  
 
-<hr>
+Only the **Issuer** can issue certificates, and **anyone** can verify their authenticity using a unique certificate ID (`certId`).
 
-<h3>⚙️SOLIDITY CODE </h3>
+---
 
-```solidity
-// SPDX-License-Identifier: GPL-3.0
+## ⚙️ Key Functionalities
+- **Certificate Issuance:**  
+  Only the authorized issuer can create new certificates and store their details securely on-chain.  
 
-pragma solidity >=0.8.2 <0.9.0;
+- **Certificate Verification:**  
+  Any blockchain user can verify the validity and authenticity of a certificate using its `certId`.
 
-contract CertificateRegistry {
-
-    struct Certificate {
-        string studentName;
-        string course;
-        string grade;
-        string ipfsHash;
-        uint256 issuedOn;
-    }
-
-    mapping(address => Certificate) studentCertificates;
-
-    Certificate c;
-
-    // -------------------- Roles --------------------
-    address admin;
-    address institution1;
-    address institution2;
-
-    constructor() {
-        // Fixed Admin address
-        admin = 0xe71ABd7cB0c19f7A8A821E7D977a2742874fD635 ;
-
-        // Predefined Institutions
-        institution1 = 0x120837dB0c8E662875082055eB2195baB5B66c0E;
-        institution2 = 0x80217b294D7a2D0902484783c61fda5A1EFc7bff;
-    }
-
-    // -------------------- Modifiers --------------------
-    modifier isAdmin() {
-        require(msg.sender == admin, "Only Admin can call this function");
-        _;
-    }
-
-    modifier isInstitution() {
-        require(msg.sender == institution1 || msg.sender == institution2, "Only Institution can call this function");
-        _;
-    }
-
-    // -------------------- Admin Functions --------------------
-    function addInstitution1(address _instAddress) public isAdmin {
-        institution1 = _instAddress;
-    }
-
-    function addInstitution2(address _instAddress) public isAdmin {
-        institution2 = _instAddress;
-    }
-
-    // -------------------- Institution Functions --------------------
-    function issueCertificate(
-        address _student,
-        string memory _studentName,
-        string memory _course,
-        string memory _grade,
-        string memory _ipfsHash
-    ) public isInstitution {
-        c.studentName = _studentName;
-        c.course = _course;
-        c.grade = _grade;
-        c.ipfsHash = _ipfsHash;
-        c.issuedOn = block.timestamp;
-
-        studentCertificates[_student] = c;
-    }
-
-    // -------------------- Student / Public Functions --------------------
-    function getCertificate(address _student) public view returns (string memory, string memory, string memory, string memory, uint256) {
-        Certificate memory c1 = studentCertificates[_student];
-        return (c1.studentName, c1.course, c1.grade, c1.ipfsHash, c1.issuedOn);
-    }
-
-    function verifyCertificate(address _student, string memory _ipfsHash) public view returns (bool) {
-        Certificate memory c1 = studentCertificates[_student];
-        if (keccak256(abi.encodePacked(c1.ipfsHash)) == keccak256(abi.encodePacked(_ipfsHash))) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-}
------------------------------------------
-NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
------------------------------------------
-```
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 ![DATE](https://img.shields.io/badge/DATE-07--10--2025-green) <br/>
@@ -191,11 +108,157 @@ NOTE :OUTPUTS ARE IN FOLDER NAMED IMAGES
 
 ![DATE](https://img.shields.io/badge/DATE-17--10--2025-green) <br/>
 
-| Transaction Hash [REFER ADMIN IMAGE]     | [0xe71ABd7cB0c19f7A8A821E7D977a2742874fD635](https://sepolia.etherscan.io/address/0xe71ABd7cB0c19f7A8A821E7D977a2742874fD635) |
-|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
-| Transaction Hash [REFER INSTITUTE IMAGE]     | [0x80217b294D7a2D0902484783c61fda5A1EFc7bff](https://sepolia.etherscan.io/address/0x80217b294D7a2D0902484783c61fda5A1EFc7bff) |
+| ACCOUNT ROLE | ETHEREUM ADDRESS |
+|:----------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
+| **ADMIN ACCOUNT** | [0xe71abd7cb0c19f7a8a821e7d977a2742874fd635](https://sepolia.etherscan.io/address/0xe71abd7cb0c19f7a8a821e7d977a2742874fd635) |
+| **INSTITUTE 1 ACCOUNT** | [0x80217b294d7a2d0902484783c61fda5a1efc7bff](https://sepolia.etherscan.io/address/0x80217b294d7a2d0902484783c61fda5a1efc7bff) |
+
 ---
 ## EXPLANATION FOR SOLIDITY CODE AND OUTPUTS: 
+---
+
+## 🖼️ 1. CONTRACT DEPLOYMENT
+### Description:
+Shows the **initial deployment** of the certificate issuance smart contract on the **Sepolia Test Network** through **Remix IDE**.  
+Deployment confirms successful compilation and connection with MetaMask.
+
+![Contract Deployment](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT.png)
+
+---
+
+## 🖼️ 2. CONTRACT DEPLOYMENT OF ADMIN
+### Description:
+Displays the contract deployed from the **Admin account** (owner) who controls the certificate system.  
+The admin later assigns issuance privileges to institutions.
+
+![Contract Deployment of Admin](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT%20OF%20ADMIN.png)
+
+---
+
+## 🖼️ 3. OWNER TO ADMIN TRANSACTION
+### Description:
+Illustrates the Ethereum transaction where **ownership is transferred** to the **Admin account**.  
+Executed on the Sepolia network to establish contract governance hierarchy.
+
+![Owner to Admin Transaction](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20ADMIN%20TRANSACTION.png)
+
+---
+
+## 🖼️ 4. OWNER TO INSTITUTE TRANSACTION
+### Description:
+Depicts the Admin assigning issuance privileges to an **Institute account**, allowing it to issue certificates.  
+This enforces a **multi-role structure** for decentralized control.
+
+![Owner to Institute Transaction](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/OWNER%20TO%20INSTUTE%20TRANSACTION.png)
+
+---
+
+## 🖼️ 5. ISSUE CERTIFICATE PAGE
+### Description:
+Screenshot from Remix showing the **`issueCertificate()`** function execution.  
+The issuer (Institute account) creates a new certificate on-chain with metadata and a unique `certId`.
+
+![Issue Certificate Function](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ISSUE%20CERTIFICATE%20PAGE.png)
+
+---
+
+## 🖼️ 6. METAMASK TRANSACTION FOR CERTIFICATE [SOLIDITY CODE REF]
+### Description:
+Displays the **MetaMask transaction prompt** confirming the certificate issuance.  
+It includes **gas fee**, **to address**, and **data payload** from the smart contract.
+
+![MetaMask Transaction for Certificate](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/METAMASK_TRANSACTION%20FOR%20CERTIFICATE_%5BSOLIDITY%20CODE%20REF%5D.png)
+
+---
+
+## 🖼️ 7. SUCCESSFUL DEPLOYMENT OF ISSUE CERTIFICATE
+### Description:
+Shows the **Remix IDE console output** confirming that the certificate issuance transaction executed successfully and the blockchain state was updated.
+
+![Successful Deployment of Issue Certificate](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SUCCESSFULL%20DEPLOYMENT%20OF%20ISSUE%20CERTIFICATE.png)
+
+---
+
+## 🖼️ 8. CERTIFICATE ISSUAL_SOLIDITY CODE
+### Description:
+This image contains the Solidity code implementation of the **Certificate Issuance** function,  
+demonstrating how roles and ownership are managed in the contract.
+
+![Certificate Issual Solidity Code](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20ISSUAL_SOLIDITY%20CODE.png)
+
+---
+
+## 🖼️ 9. CERTIFICATE VERIFICATION
+### Description:
+Depicts the **`verifyCertificate()`** function output showing certificate authenticity using its `certId`.
+
+![Certificate Verification](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATION.png)
+
+---
+
+## 🖼️ 10. CERTIFICATE VERIFICATTION_SOLIDITY CODE
+### Description:
+Shows the Solidity code segment for the **verification logic**, ensuring that the certificate ID exists and was issued by an authorized issuer.
+
+![Certificate Verification Solidity Code](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATTION%20_SOLIDITY%20CODE.png)
+
+---
+
+## 🖼️ 11. GETBACK OR CALLING BACK CERTIFICATE USING CERTID
+### Description:
+Displays how a user retrieves certificate details using `certId`.  
+This ensures verifiable proof of authenticity from the blockchain record.
+
+![Get Certificate by certId](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/GETBACK%20OR%20CALLING%20BACK%20CERTIFICATE%20USING%20CERTID.png)
+
+---
+
+## 🖼️ 12. SEPOLIA TRANSACTION AND CONTRACT INTERACTION
+### Description:
+Shows the **transaction confirmation and contract call** logs from the **Sepolia Testnet**, confirming blockchain-level verification.
+
+![Sepolia Transaction and Contract Interaction](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SEPOLIA%20TRANSACTION%20AND%20CONTRACT%20INTERACTION.png)
+
+---
+
+## 🖼️ 13. ETHERSCAN SEPOLIA ACCOUNT (0x120837dB0c8E662875082055eB2195baB5B66c0E)
+### Description:
+Screenshot from **Etherscan** showing the **Sepolia account activity** used to deploy and interact with the contract.  
+Verifies transparency and confirms transaction hashes.
+
+![Etherscan Sepolia Account](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/ETHERSCAN%20SEPOLIA%20_ACCOUNT_0x120837dB0c8E662875082055eB2195baB5B66c0E.png)
+
+---
+
+## 🖼️ 14. TRANSACTION CONFIRMATION OF ADMIN ACCOUNT
+### Description:
+Displays the **transaction confirmation** received by the **Admin account** for a certificate issuance or ownership update.
+
+![Transaction Confirmation of Admin](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/TRANSACTION%20CONFIRMATION%20OF%20ADMIN%20ACCOUNT.png)
+
+---
+
+## 🖼️ 15. IPFS INIT
+### Description:
+Shows the **IPFS (InterPlanetary File System)** initialization process used to store certificate metadata or supporting documents off-chain.
+
+![IPFS Initialization](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/IPFS%20INIT.png)
+
+---
+
+## 🖼️ 16. WIN_POWERSHELL_IPFS_LAB
+### Description:
+Displays the **Windows PowerShell IPFS Lab setup**, confirming that IPFS node was successfully started and connected for decentralized file storage.
+
+![Windows PowerShell IPFS Lab](https://github.com/Amrita-TIFAC-Cyber-Blockchain/raw/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/WIN_POWERSHELL_IPFS_LAB.png)
+
+---
+
+
+
+
+
+
 
 ---
 
@@ -251,6 +314,7 @@ OPENING AND DOWNLOADING AN IPFS OBJECT :
 
 BLOCK DISTRIBUTION OF A FILE SEEN VIA IPFS DAG STAT :
 <img width="627" height="146" alt="image" src="https://github.com/user-attachments/assets/dfa4dbac-88dd-48fa-babf-3676b28b518f" />
+
 
 
 
