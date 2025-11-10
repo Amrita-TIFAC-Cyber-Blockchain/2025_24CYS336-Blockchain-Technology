@@ -1,0 +1,128 @@
+
+pragma solidity 0.8.20;
+
+contract SimpleDiagnosis {
+    address public owner;
+    uint256 public threshold;
+    uint256[] public weights;
+    event PredictionMade(address indexed caller, uint8 prediction, uint256 timestamp);
+
+    error NotOwner();
+    error FeatureWeightMismatch(uint256 features, uint256 weights);
+
+    constructor(uint256 _threshold, uint256[] memory _initialWeights) {
+        owner = msg.sender;
+        threshold = _threshold;
+        weights = _initialWeights;
+    }
+
+    modifier onlyOwner() {
+        if (msg.sender != owner) revert NotOwner();
+        _;
+    }
+
+    function setThreshold(uint256 _threshold) public onlyOwner {
+        threshold = _threshold;
+    }
+
+    function setWeights(uint256[] calldata _newWeights) public onlyOwner {
+        weights = _newWeights;
+    }
+
+    function predict(uint256[] calldata features) public view returns (uint8) {
+        if (features.length != weights.length) {
+            revert FeatureWeightMismatch(features.length, weights.length);
+        }
+
+        uint256 weightedSum = 0;
+        unchecked {
+            for (uint i = 0; i < features.length; i++) {
+                weightedSum += features[i] * weights[i];
+            }
+        }
+        return weightedSum > threshold ? 1 : 0;
+    }
+
+    function predictAndLog(uint256[] calldata features) public returns (uint8) {
+        uint8 p = predict(features);
+        emit PredictionMade(msg.sender, p, block.timestamp);
+        return p;
+    }
+}
+
+contract SimpleEHR {
+    mapping(address => bytes32) public metadataHash;
+    address public hospitalAdmin;
+    mapping(address => mapping(address => uint256)) public grantExpiration;
+    mapping(address => mapping(address => uint256)) public emergencyGrant;
+
+    error NotAllowed();
+    error InvalidAddress();
+    error NotAdmin();
+
+    event AccessEvent(address indexed patient, address indexed doctor, string action, uint256 timestamp);
+    event EmergencyAccess(address indexed patient, address indexed doctor, address admin, uint256 timestamp);
+
+    constructor(address _adminAddress) {
+        if (_adminAddress == address(0)) revert InvalidAddress();
+        hospitalAdmin = _adminAddress;
+    }
+
+    function setMetadataHash(bytes32 _hash) public {
+        metadataHash[msg.sender] = _hash;
+        emit AccessEvent(msg.sender, address(0), "METADATA_SET", block.timestamp);
+    }
+
+    function grantAccess(address _doctor, uint256 _durationInSeconds) public {
+        if (_doctor == address(0)) revert InvalidAddress();
+        
+        uint256 expirationTime = block.timestamp + _durationInSeconds;
+        grantExpiration[msg.sender][_doctor] = expirationTime;
+        emit AccessEvent(msg.sender, _doctor, "GRANT", expirationTime);
+    }
+
+    function revokeAccess(address _doctor) public {
+        if (_doctor == address(0)) revert InvalidAddress();
+        grantExpiration[msg.sender][_doctor] = 0;
+        emit AccessEvent(msg.sender, _doctor, "REVOKE", block.timestamp);
+    }
+
+    function emergencyGrantAccess(address _patient, address _doctor) public {
+        if (msg.sender != hospitalAdmin) revert NotAdmin();
+        if (_patient == address(0)) revert InvalidAddress();
+        if (_doctor == address(0)) revert InvalidAddress();
+
+        uint256 expiration = block.timestamp + 1 hours;
+        emergencyGrant[_patient][_doctor] = expiration;
+        emit EmergencyAccess(_patient, _doctor, msg.sender, block.timestamp);
+    }
+
+    function isAllowed(address _patient, address _doctor) public view returns (bool) {
+        uint256 patientExpiration = grantExpiration[_patient][_doctor];
+        if (patientExpiration > 0 && patientExpiration > block.timestamp) {
+            return true;
+        }
+
+        uint256 emergencyExpiration = emergencyGrant[_patient][_doctor];
+        if (emergencyExpiration > 0 && emergencyExpiration > block.timestamp) {
+            return true;
+        }
+
+        return false;
+    }
+
+    function readMetadataHash(address _patient) public view returns (bytes32) {
+        if (!isAllowed(_patient, msg.sender) && msg.sender != _patient) {
+            revert NotAllowed();
+        }
+        return metadataHash[_patient];
+    }
+
+    function readMetadataHashAndLog(address _patient) public returns (bytes32) {
+        if (!isAllowed(_patient, msg.sender) && msg.sender != _patient) {
+            revert NotAllowed();
+        }
+        emit AccessEvent(_patient, msg.sender, "READ", block.timestamp);
+        return metadataHash[_patient];
+    }
+}
