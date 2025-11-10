@@ -30,6 +30,10 @@
 
 
 
+### adding the file and opening the file
+<img width="1386" height="143" alt="image" src="https://github.com/user-attachments/assets/8cc506ac-c52c-4aad-a3f8-cab7f98f8551" />
+
+
 
 
 
