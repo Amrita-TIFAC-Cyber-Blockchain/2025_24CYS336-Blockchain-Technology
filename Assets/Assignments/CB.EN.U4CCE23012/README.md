@@ -17,7 +17,8 @@
 |:----------------------:|:-------------------------------------:|
 | Store Transaction 1    | [0xf6221323c5e9f3892f7d0b58eaffeab59654ad8b85e844b488e770e6e4c3d811](https://sepolia.etherscan.io/tx/0xf6221323c5e9f3892f7d0b58eaffeab59654ad8b85e844b488e770e6e4c3d811)  |
 
-### Lab 7 - Solidity Programming Lab 2
+### Lab 7 - Exploration of Solidity Programming
+![](https://img.shields.io/badge/Date-15th_September-blue) <br/>
 
 | Smart Contract Address | [0x8286735Eb2cbB530484FF4865A1dD458ed43Fbb9](https://sepolia.etherscan.io/address/0x8286735eb2cbb530484ff4865a1dd458ed43fbb9) |
 |:----------------------:|:-------------------------------------:|
@@ -109,6 +110,7 @@ Unique Blocks: 329
 Shared Size: 0
 Ratio: 1.000000
 ```
+
 
 
 
