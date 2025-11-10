@@ -42,7 +42,7 @@
 ### Lab - IPFS
 
 IPFS initialization
-<img width="816" height="150" alt="image" src="https://github.com/user-attachments/assets/d9e6d9e6-671d-40d0-89e2-1eccccb82888" />
+<img width="1433" height="150" alt="image" src="https://github.com/user-attachments/assets/a5d62823-e10f-4fd3-b195-11dbd8484f05" />
 
 File addition
 <img width="1435" height="75" alt="image" src="https://github.com/user-attachments/assets/1a8e2e87-0bd7-4211-a431-c3ff3569a5cb" />
@@ -50,6 +50,9 @@ File addition
 File saving
 <img width="1437" height="72" alt="image" src="https://github.com/user-attachments/assets/b5f07851-3f81-4995-9342-ba7a8e2fa3d8" />
 
+| IPFS Gateway | [QmavpbkhDXPUbq7QC12Thf2VJwmzuveQZdyqnBW8VELPRD](http://127.0.0.1:8080/ipfs/QmavpbkhDXPUbq7QC12Thf2VJwmzuveQZdyqnBW8VELPRD) |
+|:----------------------:|:-------------------------------------:|
+<img width="836" height="202" alt="image" src="https://github.com/user-attachments/assets/40eb6b8f-8148-454f-8606-1e5f18ad4867" />
 
 
 
@@ -59,9 +62,7 @@ File saving
 | Admin Address       | [0xf0D3c08210f05352423d55639d782eabbf8C73d5](https://sepolia.etherscan.io/address/0xf0D3c08210f05352423d55639d782eabbf8C73d5) |
 |:----------------------:|:-------------------------------------:|
 | Institution Address | [0x7E972598176a032eA571d88789308910dD206D93](https://sepolia.etherscan.io/address/0x7E972598176a032eA571d88789308910dD206D93) |
-|:----------------------:|:-------------------------------------:|
 | Student Address     | [0x81a93D0b7f2A95932D2c3e4aD0e77C8C1CeD988E](https://sepolia.etherscan.io/address/0x81a93D0b7f2A95932D2c3e4aD0e77C8C1CeD988E) |
-|:----------------------:|:-------------------------------------:|
 
 
 | Smart Contract Address | [0xd4044afa0a57ed1dfcef1f5023168f7ebab982fd](https://sepolia.etherscan.io/address/0xd4044afa0a57ed1dfcef1f5023168f7ebab982fd) |
@@ -69,6 +70,7 @@ File saving
 | Add institution        | [0xc4475a37e808ea1e0d43bca14cf3e3552ceec2cd9843ae5a9842ddb851bccb31](https://sepolia.etherscan.io/tx/0xc4475a37e808ea1e0d43bca14cf3e3552ceec2cd9843ae5a9842ddb851bccb31) |
 | Register student       | [0xfad16c9600b753efa7486cae7977e06bc5208a927222ba9665bad24938138a8a](https://sepolia.etherscan.io/tx/0xfad16c9600b753efa7486cae7977e06bc5208a927222ba9665bad24938138a8a) |
 | Issue certificate      | [0x9c51b12a45d34c683c2a8f17560657fa2c4007c0c5c856beab3d3a67b54e1572](https://sepolia.etherscan.io/tx/0x9c51b12a45d34c683c2a8f17560657fa2c4007c0c5c856beab3d3a67b54e1572) |
+
 
 
 
