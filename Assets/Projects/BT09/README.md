@@ -10,7 +10,13 @@
 ------
 
 ### Problem Statement
-Digital Twin technology is increasingly adopted across industries to create virtual replicas of physical assets for monitoring, analysis, and optimization. However, existing systems face key challenges such as unclear ownership of digital twin data, vulnerability to tampering, and lack of secure mechanisms to transfer ownership. Public blockchains can provide transparency, but they expose ownership information and cannot safeguard sensitive asset details. Therefore, there is a need for a permissioned blockchain framework that integrates Digital Twins with Non-Fungible Tokens (DT-NFTs). In this framework, ownership can be verified through wallet addresses, while detailed digital twin data is securely stored off-chain. By using a lightweight consensus mechanism like Proof of Authority (PoA), the solution ensures secure ownership, tamper-proof data integrity, and scalable collaboration in industrial applications.
+A Digital twin is a virtual copy of a physical asset like a machine,sensor or any device(all the functionaliites of the physical asset can be done by the virtual one - simulate the behavior of the real one). It is mainly used to monitor and analyse the real-world physical asset. Thus by analysing the behavior of the virtual copy, we can analyse the current status of the device and make decisions that could improve performance and also prevent future failures in the system. 
+
+The major challenges faced in these systems are:
+1)Digital twin data can be modified or tampered. Ex: The reading from a temperature sensor can be changed from the original.
+2)Ownership issues like which party own the Digital twin, when the asset is shared among different stakeholders. 
+
+Therefore the problem is to provide a secure,transperant and immutable data logging for the Digital Twin, so the the data cannot be tampered providing data integrity where the ownership is protected.
 
 
 -----
@@ -48,6 +54,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
