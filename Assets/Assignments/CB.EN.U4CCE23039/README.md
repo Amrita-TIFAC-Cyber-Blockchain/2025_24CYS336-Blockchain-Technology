@@ -28,7 +28,10 @@
 
 ## Lab 8 - Mapping
 ![](https://img.shields.io/badge/Date-29_Sep-blue)
-
+| Smart Contract Address | [0x849aA7b7016a88d678EEFDF4810af3B95ffDEb09](https://sepolia.etherscan.io/address/0x849aA7b7016a88d678EEFDF4810af3B95ffDEb09) |
+|:----------------------:|:-------------------------------------:|
+| Store value 1 | [0xd0c39a152ef0ff4459f86d9de53cd989342400c9ee4f6920075de7fa07d5a508](https://sepolia.etherscan.io/tx/0xd0c39a152ef0ff4459f86d9de53cd989342400c9ee4f6920075de7fa07d5a508) |
+| Store value 2 | [0x1097a45348a254beb9b5e09b3deb7c06b119caa269d3247085f39d4a764bad9e](https://sepolia.etherscan.io/tx/0x1097a45348a254beb9b5e09b3deb7c06b119caa269d3247085f39d4a764bad9e) |
 
 ## Practice Contracts
 ### 1. Certificate Registry for Academia
@@ -86,3 +89,4 @@ Transactions:
 
 ### View IPFS File
 <img width="1242" height="242" alt="image" src="https://github.com/user-attachments/assets/1840cde5-b965-47c8-93ab-e1ab80b65f2d" />
+
