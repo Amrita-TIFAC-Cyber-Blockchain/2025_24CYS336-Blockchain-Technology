@@ -111,7 +111,7 @@ Only the **Issuer** can issue certificates, and **anyone** can verify their auth
 ---
 ## EXPLANATION FOR SOLIDITY CODE AND OUTPUTS: 
 ---
-###🖼️ 1. CONTRACT DEPLOYMENT  
+### 🖼️ 1. CONTRACT DEPLOYMENT  
 The smart contract was compiled and deployed successfully using **Remix IDE** on the **Sepolia Test Network**.  
 [View Image](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/fff56006537a72799a9885f7eacd6177eb1ec2dd/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CONTRACT%20DEPLOYMENT.png)
 
@@ -138,17 +138,17 @@ The certificate is created and registered with a unique `certId`.
 Displays the Solidity code implementation for **certificate issuance**, showing logic for role-based access control and event emission.  
 [View Image](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20ISSUAL_SOLIDITY%20CODE.png)
 
-#### 🖼️ 7. METAMASK TRANSACTION FOR CERTIFICATE [SOLIDITY CODE REF]  
+### 🖼️ 7. METAMASK TRANSACTION FOR CERTIFICATE [SOLIDITY CODE REF]  
 Shows the **MetaMask confirmation popup** triggered by the `issueCertificate()` function.  
 Displays the transaction gas fee and smart contract address, confirming blockchain interaction.  
 [View Image](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/METAMASK_TRANSACTION%20FOR%20CERTIFICATE_%5BSOLIDITY%20CODE%20REF%5D.png)
 
-#### 🖼️ 8. SUCCESSFUL DEPLOYMENT OF ISSUE CERTIFICATE  
+### 🖼️ 8. SUCCESSFUL DEPLOYMENT OF ISSUE CERTIFICATE  
 Depicts the Remix console showing successful execution of the certificate issuance transaction.  
 It verifies that the certificate has been stored on-chain successfully.  
 [View Image](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/SUCCESSFULL%20DEPLOYMENT%20OF%20ISSUE%20CERTIFICATE.png)
 
-#### 🖼️ 9. CERTIFICATE VERIFICATION  
+### 🖼️ 9. CERTIFICATE VERIFICATION  
 Demonstrates the **verification process** where anyone can check a certificate’s authenticity by using its unique `certId`.  
 [View Image](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23238/IMAGES/CERTIFICATE%20VERIFICATION.png)
 
@@ -185,7 +185,7 @@ Demonstrates the **Windows PowerShell IPFS node setup**, which enables certifica
 
 ---
 
-### 1️⃣ INSTITUTE AND ADMIN ACCOUNTS :
+### INSTITUTE AND ADMIN ACCOUNTS :
 
 The below image represents the accounts created for **INSTITUTE** and **ADMIN** respectively.
 
@@ -198,17 +198,7 @@ The below image represents the accounts created for **INSTITUTE** and **ADMIN** 
 
 ---
 
-### 2️⃣ ACCOUNTS ADDED TO REMIX IDE :
-
-The below image represents the accounts — **Account 1**, **Account 2**, **INSTITUTE Account**, and **ADMIN Account** — added to **Remix IDE**.
-
-<p align="center">
-  <img width="260" height="370" alt="Accounts in Remix IDE" src="https://github.com/user-attachments/assets/917f1ba0-9ad5-4f54-b6bf-e975221b6aa1" />
-</p>
-
----
-
-### 3️⃣ CONSTRUCTOR REPRESENTATION IN SOLIDITY CODE :
+### CONSTRUCTOR REPRESENTATION IN SOLIDITY CODE :
 
 The below image represents the **constructor** in the Solidity smart contract,  
 which connects to the **Metamask Account Address** used during contract deployment.
@@ -217,14 +207,13 @@ which connects to the **Metamask Account Address** used during contract deployme
   <img width="600" height="180" alt="Constructor Code Representation" src="https://github.com/user-attachments/assets/76a95de6-938d-4f0f-b3da-00a0977ae0ff" />
 </p>
 
----
 <sub>
 The Transactions done on 17-10-2025 were practised for certificate issuance in which the Admin account only has the authority to add institutions, and institutions have permission to add students or issue the certificate of the student. If any other accounts are used for the ADMIN or INSTITUTE transactions respectively, the transaction will be reverted and a display message will be printed stating the authority of respective accounts. The verification of certificate can be called by any account.
 </sub>
 
 ---
 
-#IPFS CONCEPTS PRACTISED :
+# IPFS CONCEPTS PRACTISED :
 
 IPFS INITIALISATION  USING IPFS INIT :
 <img width="1350" height="129" alt="image" src="https://github.com/user-attachments/assets/d3b66ad4-0c0a-4f5f-b37a-5fa3dc07cfeb" />
@@ -240,6 +229,7 @@ OPENING AND DOWNLOADING AN IPFS OBJECT :
 
 BLOCK DISTRIBUTION OF A FILE SEEN VIA IPFS DAG STAT :
 <img width="627" height="146" alt="image" src="https://github.com/user-attachments/assets/dfa4dbac-88dd-48fa-babf-3676b28b518f" />
+
 
 
 
