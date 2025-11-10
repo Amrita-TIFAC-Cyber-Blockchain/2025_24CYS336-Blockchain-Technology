@@ -22,6 +22,7 @@ González et al. (2022) addressed the limitations of both centralized systems an
 -----
 ### Architectural Diagram
 
+<img width="1748" height="1240" alt="Blockchain Network (1)" src="https://github.com/user-attachments/assets/f2961ae3-e09d-4f15-9c2c-bdb80c4a15be" />
 
 ------
 
@@ -38,6 +39,7 @@ González et al. (2022) addressed the limitations of both centralized systems an
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959-59969.
 
 <2>Denis González, C., Frias Mena, D., Massó Muñoz, A., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531.
+
 
 
 
