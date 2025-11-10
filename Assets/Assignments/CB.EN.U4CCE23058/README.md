@@ -148,6 +148,15 @@ Ratio: 1.000000
 
 ```
 
+### Endsem Practice
+
+
+| **Smart Contract Address** | [0x0d07531990c0dadeca64014ef5581421ebf5e169](https://sepolia.etherscan.io/address/0x0d07531990c0dadeca64014ef5581421ebf5e169) |
+|:----------------------:|:-------------------------------------:|
+| **Add Institution 1** | [0xbf598649cac7fb9c9c10f5f36ee5845047227b32e00f3bb9528a7a9e63c3e995](https://sepolia.etherscan.io/tx/0xbf598649cac7fb9c9c10f5f36ee5845047227b32e00f3bb9528a7a9e63c3e995) |
+| **Issue Certificate** | [0x8587361b63071f6eb58b0a270dc82b44ef4fef533aaa1c867313159a49c01426](https://sepolia.etherscan.io/tx/0x8587361b63071f6eb58b0a270dc82b44ef4fef533aaa1c867313159a49c01426) |
+
+
 
 
 
