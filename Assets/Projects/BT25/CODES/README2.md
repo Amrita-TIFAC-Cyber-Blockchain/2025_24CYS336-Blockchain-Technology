@@ -1,14 +1,21 @@
-# Defence Logistics DApp – Explanation
+# DEFENSE LOGISTICS APPLICATION 
+The Application enables automatic connection with METAMASK ACCOUNTS , if the application detects any other accounts than the ones used for logistics manager , depot manager , and auditor and government it shows message as "UNAUTHORIZED ACCOUNTS DETECTED".
+It automatically connects to the account which is manually selected by the user in metamask and the transaction request is raised when done by respective accounts and people only.
 
-## 🌐 Live Demo  
+The contract address is pasted into the web application code which is aldredy deployed using solidity program :
+![PROGRAM](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT25/CODES/DefenceLogistics.sol).
+
+The ipfs hash values are generated automatically , the files are stored in pinata account and generates ipfs hash which can be used for verification later or document access by authorities respectivly.
+
+## 🌐 APPLICATION LIVE
 Access the DApp here: [DAPP](https://jrk-007.github.io/DAPP/)
 
-## 🧭 Purpose  
+## 🧭 PURPOSE : 
 This DApp interfaces with the `DefenceLogistics` smart contract deployed on the Ethereum Sepolia test network. It enables three distinct roles — Logistics Officer, Depot Manager, and Auditor — to interact with asset lifecycle functions such as registration, transfer, audit, and document association via IPFS.
 
 
-## 📁 File Reference  
-The DApp’s frontend source is hosted here: [GitHub Pages](https://jrk-007.github.io/DAPP/)  
+## 📁 FILE REFERENCE
+The DApp’s frontend source is hosted here: [GitHub Pages](https://github.com/JRK-007/DAPP/tree/main)  
 The contract and code base reside in your repository under `Assets/Assignments/CB.EN.U4ECE23238`.
 
 ---
