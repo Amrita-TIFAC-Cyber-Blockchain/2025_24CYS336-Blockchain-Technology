@@ -50,4 +50,39 @@ Transactions:
 | Issue Certificate - Student A | [0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992](https://sepolia.etherscan.io/tx/0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992) |
 | Issue Certificate - Student B | [0x3248cc7fa666f3c7c4321f8bea9d25f0d3f6503b99788cff46bcb5d947ed7150](https://sepolia.etherscan.io/tx/0x3248cc7fa666f3c7c4321f8bea9d25f0d3f6503b99788cff46bcb5d947ed7150) |
 
+<br/>
 
+### 2. Grocery Store
+Roles:
+| Role | Wallet Address |
+|:----------------------:|:-------------------------------------:|
+| Owner | [0x81fF4c5eB8d85504f2C41d423d32daf1be1164A8](https://sepolia.etherscan.io/address/0x81fF4c5eB8d85504f2C41d423d32daf1be1164A8) |
+| Customer 1 | [0x6481514b61b4e4ea258c2027e0d768865c383386](https://sepolia.etherscan.io/address/0x6481514b61b4e4ea258c2027e0d768865c383386) |
+| Customer 2 | [0xd4ed8886073f5cfab223992c3b4a538c632f15e2](https://sepolia.etherscan.io/address/0xd4ed8886073f5cfab223992c3b4a538c632f15e2) |
+
+
+Transactions:
+| Smart Contract Address | [0x1A7c957AE6bC35D43D2dB309b1c9ea5ff8db0865](https://sepolia.etherscan.io/address/0x1A7c957AE6bC35D43D2dB309b1c9ea5ff8db0865) |
+|:----------------------:|:-------------------------------------:|
+| Add Item | [0xea0a571521daceb67433bc73fc0ed5a076a9eb8530691fe329a6d2785c3dcf7a](https://sepolia.etherscan.io/tx/0xea0a571521daceb67433bc73fc0ed5a076a9eb8530691fe329a6d2785c3dcf7a) |
+| Deposit Funds - Customer 1 | [0xa5edf18b268716c430812a1fa0a100d31b9437df7e0d6322fc85bc09ef84fff7](https://sepolia.etherscan.io/tx/0xa5edf18b268716c430812a1fa0a100d31b9437df7e0d6322fc85bc09ef84fff7) |
+| Deposit Funds - Customer 2 | [0x17d6cda4b25e430ffcec54aa9fcd6a5452c7850ee6d4e174423d3bf7e006ff04](https://sepolia.etherscan.io/tx/0x17d6cda4b25e430ffcec54aa9fcd6a5452c7850ee6d4e174423d3bf7e006ff04) |
+| Place Order | [0x1784a7472f21d5ab517d0634a96ea68c73934fb056b184ba51f2db3fb12fdc22](https://sepolia.etherscan.io/tx/0x1784a7472f21d5ab517d0634a96ea68c73934fb056b184ba51f2db3fb12fdc22) |
+
+<img width="314" height="600" alt="image" src="https://github.com/user-attachments/assets/09750ed1-186b-4739-ab19-478aa95a885f" />
+
+<br/>
+<br/>
+
+
+## Lab - IPFS
+### Initialisation
+<img width="822" height="94" alt="image" src="https://github.com/user-attachments/assets/309af05b-7225-45a8-9887-7f0fc276e268" />
+
+
+### Add File
+<img width="1450" height="140" alt="image" src="https://github.com/user-attachments/assets/38f3d343-2700-472c-9ac3-60f2cd59cd4e" />
+
+
+### View IPFS File
+<img width="1242" height="242" alt="image" src="https://github.com/user-attachments/assets/1840cde5-b965-47c8-93ab-e1ab80b65f2d" />
