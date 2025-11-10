@@ -43,7 +43,7 @@ This way, the proposed integration provides a secure, transparent, and trustable
 ### Architectural Diagram
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/056d9ce7-ef78-4641-86a1-339a38de0def" />
 
-
+The architecture contains four main parts: the physical asset, digital twin, blockchain, and off-chain storage. The physical asset sends data to the twin, which generates a hash and sends it to blockchain for verification. The blockchain records this hash with time and metadata using a smart contract. The off-chain storage keeps the actual twin data. Each digital twin is linked to an NFT which shows its ownership.
 
 ------
 
@@ -65,6 +65,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
