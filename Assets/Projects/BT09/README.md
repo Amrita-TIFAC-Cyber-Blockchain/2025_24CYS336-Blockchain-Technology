@@ -27,11 +27,22 @@ The first paper by Nielsen et al. (2020) explains how blockchain can be used for
 
 The second paper by Teisserenc and Sepasgozar (2021) talks about ownership using tokens called Digital Twin Non-Fungible Token (DT-NFT). In this model, each Digital Twin is linked with an NFT token which represents the ownership. The NFT is stored in the blockchain and contains a link or hash to the twin data which is stored outside the blockchain. The owner of the wallet address which holds the NFT is considered the owner of that Digital Twin. Ownership can also be transferred easily by sending the NFT to another wallet. This method helps in verifying ownership but it does not focus on securing the twin data from changes or attacks.
 
-From both papers, we can see that one solves the data security problem and the other solves the ownership problem. In my project, I am trying to combine both of these ideas. I will use blockchain to store data hashes for security and DT-NFT to represent ownership. This will make the Digital Twin system both secure and trustable where the data cannot be changed and ownership can be verified and transferred safely.
+From the two papers, we can see that one is solving the data integrity problem and the other is solving the ownership problem. In my project, I am combining both these ideas into one single system so that the Digital Twin data is not only secure but also has a clear ownership.
+
+In the proposed system, the Digital Twin data which comes from the physical asset will first be converted into a hash value using a hashing function. This hash value is then stored in the blockchain through a smart contract. The smart contract will be deployed in a permissioned blockchain network which uses the Proof of Authority (PoA) consensus method. This helps in fast and secure transactions between trusted nodes. The blockchain will store the hash, timestamp, and some metadata of the update. The real data will not be stored in the blockchain but in an off-chain storage like IPFS or a local database. This makes the system light and secure.
+
+To solve the ownership issue, each Digital Twin will be represented by a unique DT-NFT (Digital Twin Non-Fungible Token). This token will show who owns the twin and will be linked to the owner’s wallet address. The ownership can also be transferred from one user to another by sending this token.
+
+By using both blockchain and DT-NFT, the system provides two important features:
+Data Integrity: because all data updates are recorded as immutable transactions.
+Ownership Verification: because every twin is linked to a verified wallet address through DT-NFT.
+
+This way, the proposed integration provides a secure, transparent, and trustable framework for Digital Twin data management where both data and ownership are protected.
 
 -----
 ### Architectural Diagram
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/23b36b1a-d3de-40ff-b7b9-c763d735e50b" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/056d9ce7-ef78-4641-86a1-339a38de0def" />
+
 
 
 ------
@@ -54,6 +65,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
