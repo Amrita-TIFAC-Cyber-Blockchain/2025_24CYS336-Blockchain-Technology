@@ -22,6 +22,18 @@
 |:----------------------:|:-------------------------------------:|
 | Store Value - Amritha      | https://sepolia.etherscan.io/tx/0xdc9031aed7187f638c34f0c83313f8d4402fe82917d0736de2b3704b5118e442                  |
 
+### Practice Contracts
+#### 1. Certificate Registery
+##### Roles
+
+| Roles | Address  |
+|:----------------------:|:-------------------------------------:|
+| Admin      | 0x8005Dc8B2EBBFAc096e26D6650F6b49fC535A35f               |
+| College | 0xfec4485cd3228067022137044afbb232fb005699  |
+| Student      | 0x9640338c1b3cc2aa1322fcb6f777dda5f806ac65                  |
+
+#### Smart Contract Address : https://sepolia.etherscan.io/tx/0x26dc3dd34a07f8d886cf9a5a1ade93518c84cc1d9dc7d9d5253f0fb0349ad98a
+
 ### Lab  - IPFS - Interplanetary File Sysytem 
 
 #### 1. IPFS
@@ -37,6 +49,7 @@
 
 #### 4.Getting File from IPFS CID
 <img width="1726" height="92" alt="image" src="https://github.com/user-attachments/assets/aba65af8-5161-4ef8-8283-fd11887fbb57" />
+
 
 
 
