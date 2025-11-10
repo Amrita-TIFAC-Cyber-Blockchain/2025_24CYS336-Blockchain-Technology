@@ -22,6 +22,23 @@
 |:----------------------:|:-------------------------------------:|
 | Store 1      | [0xd8074c87952f37e5ae9ea52da50800d42e06dc3bf1ce3477df3042f16f40e0](https://sepolia.etherscan.io/tx/0xd8074c87952f37e5ae9ea52da50800d42e06dc3bf1ce3477df3042f16f40e0) |
 
+## Practice Contracts
+### 1. Certificate Registry for Academia
+Roles:
+| Role | Wallet Address |
+|:----------------------:|:-------------------------------------:|
+| Owner | [0x641f996c9ae1ab961061a663069ee4056a944ac0](https://sepolia.etherscan.io/address/0x641f996c9ae1ab961061a663069ee4056a944ac0) |
+| College | [0x931b6f437d489ffd1e6eba3078bea5b0d132db70](https://sepolia.etherscan.io/address/0x931b6f437d489ffd1e6eba3078bea5b0d132db70) |
+| Student | [0xda1cdeb4d7de8690ce0fa1fb3ad764d8aab1c131](https://sepolia.etherscan.io/address/0xda1cdeb4d7de8690ce0fa1fb3ad764d8aab1c131) |
+
+
+Transactions:
+| Smart Contract Address | [0x54d5d556c2fb271589ba69195db3e30d34e95692](https://sepolia.etherscan.io/address/0x54d5d556c2fb271589ba69195db3e30d34e95692 
+) |
+|:----------------------:|:-------------------------------------:|
+| Add Institution | [0xd3984ced375862155c59287b0ad5c34293b733f68e7226693bdfadf382807f77](https://sepolia.etherscan.io/tx/0xd3984ced375862155c59287b0ad5c34293b733f68e7226693bdfadf382807f77) |
+| Issue Certificate - Student | [0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992](https://sepolia.etherscan.io/tx/0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992) |
+
 
 ![](https://img.shields.io/badge/Date-8/9/25-purple) <br/>
 ### Lab 3 - IPFS
@@ -43,6 +60,7 @@ IPFS CID :  QmdUfMokeyLdB7DRyzJF355DBzJJjMdgiPkgyXZfkMrzDF
 #### 4.Getting File from IPFS CID
 
 <img width="796" height="65" alt="image" src="https://github.com/user-attachments/assets/5f246135-5ad1-4c0c-b189-bd201b811bf9" />
+
 
 
 
