@@ -30,13 +30,17 @@
 ### Lab - Adding file to IPFS
 <img width="2387" height="134" alt="Screenshot 2025-11-09 101304" src="https://github.com/user-attachments/assets/abb5073d-09e1-4c27-8f3b-851177848e6f" />
 
-### Lab - Recover the content from the file value
+### Lab - Recover the content from the file 
 
 <img width="2543" height="109" alt="image" src="https://github.com/user-attachments/assets/98396b6a-bb47-40b0-ae68-2c4e8e75340b" />
+
+<img width="2123" height="448" alt="image" src="https://github.com/user-attachments/assets/7a1608eb-92fa-4c7b-a77a-6110b412c31b" />
+
 
 
 
  
+
 
 
 
