@@ -1,0 +1,153 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract PatientManagementSystem {
+
+    address public admin;
+
+    constructor() {
+        admin = 0x8005Dc8B2EBBFAc096e26D6650F6b49fC535A35f;
+    }
+
+
+    struct Doctor {
+        string name;
+        string specialization;
+        string hospital;
+        string contactInfo;
+        bool isRegistered;
+    }
+
+    struct Patient {
+        string name;
+        uint age;
+        string gender;
+        string contactInfo;
+        bool isRegistered;
+    }
+
+    struct MedicalRecord {
+        string diagnosis;
+        string prescription;
+        string ipfsHash;    
+        uint issuedOn;
+        address addedBy;     
+        string role;         
+    }
+
+    struct AccessPermission {
+        bool canView;
+        bool canAdd;
+    }
+
+
+    mapping(address => Doctor) public doctors;
+    mapping(address => Patient) public patients;
+    mapping(address => mapping(address => AccessPermission)) public permissions; 
+    mapping(address => MedicalRecord[]) private records; 
+
+
+    modifier onlyAdmin() {
+        require(msg.sender == admin, "Only admin allowed");
+        _;
+    }
+
+    modifier onlyDoctor() {
+        require(doctors[msg.sender].isRegistered, "Only registered doctor allowed");
+        _;
+    }
+
+    modifier onlyPatient() {
+        require(patients[msg.sender].isRegistered, "Only registered patient allowed");
+        _;
+    }
+
+    // ----------- ADMIN FUNCTIONS -------------
+
+    function registerDoctor(
+        address _doctor,
+        string memory _name,
+        string memory _specialization,
+        string memory _hospital,
+        string memory _contactInfo
+    ) public onlyAdmin {
+        require(!doctors[_doctor].isRegistered, "Doctor already registered");
+        doctors[_doctor] = Doctor(_name, _specialization, _hospital, _contactInfo, true);
+    }
+
+    function registerPatient(
+        address _patient,
+        string memory _name,
+        uint _age,
+        string memory _gender,
+        string memory _contactInfo
+    ) public onlyAdmin {
+        require(!patients[_patient].isRegistered, "Patient already registered");
+        patients[_patient] = Patient(_name, _age, _gender, _contactInfo, true);
+    }
+
+    // ----------- PATIENT FUNCTIONS -------------
+
+    function grantAccess(address _doctor, bool _view, bool _add) public onlyPatient {
+        require(doctors[_doctor].isRegistered, "Doctor not found");
+        permissions[msg.sender][_doctor] = AccessPermission(_view, _add);
+    }
+
+    function revokeAccess(address _doctor) public onlyPatient {
+        require(doctors[_doctor].isRegistered, "Doctor not found");
+        delete permissions[msg.sender][_doctor];
+    }
+
+    function uploadMyRecord(
+        string memory _diagnosis,
+        string memory _prescription,
+        string memory _ipfsHash
+    ) public onlyPatient {
+        records[msg.sender].push(MedicalRecord({
+            diagnosis: _diagnosis,
+            prescription: _prescription,
+            ipfsHash: _ipfsHash,
+            issuedOn: block.timestamp,
+            addedBy: msg.sender,
+            role: "Patient"
+        }));
+    }
+
+    function viewMyRecords() public view onlyPatient returns (MedicalRecord[] memory) {
+        return records[msg.sender];
+    }
+
+    // ----------- DOCTOR FUNCTIONS -------------
+
+    function requestAccess(address _patient) public view onlyDoctor returns (string memory) {
+        if (permissions[_patient][msg.sender].canView || permissions[_patient][msg.sender].canAdd) {
+            return "Access already granted";
+        } else {
+            return "Access pending patient approval";
+        }
+    }
+
+    function addPatientRecord(
+        address _patient,
+        string memory _diagnosis,
+        string memory _prescription,
+        string memory _ipfsHash
+    ) public onlyDoctor {
+        require(patients[_patient].isRegistered, "Patient not found");
+        require(permissions[_patient][msg.sender].canAdd, "No permission to add records");
+
+        records[_patient].push(MedicalRecord({
+            diagnosis: _diagnosis,
+            prescription: _prescription,
+            ipfsHash: _ipfsHash,
+            issuedOn: block.timestamp,
+            addedBy: msg.sender,
+            role: "Doctor"
+        }));
+    }
+
+    function viewPatientRecords(address _patient) public view onlyDoctor returns (MedicalRecord[] memory) {
+        require(permissions[_patient][msg.sender].canView, "No permission to view records");
+        return records[_patient];
+    }
+}
