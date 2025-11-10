@@ -52,6 +52,130 @@
 | Transaction Fee         | 0.001611909009671454 ETH |
 | Gas Price               | 1.500000009 Gwei |
 
+---
+### LAB - Certificate Registry with IPFS Hash using SOLIDITY
+
+Smart Contract Code :
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract CertificateRegistry {
+
+    
+    address public admin;
+
+    
+    struct Certificate {
+        string studentName;
+        string course;
+        string grade;
+        string ipfsHash;
+        uint256 issuedOn;
+        address issuedBy;
+    }
+
+    
+    mapping(address => bool) public isInstitution;
+    mapping(address => bool) public isStudent;
+
+    
+    mapping(address => Certificate[]) private studentCertificates;
+
+    
+    constructor() {
+        admin = msg.sender;
+    }
+
+    
+    modifier onlyAdmin() {
+        require(msg.sender == admin, "Only admin can do this");
+        _;
+    }
+
+    
+    modifier onlyInstitution() {
+        require(isInstitution[msg.sender], "Only institution can do this");
+        _;
+    }
+
+    
+    function addInstitution(address instAddress) public onlyAdmin {
+        require(instAddress != address(0), "Invalid address");
+        isInstitution[instAddress] = true;
+    }
+
+
+    function registerStudent(address student) public onlyInstitution {
+        require(student != address(0), "Invalid student address");
+        isStudent[student] = true;
+    }
+
+    
+    function issueCertificate(
+        address student,
+        string memory name,
+        string memory course,
+        string memory grade,
+        string memory ipfsHash
+    ) public onlyInstitution {
+        require(student != address(0), "Invalid student address");
+        require(bytes(ipfsHash).length > 0, "IPFS hash required");
+
+        Certificate memory cert = Certificate({
+            studentName: name,
+            course: course,
+            grade: grade,
+            ipfsHash: ipfsHash,
+            issuedOn: block.timestamp,
+            issuedBy: msg.sender
+        });
+
+        studentCertificates[student].push(cert);
+    }
+
+    
+    function getCertificates(address student) public view returns (Certificate[] memory) {
+        return studentCertificates[student];
+    }
+
+    
+    function verifyCertificate(address student, string memory ipfsHash) public view returns (bool) {
+        Certificate[] memory certList = studentCertificates[student];
+        for (uint i = 0; i < certList.length; i++) {
+            if (keccak256(bytes(certList[i].ipfsHash)) == keccak256(bytes(ipfsHash))) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+---
+#### Accounts used for this Contract :
+
+| Name | Address |
+|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Contract Deployer | [0x3a5344c3084bd5ebe99bdb253ed55b702ff08846](https://sepolia.etherscan.io/address/0x3a5344c3084bd5ebe99bdb253ed55b702ff08846) |
+| Admin | [0x72d0a1000e49e0137ab7863348703d4cda5c82f8](https://sepolia.etherscan.io/address/0x72d0a1000e49e0137ab7863348703d4cda5c82f8) |
+| Student | [0x84c536eaeac921890229f3029aa3f2d01586366b](https://sepolia.etherscan.io/address/0x84c536eaeac921890229f3029aa3f2d01586366b) |
+---
+#### Generating IPFS Hash Value for the Certificate : <br/> <br/> <img width="1057" height="379" alt="Screenshot 2025-11-10 at 9 25 37 AM" src="https://github.com/user-attachments/assets/9ca09de9-ca52-47cd-bacd-2c850cf1a400" />
+
+#### Initializing the Parameters using appropriate Owner and Admin Addresses :<br/> <br/> <img width="266" height="501" alt="Screenshot 2025-11-10 at 9 06 49 AM" src="https://github.com/user-attachments/assets/7c3d2e3c-7cc6-4723-84f5-fcb01585f885" />
+
+#### Transaction Hashes for the above actions :
+
+| Transaction Hash  1     |[0x937569646dfb506060d785d22df26af87c17c28433e1a4ac50011194cf90b9da](https://sepolia.etherscan.io/tx/0x937569646dfb506060d785d22df26af87c17c28433e1a4ac50011194cf90b9da) |
+|:----------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|
+| Transaction Hash  2     |[0x49bb7d594de888083340e3e013dfb13f3d93bc2b7c6cf014a591807fe51570e8](https://sepolia.etherscan.io/tx/0x49bb7d594de888083340e3e013dfb13f3d93bc2b7c6cf014a591807fe51570e8) |
+| Transaction Hash  3     |[0xeb86f0fbb22a78f1d8b30d442341df865416fa5fbb96882427bed1f6a2f0d8b1](https://sepolia.etherscan.io/tx/0xeb86f0fbb22a78f1d8b30d442341df865416fa5fbb96882427bed1f6a2f0d8b1) |
+
+
+#### Crosscheck and Retrive the Stored values  : <br/> <br/> <img width="1087" height="713" alt="Screenshot 2025-11-10 at 9 31 15 AM" src="https://github.com/user-attachments/assets/70367340-8538-42f4-8328-826261742c58" />
+
+
 
 
 
