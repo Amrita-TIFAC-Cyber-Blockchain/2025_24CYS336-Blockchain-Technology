@@ -18,9 +18,9 @@
 
 
 ### Lab 2 - Inroduction to Smart Contract 
-| Smart Contract Address | https://sepolia.etherscan.io/address/0xF84c1d951935e65DB30520b771ca07dC20E2DA5A |
+| Smart Contract Address | https://sepolia.etherscan.io/address/0x9e867455213F75e37fC41148a49B73D9d13fF0A0  |
 |:----------------------:|:-------------------------------------:|
-| Store Value      | https://sepolia.etherscan.io/tx/0x6de833df5bf7d51420d8b1c73a5ec8d865dd91f4d102d4c3ddec5190b85a56c4                  |
+| Store Value      | https://sepolia.etherscan.io/tx/0xdc9031aed7187f638c34f0c83313f8d4402fe82917d0736de2b3704b5118e442                  |
 
 ### Lab  - IPFS - Interplanetary File Sysytem 
 
@@ -37,6 +37,7 @@
 
 #### 4.Getting File from IPFS CID
 <img width="1726" height="92" alt="image" src="https://github.com/user-attachments/assets/aba65af8-5161-4ef8-8283-fd11887fbb57" />
+
 
 
 
