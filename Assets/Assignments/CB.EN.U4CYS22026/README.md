@@ -39,6 +39,24 @@
 | Transaction Desc.      |https://sepolia.etherscan.io/tx/0x2e47082f67a63d80be7b04dd289edaf452807627521deac067b2dc08216f67d0
 
 
+### Lab - IPFS
+ipfs init (initialization)
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22026/Assets/1.png">
+
+ipfs add (Add files to IPFS)
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22026/Assets/2.png">
+
+ipfs cat (Opening a file)
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22026/Assets/3.png">
+
+ipfs pin add (pinning a file to avoid grabage collection)
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22026/Assets/4.png">
+
+ipfs dag stat (Block distribution of the file)
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22026/Assets/5.png">
+
+
+
 
 
 
