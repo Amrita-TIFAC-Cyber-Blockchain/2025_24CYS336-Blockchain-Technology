@@ -4,7 +4,7 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<CB.EN.U4CYS22026>>
+## Assignments - CB.EN.U4CYS22026
 ![](https://img.shields.io/badge/Name-Hemadhri_P_C-blue)<br/>
 
 | Wallet Address | 0x04Fc4e9E713ba83A887E223ACAa02E13C607709e | 
@@ -37,6 +37,7 @@
 | Smart Contract Address | 0xd68460083Cf8200d81e8d6d40a2B47486A22691A |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      |https://sepolia.etherscan.io/tx/0x2e47082f67a63d80be7b04dd289edaf452807627521deac067b2dc08216f67d0
+
 
 
 
