@@ -28,7 +28,7 @@
 |:----------------------:|:-------------------------------------:|
 |  Store   | 0x6e14921c7a69ad83f0ccce76a4fc77159322ab63db84d650551bd8e1e85d79dd   |
 
-### Lab X - IPFS
+### Lab - IPFS
 
 IPFS initialisation:
 ```
@@ -277,5 +277,6 @@ contract CertificateRepository {
         return admin;
     }
 }
+
 
 
