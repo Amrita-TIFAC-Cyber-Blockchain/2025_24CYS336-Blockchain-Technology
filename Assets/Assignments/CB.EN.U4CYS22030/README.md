@@ -11,4 +11,5 @@
 |:--------------:|:-----------------------------:|
 
 ### Lab - RSA implementation
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22030/Assets/RSA.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22030/RSA.png">
+
