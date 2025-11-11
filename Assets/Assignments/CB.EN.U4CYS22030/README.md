@@ -4,14 +4,11 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## Assignments - <<NAME>>
-![](https://img.shields.io/badge/Name-YourName-blue) <br/>
+## Assignments - CB.EN.U4CYS22030
+![](https://img.shields.io/badge/Name-Jose_Rohit_M-blue) <br/>
 
-| Wallet Address | <<paste your Metamask Wallet Address>> | 
+| Wallet Address | 0xB5e0E725f2EDEd534e3674142662Ce926cd734BF | 
 |:--------------:|:-----------------------------:|
 
-### Lab X - Lab Name  
-
-| Smart Contract Address | << Paste the Smart Contract Address>> |
-|:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | <<Transaction ID>>                    |
+### Lab - RSA implementation
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22030/Assets/RSA.png">
