@@ -35,7 +35,9 @@
 
 
 ### Lab X - Endsem lab
-[CB.EN.U4ECE23119 ENDSEM LAB](https://github.com/HARSHAN1431/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4ECE23119/CB.EN.U4ECE23119%20ENDSEM%20LAB.pdf)
+
+
+[CB.EN.U4ECE231119_CYSEXAM.pdf](https://github.com/user-attachments/files/23525856/CB.EN.U4ECE231119_CYSEXAM.pdf)
 
 
 
