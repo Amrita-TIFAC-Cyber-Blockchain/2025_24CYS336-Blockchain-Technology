@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>P2P Lending DApp</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial;
+            background: #eef2f7;
+            padding: 30px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 25px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 12px rgba(0,0,0,0.1);
+        }
+
+        .title {
+            margin-bottom: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 8px;
+        }
+
+        input {
+            width: 96%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+
+        button {
+            padding: 10px 18px;
+            margin-top: 10px;
+            background: #276ef1;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background: #1a56c2;
+        }
+
+        .output-box {
+            background: #111;
+            color: #0f0;
+            padding: 20px;
+            border-radius: 8px;
+            white-space: pre-wrap;
+            margin-top: 10px;
+            font-family: "Consolas", monospace;
+            font-size: 14px;
+        }
+
+        .success {
+            font-size: 18px;
+            font-weight: bold;
+            color: green;
+            margin-top: 10px;
+        }
+        .status-funded { color: #0f0; font-weight: bold; }
+        .status-notfunded { color: #f00; font-weight: bold; }
+        .status-withdrawn { color: #00d0ff; font-weight: bold; }
+        .status-repaid { color: #0f0; font-weight: bold; }
+        .status-notrepaid { color: #ffcc00; font-weight: bold; }
+        .identity-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.badge-borrower {
+    background: #ffbf00;
+    color: #000;
+}
+
+.badge-lender {
+    background: #28a745;
+    color: #fff;
+}
+
+.badge-none {
+    background: #777;
+    color: #fff;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚀 P2P Lending DApp</h1>
+
+<button onclick="connect()">🔌 Connect MetaMask</button>
+<p id="identity_role" class="identity-badge badge-none">
+    Role: Not identified yet
+</p>
+
+<!-- Contract Setup -->
+<div class="card">
+    <div class="title">📄 Contract Setup</div>
+
+    <label>Contract Address:</label>
+    <input id="contract_address" type="text" placeholder="Enter deployed contract address">
+
+    <button onclick="loadContract()">Load Contract</button>
+    <p id="contract_status" class="success"></p>
+</div>
+
+<!-- Request Loan -->
+<div class="card">
+    <div class="title">💰 Request Loan (Values in Wei)</div>
+
+    <label>Amount (Wei):</label>
+    <input id="req_amount" type="text" placeholder="Example: 1000000000000000000">
+
+    <label>Interest (bps):</label>
+    <input id="req_interest" type="text" placeholder="Example: 500 for 5%">
+
+    <label>Term (seconds):</label>
+    <input id="req_term" type="text" placeholder="Example: 600 (10 mins)">
+
+    <button onclick="requestLoan()">Request Loan</button>
+
+    <p id="loan_id_display" class="success"></p>
+    
+
+</div>
+
+<!-- Fund Loan -->
+<div class="card">
+    <div class="title">🏦 Fund Loan (Use Wei)</div>
+
+    <label>Loan ID:</label>
+    <input id="fund_id" type="text">
+
+    <label>Amount (Wei):</label>
+    <input id="fund_amt" type="text">
+
+    <button onclick="fundLoan()">Fund Loan</button>
+
+</div>
+
+<!-- Withdraw -->
+<div class="card">
+    <div class="title">📤 Borrower Withdraw Funds</div>
+
+    <label>Loan ID:</label>
+    <input id="wd_id" type="text">
+
+    <button onclick="withdrawLoanFunds()">Withdraw</button>
+</div>
+
+<!-- Repay -->
+<div class="card">
+    <div class="title">💸 Repay Loan</div>
+
+    <label>Loan ID:</label>
+    <input id="repay_id" type="text">
+
+    <label>Repay Amount (Wei):</label>
+    <input id="repay_amt" type="text">
+
+    <button onclick="repayLoan()">Repay</button>
+</div>
+
+<!-- Lender Withdraw -->
+<div class="card">
+    <div class="title">📥 Lender Withdraw Proceeds</div>
+
+    <label>Loan ID:</label>
+    <input id="lp_id" type="text">
+
+    <button onclick="withdrawLenderProceeds()">Withdraw Proceeds</button>
+</div>
+
+<!-- Cancel Loan -->
+<div class="card">
+    <div class="title">❌ Cancel Loan</div>
+
+    <label>Loan ID:</label>
+    <input id="cancel_id" type="text">
+
+    <button onclick="cancelLoan()">Cancel Loan</button>
+</div>
+
+<!-- View Loan -->
+<div class="card">
+    <div class="title">🔍 View Loan Details</div>
+
+    <label>Loan ID:</label>
+    <input id="view_id" type="text">
+
+    <button onclick="viewLoan()">View</button>
+
+    <div id="loan_output" class="output-box"></div>
+
+</div>
+
+</div>
+
+<script>
+
+// ====== YOUR EXISTING JAVASCRIPT (unchanged) ======
+/* I kept ALL your logic the same, only UI improved */
+
+let web3;
+let contract;
+let account;
+
+const ABI =  [
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "borrower",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "BorrowerWithdrawn",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "lender",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "LenderWithdrawn",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "LoanCancelled",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "LoanFullyFunded",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "lender",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "LoanFunded",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "borrower",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "totalPaid",
+				"type": "uint256"
+			}
+		],
+		"name": "LoanRepaid",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "loanId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "borrower",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "interestBps",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "termEnds",
+				"type": "uint256"
+			}
+		],
+		"name": "LoanRequested",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "admin",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			}
+		],
+		"name": "adminRecover",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "cancelLoan",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "contributions",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "fundLoan",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_lender",
+				"type": "address"
+			}
+		],
+		"name": "getContribution",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "getLenders",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "lendersList",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "loans",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "borrower",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "fundedAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "interestBps",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "termEnds",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "funded",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "withdrawn",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "repaid",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "nextLoanId",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "proceeds",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "repayLoan",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_interestBps",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_termSeconds",
+				"type": "uint256"
+			}
+		],
+		"name": "requestLoan",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "withdrawLenderProceeds",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_loanId",
+				"type": "uint256"
+			}
+		],
+		"name": "withdrawLoanFunds",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	}
+]; // keep your ABI
+
+async function connect() {
+    if (window.ethereum) {
+        web3 = new Web3(window.ethereum);
+        let accounts = await ethereum.request({ method: "eth_requestAccounts" });
+        account = accounts[0];
+        document.getElementById("account").innerText = "Connected: " + account;
+    }
+}
+
+async function loadContract() {
+    let addr = document.getElementById("contract_address").value.trim();
+    contract = new web3.eth.Contract(ABI, addr);
+    document.getElementById("contract_status").innerText = "Contract Loaded Successfully!";
+    updateIdentity();
+}
+
+async function requestLoan() {
+    let amount = document.getElementById("req_amount").value;
+    let interest = document.getElementById("req_interest").value;
+    let term = document.getElementById("req_term").value;
+
+    await contract.methods.requestLoan(amount, interest, term)
+        .send({ from: account })
+        .on("receipt", function (receipt) {
+            const event = receipt.events.LoanRequested;
+            const loanId = event.returnValues.loanId;
+            document.getElementById("loan_id_display").innerText = "Generated Loan ID: " + loanId;
+            document.getElementById("fund_id").value = loanId;
+            document.getElementById("wd_id").value = loanId;
+            document.getElementById("repay_id").value = loanId;
+            document.getElementById("lp_id").value = loanId;
+            document.getElementById("cancel_id").value = loanId;
+            document.getElementById("view_id").value = loanId;
+            updateIdentity();
+        });
+}
+
+async function fundLoan() {
+    let loanId = document.getElementById("fund_id").value;
+    let amt = document.getElementById("fund_amt").value;
+    await contract.methods.fundLoan(loanId).send({ from: account, value: amt });
+    updateIdentity();
+}
+
+async function withdrawLoanFunds() {
+    let loanId = document.getElementById("wd_id").value;
+    await contract.methods.withdrawLoanFunds(loanId).send({ from: account });
+    updateIdentity();
+}
+
+async function repayLoan() {
+    let loanId = document.getElementById("repay_id").value;
+    let amt = document.getElementById("repay_amt").value;
+    await contract.methods.repayLoan(loanId).send({ from: account, value: amt });
+    updateIdentity();
+}
+
+async function withdrawLenderProceeds() {
+    let loanId = document.getElementById("lp_id").value;
+    await contract.methods.withdrawLenderProceeds(loanId).send({ from: account });
+}
+
+async function cancelLoan() {
+    let loanId = document.getElementById("cancel_id").value;
+    await contract.methods.cancelLoan(loanId).send({ from: account });
+    updateIdentity();
+}
+
+async function viewLoan() {
+    let loanId = document.getElementById("view_id").value;
+    let loan = await contract.methods.loans(loanId).call();
+    let lenders = await contract.methods.getLenders(loanId).call();
+
+    // Timestamp
+    let readableDate = new Date(loan.termEnds * 1000).toLocaleString();
+
+    // Status badges
+    let fundedStatus = loan.funded 
+        ? `<span class="status-funded">✔ Funded</span>` 
+        : `<span class="status-notfunded">✖ Not Funded</span>`;
+
+    let withdrawnStatus = loan.withdrawn
+        ? `<span class="status-withdrawn">✔ Withdrawn</span>`
+        : `<span class="status-notfunded">✖ Not Withdrawn</span>`;
+
+    let repaidStatus = loan.repaid
+        ? `<span class="status-repaid">✔ Repaid</span>`
+        : `<span class="status-notrepaid">✖ Not Repaid</span>`;
+
+    // Identity within this loan
+    let role = "None";
+    let roleBadge = "";
+
+    if (loan.borrower.toLowerCase() === account.toLowerCase()) {
+        role = "You are the BORROWER of this loan";
+        roleBadge = `<span class="identity-badge badge-borrower">${role}</span>`;
+    }
+    else if (lenders.map(a => a.toLowerCase()).includes(account.toLowerCase())) {
+        role = "You are a LENDER in this loan";
+        roleBadge = `<span class="identity-badge badge-lender">${role}</span>`;
+    }
+    else {
+        role = "You are NOT part of this loan";
+        roleBadge = `<span class="identity-badge badge-none">${role}</span>`;
+    }
+
+    // Build clean UI
+    let html = `
+        <b>Loan ID:</b> ${loan.id}<br><br>
+
+        ${roleBadge}<br><br>
+
+        <b>Borrower:</b><br>${loan.borrower}<br><br>
+
+        <b>Amount (Wei):</b> ${loan.amount}<br>
+        <b>Funded Amount (Wei):</b> ${loan.fundedAmount}<br>
+        <b>Interest (bps):</b> ${loan.interestBps}<br><br>
+
+        <b>Term Ends:</b> ${readableDate}<br><br>
+
+        <b>Status:</b><br>
+        • ${fundedStatus}<br>
+        • ${withdrawnStatus}<br>
+        • ${repaidStatus}<br>
+    `;
+
+    document.getElementById("loan_output").innerHTML = html;
+}
+
+async function updateIdentity() {
+    if (!contract || !account) return;
+
+    let totalLoans = await contract.methods.nextLoanId().call();
+
+    let isBorrower = false;
+    let isLender = false;
+
+    for (let i = 1; i < totalLoans; i++) {
+        let loan = await contract.methods.loans(i).call();
+
+        if (loan.borrower.toLowerCase() === account.toLowerCase()) {
+            isBorrower = true;
+        }
+
+        let lenders = await contract.methods.getLenders(i).call();
+        if (lenders.map(a => a.toLowerCase()).includes(account.toLowerCase())) {
+            isLender = true;
+        }
+    }
+
+    let badge = document.getElementById("identity_role");
+
+    if (isBorrower && isLender) {
+        badge.innerHTML = "Role: Borrower & Lender";
+        badge.className = "identity-badge badge-borrower"; // high priority
+    }
+    else if (isBorrower) {
+        badge.innerHTML = "Role: Borrower";
+        badge.className = "identity-badge badge-borrower";
+    }
+    else if (isLender) {
+        badge.innerHTML = "Role: Lender";
+        badge.className = "identity-badge badge-lender";
+    }
+    else {
+        badge.innerHTML = "Role: None (No actions yet)";
+        badge.className = "identity-badge badge-none";
+    }
+}
+
+
+
+</script>
+</body>
+</html>
