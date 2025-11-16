@@ -1,13 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#20 - Healthcare Data Ownership
 
-![](https://img.shields.io/badge/Member-Eeshwar_E-gold)  <br/>
-![](https://img.shields.io/badge/Member-Tarun_Sri_Vathsan-gold)  <br/> 
-![](https://img.shields.io/badge/Member-Sharath-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Member-Eeshwar_E-gold) ![](https://img.shields.io/badge/Member-Tarun_Sri_Vathsan-gold) ![](https://img.shields.io/badge/Member-Sharath-gold)  <br/>
+![](https://img.shields.io/badge/SDG-3-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-16th_Nov_2025-brown) <br/>
 
 ------
 
@@ -27,6 +24,8 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 ![WhatsApp Image 2025-08-09 at 16 04 31_ac6f7676](https://github.com/user-attachments/assets/6c95bcda-1727-480d-8ebe-3b78ed6c2e0c)
 
 
+### Results 
+
 
 
 ------
@@ -44,5 +43,6 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 [1] Pinto, R. P., Silva, B. M., & Inacio, P. R. (2022). A system for the promotion of traceability and ownership of health data using blockchain. IEEE Access, 10, 92760-92773.
 
 [2] Zhuang, Y., Sheets, L. R., Chen, Y. W., Shae, Z. Y., Tsai, J. J., & Shyu, C. R. (2020). A patient-centric health information exchange framework using blockchain technology. IEEE journal of biomedical and health informatics, 24(8), 2169-2176.
+
 
 
