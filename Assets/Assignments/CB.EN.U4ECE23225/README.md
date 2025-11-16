@@ -24,18 +24,19 @@
 Roles:
 | Role | Wallet Address |
 |:----------------------:|:-------------------------------------:|
-| Owner | [0x81fF4c5eB8d85504f2C41d423d32daf1be1164A8](https://sepolia.etherscan.io/address/0x81fF4c5eB8d85504f2C41d423d32daf1be1164A8) |
-| AVV | [0xba760f1119fce562098bbc0616fed1006b6c4bfc](https://sepolia.etherscan.io/address/0xba760f1119fce562098bbc0616fed1006b6c4bfc) 
-| Student A | [0x4efea71b0640c499885ebfae8a34418a7982e454](https://sepolia.etherscan.io/address/0x4efea71b0640c499885ebfae8a34418a7982e454) |
+| Owner | [0x9266aa8d39B83799171c7Fca2d751Bb9A288E9D2](https://sepolia.etherscan.io/address/0x9266aa8d39b83799171c7fca2d751bb9a288e9d2) |
+| AVV | [0x0cd5ea9722e0f2ae26b3dc7fb1a7378b5cb0af9c](https://sepolia.etherscan.io/address/0x0cd5ea9722e0f2ae26b3dc7fb1a7378b5cb0af9c) 
+| Student A | [0x277dceb67bb9cb4fa5687ea52a23a785a79ff73d](https://sepolia.etherscan.io/address/0x277dceb67bb9cb4fa5687ea52a23a785a79ff73d) |
 
 
 
 Transactions:
-| Smart Contract Address | [0xb5e4b235382cb2f26fe9a1cd7aeeb57d9324917b](https://sepolia.etherscan.io/address/0xb5e4b235382cb2f26fe9a1cd7aeeb57d9324917b) |
+| Smart Contract Address | [0x7694e1b62abea3381edf4d5d6cd3f5dc5d70186d](https://sepolia.etherscan.io/address/0x7694e1b62abea3381edf4d5d6cd3f5dc5d70186d) |
 |:----------------------:|:-------------------------------------:|
-| Add Institution AVV | [0xd3984ced375862155c59287b0ad5c34293b733f68e7226693bdfadf382807f77](https://sepolia.etherscan.io/tx/0xd3984ced375862155c59287b0ad5c34293b733f68e7226693bdfadf382807f77) |
+| Add Institution AVV | [0x9ada340ec13b77563feb18f3632f8be91c9cadf51b14d5135248d95e2a0df02e](https://sepolia.etherscan.io/tx/0x9ada340ec13b77563feb18f3632f8be91c9cadf51b14d5135248d95e2a0df02e) |
 | Issue Certificate - Student A | [0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992](https://sepolia.etherscan.io/tx/0xe75e91ba559b5b6f39bb587c73333df8787941e5a2b9c9815748d2b55cfb5992) |
 
 
 <br/>
+
 
