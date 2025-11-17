@@ -1,10 +1,3 @@
-EnergyMarket Smart Contract
-
-A Solidity-based smart contract facilitating peer-to-peer (P2P) energy trading and load management on the blockchain. This system enables registered prosumers (both producers and consumers of energy) to transparently report, trade, and track surplus energy, providing the backbone for decentralized energy marketplaces and load flow analysis.
-
-Energy Market Flow Diagram
-![Energy Market Flow](./Assets/Projects/BT24/FLOW.png)
-
 
 Table of Contents
 
@@ -17,7 +10,7 @@ A Solidity-based smart contract facilitating peer-to-peer (P2P) energy trading a
 
 ## 🔷 Energy Market Flow Diagram
 
-![Energy Market Flow](./Assets/Projects/BT24/FLOW.png)
+![Energy Market Flow](./FLOW.png)
 
 ---
 
