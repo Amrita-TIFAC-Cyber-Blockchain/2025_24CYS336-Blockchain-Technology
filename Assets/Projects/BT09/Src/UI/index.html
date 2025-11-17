@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Twin Blockchain Demo</title>
+
+    <script src="ethers.umd.js"></script>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        .container {
+            width: 60%;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: 600;
+            color: #38bdf8;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 14px;
+            border: 1px solid #334155;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+        }
+
+        h3 {
+            text-align: center;
+            color: #93c5fd;
+            margin-top: 0;
+        }
+
+        input {
+            padding: 12px;
+            margin-top: 8px;
+            width: 95%;
+            background: #0f172a;
+            border: 1px solid #334155;
+            color: white;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 12px;
+            width: 100%;
+            border: none;
+            margin-top: 12px;
+            color: white;
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, #60a5fa, #2563eb);
+        }
+
+        #recordOutput {
+            background: #0f172a;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #334155;
+            color: #cbd5e1;
+            margin-top: 10px;
+            white-space: pre-line;
+        }
+
+        /* Success popup */
+        #popup {
+            position: fixed;
+            top: 30px;
+            right: -400px;
+            padding: 15px 25px;
+            background: #22c55e;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: 0.4s ease;
+            z-index: 9999;
+        }
+
+        #popup.show {
+            right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="popup">Success</div>
+
+<div class="container">
+
+    <h2>Digital Twin - Blockchain Prototype</h2>
+
+    <div style="text-align:center;">
+        <button style="width:auto; padding:10px 20px;" onclick="connectWallet()">🔗 Connect MetaMask</button>
+        <p id="wallet"></p>
+    </div>
+
+    <div class="card">
+        <h3>Register Digital Twin</h3>
+        <input id="regTwinId" placeholder="Enter Twin ID">
+        <button onclick="registerTwin()">Register Twin</button>
+    </div>
+
+    <div class="card">
+        <h3>Add Twin Data</h3>
+        <input id="dataTwinId" placeholder="Twin ID">
+        <input id="dataHash" placeholder="Data Hash (IPFS / SHA256)">
+        <input id="metaInfo" placeholder="Meta Information">
+        <button onclick="addTwinData()">Add Data</button>
+    </div>
+
+    <div class="card">
+        <h3>View Twin Record</h3>
+        <input id="viewTwinId" placeholder="Twin ID">
+        <input id="recordIndex" placeholder="Record Index (0,1,2...)">
+        <button onclick="viewRecord()">View Record</button>
+        <pre id="recordOutput"></pre>
+    </div>
+
+    <div class="card">
+        <h3>Transfer Ownership</h3>
+        <input id="ownerTwinId" placeholder="Twin ID">
+        <input id="newOwner" placeholder="New Owner Address">
+        <button onclick="transferOwnership()">Transfer Ownership</button>
+    </div>
+
+</div>
+
+<script>
+    let provider, signer, contract;
+
+    const contractAddress = "0x5a9d3bfa97d73c46ccb01cea109eca35927655ba";
+
+
+    const abi = [   // your ABI here
+        {
+            "anonymous": false,
+            "inputs": [
+                {"indexed": false, "internalType": "uint256", "name": "twinId", "type": "uint256"},
+                {"indexed": false, "internalType": "address", "name": "oldOwner", "type": "address"},
+                {"indexed": false, "internalType": "address", "name": "newOwner", "type": "address"}
+            ],
+            "name": "OwnershipTransferred",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {"indexed": false, "internalType": "uint256", "name": "twinId", "type": "uint256"},
+                {"indexed": false, "internalType": "string", "name": "dataHash", "type": "string"},
+                {"indexed": false, "internalType": "string", "name": "metaInfo", "type": "string"},
+                {"indexed": false, "internalType": "address", "name": "updatedBy", "type": "address"},
+                {"indexed": false, "internalType": "uint256", "name": "time", "type": "uint256"}
+            ],
+            "name": "TwinDataAdded",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {"indexed": false, "internalType": "uint256", "name": "twinId", "type": "uint256"},
+                {"indexed": false, "internalType": "address", "name": "owner", "type": "address"}
+            ],
+            "name": "TwinRegistered",
+            "type": "event"
+        },
+        {
+            "inputs": [
+                {"internalType": "uint256", "name": "_twinId", "type": "uint256"},
+                {"internalType": "string", "name": "_dataHash", "type": "string"},
+                {"internalType": "string", "name": "_metaInfo", "type": "string"}
+            ],
+            "name": "addTwinData",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {"internalType": "uint256", "name": "_twinId", "type": "uint256"},
+                {"internalType": "uint256", "name": "index", "type": "uint256"}
+            ],
+            "name": "getRecordByIndex",
+            "outputs": [
+                {"internalType": "string", "name": "", "type": "string"},
+                {"internalType": "string", "name": "", "type": "string"},
+                {"internalType": "uint256", "name": "", "type": "uint256"},
+                {"internalType": "address", "name": "", "type": "address"}
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [{"internalType": "uint256", "name": "_twinId", "type": "uint256"}],
+            "name": "getRecordCount",
+            "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [{"internalType": "uint256", "name": "_twinId", "type": "uint256"}],
+            "name": "registerTwin",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {"internalType": "uint256", "name": "_twinId", "type": "uint256"},
+                {"internalType": "address", "name": "_newOwner", "type": "address"}
+            ],
+            "name": "transferTwinOwnership",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ];
+
+    function popup(msg) {
+        const p = document.getElementById("popup");
+        p.textContent = msg;
+        p.classList.add("show");
+        setTimeout(() => p.classList.remove("show"), 2500);
+    }
+
+    async function connectWallet() {
+        provider = new ethers.BrowserProvider(window.ethereum);
+        signer = await provider.getSigner();
+        contract = new ethers.Contract(contractAddress, abi, signer);
+
+        const address = await signer.getAddress();
+        document.getElementById("wallet").innerText = "Connected: " + address;
+        popup("Wallet Connected");
+    }
+
+    async function registerTwin() {
+        const id = document.getElementById("regTwinId").value;
+        const tx = await contract.registerTwin(id);
+        await tx.wait();
+        popup("Twin Registered");
+    }
+
+    async function addTwinData() {
+        const id = document.getElementById("dataTwinId").value;
+        const hash = document.getElementById("dataHash").value;
+        const meta = document.getElementById("metaInfo").value;
+
+        const tx = await contract.addTwinData(id, hash, meta);
+        await tx.wait();
+        popup("Data Added");
+    }
+
+    async function viewRecord() {
+        const id = document.getElementById("viewTwinId").value;
+        const index = document.getElementById("recordIndex").value;
+
+        const data = await contract.getRecordByIndex(id, index);
+
+        document.getElementById("recordOutput").innerText =
+            "Hash: " + data[0] + "\n" +
+            "Meta: " + data[1] + "\n" +
+            "Time: " + new Date(Number(data[2]) * 1000).toLocaleString() + "\n" +
+            "Updated By: " + data[3];
+
+        popup("Record Loaded");
+    }
+
+    async function transferOwnership() {
+        const id = document.getElementById("ownerTwinId").value;
+        const newOwner = document.getElementById("newOwner").value;
+
+        const tx = await contract.transferTwinOwnership(id, newOwner);
+        await tx.wait();
+        popup("Ownership Transferred");
+    }
+
+</script>
+
+</body>
+</html>
