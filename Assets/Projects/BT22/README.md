@@ -2,7 +2,7 @@
 # 24CYS336 - Blockchain-Technology 
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#22
+## BT#22 UniVeritas: Blockchain-Based Identity and Trust Framework for Universities
 
 ![](https://img.shields.io/badge/Member-Rajith_S-gold)  <br/> 
 ![](https://img.shields.io/badge/Member-T_Ragulraj-gold)  <br/> 
@@ -91,6 +91,7 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
