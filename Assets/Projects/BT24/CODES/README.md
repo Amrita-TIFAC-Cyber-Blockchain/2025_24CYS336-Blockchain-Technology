@@ -60,3 +60,23 @@ Contains Solidity smart contract, migrations, Truffle config, and build/test fil
 * `TradeCompleted(address, address, uint256, uint256)`
 
 ---
+
+## ✅ Compilation & Deployment
+
+1. Install Dependencies
+npm install -g truffle
+npm install
+npm install @openzeppelin/contracts
+
+2. Compile
+truffle compile
+
+3. Deploy
+Using Truffle Develop
+truffle develop
+
+Inside the Truffle console:
+migrate --reset
+
+Deploy to Other Networks
+truffle migrate --network <network_name>
