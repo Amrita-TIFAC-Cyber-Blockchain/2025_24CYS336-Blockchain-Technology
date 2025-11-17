@@ -86,3 +86,19 @@ migrate --reset
 
 Deploy to Other Networks
 truffle migrate --network <network_name>
+
+
+### 🚀 Running Backend & Frontend
+
+###1. Start Backend (FastAPI)
+
+cd smartgrid <br>
+uvicorn smartgrid.api.main:app --reload <br>
+
+###2. Start Frontend (React & Tailwind)
+
+cd smartgrid/frontend <br>
+npm run dev <br>
+
+
+
