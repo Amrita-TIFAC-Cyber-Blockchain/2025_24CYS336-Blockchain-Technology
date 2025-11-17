@@ -33,8 +33,71 @@ The application of blockchain technology to academic credential management is a 
 -----
 ### Architectural Diagram
 
+- The DCDVS operates on a standard Full-Stack DApp architecture, utilizing a local Ethereum Virtual Machine (EVM) for smart contract execution and IPFS for off-chain document storage.
 
+**Key Data Flow (CRUD):**
+
+1.  **Creation (Admin):** The Admin uploads a certificate file (PDF/Image). The **Frontend** calculates the file's hash (CID) via the **IPFS API (5001)**. The CID is then sent to the **Smart Contract** via **Ethers.js**, and the CID is stored immutably on the **Ganache EVM**.
+2.  **Verification (User):** A Verifier uses the DApp to read the record. The DApp retrieves the CID from the Smart Contract and creates a public link to the file on the **IPFS Gateway (8080)**, proving the certificate's existence and content integrity. (Future Work)
 ------
+
+## Project Setup and Execution
+
+This project requires Node.js, Truffle, MetaMask, and a local IPFS Daemon.
+
+### Prerequisites
+
+* Node.js (v18+)
+* MetaMask Browser Extension (latest)
+* Truffle & `ganache` CLI (`npm install -g truffle ganache`)
+* IPFS Daemon (Ensure `go-ipfs` or `js-ipfs` is installed and the `ipfs` command is available).
+
+---
+
+### Step 1: Start Blockchain Node (Ganache)
+
+Start the local EVM node with the configuration required by the DApp:
+
+```bash
+# We use Chain ID 31337 and Port 8545 for stability with modern MetaMask/Ethers.js
+ganache --server.port 8545 --chain.networkId 31337 --chain.chainId 31337 --wallet.mnemonic "debris excess tuna napkin comfort erase liberty drama goat fun bubble giggle"
+```
+### Step 2: Configure IPFS CORS
+
+* Configure your IPFS daemon to allow connections from your React app (localhost:3000).
+
+* Stop Daemon: Press Ctrl + C if your ipfs daemon is running.
+
+Apply CORS Policy (Run these 3 commands in PowerShell):
+
+```bash
+ipfs config API.HTTPHeaders.Access-Control-Allow-Origin '["http://localhost:3000", "[http://127.0.0.1:5001](http://127.0.0.1:5001)"]'
+ipfs config API.HTTPHeaders.Access-Control-Allow-Methods '["PUT", "POST", "GET"]'
+ipfs config API.HTTPHeaders.Access-Control-Allow-Credentials '["true"]'
+````
+Start IPFS Daemon:
+
+```bash
+ipfs daemon
+```
+
+### Step 3: Deploy Smart Contracts
+
+* Navigate to the project root (dcdvs-project/) and deploy the contracts.
+```bash
+# Navigate to the root directory
+truffle migrate --network development --reset
+```
+### Step 4: Run Frontend
+```bash
+cd client
+npm start
+```
+### Step 5: MetaMask Connection
+* Add Network: In MetaMask, add a custom network pointing to RPC URL: http://127.0.0.1:8545 and Chain ID: 31337. Set Currency Symbol to ETH.
+* Connect: Click "Connect MetaMask" on the DApp. The Admin account will load, and you can begin testing the CRUD and IPFS upload features.
+------
+
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -48,5 +111,6 @@ The application of blockchain technology to academic credential management is a 
 
 ### References
 - Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
+
 
 
