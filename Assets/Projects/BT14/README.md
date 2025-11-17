@@ -1,12 +1,9 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#14
-
-![](https://img.shields.io/badge/Member-Duvvuru_Akshaya_Saketh_Reddy-g)  <br/> 
-![](https://img.shields.io/badge/Member-Shyam-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Member-Duvvuru_Akshaya_Saketh_Reddy-gold) ![](https://img.shields.io/badge/Member-Shyam-gold)  <br/> 
+![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
@@ -46,8 +43,25 @@ Blockchain technology offers an effective solution to these problems. It enables
 -----
 ### Architectural Diagram :-
 
-<img width="1105" height="690" alt="image" src="https://github.com/user-attachments/assets/5f4f2cfc-e258-4126-b3c3-1f6b5984a865" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/5f4f2cfc-e258-4126-b3c3-1f6b5984a865" />
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ------
 
@@ -81,6 +95,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
