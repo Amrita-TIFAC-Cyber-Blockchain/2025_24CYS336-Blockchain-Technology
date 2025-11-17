@@ -1,11 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#10 - "A Blockchain-Guarded AI Diagnosis Platform with Patient-Controlled EHR Access and Gas Price Prediction"
+## BT#10 - A Blockchain-Guarded AI Diagnosis Platform with Patient-Controlled EHR Access and Gas Price Prediction
 
 ![](https://img.shields.io/badge/Member-Rithiik_S-red)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)   <br/>
+![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
@@ -69,8 +68,6 @@ Together, these studies demonstrate that combining **AI, blockchain, and edge co
 - Integrate **edge or local computation** to improve **speed and efficiency** in your application.  
 
 These approaches not only enhance **security and scalability** but also align your project with **real-world healthcare needs**.
-
----
 
 ---
 
@@ -147,6 +144,25 @@ It ensures that patient health data and AI-based medical predictions are **tampe
 
 ---
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 This project combining **Artificial Intelligence (AI)** and **Blockchain** for secure Electronic Health Records (EHR) and medical decision support — aligns with multiple **United Nations Sustainable Development Goals (SDGs)**. The system promotes transparency, efficiency, and equity in healthcare delivery through technology.
@@ -164,6 +180,7 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
+
 
 
 
