@@ -103,7 +103,7 @@ Deploy to Other Networks
 ### Libraries and Ides
 
 1. Truffle : `Contract compiling and deploying`
-2. web3 : 'Connect backend with blockchain'
+2. web3 : `Connect backend with blockchain`
 3. fastapi : `Build backend API`
 4. Cors Middleware : `Allow frontend to access backend`
 5. React And Tailwind : `Build frontend ui`
