@@ -49,17 +49,90 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 
 
 ------
-## Deployed Contract & Wallet Addresses
+## Deployed Contract & Wallet Addresses 
 
-| Role / Purpose                | Address | Description |
-|-------------------------------|---------|-------------|
-| **Owner / Admin Wallet**      | `0xf22330206587fd4fba09cc21c03f16336dabf53a` | Contract owner — manages institution registration |
-| **Institutions (Registered)** |  • `0x2784050617c4d4a22eb32e401c40e055f6e8588b`  
-|                               |  • `0x0a1bfdd14f8b6c828b3374bed24eb2ea1e0277eb`  
-|                               |  • `0xe3f898384ab8c26c3fefa8e16f0ac2a1d49722ff` | These wallets belong to registered institutions that can issue and revoke certificates |
-| **Student Wallets**           |  • `0x16a042126ab1d7b7bc86ec645d50b01787c71fbb`  
-|                               |  • `0x71572605e7ce981265be0797c72826444a91d8c6` | Used for certificate issuance & validation tests |
-| **Contract Address**          | `0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a` | Deployed on Sepolia Testnet |
+| Role / Purpose | Address | 
+|-----------------------|---------|
+| **Owner / Admin Wallet** | 0xf22330206587fd4fba09cc21c03f16336dabf53a | 
+| **Institution 1 Wallet** | 0x2784050617c4d4a22eb32e401c40e055f6e8588b |  
+| **Institution 2 Wallet** | 0x0a1bfdd14f8b6c828b3374bed24eb2ea1e0277eb | 
+| **Institution 3 Wallet** | 0xe3f898384ab8c26c3fefa8e16f0ac2a1d49722ff | 
+| **Student 1 Wallet** | 0x16a042126ab1d7b7bc86ec645d50b01787c71fbb | 
+| **Student 2 Wallet** | 0x71572605e7ce981265be0797c72826444a91d8c6 | 
+| **Contract Address** | 0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a |
+
+------
+## Project Features
+
+### Authentication & Authorization
+- JWT-based login system 
+- Role-based access control (Admin / Institution / Student)
+- Auto wallet verification with MetaMask
+
+### Admin Functionalities
+- Approve/remove institutions
+- View registered institutions
+- Monitor on-chain transactions
+
+### Institution Functionalities
+- Issue certificate NFTs to students
+- Upload certificate files to IPFS
+- Store metadata & txHash in backend
+- Revoke certificates on-chain
+- View all issued certificates
+
+### Certificate NFT (Soulbound)
+- Non-transferable ERC721 token  
+- On-chain minting  
+- On-chain burning (revocation)  
+- Verifiable IPFS metadata  
+- Issuer-locked permissions  
+
+### Verification
+- Anyone can verify an NFT certificate by:
+  - Token ID  
+  - Wallet address  
+  - IPFS metadata  
+  - Event logs  
+
+### IPFS Integration (Pinata)
+- File upload (PDF, PNG, JPEG)
+- JSON metadata upload
+- `ipfs://` URIs managed properly  
+
+### Frontend-Blockchain Sync
+- Ethers.js for contract calls
+- Event log parsing for tokenId
+- Auto wallet mismatch detection
+
+------
+## Tech Stack
+
+### Frontend
+- React.js
+- Ethers.js 
+- MetaMask API
+
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+- Multer (for file processing)
+- bcrypt.js (password hashing)
+
+### Database
+- MongoDB Atlas
+
+### Blockchain
+- Solidity (v0.8.x)
+- Ethereum Sepolia Testnet
+- OpenZeppelin Contracts v5.4.0
+- Remix (deployment & debugging)
+- MetaMask wallet
+
+### Storage
+- Pinata IPFS
+- IPFS Metadata (JSON + file)
 
 ------
 
