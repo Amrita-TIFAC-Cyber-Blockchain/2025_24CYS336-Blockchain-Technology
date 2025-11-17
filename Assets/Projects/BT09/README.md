@@ -5,7 +5,7 @@
 ## BT#09 - <<Title>>
 
 ![](https://img.shields.io/badge/Member-K_B_Vishal-gold)  <br/>
-![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-11-darkgreen)   <br/>
+![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-11-darkgreen) ![](https://img.shields.io/badge/SDG-12-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) ![](https://img.shields.io/badge/SDG-17-darkgreen)  <br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
@@ -63,7 +63,7 @@ The architecture contains four main parts: the physical asset, digital twin, blo
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
 | Deployment of Contracts |      |
-| 
+
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -85,6 +85,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
