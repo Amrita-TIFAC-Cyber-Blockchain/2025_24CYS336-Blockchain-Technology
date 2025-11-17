@@ -30,6 +30,7 @@ The second paper by Teisserenc and Sepasgozar (2021) talks about ownership using
 
 From the two papers, we can see that one is solving the data integrity problem and the other is solving the ownership problem. In my project, I am combining both these ideas into one single system so that the Digital Twin data is not only secure but also has a clear ownership.
 
+### Proposed System
 In the proposed system, the Digital Twin data which comes from the physical asset will first be converted into a hash value using a hashing function. This hash value is then stored in the blockchain through a smart contract. The smart contract will be deployed in a permissioned blockchain network which uses the Proof of Authority (PoA) consensus method. This helps in fast and secure transactions between trusted nodes. The blockchain will store the hash, timestamp, and some metadata of the update. The real data will not be stored in the blockchain but in an off-chain storage like IPFS or a local database. This makes the system light and secure.
 
 To solve the ownership issue, each Digital Twin will be represented by a unique DT-NFT (Digital Twin Non-Fungible Token). This token will show who owns the twin and will be linked to the owner’s wallet address. The ownership can also be transferred from one user to another by sending this token.
@@ -85,6 +86,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
