@@ -65,43 +65,28 @@ Contains Solidity smart contract, migrations, Truffle config, and build/test fil
 ## ✅ Compilation & Deployment
 
 ### 1. Install Dependencies
-
+```bash
 npm install -g truffle
 npm install
 npm install @openzeppelin/contracts
-
-
----
-
-### 2. Compile
-
-_Navigate to your blockchain project folder:_
-
+2. Compile
+bash
+Copy code
 truffle compile
-
-
----
-
-### 3. Deploy
-
-#### On Truffle Develop
-
+3. Deploy
+On Truffle Develop
+bash
+Copy code
 truffle develop
+Inside the Truffle console:
 
-
-_Then, inside the Truffle console:_
-
+bash
+Copy code
 migrate --reset
-
-
-#### On Other Networks (e.g., Sepolia, Polygon, custom):
-
+On Other Networks
+bash
+Copy code
 truffle migrate --network <network_name>
-
-
----
-
-## ✅ License
-
-**Type:** MIT  
-_Note: Free to use, modify, and distribute._
+✅ License
+Type: MIT
+Free to use, modify, and distribute.
