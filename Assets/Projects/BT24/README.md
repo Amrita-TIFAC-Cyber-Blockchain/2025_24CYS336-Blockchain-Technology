@@ -22,10 +22,7 @@ A Solidity-based smart contract facilitating peer-to-peer (P2P) energy trading a
 - [NITI Aayog Blockchain](#niti-aayog-blockchain-flow-ascii)
 - [Features](#features)
 - [Contract Overview](#contract-overview)
-- [Usage](#usage)
-- [Events](#events)
-- [Compilation & Deployment](#compilation--deployment)
-- [License](#license)
+
 
 ---
 
@@ -200,19 +197,3 @@ The `EnergyMarket` smart contract manages prosumers, surplus reporting, P2P ener
 This structure allows transparent, secure, tamper-proof energy trading suitable for smart grid analysis.
 
 
-## ✅ Events
-
-Events allow easy tracking of contract actions on the blockchain:
-
-* **`ProsumerRegistered(address prosumer)`**
-    * Emitted when a new prosumer is added.
-
-* **`EnergyReported(address prosumer, uint256 newBalance)`**
-    * Logs surplus energy updates.
-
-* **`TradeCompleted(address seller, address buyer, uint256 amountInKwh, uint256 timestamp)`**
-    * Emitted after every successful P2P energy trade.
-
-Events make it simple to monitor system behavior and integrate real-time dashboards.
-
-    
