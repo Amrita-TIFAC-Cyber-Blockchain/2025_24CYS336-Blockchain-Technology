@@ -90,15 +90,21 @@ Deploy to Other Networks
 
 ### 🚀 Running Backend & Frontend
 
-###1. Start Backend (FastAPI)
+1. Start Backend (FastAPI)
 
 `cd smartgrid` <br>
 `uvicorn smartgrid.api.main:app --reload` <br>
 
-###2. Start Frontend (React & Tailwind)
+2. Start Frontend (React & Tailwind)
 
 `cd smartgrid/frontend` <br>
 `npm run dev` <br>
 
+### Libraries and Ides
 
+1. Truffle : `Contract compiling and deploying`
+2. web3 : 'Connect backend with blockchain'
+3. fastapi : `Build backend API`
+4. Cors Middleware : `Allow frontend to access backend`
+5. React And Tailwind : `Build frontend ui`
 
