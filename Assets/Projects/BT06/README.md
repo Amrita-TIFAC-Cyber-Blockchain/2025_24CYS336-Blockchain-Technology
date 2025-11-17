@@ -26,6 +26,7 @@ They present a decentralized framework for urban incident reporting, highlightin
 
 -----
 ### Architectural Diagram
+<img src="Diagram.png" alt="Architectural Diagram" width="500">
 
 ------
 
@@ -64,4 +65,5 @@ open collaborative development. The Journal of Systems and Software, 230, 112477
 O. (2024). Revolutionizing Healthcare Record Management: Secure Documentation
 Storage and Access through Advanced Blockchain Solutions.
 - Diallo, E.-h., Abdallah, R., Dib, M., & Dib, O. (2024). Decentralized Incident Reporting: Mobilizing Urban Communities with Blockchain. Smart Cities, 7(4), 2283–2317.
+
 
