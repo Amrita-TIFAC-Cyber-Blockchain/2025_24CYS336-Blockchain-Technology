@@ -4,8 +4,9 @@
 
 ## BT#15
 
-![](https://img.shields.io/badge/Member-Jaiwanthi_R-gold)  <br/> ![](https://img.shields.io/badge/Member-Beeraka_Varsha-gold)  <br/>
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Member-Jaiwanthi_R-gold) ![](https://img.shields.io/badge/Member-Beeraka_Varsha-gold)  <br/>
+![](https://img.shields.io/badge/SDG-8-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
@@ -37,6 +38,24 @@ A Comprehensive Data Analytics Study on the Use of Blockchain Technology in Real
 
 ------
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 | **SDG**                                              | **Alignment with the Project**                                                                                                                                                                                                                       |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -45,6 +64,7 @@ A Comprehensive Data Analytics Study on the Use of Blockchain Technology in Real
 | **Goal 16 – Peace, Justice and Strong Institutions** | Through immutable records and smart contracts, the project reduces corruption and fraud in real estate. It strengthens institutional trust by offering verifiable and transparent property transactions.                                             |
 | **Goal 8 – Decent Work and Economic Growth**         | Automation of real estate processes reduces transaction costs, eliminates inefficiencies, and promotes a healthy investment environment. This supports economic growth and increases trust in property markets.                                      |
 ---------
+
 ### References
 Suganya, M., Madhavi, K., Yadav, K., Abbas, H. M., & Ganesh, N. (2024, November). Developing a Blockchain-Based Decentralized Application for Real Estate Transactions. In 2024 International Conference on IoT, Communication and Automation Technology (ICICAT) (pp. 1356-1360). IEEE.
 
