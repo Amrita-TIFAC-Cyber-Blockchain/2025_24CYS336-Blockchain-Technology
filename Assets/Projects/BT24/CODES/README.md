@@ -64,41 +64,41 @@ Contains Solidity smart contract, migrations, Truffle config, and build/test fil
 ## ✅ Compilation & Deployment
 
 1. Install Dependencies <br>
-npm install -g truffle <br>
-npm install <br>
-npm install @openzeppelin/contracts <br>
+`npm install -g truffle` <br>
+`npm install` <br>
+`npm install @openzeppelin/contracts` <br>
 
 2. Compile <br>
-truffle compile <br>
+`truffle compile` <br>
 
 3. Deploy Using Truffle Develop <br>
-truffle develop <br>
+`truffle develop` <br>
 
 Inside the Truffle console: <br>
-migrate --reset <br>
+`migrate --reset` <br>
 
 Deploy to Other Networks <br>
-truffle migrate --network <network_name>
+`truffle migrate --network <network_name>`
 
 
 Inside the Truffle console:
-migrate --reset
+`migrate --reset`
 
 Deploy to Other Networks
-truffle migrate --network <network_name>
+`truffle migrate --network <network_name>`
 
 
 ### 🚀 Running Backend & Frontend
 
 ###1. Start Backend (FastAPI)
 
-cd smartgrid <br>
-uvicorn smartgrid.api.main:app --reload <br>
+`cd smartgrid` <br>
+`uvicorn smartgrid.api.main:app --reload` <br>
 
 ###2. Start Frontend (React & Tailwind)
 
-cd smartgrid/frontend <br>
-npm run dev <br>
+`cd smartgrid/frontend` <br>
+`npm run dev` <br>
 
 
 
