@@ -2,10 +2,11 @@
 # 24CYS336 - Blockchain-Technology 
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#09
+## BT#09 - <<Title>>
 
 ![](https://img.shields.io/badge/Member-K_B_Vishal-gold)  <br/>
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-11-darkgreen)   <br/>
+![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
@@ -47,6 +48,25 @@ The architecture contains four main parts: the physical asset, digital twin, blo
 
 ------
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 SDG 9: Industry, Innovation, and Infrastructure: Fosters industrial innovation and resilient infrastructure through predictive maintenance and optimized asset management.
 
@@ -65,6 +85,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
