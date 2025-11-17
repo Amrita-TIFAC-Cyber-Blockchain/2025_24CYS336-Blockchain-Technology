@@ -69,4 +69,12 @@ npm install -g truffle
 npm install
 npm install @openzeppelin/contracts
 
+#### 2. Compile
+'''bash
+truffle compile
+
+#### 3. Deploy
+'''bash
+truffle develop
+
 
