@@ -3,7 +3,7 @@
 ## BT#10 - A Blockchain-Guarded AI Diagnosis Platform with Patient-Controlled EHR Access and Gas Price Prediction
 
 ![](https://img.shields.io/badge/Member-Rithiik_S-red)  <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)   <br/>
+![](https://img.shields.io/badge/SDG-3-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen)    <br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
@@ -180,6 +180,7 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
+
 
 
 
