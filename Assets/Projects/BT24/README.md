@@ -19,7 +19,7 @@ A Solidity-based smart contract facilitating peer-to-peer (P2P) energy trading a
 - [Introduction](#introduction)
 - [Problem Statement](#problem-statement)
 - [How Blockchain Helps](#how-blockchain-helps)
-- [NITI Aayog Blockchain Flow (ASCII)](#niti-aayog-blockchain-flow-ascii)
+- [NITI Aayog Blockchain](#niti-aayog-blockchain-flow-ascii)
 - [Features](#features)
 - [Contract Overview](#contract-overview)
 - [Usage](#usage)
@@ -133,4 +133,86 @@ This checklist evaluates the project against standard criteria for determining i
 * Removes intermediary cost
 > **✔ Major improvement over traditional databases.**
 
+## ✅ Features
 
+### 1. Prosumer Registration
+* **What it is:** Only the contract owner can register new prosumers.
+* **Why it matters:** Prevents unauthorized users from participating in energy trading.
+
+### 2. Surplus Energy Reporting
+* **What it is:** Registered prosumers can report how much extra energy (in kWh) they have.
+* **Why it matters:** This updates their on-chain energy balance, making it available for trade.
+
+### 3. Peer-to-Peer (P2P) Energy Trading
+* **What it is:** Prosumers can directly trade energy with each other without a central authority.
+* **Why it matters:** The smart contract automatically validates:
+    * The seller has enough surplus.
+    * The buyer is a registered prosumer.
+    * All trade details are correct before execution.
+
+### 4. Immutable Public Transaction History
+* **What it is:** Every single trade is stored permanently on the blockchain.
+* **Why it matters:** This creates a perfect, unchangeable log for:
+    * Audit trails
+    * Load flow analysis
+    * Full transparency
+    * Dispute resolution
+
+### 5. Access Control (Owner & Prosumer)
+* **What it is:** Functions are secured based on roles.
+    * **Owner-only:** `registerProsumer()`
+    * **Prosumer-only:** `reportEnergySurplus()`, `executeP2PTrade()`
+* **Why it matters:** Provides robust security using OpenZeppelin's proven `Ownable` contract.
+
+### 6. Fully Automated & Trustless Execution
+* **What it is:** Once deployed, the contract rules execute exactly as written with no human interference.
+* **Why it matters:** This removes the need for a trusted middleman and prevents any single party from manipulating trades.
+
+### 7. Supports Load Flow Analysis
+* **What it is:** The public transaction data can be fed into analytical tools.
+* **Why it matters:** Utilities or grid analysts can use this real-time, verified data to:
+    * Track energy movement across the P2P network.
+    * Study grid load patterns.
+    * Validate surplus generation reports.
+    * Optimize overall grid performance.
+
+
+## ✅ Contract Overview
+
+The `EnergyMarket` smart contract manages prosumers, surplus reporting, P2P energy trading, and maintains an immutable record of all transactions.
+
+### Data Structures
+
+* `mapping(address => bool) isProsumer`
+    * Tracks whether an address is a registered prosumer.
+* `mapping(address => uint256) prosumerEnergyBalance`
+    * Stores each prosumer's surplus energy in kWh.
+* `Transaction[] transactionHistory`
+    * Maintains a full list of all P2P trades executed.
+
+### Core Functionalities
+
+* **Register Prosumers:** Only the owner can add new prosumers.
+* **Report Surplus:** Prosumers submit available surplus energy.
+* **Execute Trades:** Transfers energy from seller → buyer.
+* **Read Transactions:** Anyone can fetch the full trade log.
+
+This structure allows transparent, secure, tamper-proof energy trading suitable for smart grid analysis.
+
+
+## ✅ Events
+
+Events allow easy tracking of contract actions on the blockchain:
+
+* **`ProsumerRegistered(address prosumer)`**
+    * Emitted when a new prosumer is added.
+
+* **`EnergyReported(address prosumer, uint256 newBalance)`**
+    * Logs surplus energy updates.
+
+* **`TradeCompleted(address seller, address buyer, uint256 amountInKwh, uint256 timestamp)`**
+    * Emitted after every successful P2P energy trade.
+
+Events make it simple to monitor system behavior and integrate real-time dashboards.
+
+    
