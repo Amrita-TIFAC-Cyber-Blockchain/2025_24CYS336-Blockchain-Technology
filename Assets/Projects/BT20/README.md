@@ -26,6 +26,8 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 -----
 ### Results 
 
+Video Link : https://youtu.be/1I7A_QbPOfM
+
 | Role               | Address                                                                                                                         |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | **Contract Owner** | [`0x5bD54880bF4d01bc69F04e0e591c5019512f37B7`](https://sepolia.etherscan.io/address/0x5bD54880bF4d01bc69f04e0e591c5019512f37b7) |
@@ -62,6 +64,7 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 [1] Pinto, R. P., Silva, B. M., & Inacio, P. R. (2022). A system for the promotion of traceability and ownership of health data using blockchain. IEEE Access, 10, 92760-92773.
 
 [2] Zhuang, Y., Sheets, L. R., Chen, Y. W., Shae, Z. Y., Tsai, J. J., & Shyu, C. R. (2020). A patient-centric health information exchange framework using blockchain technology. IEEE journal of biomedical and health informatics, 24(8), 2169-2176.
+
 
 
 
