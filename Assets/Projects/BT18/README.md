@@ -49,6 +49,19 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 
 
 ------
+## Deployed Contract & Wallet Addresses
+
+| Role / Purpose                | Address | Description |
+|-------------------------------|---------|-------------|
+| **Owner / Admin Wallet**      | `0xf22330206587fd4fba09cc21c03f16336dabf53a` | Contract owner — manages institution registration |
+| **Institutions (Registered)** |  • `0x2784050617c4d4a22eb32e401c40e055f6e8588b`  
+|                               |  • `0x0a1bfdd14f8b6c828b3374bed24eb2ea1e0277eb`  
+|                               |  • `0xe3f898384ab8c26c3fefa8e16f0ac2a1d49722ff` | These wallets belong to registered institutions that can issue and revoke certificates |
+| **Student Wallets**           |  • `0x16a042126ab1d7b7bc86ec645d50b01787c71fbb`  
+|                               |  • `0x71572605e7ce981265be0797c72826444a91d8c6` | Used for certificate issuance & validation tests |
+| **Contract Address**          | `0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a` | Deployed on Sepolia Testnet |
+
+------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -67,6 +80,7 @@ In conclusion, there is a clear and pressing need for a decentralised credential
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
 
