@@ -26,6 +26,25 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 -----
 ### Results 
 
+| Role               | Address                                                                                                                         |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Contract Owner** | [`0x5bD54880bF4d01bc69F04e0e591c5019512f37B7`](https://sepolia.etherscan.io/address/0x5bD54880bF4d01bc69f04e0e591c5019512f37b7) |
+| **Hospital 1**     | [`0xEF09Bb98B5B3B3F285eb05356c6938F23f616904`](https://sepolia.etherscan.io/address/0xEF09Bb98B5B3B3F285eb05356c6938F23f616904) |
+| **Hospital 2**     | [`0xC5578AFc6782F7be49b2F32c92d7B6F496a766Aa`](https://sepolia.etherscan.io/address/0xC5578AFc6782F7be49b2F32c92d7B6F496a766Aa) |
+| **Patient**        | [`0x9a9Eb409c23015aD438e6C1a32B044A2CbcA5945`](https://sepolia.etherscan.io/address/0x9a9Eb409c23015aD438e6C1a32B044A2CbcA5945) |
+
+
+| Action                                  | Transaction Hash                                                                                                                                                           |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Registering Hospital 1                  | [`0xc0a7378f600d9115fcc02a39598ab6187a8eec36647234de052aeed3d73f0302`](https://sepolia.etherscan.io/tx/0xc0a7378f600d9115fcc02a39598ab6187a8eec36647234de052aeed3d73f0302) |
+| Registering Hospital 2                  | [`0x7446c685e5a7af66adf6702d985b3b147504e1a445525e30bec05a271a23afbc`](https://sepolia.etherscan.io/tx/0x7446c685e5a7af66adf6702d985b3b147504e1a445525e30bec05a271a23afbc) |
+| Register Patient from Hospital 1        | [`0x46737906286f498e7ed39ac4df5c57185ade1eb31fe1a00f821a03a523cfb668`](https://sepolia.etherscan.io/tx/0x46737906286f498e7ed39ac4df5c57185ade1eb31fe1a00f821a03a523cfb668) |
+| Upload Record by Hospital 1             | [`0x4fc8d00a672f54f25e35afd15629e8edc8735669b47934e04de949e66ccb0696`](https://sepolia.etherscan.io/tx/0x4fc8d00a672f54f25e35afd15629e8edc8735669b47934e04de949e66ccb0696) |
+| Log Access by Hospital 1                | [`0xe4f604fbd4492cb28ab5a93ce8b50cb87f24c2d721c296f4e2fc542dbd8874cd`](https://sepolia.etherscan.io/tx/0xe4f604fbd4492cb28ab5a93ce8b50cb87f24c2d721c296f4e2fc542dbd8874cd) |
+| Invalid Record Access                   | [`0xfe6d3c84611860b0be51eba22e99dc3cec7b5e5aa3c2f431787bc598722c582e`](https://sepolia.etherscan.io/tx/0xfe6d3c84611860b0be51eba22e99dc3cec7b5e5aa3c2f431787bc598722c582e) |
+| Access Granted to Hospital 2 by Patient | [`0xa874962a9520faa0c6a7c961d80b6ab3c3daad237e35aef48188c769750880c6`](https://sepolia.etherscan.io/tx/0xa874962a9520faa0c6a7c961d80b6ab3c3daad237e35aef48188c769750880c6) |
+| Revoke Access from Hospital 1           | [`0xeeafbbd36ab8eb7e01c54491759304ca3a8d6c9f1c9316f7a9bc540c7851a03f`](https://sepolia.etherscan.io/tx/0xeeafbbd36ab8eb7e01c54491759304ca3a8d6c9f1c9316f7a9bc540c7851a03f) |
+
 
 
 ------
@@ -43,6 +62,7 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 [1] Pinto, R. P., Silva, B. M., & Inacio, P. R. (2022). A system for the promotion of traceability and ownership of health data using blockchain. IEEE Access, 10, 92760-92773.
 
 [2] Zhuang, Y., Sheets, L. R., Chen, Y. W., Shae, Z. Y., Tsai, J. J., & Shyu, C. R. (2020). A patient-centric health information exchange framework using blockchain technology. IEEE journal of biomedical and health informatics, 24(8), 2169-2176.
+
 
 
 
