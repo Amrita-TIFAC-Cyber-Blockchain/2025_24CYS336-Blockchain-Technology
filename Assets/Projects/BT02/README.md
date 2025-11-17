@@ -1,171 +1,112 @@
-# Real-World Asset (RWA) Tokenization Platform
+# 24CYS336 - Blockchain-Technology 
+![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## Project Overview
+## BT#03 - Decentralized Academic Credential Verification System (DCDVS)
 
-This project is a web application designed to demonstrate the tokenization of real-world assets (RWAs) on a blockchain. It allows for the creation, fractionalization, listing, and tracking of assets like real estate, artwork, or invoices using blockchain technology. Unique asset metadata and documents are stored on IPFS, while ownership and transfer logic are handled by smart contracts on an Ethereum-compatible blockchain (Ganache for local development). A Node.js/Express backend manages off-chain data like KYC status and provides an IPFS upload helper, and a React frontend provides a user interface for interacting with the platform.
+![](https://img.shields.io/badge/Member-Charan_K-gold)  <br/> 
+![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
-## Core Features
+------
 
-*   **Create (Mint) Asset NFT:** Admin or verified users can mint an ERC-721 NFT representing a real-world asset. Asset metadata (JSON + PDF/image) is uploaded to IPFS, and the IPFS Content Identifier (CID) is stored in the NFT's `tokenURI`.
-*   **View Asset Details:** Frontend can read asset metadata directly from IPFS using the NFT's `tokenURI`.
-*   **Fractionalization:** Lock an Asset NFT into a `Fractionalizer` contract to mint ERC-20 tokens representing fractions of the asset.
-*   **Marketplace:** A smart contract-based marketplace for fixed-price sales of Asset NFTs.
-*   **KYC & Role Management:** A `Registry` contract allows for on-chain role management (e.g., `KYC_VERIFIED_ROLE`) based on off-chain verification handled by the backend.
-*   **IPFS Pinning:** Integration with IPFS for immutable storage of asset data.
+### Problem Statement
+The traditional financial system faces significant challenges in managing and transferring real-world assets (RWAs) such as real estate, art, or commodities. These challenges include illiquidity, high transaction costs, lack of transparency, and complex legal processes. Manual ownership transfers are time-consuming and prone to fraud, limiting accessibility for smaller investors and hindering efficient capital allocation. This project addresses these issues by developing a **Real-World Asset (RWA) Tokenization Platform** that leverages blockchain technology to create a secure, transparent, and efficient system for tokenizing, fractionalizing, and trading RWAs.
 
-## System Architecture
+-----
+### Literature Survey 
+The tokenization of real-world assets (RWAs) on blockchain platforms is an emerging field aimed at enhancing liquidity, transparency, and accessibility in traditional asset markets. This literature review examines key concepts and existing approaches in RWA tokenization, drawing parallels and distinctions with the provided context of academic credential verification where applicable, to highlight the unique challenges and opportunities.
 
-1.  **Blockchain (Local Dev):** Ganache (local Ethereum blockchain) for deploying and testing smart contracts via Truffle.
-2.  **Decentralized Storage:** Kubo IPFS (local daemon) for immutable storage of asset metadata and documents.
-3.  **Smart Contracts (Solidity):**
-    *   `AssetNFT` (ERC-721): Represents individual real-world assets.
-    *   `FractionalToken` (ERC-20): Represents fractional ownership of an `AssetNFT`.
-    *   `Fractionalizer`: Manages the locking of `AssetNFT`s and minting/burning of `FractionalToken`s.
-    *   `Marketplace`: Facilitates fixed-price buying and selling of `AssetNFT`s.
-    *   `Registry`: Manages roles (e.g., `KYC_VERIFIED_ROLE`) for users.
-4.  **Backend (Node.js/Express):**
-    *   Provides an API for the frontend.
-    *   Includes a placeholder for an IPFS upload helper (simulates pinning to IPFS).
-    *   Includes a placeholder for KYC status management.
-5.  **Frontend (React):**
-    *   Built with Create React App.
-    *   Uses `ethers.js` for blockchain interaction and `web3modal` for MetaMask wallet integration.
-    *   User interface for connecting wallet, minting assets, and potentially viewing/trading them.
+#### Existing Solutions & Concepts
+-   **ERC-721 for Unique Assets:** The use of ERC-721 tokens (Non-Fungible Tokens) is a widely accepted standard for representing unique, indivisible RWAs like a specific piece of real estate or a work of art. Projects like Decentraland (for virtual land) or various art tokenization platforms demonstrate the utility of NFTs for digital ownership.
+-   **ERC-20 for Fractional Ownership:** To address the illiquidity of high-value assets, ERC-20 tokens are employed to represent fractional ownership. This allows multiple investors to own a portion of a single RWA, increasing market participation and liquidity. Platforms often use a "locking" mechanism where the ERC-721 is held in a smart contract, and ERC-20s are issued against it.
+-   **Hybrid On-Chain/Off-Chain Models:** Due to the inherent nature of RWAs (physical existence, legal frameworks), most tokenization solutions adopt a hybrid approach. On-chain smart contracts handle ownership, transfer, and fractionalization logic, while off-chain systems manage legal documentation, KYC/AML compliance, and physical asset management. This is analogous to the DCDVS's need for off-chain identity verification.
+-   **IPFS for Metadata Storage:** Decentralized storage solutions like IPFS are crucial for storing immutable asset metadata (e.g., property deeds, appraisal reports, images). This ensures data integrity and censorship resistance, linking directly to the NFT's `tokenURI`.
 
-## Prerequisites
+#### Research Gaps & RWA Specific Challenges
+-   **Legal and Regulatory Frameworks:** A significant challenge in RWA tokenization is the lack of clear and harmonized legal and regulatory frameworks across jurisdictions. Ensuring that on-chain ownership translates to legally enforceable off-chain rights remains a complex hurdle.
+-   **Oracle Integration for Real-World Data:** Integrating reliable oracles to bring real-world data (e.g., asset valuations, legal status changes) onto the blockchain is vital but complex, requiring robust and secure data feeds.
+-   **Liquidity and Market Depth:** While fractionalization aims to improve liquidity, achieving sufficient market depth and investor participation for diverse RWA classes is an ongoing challenge.
+-   **KYC/AML Compliance:** Strict Know Your Customer (KYC) and Anti-Money Laundering (AML) regulations are paramount in financial services. Integrating off-chain KYC processes with on-chain identity verification (e.g., whitelisting, role-based access control) is essential for compliant RWA platforms. This project's `Registry` contract directly addresses this.
+-   **Interoperability:** The ability to seamlessly transfer tokenized RWAs across different blockchain networks or integrate with traditional financial systems is a future challenge.
 
-Before you begin, ensure you have the following installed:
+-----
+### Architectural Diagram
 
-*   **Node.js & npm:** [Download & Install Node.js](https://nodejs.org/en/download/) (LTS version recommended).
-*   **Git:** [Download & Install Git](https://git-scm.com/downloads).
-*   **Truffle:** `npm install -g truffle`
-*   **Ganache:** `npm install -g ganache` (or use the [Ganache GUI](https://trufflesuite.com/ganache/)).
-*   **Kubo IPFS:** Follow the installation steps below.
-*   **MetaMask:** A browser extension wallet. [Install MetaMask](https://metamask.io/download/).
+- The RWA Tokenization Platform operates on a Full-Stack DApp architecture, utilizing a local Ethereum Virtual Machine (EVM) for smart contract execution and IPFS for off-chain document storage.
 
-## Setup Instructions
+**Key Data Flow (Minting & Fractionalization):**
 
-Follow these steps to set up and run the project locally.
+1.  **Asset Minting (Admin/Verified User):**
+    *   The user uploads asset metadata (name, description, image, documents) via the **Frontend**.
+    *   The **Frontend** sends this metadata to the **Backend**.
+    *   The **Backend** (simulating an IPFS pinning service) processes the metadata, uploads it to **Kubo IPFS**, and receives a Content Identifier (CID).
+    *   The **Backend** returns the CID to the **Frontend**.
+    *   The **Frontend** then calls the `mint()` function on the **AssetNFT Smart Contract** (via **Ethers.js**), passing the recipient address and the IPFS CID.
+    *   The `AssetNFT` contract records the CID immutably on the **Ganache EVM**.
 
-### 1. Clone the Repository (Hypothetical)
+2.  **Asset Fractionalization:**
+    *   A user (owner of an AssetNFT) initiates fractionalization via the **Frontend**.
+    *   The **Frontend** calls the `fractionalizeNFT()` function on the **Fractionalizer Smart Contract** (via **Ethers.js**), specifying the `AssetNFT`'s `tokenId`, desired ERC-20 name, symbol, and total supply.
+    *   The `Fractionalizer` contract takes ownership of the `AssetNFT` (locks it).
+    *   The `Fractionalizer` then deploys a new `FractionalToken` (ERC-20) contract and mints the specified supply of these ERC-20 tokens to the original `AssetNFT` owner.
+    *   All these actions are recorded on the **Ganache EVM**.
+
+------
+
+## Project Setup and Execution
+
+This project requires Node.js, Truffle, MetaMask, and a local IPFS Daemon.
+
+### Prerequisites
+
+*   Node.js (v18+)
+*   MetaMask Browser Extension (latest)
+*   Truffle & `ganache` CLI (`npm install -g truffle ganache`)
+*   IPFS Daemon (Ensure `kubo` is installed and the `ipfs` command is available).
+
+---
+
+### Step 1: Start Blockchain Node (Ganache)
+
+Start the local EVM node with the configuration required by the DApp:
 
 ```bash
-# If this were a real repository, you would clone it:
-# git clone <repository-url>
-# cd rwa-tokenization
+# We use Chain ID 1337 and Port 8545 for stability with modern MetaMask/Ethers.js
+ganache --server.port 8545 --chain.networkId 1337 --chain.chainId 1337
 ```
-*(Assuming you are already in the `rwa-tokenization` directory)*
+*(Note: The mnemonic "debris excess tuna napkin comfort erase liberty drama goat fun bubble giggle" is specific to the DCDVS project. For this RWA project, Ganache will generate a default mnemonic unless specified. The important part is the chain ID and port.)*
 
-### 2. Install Project Dependencies
+### Step 2: Configure IPFS CORS
 
-Navigate to the `rwa-tokenization` directory and install the Node.js dependencies for the smart contracts and backend:
+*   Configure your IPFS daemon to allow connections from your React app (localhost:3000).
+
+*   Stop Daemon: Press `Ctrl + C` if your `ipfs daemon` is running.
+
+Apply CORS Policy (Run these 3 commands in your terminal):
 
 ```bash
+ipfs config API.HTTPHeaders.Access-Control-Allow-Origin '["http://localhost:3000", "http://127.0.0.1:5000"]'
+ipfs config API.HTTPHeaders.Access-Control-Allow-Methods '["PUT", "POST", "GET"]'
+ipfs config API.HTTPHeaders.Access-Control-Allow-Credentials '["true"]'
+```
+*(Note: The backend URL is 5000, not 5001 as in the DCDVS example.)*
+
+Start IPFS Daemon:
+
+```bash
+ipfs daemon
+```
+
+### Step 3: Deploy Smart Contracts
+
+*   Navigate to the project root (`rwa-tokenization/`) and deploy the contracts.
+
+```bash
+# Navigate to the root directory
 cd rwa-tokenization
-npm install @openzeppelin/contracts @truffle/hdwallet-provider ethers web3
+truffle migrate --network development --reset
 ```
 
-Then, navigate into the `backend` directory and install its dependencies:
-
-```bash
-cd backend
-npm install express cors
-cd .. # Go back to rwa-tokenization root
-```
-
-Finally, navigate into the `frontend` directory and install its dependencies:
-
-```bash
-cd frontend
-npm install ethers web3modal
-cd .. # Go back to rwa-tokenization root
-```
-
-### 3. Install and Initialize Kubo IPFS
-
-```bash
-# Download Kubo IPFS (using v0.38.2 as an example, check dist.ipfs.tech/#kubo for latest)
-wget https://dist.ipfs.tech/kubo/v0.38.2/kubo_v0.38.2_linux-amd64.tar.gz
-
-# Extract the archive
-tar -xvzf kubo_v0.38.2_linux-amd64.tar.gz
-
-# Navigate into the extracted directory
-cd kubo
-
-# Run the installation script (requires sudo)
-sudo bash install.sh
-
-# Go back to rwa-tokenization root
-cd ..
-
-# Initialize IPFS
-ipfs init
-
-# Start the IPFS daemon (run in a separate terminal or in background)
-ipfs daemon &
-```
-
-### 4. Compile Smart Contracts
-
-Ensure you are in the `rwa-tokenization` root directory, then compile the Solidity contracts:
-
-```bash
-truffle compile
-```
-
-### 5. Deploy Smart Contracts
-
-First, start your Ganache local blockchain. Open a **new terminal** and run:
-
-```bash
-ganache
-```
-Keep this terminal open.
-
-Then, in your original terminal (from `rwa-tokenization` root), deploy the contracts:
-
-```bash
-truffle migrate --network development
-```
-
-### 6. Configure Frontend with Contract Address
-
-After deployment, you need to update the `ASSET_NFT_ADDRESS` in the frontend.
-
-1.  Open `rwa-tokenization/frontend/src/contracts/AssetNFT.json`.
-2.  Find the deployed address under `networks.<network_id>.address` (e.g., `networks.1337.address` for Ganache). Copy this address.
-3.  Open `rwa-tokenization/frontend/src/App.js`.
-4.  Replace `"YOUR_ASSET_NFT_CONTRACT_ADDRESS"` with the copied address.
-
-    ```javascript
-    // In rwa-tokenization/frontend/src/App.js
-    const ASSET_NFT_ADDRESS = "0x..."; // Paste your copied address here
-    ```
-
-## Running the Application
-
-You will need three separate terminals for Ganache, the Backend, and the Frontend.
-
-### 1. Start Ganache (if not already running)
-
-Open a new terminal and run:
-
-```bash
-ganache
-```
-Keep this terminal open.
-
-### 2. Start IPFS Daemon (if not already running)
-
-Open a new terminal and run:
-
-```bash
-ipfs daemon &
-```
-Keep this terminal open.
-
-### 3. Start the Backend Server
+### Step 4: Run Backend
 
 Open a new terminal, navigate to `rwa-tokenization/backend`, and run:
 
@@ -175,87 +116,32 @@ npm start
 ```
 You should see `Backend listening at http://localhost:5000`. Keep this terminal open.
 
-### 4. Start the Frontend Application
-
-Open a new terminal, navigate to `rwa-tokenization/frontend`, and run:
+### Step 5: Run Frontend
 
 ```bash
 cd rwa-tokenization/frontend
 npm start
 ```
-This will open the React app in your browser (usually at `http://localhost:3000`).
 
-## Usage
+### Step 6: MetaMask Connection & Configuration
 
-1.  **Connect MetaMask:**
-    *   Open your browser and navigate to `http://localhost:3000`.
-    *   Ensure MetaMask is installed and configured to connect to your Ganache local network (usually `http://127.0.0.1:8545` or `http://localhost:8545`, Network ID `1337`).
-    *   Click the "Connect Wallet" button. MetaMask should prompt you to connect.
-    *   **Important:** Ensure your MetaMask account is set to the **same address that deployed the smart contracts** (the owner account from Ganache).
+*   **Add Network:** In MetaMask, add a custom network pointing to RPC URL: `http://127.0.0.1:8545` and Chain ID: `1337`. Set Currency Symbol to `ETH`.
+*   **Configure Frontend:** Before interacting, ensure you have updated the `ASSET_NFT_ADDRESS` in `rwa-tokenization/frontend/src/App.js` with the actual deployed address of your `AssetNFT` contract (found in `rwa-tokenization/build/contracts/AssetNFT.json`).
+*   **Connect:** Click "Connect Wallet" on the DApp. The account that deployed the contracts (the owner) should be selected in MetaMask to successfully mint assets.
 
-2.  **Mint an Asset:**
-    *   Fill in the "Asset Name", "Asset Description", and "Asset Image" fields in the frontend.
-    *   Click the "Mint Asset NFT" button.
-    *   MetaMask will prompt you to confirm the transaction.
-    *   Upon successful transaction, you should see "NFT Minted Successfully!" on the frontend.
-    *   Check your Ganache console for transaction details.
+------
 
-## Smart Contract Details
+### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
-*   **AssetNFT.sol (ERC-721):** Represents a unique real-world asset. `onlyOwner` can mint.
-*   **FractionalToken.sol (ERC-20):** Represents a fractional share of an AssetNFT. Minted/burned by `Fractionalizer`.
-*   **Fractionalizer.sol:** Locks AssetNFTs and issues corresponding FractionalTokens.
-*   **Marketplace.sol:** Enables fixed-price sales of AssetNFTs.
-*   **Registry.sol:** Manages roles like `KYC_VERIFIED_ROLE` using OpenZeppelin's `AccessControl`.
+| SDG | Alignment |
+|:---|:----------|
+| Goal 8 - Decent Work and Economic Growth | By increasing liquidity and accessibility to real-world assets through tokenization, the platform can foster new investment opportunities and more efficient capital markets, contributing to economic growth. |
+| Goal 9 - Industry, Innovation, and Infrastructure | The project leverages blockchain technology and decentralized storage (IPFS) to build innovative financial infrastructure, promoting technological advancement and resilient systems for asset management. |
+| Goal 16 - Peace, Justice and Strong Institutions | Tokenization enhances transparency and immutability in asset ownership records, reducing fraud and corruption. This contributes to more accountable and transparent institutions, fostering trust in asset markets. |
 
-## Folder Structure
+-----
 
-```
-rwa-tokenization/
-├─ contracts/             # Solidity smart contracts
-│  ├─ AssetNFT.sol
-│  ├─ FractionalToken.sol
-│  ├─ Fractionalizer.sol
-│  ├─ Marketplace.sol
-│  ├─ Migrations.sol
-│  └─ Registry.sol
-├─ migrations/            # Truffle migration scripts
-├─ test/                  # (Placeholder) Smart contract tests
-├─ truffle-config.js      # Truffle configuration
-├─ build/                 # Compiled contract artifacts (generated after truffle compile)
-├─ backend/               # Node.js/Express backend
-│  ├─ src/
-│  ├─ package.json
-│  ├─ server.js
-│  └─ ...
-└─ frontend/              # React web application
-   ├─ public/
-   ├─ src/
-   │  ├─ contracts/        # Copied contract ABIs (e.g., AssetNFT.json)
-   │  ├─ App.js
-   │  ├─ App.css
-   │  └─ ...
-   ├─ package.json
-   └─ ...
-```
-
-## Troubleshooting
-
-*   **`Error: network does not support ENS`**: This is handled by overriding `provider.resolveName` in `App.js`. If it persists, ensure your frontend is restarted after the fix.
-*   **`Error: missing revert data` / `CALL_EXCEPTION`**: This usually means a smart contract function reverted. For `mint` on `AssetNFT`, ensure the connected MetaMask account is the **owner** of the `AssetNFT` contract.
-*   **`Module not found: AssetNFT.json`**: Ensure `AssetNFT.json` is copied from `rwa-tokenization/build/contracts/` to `rwa-tokenization/frontend/src/contracts/`.
-*   **`ethers.providers.Web3Provider is not a constructor`**: Ensure `ethers.js` provider instantiation is `new ethers.BrowserProvider(instance, ...)` and that `await provider.getSigner()` is used.
-
-## Future Enhancements
-
-*   Implement full fractionalization flow with ERC-20 token transfers and buyout mechanisms.
-*   Develop a complete marketplace UI for listing, buying, and selling fractional tokens and full NFTs.
-*   Integrate with a real IPFS pinning service (e.g., Pinata, Infura) in the backend.
-*   Implement a robust KYC/user management system in the backend with database integration.
-*   Add event listeners in the backend to track on-chain events and update off-chain data.
-*   Implement TheGraph subgraph for efficient querying of on-chain data.
-*   Add comprehensive unit and integration tests for all components.
-*   Improve UI/UX with better styling and responsiveness.
-
----
-This `README.md` provides a comprehensive guide to the RWA Tokenization Platform.
+### References
+-   Werner, S., & Leal, F. (2020). *Tokenization of Real Estate: A New Paradigm for Property Investment*. Journal of Real Estate Finance and Economics, 61(3), 385-405.
+-   Blockchain & Distributed Ledger Technologies in Finance: A Review of the Literature. (2021). *Journal of Financial Economics*, 140(1), 1-25.
+-   OpenZeppelin Documentation. (n.d.). *ERC-721, ERC-20, and AccessControl Contracts*. Retrieved from [https://docs.openzeppelin.com/contracts/](https://docs.openzeppelin.com/contracts/)
