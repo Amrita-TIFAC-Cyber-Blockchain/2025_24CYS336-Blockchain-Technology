@@ -32,9 +32,6 @@ To overcome these issues, this project proposes a blockchain-based verification 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/086994e2-95e9-4e59-bb51-57188d024a86" />
 
 
-------
-
-
 -----
 
 ### Blockchain Decision Tree (NITI Aayog)
@@ -88,6 +85,7 @@ Final Solution: Strong case for Public Blockchain
 [1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
 
 [2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
 
