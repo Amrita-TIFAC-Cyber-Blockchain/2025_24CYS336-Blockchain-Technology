@@ -1,12 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#13-Blockchain-Based E-Waste Management and Tracking System
+## BT#13 - Blockchain-Based E-Waste Management and Tracking System
  
-
 ![](https://img.shields.io/badge/Member-Yuvanesh_M-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
@@ -30,10 +28,26 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 
 -----
 ### Architectural Diagram
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e974f7b5-cdf2-448a-8fce-9388664ad28f" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e974f7b5-cdf2-448a-8fce-9388664ad28f" />
 
 
+### Results
 
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ------
 
@@ -47,14 +61,3 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
 Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
-
-
-
-
-
-
-
-
-
-
-
