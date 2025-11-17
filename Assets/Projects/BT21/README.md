@@ -1,12 +1,9 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#21
-
-![](https://img.shields.io/badge/Member-Mithra_K-gold)  <br/> 
-![](https://img.shields.io/badge/Member-K_Sree_Charitha-gold)  <br/> 
-![](https://img.shields.io/badge/Member-Teena_Chowdri-gold)  <br/> 
+## BT#21 - 
+![](https://img.shields.io/badge/Member-Mithra_K-gold) ![](https://img.shields.io/badge/Member-K_Sree_Charitha-gold) ![](https://img.shields.io/badge/Member-Teena_Chowdri-gold)  <br/> 
+![](https://img.shields.io/badge/SDG-11-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) ![](https://img.shields.io/badge/SDG-17-darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
@@ -84,21 +81,31 @@ Limitations:
 <img width="804" height="461" alt="image" src="https://github.com/user-attachments/assets/9e5ec5d3-a5e3-4e32-bdf0-93106441c58b" />
 
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ------
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 SDG 11: Sustainable Cities and Communities: The project's goal to formalize and bring transparency to the adoption of stray dogs in India could contribute to creating safer and more inclusive urban environments for both animals and people. By addressing issues like re-abandonment and illegal trade, it promotes a more responsible and humane approach to managing stray animal populations in communities.
 
-
------
-
 SDG 16: Peace, Justice and Strong Institutions: The project aims to build a transparent and accountable system for dog adoption. By using a decentralized, tamper-proof blockchain system, it creates a verifiable digital registry for tracking adoption status, vaccination records, and ownership history, which reduces fraud and increases public trust. The system's immutability ensures that all adoptions and actions are permanent and traceable.
 
-
-------
 SDG 17: Partnerships for the Goals: The project's design facilitates interaction between NGOs, adopters, and the public within a secure and transparent framework. This collaborative model, powered by a decentralized network, encourages different stakeholders to work together towards the common goal of improving dog welfare and adoption practices.
-
--------
 
 -----
 
@@ -108,6 +115,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
