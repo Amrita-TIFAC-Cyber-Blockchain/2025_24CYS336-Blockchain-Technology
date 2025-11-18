@@ -128,6 +128,7 @@
 <h1>🚀 P2P Lending DApp</h1>
 
 <button onclick="connect()">🔌 Connect MetaMask</button>
+<p id="account" style="margin-top:8px; font-weight:bold;">Not connected</p>
 <p id="identity_role" class="identity-badge badge-none">
     Role: Not identified yet
 </p>
@@ -237,8 +238,7 @@
 
 <script>
 
-// ====== YOUR EXISTING JAVASCRIPT (unchanged) ======
-/* I kept ALL your logic the same, only UI improved */
+
 
 let web3;
 let contract;
@@ -718,44 +718,129 @@ const ABI =  [
 		"stateMutability": "payable",
 		"type": "receive"
 	}
-]; // keep your ABI
+]; 
 
 async function connect() {
-    if (window.ethereum) {
-        web3 = new Web3(window.ethereum);
-        let accounts = await ethereum.request({ method: "eth_requestAccounts" });
+    try {
+        if (!window.ethereum) {
+            alert("MetaMask not found. Install MetaMask and try again.");
+            return;
+        }
+      
+        if (!web3) web3 = new Web3(window.ethereum);
+
+        const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
         account = accounts[0];
         document.getElementById("account").innerText = "Connected: " + account;
+
+        
+        window.ethereum.on("accountsChanged", (accs) => {
+            if (accs.length === 0) {
+                account = null;
+                document.getElementById("account").innerText = "Not connected";
+            } else {
+                account = accs[0];
+                document.getElementById("account").innerText = "Connected: " + account;
+                updateIdentity().catch(e => console.error(e));
+            }
+        });
+
+      
+        window.ethereum.on("chainChanged", (_chainId) => {
+          
+            console.log("chain changed to", _chainId);
+            
+        });
+
+        console.log("Connected account:", account);
+    } catch (err) {
+        console.error("connect error:", err);
+        alert("Connection failed: " + (err.message || err));
     }
 }
 
 async function loadContract() {
-    let addr = document.getElementById("contract_address").value.trim();
-    contract = new web3.eth.Contract(ABI, addr);
-    document.getElementById("contract_status").innerText = "Contract Loaded Successfully!";
-    updateIdentity();
+    try {
+        let addr = document.getElementById("contract_address").value.trim();
+        if (!addr) {
+            alert("Please enter contract address first.");
+            return;
+        }
+        if (!window.ethereum) {
+            alert("MetaMask not available.");
+            return;
+        }
+        if (!web3) web3 = new Web3(window.ethereum);
+        contract = new web3.eth.Contract(ABI, addr);
+        document.getElementById("contract_status").innerText = "Contract Loaded Successfully!";
+        console.log("Contract loaded at", addr, contract);
+        await updateIdentity();
+    } catch (err) {
+        console.error("loadContract error:", err);
+        alert("Failed to load contract: " + (err.message || err));
+    }
 }
 
 async function requestLoan() {
-    let amount = document.getElementById("req_amount").value;
-    let interest = document.getElementById("req_interest").value;
-    let term = document.getElementById("req_term").value;
+    try {
+        if (!contract) { alert("Load the contract first."); return; }
+        if (!account) { alert("Connect MetaMask first."); return; }
 
-    await contract.methods.requestLoan(amount, interest, term)
-        .send({ from: account })
-        .on("receipt", function (receipt) {
-            const event = receipt.events.LoanRequested;
-            const loanId = event.returnValues.loanId;
+        let amount = document.getElementById("req_amount").value;
+        let interest = document.getElementById("req_interest").value;
+        let term = document.getElementById("req_term").value;
+
+        if (!amount || !interest || !term) {
+            alert("Fill amount, interest and term.");
+            return;
+        }
+
+        const tx = await contract.methods.requestLoan(amount, interest, term)
+            .send({ from: account });
+
+        console.log("requestLoan receipt:", tx);
+
+        
+        let loanId = null;
+        if (tx && tx.events && tx.events.LoanRequested && tx.events.LoanRequested.returnValues) {
+            loanId = tx.events.LoanRequested.returnValues.loanId || tx.events.LoanRequested.returnValues.loanId;
+        }
+
+        
+        if (loanId === null || loanId === undefined) {
+            try {
+                const next = await contract.methods.nextLoanId().call();
+                // convert to number safely
+                const nextN = parseInt(next.toString());
+                if (!isNaN(nextN) && nextN > 0) {
+                    loanId = (nextN - 1).toString();
+                    console.log("LoanId fallback computed as", loanId);
+                }
+            } catch (e) {
+                console.warn("fallback nextLoanId failed:", e);
+            }
+        }
+
+        if (loanId === null || loanId === undefined) {
+            document.getElementById("loan_id_display").innerText = "Loan created but loanId not found in receipt. Check contract events.";
+        } else {
             document.getElementById("loan_id_display").innerText = "Generated Loan ID: " + loanId;
+            
             document.getElementById("fund_id").value = loanId;
             document.getElementById("wd_id").value = loanId;
             document.getElementById("repay_id").value = loanId;
             document.getElementById("lp_id").value = loanId;
             document.getElementById("cancel_id").value = loanId;
             document.getElementById("view_id").value = loanId;
-            updateIdentity();
-        });
+        }
+
+        await updateIdentity();
+    } catch (err) {
+        console.error("requestLoan error:", err);
+        alert("Request loan failed: " + (err.message || err));
+    }
 }
+
 
 async function fundLoan() {
     let loanId = document.getElementById("fund_id").value;
@@ -793,10 +878,10 @@ async function viewLoan() {
     let loan = await contract.methods.loans(loanId).call();
     let lenders = await contract.methods.getLenders(loanId).call();
 
-    // Timestamp
+    
     let readableDate = new Date(loan.termEnds * 1000).toLocaleString();
 
-    // Status badges
+    
     let fundedStatus = loan.funded 
         ? `<span class="status-funded">✔ Funded</span>` 
         : `<span class="status-notfunded">✖ Not Funded</span>`;
@@ -809,7 +894,7 @@ async function viewLoan() {
         ? `<span class="status-repaid">✔ Repaid</span>`
         : `<span class="status-notrepaid">✖ Not Repaid</span>`;
 
-    // Identity within this loan
+    
     let role = "None";
     let roleBadge = "";
 
@@ -826,7 +911,7 @@ async function viewLoan() {
         roleBadge = `<span class="identity-badge badge-none">${role}</span>`;
     }
 
-    // Build clean UI
+    
     let html = `
         <b>Loan ID:</b> ${loan.id}<br><br>
 
