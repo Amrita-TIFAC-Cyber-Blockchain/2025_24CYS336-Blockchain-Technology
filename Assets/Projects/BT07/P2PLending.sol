@@ -229,7 +229,6 @@ contract P2PLender {
         return contributions[_loanId][_lender];
     }
 
-    /// Admin can recover mistaken ETH sent to contract (emergency) - optional
     function adminRecover(uint256 _amount) external onlyAdmin {
         require(_amount <= address(this).balance, "not enough balance");
         (bool ok,) = admin.call{value: _amount}("");
