@@ -4,9 +4,8 @@
 
 ## BT#22 UniVeritas: Blockchain-Based Identity and Trust Framework for Universities
 
-![](https://img.shields.io/badge/Member-Rajith_S-gold)  <br/> 
-![](https://img.shields.io/badge/Member-T_Ragulraj-gold)  <br/> 
-![](https://img.shields.io/badge/Member-Mithun_Chakkarawarthy_S-gold)  <br/> 
+![](https://img.shields.io/badge/Member-Rajith_S-gold) ![](https://img.shields.io/badge/Member-T_Ragulraj-gold) ![](https://img.shields.io/badge/Member-Mithun_Chakkarawarthy_S-gold)  <br/>
+![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
 
 ------
@@ -91,6 +90,7 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
