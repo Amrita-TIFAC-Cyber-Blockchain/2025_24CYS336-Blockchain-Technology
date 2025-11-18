@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Evidence Protection System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Evidence Protection System</h1>
+      <p>Securely upload and verify digital evidence on the blockchain</p>
+
+      <!-- Connect MetaMask -->
+      <div class="card">
+        <button id="connectBtn" onclick="connectMetaMask()">Connect MetaMask</button>
+        <p id="status">Not connected</p>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="nav">
+        <a href="addEvidence.html">Add Evidence</a>
+        <a href="viewEvidence.html">View Evidence</a>
+      </nav>
+    </div>
+  </body>
+</html>
