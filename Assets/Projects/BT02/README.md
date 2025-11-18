@@ -1,10 +1,10 @@
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#03 - Decentralized Academic Credential Verification System (DCDVS)
 
 ![](https://img.shields.io/badge/Member-Charan_K-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
 
@@ -130,6 +130,24 @@ npm start
 *   **Connect:** Click "Connect Wallet" on the DApp. The account that deployed the contracts (the owner) should be selected in MetaMask to successfully mint assets.
 
 ------
+
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
