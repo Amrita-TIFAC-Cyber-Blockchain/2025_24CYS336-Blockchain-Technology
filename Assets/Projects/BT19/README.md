@@ -1,17 +1,9 @@
-<p align="center">
-  <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt="Amrita TIFAC" width="700" />
-</p>
-
 # 24CYS336 - Blockchain Technology  
-![](https://img.shields.io/badge/Batch-22UCYS-gold) 
-![](https://img.shields.io/badge/UG-blue) 
-![](https://img.shields.io/badge/Subject-Blockchain-blue)  
-<br/>
 
 ##  BT#19 – Blockchain-Based Multi-Energy System  
-
-![](https://img.shields.io/badge/Member-Gajan%20S%20(cb.en.u4ece23218)%20%7C%20Hariharan%20R%20(cb.en.u4ece23223)-gold)  
-![](https://img.shields.io/badge/Reviewed-TBD-brown)  
+![](https://img.shields.io/badge/Member-Gajan_S-gold) ![](https://img.shields.io/badge/Member-Hariharan_R-gold)  
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ---
 
@@ -53,6 +45,24 @@ The architectural diagram of the **Blockchain-Based Multi-Energy System** is sho
 </p>
 
 ---
+
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -200,6 +210,7 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
 
 
 
