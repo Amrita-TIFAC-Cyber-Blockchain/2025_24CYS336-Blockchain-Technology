@@ -1,11 +1,11 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#06
+## BT#06 - 
 
 ![](https://img.shields.io/badge/Member-Meera-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
+
 
 ------
 ### Problem Statement
@@ -29,6 +29,24 @@ They present a decentralized framework for urban incident reporting, highlightin
 <img src="Diagram.png" alt="Architectural Diagram" width="500">
 
 ------
+
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -65,5 +83,6 @@ open collaborative development. The Journal of Systems and Software, 230, 112477
 O. (2024). Revolutionizing Healthcare Record Management: Secure Documentation
 Storage and Access through Advanced Blockchain Solutions.
 - Diallo, E.-h., Abdallah, R., Dib, M., & Dib, O. (2024). Decentralized Incident Reporting: Mobilizing Urban Communities with Blockchain. Smart Cities, 7(4), 2283–2317.
+
 
 
