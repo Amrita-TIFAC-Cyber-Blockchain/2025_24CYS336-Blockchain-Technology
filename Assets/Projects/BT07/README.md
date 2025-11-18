@@ -1,10 +1,10 @@
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#07 - Non-Custodial Stablecoin-Based Secured P2P Lending Marketplace
 
 ![](https://img.shields.io/badge/Member-B_Vijay_Nishanth-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
 
@@ -24,6 +24,23 @@ Early attempts at direct P2P lending, such as ETHLend (Aave’s predecessor), ex
 
 ### Architectural Diagram
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ------
 
@@ -42,4 +59,5 @@ Early attempts at direct P2P lending, such as ETHLend (Aave’s predecessor), ex
 - Chen, Y., & Bellavitis, C. (2020). Blockchain disruption and decentralized finance: The rise of decentralized business models. *Journal of Business Venturing Insights*, 13, e00151.
 - Aave Protocol Documentation. (n.d.). Retrieved from [https://docs.aave.com](https://docs.aave.com)
 - Compound Protocol Documentation. (n.d.). Retrieved from [https://compound.finance/docs](https://compound.finance/docs)
+
 
