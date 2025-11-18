@@ -17,7 +17,6 @@ The tokenization of real-world assets (RWAs) on blockchain platforms is an emerg
 #### Existing Solutions & Concepts
 -   **ERC-721 for Unique Assets:** The use of ERC-721 tokens (Non-Fungible Tokens) is a widely accepted standard for representing unique, indivisible RWAs like a specific piece of real estate or a work of art. Projects like Decentraland (for virtual land) or various art tokenization platforms demonstrate the utility of NFTs for digital ownership.
 -   **ERC-20 for Fractional Ownership:** To address the illiquidity of high-value assets, ERC-20 tokens are employed to represent fractional ownership. This allows multiple investors to own a portion of a single RWA, increasing market participation and liquidity. Platforms often use a "locking" mechanism where the ERC-721 is held in a smart contract, and ERC-20s are issued against it.
--   **Hybrid On-Chain/Off-Chain Models:** Due to the inherent nature of RWAs (physical existence, legal frameworks), most tokenization solutions adopt a hybrid approach. On-chain smart contracts handle ownership, transfer, and fractionalization logic, while off-chain systems manage legal documentation, KYC/AML compliance, and physical asset management. This is analogous to the DCDVS's need for off-chain identity verification.
 -   **IPFS for Metadata Storage:** Decentralized storage solutions like IPFS are crucial for storing immutable asset metadata (e.g., property deeds, appraisal reports, images). This ensures data integrity and censorship resistance, linking directly to the NFT's `tokenURI`.
 
 #### Research Gaps & RWA Specific Challenges
@@ -136,15 +135,17 @@ npm start
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0xF5c3938cC94B1fdE9170920F2B3f86b196A35163 |
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts - Migrations | 0x956e28f48e902571306e939c10c669593f54b24b2f5f4896c627df2762b4a213 |
+| Deployment of Contracts - AssetNFT | 0xc6f9d124b1c1b5229bf47ac5c62a3f303b38906f0737d07d1e34e683682da4df |
+| Deployment of Contracts - Fractionalizer | 0x9e494c53a3c5c86a80b6ca179034b389464042d5f2e2b8bfb20a092e2504cc4e |
+| Deployment of Contracts - Marketplace | 0x3c0386ee72c053183bf3c40242e363036fc39fed398272560e0fd2c99a860058 |
+| Deployment of Contracts - Registry | 0xba4e356150a9b226050d77bead27e85c868f890143159149972582c9c538dc73 |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -159,6 +160,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 -----
 
 ### References
--   Werner, S., & Leal, F. (2020). *Tokenization of Real Estate: A New Paradigm for Property Investment*. Journal of Real Estate Finance and Economics, 61(3), 385-405.
--   Blockchain & Distributed Ledger Technologies in Finance: A Review of the Literature. (2021). *Journal of Financial Economics*, 140(1), 1-25.
--   OpenZeppelin Documentation. (n.d.). *ERC-721, ERC-20, and AccessControl Contracts*. Retrieved from [https://docs.openzeppelin.com/contracts/](https://docs.openzeppelin.com/contracts/)
+-   Zhao, X., Ding, J., Su, Y., et al. (2025). Scalable & secure real-world asset tokenization using Ethereum staking & Layer-2 solutions.
+-   Heines, R., Dick, C., Pohle, C., Jung, R. (2021). The Tokenization of Everything: Towards a Framework for Understanding the Potentials of Tokenized Assets. PACIS
+-   Boggio Viola, A. (2023/24). The Tokenization of Assets: Analysing the Emergence of a New Market Trend. Master’s thesis, Politecnico di Torino.
+-   (https://docs.openzeppelin.com/contracts/)
