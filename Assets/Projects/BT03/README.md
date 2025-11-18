@@ -1,11 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#03 - Decentralized Academic Credential Verification System (DCDVS)
 
 ![](https://img.shields.io/badge/Member-Deepak_Kumar_S-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
 
@@ -40,6 +39,7 @@ The application of blockchain technology to academic credential management is a 
 1.  **Creation (Admin):** The Admin uploads a certificate file (PDF/Image). The **Frontend** calculates the file's hash (CID) via the **IPFS API (5001)**. The CID is then sent to the **Smart Contract** via **Ethers.js**, and the CID is stored immutably on the **Ganache EVM**.
 2.  **Verification (User):** A Verifier uses the DApp to read the record. The DApp retrieves the CID from the Smart Contract and creates a public link to the file on the **IPFS Gateway (8080)**, proving the certificate's existence and content integrity. (Future Work)
 ------
+
 ### DCDVS Project Directory Structure
 ```bash
 dcdvs-project/
@@ -139,6 +139,24 @@ npm start
 ------
 
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | SDG | Alignment |
@@ -151,6 +169,7 @@ npm start
 
 ### References
 - Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
+
 
 
 
