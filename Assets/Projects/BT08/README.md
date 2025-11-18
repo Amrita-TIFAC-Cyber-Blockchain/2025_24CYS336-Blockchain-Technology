@@ -49,15 +49,17 @@ This paper establishes a transformative model for the agricultural sector by int
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+|  Admin     |  0xc12eb3c0cbf6bbc4d76fc5a612f8ee8bae61b8c8 |
+|  Farmer    | 0x0344f4ef81b3ecaca983c7aa431be28142d7a5cd |
+|  Lender    | 0x2722f8c8f31cb1fea6ec13b383cb76e6f2282823 | 
+|  Insurance | 0x2722f8c8f31cb1fea6ec13b383cb76e6f2282823 | 
+
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts | 0x1c69592a483689d7e4fb892f276cd6942ac08ce6     |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -83,6 +85,7 @@ The integration of blockchain, smart contracts, and decentralized storage builds
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
+
 
 
 
