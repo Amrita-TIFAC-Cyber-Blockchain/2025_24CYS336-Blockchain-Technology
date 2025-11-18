@@ -1,11 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#01 - Evidence Protection System using Blockchain Technology
 
 ![](https://img.shields.io/badge/Member-Agilprasanna_P-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
 
@@ -26,6 +25,25 @@ To overcome this, modern research adopts a hybrid blockchain + IPFS architecture
 ### Architectural Diagram
 ![Architecture Diagram](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT01/architecture.png?raw=true)
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  | 0xF5c3938cC94B1fdE9170920F2B3f86b196A35163 |
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts - Migrations | 0x956e28f48e902571306e939c10c669593f54b24b2f5f4896c627df2762b4a213 |
+| Deployment of Contracts - AssetNFT | 0xc6f9d124b1c1b5229bf47ac5c62a3f303b38906f0737d07d1e34e683682da4df |
+| Deployment of Contracts - Fractionalizer | 0x9e494c53a3c5c86a80b6ca179034b389464042d5f2e2b8bfb20a092e2504cc4e |
+| Deployment of Contracts - Marketplace | 0x3c0386ee72c053183bf3c40242e363036fc39fed398272560e0fd2c99a860058 |
+| Deployment of Contracts - Registry | 0xba4e356150a9b226050d77bead27e85c868f890143159149972582c9c538dc73 |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ------
 
@@ -36,14 +54,13 @@ To overcome this, modern research adopts a hybrid blockchain + IPFS architecture
 | **SDG 12: Responsible Consumption and Production** | Reduces paper use by digitizing custody records, supporting eco-friendly, sustainable justice systems. |
 | **SDG 16: Peace, Justice, and Strong Institutions** | Ensures transparency, trust, and tamper-proof evidence handling, strengthening judicial and law enforcement integrity. |
 
-
-
 -----
 
 ### References
 
 **Pandiyaraj, A., & Narayanan, P. (2023). Evidence Protection System Using Blockchain Technology.  
 Amrita Vishwa Vidyapeetham.**
+
 
 
 
