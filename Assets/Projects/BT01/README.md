@@ -16,16 +16,11 @@ Traditional evidence management systems are highly susceptible to tampering, una
 
 -----
 ### Literature Survey 
-The traditional methods of managing digital forensic evidence often face significant challenges such as data manipulation, loss of integrity, and lack of proper chain-of-custody tracking. To address these issues, researchers have explored the use of blockchain technology in forensic and legal evidence systems.
+Traditional digital evidence management systems suffer from major issues such as tampering, loss of files, unauthorized access, and broken chain-of-custody due to manual or paper-based recording methods. Research consistently highlights the need for a system that ensures integrity, transparency, and verifiable tracking of evidence handling.
 
-Patil et al. (2021) emphasized the importance of enhancing the security of forensic evidence using blockchain, proposing a framework to prevent unauthorized modifications. Similarly, Omi Akter et al. (2020) discussed the challenges of cloud forensics and how blockchain can be integrated to maintain transparency and traceability of evidence across distributed networks.
+Blockchain technology is widely studied as a solution because it provides immutability, decentralization, and a tamper-proof audit trail. Several works propose using smart contracts to record evidence metadata—such as timestamps, handlers, and evidence IDs—ensuring that once information is added, it cannot be altered. However, literature also notes that storing large digital files directly on a blockchain is inefficient and costly.
 
-Harihara Gopalan et al. (2019) explored digital forensics using blockchain, highlighting how the immutable nature of blockchain can ensure data authenticity. Bonomi et al. (2019) introduced B-CoCA, a blockchain-based Chain of Custody model, which enables secure evidence management and transfer among stakeholders in digital forensics.
-
-Rao et al. (2021) proposed a novel approach for digital evidence management using blockchain, enabling tamper-proof logging and traceability. Giova (2011) focused on improving the chain of custody in electronic system investigations, stressing the need for systematic and verifiable handling of digital proof.
-
-Neovius and Westerlund (2018) proposed distributed ledger-based solutions to provide tamper-resistant audit trails in cloud forensics, which helps in validating digital evidence across platforms.
-
+To overcome this, modern research adopts a hybrid blockchain + IPFS architecture, where evidence files are stored off-chain in IPFS and only the file hash (CID) is stored on-chain for verification. This approach enables secure, scalable, and efficient evidence handling. The referenced paper “Evidence Protection System Using Blockchain Technology” follows this model, demonstrating that combining blockchain for metadata and IPFS for file storage creates a robust, tamper-proof digital evidence management system suitable for law enforcement and forensic applications.
 
 -----
 ### Architectural Diagram
@@ -49,6 +44,7 @@ Neovius and Westerlund (2018) proposed distributed ledger-based solutions to pro
 
 **Pandiyaraj, A., & Narayanan, P. (2023). Evidence Protection System Using Blockchain Technology.  
 Amrita Vishwa Vidyapeetham.**
+
 
 
 
