@@ -1,7 +1,6 @@
 # 24CYS336 - Blockchain-Technology 
 
-## BT#03 - Decentralized Academic Credential Verification System (DCDVS)
-
+## BT#02 - Real-world Asset (RWA) Tokenization
 ![](https://img.shields.io/badge/Member-Charan_K-gold)  <br/> 
 ![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
 ![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
