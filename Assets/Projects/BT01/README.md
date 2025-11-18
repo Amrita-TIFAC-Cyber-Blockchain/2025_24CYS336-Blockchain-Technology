@@ -47,6 +47,10 @@ Neovius and Westerlund (2018) proposed distributed ledger-based solutions to pro
 
 ### References
 
+**Pandiyaraj, A., & Narayanan, P. (2023). Evidence Protection System Using Blockchain Technology.  
+Amrita Vishwa Vidyapeetham.**
+
+
 
 
 
