@@ -4,8 +4,9 @@
 
 ## BT#05 - BlockVote: Enterprise E-Voting System
 
-![](https://img.shields.io/badge/Jose_Rohit_M-TBD-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Member-Jose_Rohit_M-gold)  <br/> 
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
 
@@ -61,6 +62,25 @@ Later studies, such as those by McCorry et al. [4], Hardwick et al. [5], and Zha
 Recent enterprise-oriented research, including González et al. [7], introduced architectures with smart contracts, role-based controls, and immutable audit trails—principles that align directly with BlockVote. This project adopts these proven research concepts by using Solidity, Ganache, and Web3.js to build a transparent, secure, and tamper-proof enterprise e-voting system.
 
 ---
+
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ## Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | **SDG** | **Description** | **Relevance to Project** |
@@ -80,4 +100,5 @@ Recent enterprise-oriented research, including González et al. [7], introduced 
 [7] González, C. D., García, M., & Pacheco, J. (2022). Electronic Voting System Using an Enterprise Blockchain. Journal of Systems Architecture.  
 
 ------
+
 
