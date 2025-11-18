@@ -2,7 +2,7 @@
 
 ## BT#14
 ![](https://img.shields.io/badge/Member-Duvvuru_Akshaya_Saketh_Reddy-gold) ![](https://img.shields.io/badge/Member-Shyam-gold)  <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-1-darkgreen)  ![](https://img.shields.io/badge/SDG-2-darkgreen)  ![](https://img.shields.io/badge/SDG-3-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
@@ -51,9 +51,9 @@ Blockchain technology offers an effective solution to these problems. It enables
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0x8005dc8b2ebbfac096e26d6650f6b49fc535a35f |
+| Docter | 0xfec4485cd3228067022137044afbb232fb005699 |
+| Patient | 0x9640338c1b3cc2aa1322fcb6f777dda5f806ac65 | 
 
 #### Transaction Details
 
@@ -95,6 +95,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
