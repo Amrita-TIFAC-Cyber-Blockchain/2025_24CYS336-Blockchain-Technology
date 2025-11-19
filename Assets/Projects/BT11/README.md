@@ -1,11 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-23UECE-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#11
+## BT#11 - 
 
-![](https://img.shields.io/badge/Member-Shankar-gold) <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Member-Shankar_N_K-gold) <br/> 
+![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
 
 ------
 
@@ -52,6 +51,25 @@ notes on papers:
 
 ------
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 
@@ -73,10 +91,3 @@ notes on papers:
 2) **Drungilas, V., Vaičiukynas**, E., Jurgelaitis, M., Butkienė, R., & Čeponienė, L. (2021). _Towards Blockchain-Based Federated Machine Learning: Smart Contract for Model Inference_. Applied Sciences, 11(3), 1010. https://doi.org/10.3390/app11031010
 
 3) **Wu, L., Ruan, W., Hu, J., & He, Y. (2023)**. _A Survey on Blockchain-Based Federated Learning_. Future Internet, 15(12), 400. https://doi.org/10.3390/fi15120400
-
-
-
-
-
-
-
