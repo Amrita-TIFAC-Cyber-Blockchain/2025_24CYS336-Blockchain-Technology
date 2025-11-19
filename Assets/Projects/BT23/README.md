@@ -1,13 +1,11 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#23
+## BT#23 - 
 
-![](https://img.shields.io/badge/Vasantha_Kumar_G_R-CB.EN.U4CCE23062-gold)  <br/> 
-![](https://img.shields.io/badge/Ashwin_Kumar_K_S-CB.EN.U4ECE23007-gold)  <br/>
-![](https://img.shields.io/badge/Karthick_A-CB.EN.U4ECE23225-gold)  <br/>
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Vasantha_Kumar_G_R-gold) ![](https://img.shields.io/badge/Ashwin_Kumar_K_S-gold) ![](https://img.shields.io/badge/Karthick_A-gold)  <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
+
 
 ------
 
@@ -60,6 +58,25 @@ The authors propose a model where every social media post can be converted into 
 
 _Image taken from paper-1_
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
@@ -77,6 +94,7 @@ _Image taken from paper-1_
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
