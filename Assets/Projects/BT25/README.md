@@ -47,31 +47,25 @@ Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockch
 ### REFERENCES :
 
 1. Sudhan, A. & Nene, M. (2017). *Employability of Blockchain Technology in Defence Applications.* IEEE ICISS.  
-   https://ieeexplore.ieee.org/document/8273168
+   [https://ieeexplore.ieee.org/document/8273168](https://ieeexplore.ieee.org/document/8389247)
 
-2. Kim, H. & Lee, J. (2022). *Ensuring Integrity in Defense Weapon Supply Chains Through Blockchain.* IEEE Access.  
-   https://ieeexplore.ieee.org/document/9724158
+2. Nguyen, D. & Tran, H. (2022). *A Framework for Blockchain-Enabled Smart Contract Management System of Arms and Ammunition for Defence Industry.*                                                                                                  [https://ieeexplore.ieee.org/document/9869598](https://ieeexplore.ieee.org/document/10522135)
 
-3. Nguyen, D. & Tran, H. (2022). *Blockchain and Smart Contracts for Defense Logistics Security.* IEEE Transactions on Blockchain.  
-   https://ieeexplore.ieee.org/document/9869598
-
-4. Sharma, G., Sharma, D., & Kumar, A. (2023). *Role of Cybersecurity and Blockchain in Battlefield Logistics.* IEEE Internet Technology Letters.  
-   https://ieeexplore.ieee.org/document/10096512
-
-5. Patel, D. S. (2022). *Blockchain for Challenges in Logistics and Supply Chain.* IEEE ICCES.  
+3. Patel, D. S. (2022). *Blockchain for Challenges in Logistics and Supply Chain.* IEEE ICCES.  
    https://ieeexplore.ieee.org/document/10037294
    
 OTHER REFERENCE ARTICLES :
 
-6. https://covertaccessteam.substack.com/p/military-grade-equipment-keeps-disappearing
+4. https://covertaccessteam.substack.com/p/military-grade-equipment-keeps-disappearing
 
-7. https://cybersrcc.com/2024/07/24/indian-military-and-police-data-breach/
+5. https://cybersrcc.com/2024/07/24/indian-military-and-police-data-breach/
 
-8. https://timesofindia.indiatimes.com/city/pune/high-security-ordnance-factory-theft-3-ak-47s-and-2-galil-rifles-stolen-in-jalgaon/articleshow/114559395.cms
+6. https://timesofindia.indiatimes.com/city/pune/high-security-ordnance-factory-theft-3-ak-47s-and-2-galil-rifles-stolen-in-jalgaon/articleshow/114559395.cms
 
-9. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
+7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
-10. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
