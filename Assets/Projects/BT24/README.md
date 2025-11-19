@@ -3,9 +3,9 @@
 
 ## BT#24
 
-![MUKESH SINGH](https://img.shields.io/badge/MEMBER-MUKESH--SINGH--J-gold)   ![CB.EN.U4ELC23027](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)<br/>
-![DEEPANA S J](https://img.shields.io/badge/MEMBER-DEEPANA--S--J-gold)   ![CB.EN.U4EEE23109](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)<br/>
-![HARSHAN S](https://img.shields.io/badge/MEMBER-HARSHAN--S--J-gold)   ![CB.EN.U4ECE23119](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)<br/>
+![MUKESH SINGH](https://img.shields.io/badge/MEMBER-MUKESH--SINGH-gold)   ![CB.EN.U4ELC23027](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ELC23027-blue)<br/>
+![DEEPANA S J](https://img.shields.io/badge/MEMBER-DEEPANA--S-gold)   ![CB.EN.U4EEE23109](https://img.shields.io/badge/ROLL--NO-CB.EN.U4EEE23109-blue)<br/>
+![HARSHAN S](https://img.shields.io/badge/MEMBER-HARSHAN--S-gold)   ![CB.EN.U4ECE23119](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23119-blue)<br/>
 
 
 
