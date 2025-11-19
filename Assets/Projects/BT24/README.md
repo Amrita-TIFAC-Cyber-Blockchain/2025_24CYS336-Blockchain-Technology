@@ -1,15 +1,10 @@
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#24
+## BT#24 - EnergyMarket Smart Contract
+![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
 
-![MUKESH SINGH](https://img.shields.io/badge/MEMBER-MUKESH--SINGH-gold)   ![CB.EN.U4ELC23027](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ELC23027-blue)<br/>
-![DEEPANA S J](https://img.shields.io/badge/MEMBER-DEEPANA--S-gold)   ![CB.EN.U4EEE23109](https://img.shields.io/badge/ROLL--NO-CB.EN.U4EEE23109-blue)<br/>
-![HARSHAN S](https://img.shields.io/badge/MEMBER-HARSHAN--S-gold)   ![CB.EN.U4ECE23119](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23119-blue)<br/>
-
-
-
-## EnergyMarket Smart Contract
+## 
 
 A Solidity-based smart contract facilitating peer-to-peer (P2P) energy trading and load management on the blockchain. This system enables registered prosumers (both producers and consumers of energy) to transparently report, trade, and track surplus energy, providing the backbone for decentralized energy marketplaces and load flow analysis.
 
@@ -203,4 +198,22 @@ The `EnergyMarket` smart contract manages prosumers, surplus reporting, P2P ener
 
 This structure allows transparent, secure, tamper-proof energy trading suitable for smart grid analysis.
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
