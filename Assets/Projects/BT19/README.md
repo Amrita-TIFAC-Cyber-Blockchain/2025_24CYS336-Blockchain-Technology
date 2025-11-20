@@ -38,11 +38,68 @@ Previous research has tested various pricing strategies—like real-time pricing
 ###  Architectural Diagram
 
 The architectural diagram of the **Blockchain-Based Multi-Energy System** is shown below.
-
 <p align="center">
-  <img width="500" height="315" alt="image" src="https://github.com/user-attachments/assets/a555c80b-0030-4a77-b0ee-a3e5a568b1c8" />
+ <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2fd8c451-c504-4b71-bbde-9240226c7e17" />
 
 </p>
+
+#### Architecture Description
+- **Producers** feed renewable energy data (capacity, source) into the blockchain.  
+- **Consumers** register with their energy demand and location.  
+- **Smart Contract** acts as a decentralized ledger maintaining block-level data.  
+- **EnergyBlocks** record transactions linking producers and consumers chronologically.  
+- **SystemBlock** tracks network-wide energy metrics for governance and optimization.
+###  System Overview
+
+The implemented smart contract — **`MultiEnergyBlocks.sol`** — is designed as a **block representation model** for a decentralized energy trading network.  
+It is not a transactional trading platform but a **data-layer abstraction**, capturing and organizing entities in the energy ecosystem.
+
+####  Core Components
+
+1. **Producer Block**  
+   Represents renewable energy producers such as solar or wind farms.  
+   - Stores source type (e.g., Solar, Wind, Hydro)  
+   - Records energy capacity and availability  
+
+2. **Consumer Block**  
+   Represents households, industries, or microgrids consuming energy.  
+   - Stores consumer address and geographic location  
+   - Records energy demand  
+
+3. **Energy Data Block**  
+   Logs energy transfers between producers and consumers.  
+   - Contains producer and consumer addresses  
+   - Records amount of energy transferred (in kWh)  
+   - Includes a timestamp for traceability  
+
+4. **System Info Block**  
+   Maintains overall system statistics.  
+   - Total number of producers and consumers  
+   - Total energy capacity registered on-chain  
+
+---
+
+###  Smart Contract Workflow
+
+Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
+
+1. **Producer Registration**  
+   - Energy producers are added using `addProducer(address, type, capacity)`.  
+   - Each producer block stores capacity and available energy.  
+   - System statistics (`totalProducers`, `totalEnergy`) are updated automatically.
+
+2. **Consumer Registration**  
+   - Consumers are added via `addConsumer(address, location, demand)`.  
+   - Their details are stored in the `consumers` mapping.  
+   - `totalConsumers` in `SystemBlock` increments accordingly.
+
+3. **Energy Transaction Logging**  
+   - Whenever energy is exchanged, the provider records it using `addEnergyBlock(address producer, address consumer, uint amount)`.  
+   - The energy transfer creates a unique `EnergyBlock` with a timestamp and block ID.  
+   - The block ledger (`energyBlocks`) ensures every transfer is transparent and immutable.
+
+4. **System Tracking**  
+   - `SystemBlock` maintains overall system status — total energy, number of producers, and consumers — forming the foundation for analytics or smart metering extensions.
 
 ---
 
@@ -99,117 +156,10 @@ These transaction are as shown in the [YouTube Demo Video]()
 
 
 
-# <span style="green:#ff6f61">Blockchain Implementation using Solidity ( REMIX - ETHEREUM IDE )</span>
-###  Problem Statement
 
-The transition toward renewable energy sources like solar, wind, and hydro has increased decentralized energy production. However, the current centralized grid systems struggle with load balancing, energy distribution, and transaction transparency between producers and consumers.  
 
-A blockchain-based energy system can overcome these challenges by representing energy entities (producers, consumers, and transactions) as on-chain **blocks**, ensuring immutable records of energy flow and real-time accountability.
 
-This project aims to develop a **Blockchain-Based Multi-Energy System** using Solidity, where:
-- Each producer and consumer is represented as a block.
-- Energy flow between producers and consumers is tracked transparently.
-- The total energy system statistics are automatically updated.
-- No central authority is required for trust or validation.
 
----
-
-###  System Overview
-
-The implemented smart contract — **`MultiEnergyBlocks.sol`** — is designed as a **block representation model** for a decentralized energy trading network.  
-It is not a transactional trading platform but a **data-layer abstraction**, capturing and organizing entities in the energy ecosystem.
-
-####  Core Components
-
-1. **Producer Block**  
-   Represents renewable energy producers such as solar or wind farms.  
-   - Stores source type (e.g., Solar, Wind, Hydro)  
-   - Records energy capacity and availability  
-
-2. **Consumer Block**  
-   Represents households, industries, or microgrids consuming energy.  
-   - Stores consumer address and geographic location  
-   - Records energy demand  
-
-3. **Energy Data Block**  
-   Logs energy transfers between producers and consumers.  
-   - Contains producer and consumer addresses  
-   - Records amount of energy transferred (in kWh)  
-   - Includes a timestamp for traceability  
-
-4. **System Info Block**  
-   Maintains overall system statistics.  
-   - Total number of producers and consumers  
-   - Total energy capacity registered on-chain  
-
----
-
-###  Smart Contract Workflow
-
-Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
-
-1. **Producer Registration**  
-   - Energy producers are added using `addProducer(address, type, capacity)`.  
-   - Each producer block stores capacity and available energy.  
-   - System statistics (`totalProducers`, `totalEnergy`) are updated automatically.
-
-2. **Consumer Registration**  
-   - Consumers are added via `addConsumer(address, location, demand)`.  
-   - Their details are stored in the `consumers` mapping.  
-   - `totalConsumers` in `SystemBlock` increments accordingly.
-
-3. **Energy Transaction Logging**  
-   - Whenever energy is exchanged, the provider records it using `addEnergyBlock(address producer, address consumer, uint amount)`.  
-   - The energy transfer creates a unique `EnergyBlock` with a timestamp and block ID.  
-   - The block ledger (`energyBlocks`) ensures every transfer is transparent and immutable.
-
-4. **System Tracking**  
-   - `SystemBlock` maintains overall system status — total energy, number of producers, and consumers — forming the foundation for analytics or smart metering extensions.
-
----
-
-###  Architectural Representation
-
-<p align="center">
- <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2fd8c451-c504-4b71-bbde-9240226c7e17" />
-
-</p>
-
-#### Architecture Description
-- **Producers** feed renewable energy data (capacity, source) into the blockchain.  
-- **Consumers** register with their energy demand and location.  
-- **Smart Contract** acts as a decentralized ledger maintaining block-level data.  
-- **EnergyBlocks** record transactions linking producers and consumers chronologically.  
-- **SystemBlock** tracks network-wide energy metrics for governance and optimization.
-
----
-
-###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
-
-| **SDG Goal** | **Alignment with Blockchain-Based Multi-Energy System** |
-|---------------|----------------------------------------------------------|
-| **Goal 1 – Affordable and Clean Energy** | Blockchain enables peer-to-peer (P2P) recording of renewable energy exchange, reducing overhead and ensuring affordable clean energy tracking. |
-| **Goal 2 – Industry, Innovation, and Infrastructure** | The project integrates IoT-compatible blockchain infrastructure for transparent, decentralized energy data management. |
-| **Goal 3 – Sustainable Cities and Communities** | Encourages localized energy generation and consumption with verifiable on-chain data. |
-| **Goal 4 – Responsible Consumption and Production** | Smart contracts immutably track energy flow, promoting optimized energy utilization. |
-| **Goal 5 – Climate Action** | Supports prioritization of renewable energy and transparent emissions accounting through energy block records. |
-| **Goal 6 – Peace, Justice, and Strong Institutions** | Uses tamper-proof blockchain records to ensure fairness and resolve disputes among producers and consumers. |
-| **Goal 7 – Partnerships for the Goals** | Facilitates collaboration between consumers, energy providers, and regulators via shared blockchain data. |
-
----
-
-###  References
-
-1. Yu, Q., Meeuw, A., & Wortmann, F. (2018). *Design and implementation of a blockchain multi-energy system.* **Energy Informatics**, 1(Suppl 1), 17. [https://doi.org/10.1186/s42162-018-0040-4](https://doi.org/10.1186/s42162-018-0040-4)
-
-2. Gierek, A. (2016). *Report on an EU strategy on heating and cooling (2016/2058(INI))* [Internet].  
-   European Parliament, Committee on Industry, Research and Energy (Report No. A8-0232/2016).  
-   [http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML+REPORT+A8-2016-0232+0+DOC+PDF+V0//EN](http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//NONSGML+REPORT+A8-2016-0232+0+DOC+PDF+V0//EN)
-
-3. Glaser, F. (2017). *Pervasive decentralisation of digital infrastructures: A framework for blockchain-enabled system and use case analysis.*  
-   Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
-
-4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
 
 
 
