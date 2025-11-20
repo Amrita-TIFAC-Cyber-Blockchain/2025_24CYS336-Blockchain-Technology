@@ -1,15 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#25
+## BT#25 - 
 
-![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)   ![CB.EN.U4ECE23238](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23238-blue)<br/>
-![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold)   ![CB.EN.U4ECE23203](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23203-blue)<br/>
-
-
-![Reviewed](https://img.shields.io/badge/Reviewed-TBD-brown)
-
+![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)  ![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold) <br/>
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
 
@@ -34,6 +29,24 @@ Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockch
 <img width="1011" height="351" alt="ARCHITECTURAL BLOCK" src="https://github.com/user-attachments/assets/9cef12a7-4cff-453a-90ab-89a16ea0119e" />
 
 ------
+
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
 
 ### MAPPING THE PROJECT TO RELEVANT SUSTAINABLE DEVELOPMENT GOALS (SDGS)
 
@@ -67,6 +80,7 @@ OTHER REFERENCE ARTICLES :
 7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
 8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
