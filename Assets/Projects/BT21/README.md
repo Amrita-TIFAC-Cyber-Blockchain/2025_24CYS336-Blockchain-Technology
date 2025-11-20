@@ -81,7 +81,7 @@ Limitations:
 <img width="804" height="461" alt="image" src="https://github.com/user-attachments/assets/9e5ec5d3-a5e3-4e32-bdf0-93106441c58b" />
 
 ### Role Structure of the Adoption System
-1. Admin (Contract Owner)
+#### 1. Admin (Contract Owner)
 The Admin is the owner of the main smart contracts (PETToken, Leaderboard, Adoption contracts).
 
   Responsibilities:
@@ -95,8 +95,9 @@ The Admin is the owner of the main smart contracts (PETToken, Leaderboard, Adopt
   Interaction Level:
   - Interacts directly with blockchain (Remix, or later MetaMask).
   - Not accessible to normal users.
+    
 
-2. Adoption Manager
+#### 2. Adoption Manager
 The Adoption Manager is the layer through which regular users communicate with the blockchain.
 
   Responsibilities:
@@ -109,7 +110,8 @@ The Adoption Manager is the layer through which regular users communicate with t
   Purpose:
   To ensure regular users do not access admin-level functions.
 
-3. Users (Non-Contract Role)
+
+#### 3. Users (Non-Contract Role)
 Users are not part of the contract’s permission system but interact through the Adoption Manager.
 
   User Activities:
@@ -156,6 +158,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
