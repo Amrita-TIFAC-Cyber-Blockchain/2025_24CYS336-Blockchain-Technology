@@ -2,9 +2,13 @@
 
 ## BT#25 - 
 
-![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL-KRISHNA-J-gold)  ![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH-SENTHIL-KUMAR-gold) <br/>
-![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
-![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
+![RAHUL KRISHNA J | CB.EN.U4ECE23238](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J_%7C_CB.EN.U4ECE23238-gold)
+![AKILESH SENTHIL KUMAR | CB.EN.U4ECE23203](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR_%7C_CB.EN.U4ECE23203-gold) <br/>
+
+![](https://img.shields.io/badge/SDG-darkgreen)
+![](https://img.shields.io/badge/SDG-darkgreen) <br/>
+
+![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown)
 
 
 ------
@@ -82,6 +86,7 @@ OTHER REFERENCE ARTICLES :
 7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
 8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
