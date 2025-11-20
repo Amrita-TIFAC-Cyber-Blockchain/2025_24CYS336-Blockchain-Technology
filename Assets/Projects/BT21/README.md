@@ -130,17 +130,31 @@ Users do not have direct interaction with the admin functions.
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
+| Dog register 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)  |
+| Dog register 2 |  |
+| Dog register 3 |  |
+| Dog register 4 |  |
+
+| Dog request 1 |  |
+| Dog request 2 |  |
+| Accept request |  |
+| Decline request |  |
+
+
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |0xE920d352448D6Ed7f514B4c29A2609354a606A06|
+| Deployment of Contract 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)|
+| Deployment of Contract 2 |(https://sepolia.etherscan.io/address/0xC35712e7F50cfEF21aAC357A5462f945c4055a13)|
+| Deployment of Contract 3 |(https://sepolia.etherscan.io/address/0xb1e4F67521De8B89F79c5674cc993351B19e9807)|
+| Deployment of Contract 4 |(https://sepolia.etherscan.io/address/0x5c38393171732f32e61a0860683a97a41EaE3a58)|
+| Deployment of Contract 5 |(https://sepolia.etherscan.io/address/0x2140136b95CA7f5c6817754D061976Ec4195c023)|
 
-These transaction are as shown in the [https://youtu.be/mAR-Yb5Ps4Q]() 
+
+These transaction are as shown in the [https://youtu.be/mAR-Yb5Ps4Q] 
 
 ------
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
@@ -158,6 +172,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
