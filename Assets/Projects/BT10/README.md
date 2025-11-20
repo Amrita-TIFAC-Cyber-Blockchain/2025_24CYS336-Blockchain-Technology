@@ -165,7 +165,7 @@ It ensures that patient health data and AI-based medical predictions are **tampe
 |Revoke access to Doctor| [0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3](https://sepolia.etherscan.io/tx/0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3)|
 |RunOnChainPrediction| [0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d](https://sepolia.etherscan.io/tx/0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d)|
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://youtu.be/f_BlTHwBFAQ) 
 
 ###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -184,6 +184,7 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
+
 
 
 
