@@ -1,11 +1,10 @@
-
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject_-_BLOCKCHAIN_-blue) ![](https://img.shields.io/badge/Batch_-23CYS336-gold) <br/>
 
 ## BT#12 -  Food Safety Traceability System using Blockchain and EPCIS
 
-![](https://img.shields.io/badge/_Name_-_VIYAS_K_-blue) ![](https://img.shields.io/badge/_Roll_Number_-_CB.EN.U4ECE23254_-blue)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Name-VIYAS_K-gold)  <br/> 
+![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
 
@@ -48,12 +47,32 @@ hash.
 
 ---
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 
 -----
 
 ### References
+
 
 
 
