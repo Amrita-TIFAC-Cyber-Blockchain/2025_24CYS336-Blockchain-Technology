@@ -53,6 +53,8 @@ The Metaverse 🌐: Offers immersive, interactive environments that converge the
 Application: The Metaverse serves as the virtual space where DT simulations occur, facilitating remote system management, visualization of grid operations, and promoting stakeholder collaboration on real-time energy data.
 
 This confluence addresses the fundamental pillars of a successful decentralized energy market: Market Economics (optimal bidding/payoff), Power Network (system stability/ANC allocation), and Policy & Regulation (dispute management/trust).
+
+
 -----
 ### ARCHITECTURAL DIAGRAM
 
@@ -74,21 +76,29 @@ This confluence addresses the fundamental pillars of a successful decentralized 
 
 ### REFERENCES :
 
-1.Nguyen, D. & Tran, H. (2022). A Framework for Blockchain-Enabled Smart Contract Management System of Arms and Ammunition for Defence Industry. IEEE ICRITO. DOI: 10.1109/ICRITO61523.2024.10522135. Link: https://ieeexplore.ieee.org/document/10522135.
+1. Nguyen, D. & Tran, H. (2022). A Framework for Blockchain-Enabled Smart Contract Management System of Arms and Ammunition for Defence Industry.
+   IEEE ICRITO. DOI: 10.1109/ICRITO61523.2024.10522135.
+   Link: https://ieeexplore.ieee.org/document/10522135.
 
-2.Singh, K. et al. (2025). Foundational Pillars of Peer-to-Peer (P2P) Energy Trading in Smart grid using Blockchain. Research Square Preprints. DOI: 10.21203/rs.3.rs-6703573/v1. Link: https://www.researchgate.net/publication/391979369_Foundational_Pillars_of_Peer-to-Peer_P2P_Energy_Trading_in_Smart_grid_using_Blockchain.
+2.Singh, K. et al. (2025). Foundational Pillars of Peer-to-Peer (P2P) Energy Trading in Smart grid using Blockchain. Research Square Preprints. 
+  DOI: 10.21203/rs.3.rs-6703573/v1. 
+  Link: https://www.researchgate.net/publication/391979369_Foundational_Pillars_of_Peer-to-Peer_P2P_Energy_Trading_in_Smart_grid_using_Blockchain.
 
-3.Agarwal, S. & Jain, A. (2024). Energy Management in Smart Distribution Grid: Leveraging Blockchain for Energy Trading. Cigre 2024 Paris Session, Paper ID-11298. ID: 11298. (Note: Access typically via Cigre/publisher platform).
+3.Agarwal, S. & Jain, A. (2024). Energy Management in Smart Distribution Grid: Leveraging Blockchain for Energy Trading.
+  Cigre 2024 Paris Session, Paper ID-11298. ID: 11298. 
+  (Note: Access typically via Cigre/publisher platform).
 
-4.Boumaiza, A. (2024). Carbon and Energy Trading Integration within a Blockchain-Powered Peer-to-Peer Framework. Energies, 17(2473), MDPI. DOI: 10.3390/en17112473. Link: https://www.mdpi.com/1996-1073/17/11/2473.
+4.Boumaiza, A. (2024). Carbon and Energy Trading Integration within a Blockchain-Powered Peer-to-Peer Framework. 
+  Energies, 17(2473), MDPI. DOI: 10.3390/en17112473. 
+  Link: https://www.mdpi.com/1996-1073/17/11/2473.
 
-5.Zhang, M. et al. (2024). Smart grid security based on blockchain and smart contract. Peer-to-Peer Networking and Applications, Springer. DOI: 10.1007/s12083-024-01703-0. Link: https://www.springerprofessional.de/en/smart-grid-security-based-on-blockchain-and-smart-contract/27001274.
+5.Zhang, M. et al. (2024). Smart grid security based on blockchain and smart contract. Peer-to-Peer Networking and Applications.
+  Springer. DOI: 10.1007/s12083-024-01703-0. 
+  Link: https://www.springerprofessional.de/en/smart-grid-security-based-on-blockchain-and-smart-contract/27001274.
 
 6.Zahid, H. et al. (2025). Transforming nano grids to smart grid 3.0: AI, digital twins, blockchain, and the metaverse revolutionizing the energy ecosystem.
-
-DOI: 10.1016/j.rineng.2025.105850
-
-Link: https://doi.org/10.1016/j.rineng.2025.105850 (This DOI link will direct you to the publisher's page on ScienceDirect for access).
+  DOI: 10.1016/j.rineng.2025.105850
+  Link: https://doi.org/10.1016/j.rineng.2025.105850 (This DOI link will direct you to the publisher's page on ScienceDirect for access).
    
 
 ### Results
