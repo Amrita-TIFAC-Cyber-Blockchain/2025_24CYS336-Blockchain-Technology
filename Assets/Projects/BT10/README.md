@@ -150,16 +150,20 @@ It ensures that patient health data and AI-based medical predictions are **tampe
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner(Patient)  |  [0x149ee3612e9386ec587e964a34b67aaffdaaf708](https://sepolia.etherscan.io/address/0x149ee3612e9386ec587e964a34b67aaffdaaf708)|  
+| Doctor1 | [0xb25e515a8d64976d46483e329d5508667a6295be](https://sepolia.etherscan.io/address/0xb25e515a8d64976d46483e329d5508667a6295be)|
+| Doctor2|  [0xd64deEd9710f0b2Be9eb7EB04caB040b8E3CD7d3](https://sepolia.etherscan.io/address/0xd64deed9710f0b2be9eb7eb04cab040b8e3cd7d3)| 
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
-| 
+| AIDiagnosisContract |  [0xa2ab57ee41475aad9f8c832b6717ea97084894dd26e652b71d1be48e990eb317](https://sepolia.etherscan.io/tx/0xa2ab57ee41475aad9f8c832b6717ea97084894dd26e652b71d1be48e990eb317)    |
+| EHRControlContract | [0x5f3aef09d02d6a9faafb3baa7d30c8d1446a63d3ac3cf17232c89045eb64a00c](https://sepolia.etherscan.io/tx/0x5f3aef09d02d6a9faafb3baa7d30c8d1446a63d3ac3cf17232c89045eb64a00c)|
+| Ownable(Transfer Ownership)| [0xcd6630239f8daa1224086f2a403e6d2815425369344fcb39278d8c99e07ac95e](https://sepolia.etherscan.io/tx/0xcd6630239f8daa1224086f2a403e6d2815425369344fcb39278d8c99e07ac95e)|
+|Granting access to Doctor| [0x78c0a76dc7b9497377c109a8d5dc4df431583991ae843a75ecd91504511a8d93](https://sepolia.etherscan.io/tx/0x78c0a76dc7b9497377c109a8d5dc4df431583991ae843a75ecd91504511a8d93)|
+|Revoke access to Doctor| [0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3](https://sepolia.etherscan.io/tx/0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3)|
+|RunOnChainPrediction| [0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d](https://sepolia.etherscan.io/tx/0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d)|
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -180,6 +184,7 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
+
 
 
 
