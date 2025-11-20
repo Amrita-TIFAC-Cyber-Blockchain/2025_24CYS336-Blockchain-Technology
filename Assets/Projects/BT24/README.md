@@ -117,5 +117,5 @@ This confluence addresses the fundamental pillars of a successful decentralized 
 |:--------------------------|:---------------------------------------------------------------------|
 | Deployment of Contracts   | 0xe75bdf168ab322de79f4ce993d1e40a1c83cb279764bdb5ef1653092a687a7e4   |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://www.youtube.com/watch?v=n9KG7wkeUs0) 
 
