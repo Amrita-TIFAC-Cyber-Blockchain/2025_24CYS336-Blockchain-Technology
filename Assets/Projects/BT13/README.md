@@ -37,15 +37,18 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| government autority  | 0x916cd67bb4e9f5a185999e83e5d831539f633eeb |
+| producer | 0x9701464684e0a4ea5689ff262d1b8496a64ae220 |
+| retailer | 0xc014eee0f80a3ecc829d537a6e49e53eaabd411b |
+| consumer | 0x49faeea5c516e4abd912f867b1c99618a543c80b |
+| collection center | 0x17724f9c47242ad2453028847d1820e31d871564 |
+| recycler |  0xa5e58aa541bfa930aea997e0f6dc7a77786c1cf2|
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts |   0x0c4afba0eb36bfdcd51101eca5784ceb723827bcae15aeb84a0c9582413977b0   |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -61,3 +64,4 @@ These transaction are as shown in the [YouTube Demo Video]()
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
 Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
+
