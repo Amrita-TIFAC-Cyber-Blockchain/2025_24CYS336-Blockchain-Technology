@@ -54,7 +54,7 @@ A Comprehensive Data Analytics Study on the Use of Blockchain Technology in Real
 |:---------------------|:------:|
 | Deployment of Contracts | 0xc5b7139cca680c2f55e6c966077096e9db25083daf23c0e326179852a7c74904    |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [https://www.youtube.com/watch?v=KOWh2ZSnAZo]() 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 | **SDG**                                              | **Alignment with the Project**                                                                                                                                                                                                                       |
