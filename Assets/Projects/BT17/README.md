@@ -2,11 +2,11 @@
 # 24CYS336 - Blockchain-Technology 
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
-## BT#17
+## BT#17 - 
 
-![](https://img.shields.io/badge/Member-Praveen_S-gold)  <br/> 
-![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/Member-Praveen_S-gold) ![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
+![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
 
@@ -67,6 +67,24 @@ Final Solution: Strong case for Public Blockchain
 
 ------
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | **SDG**                                             | **Project’s Alignment Towards the Goal**                                                                                                                                                                                                |
@@ -85,6 +103,7 @@ Final Solution: Strong case for Public Blockchain
 [1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
 
 [2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
 
