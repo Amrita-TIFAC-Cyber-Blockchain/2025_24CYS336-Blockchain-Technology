@@ -7,15 +7,6 @@
 ## Assignments - <<NAME>>
 ![](https://img.shields.io/badge/Name-AKILESH-blue) <br/>
 
-| Wallet Address | <<paste your Metamask Wallet Address>> | 
-|:--------------:|:-----------------------------:|
-
-### Lab X - Lab Name  
-
-| Smart Contract Address | << Paste the Smart Contract Address>> |
-|:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | <<Transaction ID>>                    |
-
 [README.md](https://github.com/user-attachments/files/23660424/README.md)
 # 📘 Certificate Registry – Solidity Smart Contract
 
@@ -174,6 +165,7 @@ contract CertificateRegistry {
 ![Verify Certificate](/mnt/data/4468d7ff-fed4-44c4-a1b5-3f8184276747.png)
 
 ---
+
 
 
 
