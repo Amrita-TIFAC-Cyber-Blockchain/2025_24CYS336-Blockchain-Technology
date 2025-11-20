@@ -105,18 +105,17 @@ This confluence addresses the fundamental pillars of a successful decentralized 
 
 #### Stakeholder Details
 
-| Smart Contract Stakeholders | Address | 
-|:---------------------------:|:-------:|
-| Owner  |  | 0x69954b38f8f72abac68b18d1a457cb0c1e289bb8 |
-| User 1 |  | 0x1cccCcE2DB8b812460F45f055d4eCeed96c51179 |
-| User 2 |  | 0x307fb4d7E5Bbc94FA9d361b55fE27DfcD3E91600 |
+| Smart Contract Stakeholders | Address                                   |
+|:----------------------------|:------------------------------------------|
+| Owner                       | 0x69954b38f8f72abac68b18d1a457cb0c1e289bb8 |
+| User 1                      | 0x1cccCcE2DB8b812460F45f055d4eCeed96c51179 |
+| User 2                      | 0x307fb4d7E5Bbc94FA9d361b55fE27DfcD3E91600 |
 
 #### Transaction Details
 
-| Transaction Action   | Hash   |
-|:---------------------|:------:|
-| Deployment of Contracts |      | 
-| 
+| Transaction Action        | Hash                                                                 |
+|:--------------------------|:---------------------------------------------------------------------|
+| Deployment of Contracts   | 0xe75bdf168ab322de79f4ce993d1e40a1c83cb279764bdb5ef1653092a687a7e4   |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
