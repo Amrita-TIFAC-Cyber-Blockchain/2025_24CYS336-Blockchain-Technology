@@ -75,7 +75,7 @@ _Image taken from paper-1_
 | Deployment of Contracts |      |
 | 
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [https://youtu.be/Xfo6L_V9xIE]() 
 
 ------
 
@@ -94,6 +94,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
