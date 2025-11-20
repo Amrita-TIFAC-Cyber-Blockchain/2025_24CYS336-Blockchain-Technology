@@ -45,8 +45,8 @@ A Comprehensive Data Analytics Study on the Use of Blockchain Technology in Real
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
 | Owner  |0x01fae056cb0f481c4735f6df5fb2355175550179  |
-| User 1 |  |
-| User 2 |  | 
+| User 1 |0x86ea3e039a53dcaf9bb0cff69d62e8df9ec3075b  |
+| User 2 |0xDD6b89f16E1087Fee845f9f65FFB8270F007aeC8 | 
 
 #### Transaction Details
 
