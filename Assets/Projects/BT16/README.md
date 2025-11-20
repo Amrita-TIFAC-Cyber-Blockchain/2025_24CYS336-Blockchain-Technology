@@ -31,17 +31,27 @@ González et al. (2022) addressed the limitations of both centralized systems an
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner - Election Commission  | 0xcd5c864d56e2f9b4212094c3170dcd6d8907edc6 |
+| Candidate 1 | 0x59981364c9213874ea4ac158d0a63fe2a72d3dac |
+| Candidate 2 | 0xb353a583dbc30632bd92793a58343ef68415f856 | 
+| Voter 1 | 0x746a37e8da4f0930e2fdd875ff293d9ba5640388 | 
+| Voter 2 | 0x63056e3dccb4d15a246ff3f387cc342e29fa3176 | 
+
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts |   0x6d938ceb05a229ff225f37f4c2deab4e381ac67051278996c75764d3dac2f6b4   |
+| Adding Candidate 1 |   0x0e2bdc7c1480c95d357aab7dfe0b8969f610da52108e751ec9b11f28231fd9cf  |
+| Adding Candidate 2 |   0x2b19edd8b709ef7b567f23aa560763dbcee3642813bf14bc5d804880787c7c10  |
+| Adding voter 1 |   0x2f68d1589159cf35863d040dbf8383cc71a4120b30370344aa1e7be7e97338e7   |
+| Adding voter 2 |   0x8142829a9ee6c61fe7ac8d2542e1d3416701bf619a03f0eb726e48245036ce96   |
+| Voter 1 Voting |   0x28fdc466d7c831091e8e5f0341a4e20fbb09803b1c8f5f81a35e565294e8fda6   |
+| Voter 2 Voting |   0x93edd0eacac87b4fa7cb8e7cd4eea04e47d7af4364cbbd967e7de83c200dfd37   |
+| Count Votes |  0xd41ab687cebaf8090defff1417d4fb26fbbc7b41514f932d761053854ca31675   |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://youtu.be/7SrDYXUkSPA) 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -56,6 +66,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959-59969.
 
 <2>Denis González, C., Frias Mena, D., Massó Muñoz, A., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531.
+
 
 
 
