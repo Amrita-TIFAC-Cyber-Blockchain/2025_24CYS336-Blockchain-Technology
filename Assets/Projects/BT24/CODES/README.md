@@ -1,3 +1,72 @@
+## 🏛 NITI Aayog Blockchain 
+
+## Why Blockchain? (Problem Fit)
+
+This checklist evaluates the project against standard criteria for determining if a blockchain solution is a good fit.
+
+### 1. Are there multiple parties involved? → **YES**
+* Prosumers
+* Consumers
+* Utility
+* Distribution company
+* Grid operator
+> **✔ Multiple independent entities → blockchain recommended.**
+
+---
+
+### 2. Do these parties trust each other fully? → **NO**
+* Prosumers may cheat surplus values.
+* Buyers may fake demand.
+* Utility may alter data.
+* Load flow data may be manipulated.
+> **✔ When trust is low, blockchain ensures fairness.**
+
+---
+
+### 3. Is data coming from multiple distributed sources? → **YES**
+* Smart meters
+* Prosumers
+* Load flow sensors
+* Decentralized renewable sites
+> **✔ Blockchain is ideal for distributed environments.**
+
+---
+
+### 4. Is tamper-proof, auditable logging required? → **YES**
+* Load flow analysis needs:
+    * Transparent energy transfer
+    * Verified surplus reporting
+    * Immutable trade history
+    * Audit trail for grid balancing
+> **✔ Blockchain provides immutable logs.**
+
+---
+
+### 5. Is there a need to automate rules without human interference? → **YES**
+* Prosumer registration
+* Surplus reporting
+* Energy trading
+* Settlement (future version)
+> **✔ Smart contracts automate these actions.**
+
+---
+
+### 6. Does centralization create a risk? → **YES**
+* A centralized database can:
+    * Alter records
+    * Hide trades
+    * Manipulate surplus data
+> **✔ Blockchain removes a single point of failure.**
+
+---
+
+### 7. Are there benefits from decentralization? → **YES**
+* Transparent load flow
+* Decentralized trading
+* Eliminates disputes
+* Removes intermediary cost
+> **✔ Major improvement over traditional databases.**
+
 ## Blockchain Part
 
 Blockchain folder for Smart Grid P2P Energy Trading project.
