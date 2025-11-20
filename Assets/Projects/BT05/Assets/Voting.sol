@@ -3,16 +3,47 @@ pragma solidity ^0.8.0;
 
 contract Voting {
     address public owner;
+
+    string public electionName;
+
+    uint16 public startYear;
+    uint8 public startMonth;
+    uint8 public startDay;
+
+    uint16 public endYear;
+    uint8 public endMonth;
+    uint8 public endDay;
+
     string[] public candidateNames;
     mapping(string => uint256) public votesReceived;
     mapping(address => bool) public hasVoted;
+
     bool public votingEnded;
 
-    constructor(uint numCandidates, string[] memory names) {
-        require(numCandidates > 0 && numCandidates < 10, "Candidates must be between 1 and 9");
-        require(names.length == numCandidates, "Names count must match number of candidates");
+    constructor(
+        string memory _electionName,
+        uint16 _startYear,
+        uint8 _startMonth,
+        uint8 _startDay,
+        uint16 _endYear,
+        uint8 _endMonth,
+        uint8 _endDay,
+        uint numCandidates,
+        string[] memory names
+    ) {
+        require(numCandidates > 0 && numCandidates <= 10, "Invalid candidates count");
 
         owner = msg.sender;
+
+        electionName = _electionName;
+
+        startYear = _startYear;
+        startMonth = _startMonth;
+        startDay = _startDay;
+
+        endYear = _endYear;
+        endMonth = _endMonth;
+        endDay = _endDay;
 
         for (uint i = 0; i < numCandidates; i++) {
             candidateNames.push(names[i]);
@@ -20,10 +51,53 @@ contract Voting {
         }
     }
 
+    // -------------------------------------------
+    // 1. Convert month number → Month name
+    // -------------------------------------------
+    function monthName(uint8 month) internal pure returns (string memory) {
+        string[12] memory months = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+        require(month >= 1 && month <= 12, "Invalid month");
+        return months[month - 1];
+    }
+
+    // -------------------------------------------
+    // 2. Return date in DD - Month - YYYY format
+    // -------------------------------------------
+    function getFormattedStartDate() public view returns (string memory) {
+        return string(
+            abi.encodePacked(
+                uintToString(startDay), " - ",
+                monthName(startMonth), " - ",
+                uintToString(startYear)
+            )
+        );
+    }
+
+    function getFormattedEndDate() public view returns (string memory) {
+        return string(
+            abi.encodePacked(
+                uintToString(endDay), " - ",
+                monthName(endMonth), " - ",
+                uintToString(endYear)
+            )
+        );
+    }
+
+    // Utility: convert uint to string
+    function uintToString(uint num) internal pure returns (string memory) {
+        return string(abi.encodePacked(num));
+    }
+
+    // -------------------------------------------
+    // Voting functions
+    // -------------------------------------------
     function vote(string memory candidateName) public {
         require(!votingEnded, "Voting has ended");
-        require(!hasVoted[msg.sender], "No double voting allowed");  // ✅ Added message
-        require(validCandidate(candidateName), "Invalid candidate name");
+        require(!hasVoted[msg.sender], "You have already voted");
+        require(validCandidate(candidateName), "Invalid candidate");
 
         votesReceived[candidateName]++;
         hasVoted[msg.sender] = true;
@@ -38,18 +112,29 @@ contract Voting {
         return false;
     }
 
+    // End election (owner only)
     function endVoting() public {
-        require(msg.sender == owner, "Only the owner can end the election"); // ✅ Added message
+        require(msg.sender == owner, "Only owner can end");
         votingEnded = true;
     }
 
+    // -------------------------------------------
+    // 3. Restrict Results — Only After Election Ends
+    // -------------------------------------------
     function getResults() public view returns (string[] memory, uint256[] memory) {
-        require(votingEnded, "Voting not ended yet");
+        require(votingEnded, "Results available only after election ends");
 
-        uint256[] memory results = new uint256[](candidateNames.length);
+        uint256[] memory resultCounts = new uint256[](candidateNames.length);
+
         for (uint i = 0; i < candidateNames.length; i++) {
-            results[i] = votesReceived[candidateNames[i]];
+            resultCounts[i] = votesReceived[candidateNames[i]];
         }
-        return (candidateNames, results);
+
+        return (candidateNames, resultCounts);
+    }
+
+    // Helper: For UI to show "Show Results" button conditionally
+    function isElectionEnded() public view returns (bool) {
+        return votingEnded;
     }
 }
