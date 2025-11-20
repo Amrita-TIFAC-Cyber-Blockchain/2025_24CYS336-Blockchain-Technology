@@ -5,7 +5,7 @@
 ## BT#05 - BlockVote: Enterprise E-Voting System
 
 ![](https://img.shields.io/badge/Member-Jose_Rohit_M-gold)  <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen)  <br/>
 ![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
@@ -16,7 +16,15 @@ This project, **BlockVote**, aims to solve these issues by building an **Enterpr
 It ensures **voter anonymity**, **prevents double voting**, and maintains **transparency** and **immutability** through the use of **smart contracts** and **decentralized storage**.
 
 ------
+## Literature Survey
 
+Traditional electronic voting systems suffer from centralization, security vulnerabilities, and limited transparency, making it difficult to ensure trustworthy and tamper-proof elections. Early blockchain research by Nakamoto [1], Swan [2], and Zyskind et al. [3] demonstrated that decentralized ledgers provide immutability, trustless verification, and secure data handling, forming a strong foundation for blockchain-based e-voting.
+
+Later studies, such as those by McCorry et al. [4], Hardwick et al. [5], and Zhao & Chan [6], showed that Ethereum-based voting protocols and privacy-preserving cryptographic techniques can prevent double voting, improve auditability, and maintain voter anonymity. These works highlight how blockchain significantly enhances election integrity while removing reliance on centralized authorities.
+
+Recent enterprise-oriented research, including González et al. [7], introduced architectures with smart contracts, role-based controls, and immutable audit trails—principles that align directly with BlockVote. This project adopts these proven research concepts by using Solidity, Ganache, and Web3.js to build a transparent, secure, and tamper-proof enterprise e-voting system.
+
+---
 ## Project Overview
 
 This project demonstrates a simple **Enterprise E-Voting System** built using:
@@ -53,15 +61,6 @@ This project demonstrates a simple **Enterprise E-Voting System** built using:
 - The frontend connects to Ganache via **MetaMask**, using the RPC URL and chain ID provided by Ganache.
 
 ---
-## Literature Survey
-
-Traditional electronic voting systems suffer from centralization, security vulnerabilities, and limited transparency, making it difficult to ensure trustworthy and tamper-proof elections. Early blockchain research by Nakamoto [1], Swan [2], and Zyskind et al. [3] demonstrated that decentralized ledgers provide immutability, trustless verification, and secure data handling, forming a strong foundation for blockchain-based e-voting.
-
-Later studies, such as those by McCorry et al. [4], Hardwick et al. [5], and Zhao & Chan [6], showed that Ethereum-based voting protocols and privacy-preserving cryptographic techniques can prevent double voting, improve auditability, and maintain voter anonymity. These works highlight how blockchain significantly enhances election integrity while removing reliance on centralized authorities.
-
-Recent enterprise-oriented research, including González et al. [7], introduced architectures with smart contracts, role-based controls, and immutable audit trails—principles that align directly with BlockVote. This project adopts these proven research concepts by using Solidity, Ganache, and Web3.js to build a transparent, secure, and tamper-proof enterprise e-voting system.
-
----
 
 ### Results
 
@@ -69,17 +68,17 @@ Recent enterprise-oriented research, including González et al. [7], introduced 
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0x324be22fc359fdd498ca692524c1dc347c6a4f22 |
+| User 1 | 0x729b70d3e557409660df0a4d096eb68ff93d5472  |
+| User 2 | 0x08b5e4459f767aa99c323b69cf2035092a2f84f2 | 
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts | 0xf46d54f6809DBB9867E0E130FF09E18Ba76174fe     |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://youtu.be/t6vp9mm-YIQ) 
 
 ## Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -100,5 +99,6 @@ These transaction are as shown in the [YouTube Demo Video]()
 [7] González, C. D., García, M., & Pacheco, J. (2022). Electronic Voting System Using an Enterprise Blockchain. Journal of Systems Architecture.  
 
 ------
+
 
 
