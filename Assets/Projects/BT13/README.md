@@ -3,7 +3,9 @@
 ## BT#13 - Blockchain-Based E-Waste Management and Tracking System
  
 ![](https://img.shields.io/badge/Member-Yuvanesh_M-gold)  <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/SDG--12-Responsible%20Consumption%20%26%20Production-brightgreen)
+![](https://img.shields.io/badge/SDG--13-Climate%20Action-blue)
+![](https://img.shields.io/badge/SDG--16-Peace%2C%20Justice%20%26%20Strong%20Institutions-purple)<br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
@@ -64,6 +66,7 @@ These transaction are as shown in the [youtube link](https://youtu.be/FPoqTbRZ6k
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
 Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
+
 
 
 
