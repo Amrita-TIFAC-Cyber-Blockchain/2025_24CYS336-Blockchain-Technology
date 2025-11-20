@@ -1,9 +1,6 @@
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#04- **Blockchain-Based Digital Notary**
- 
-
 ![](https://img.shields.io/badge/Member-Hemadhri_P_C-gold)  <br/> 
 ![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
@@ -45,7 +42,6 @@ This article propose a blockchain-based solution for securely storing and verify
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
 | Deployment of Contracts |      |
-| 
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -61,5 +57,6 @@ These transaction are as shown in the [YouTube Demo Video]()
 1. Goncharova, A. (2024). Blockchain in digital notary services. Visegrad Journal on Human Rights, (4), 44-48.
 2. Tanriverdí, M. (2024). Publiceduchain: A framework for sharing student-owned educational data on public blockchain network. IEEE Access, 12, 51772-51785.
 3. Mainali, A., Rathore, P., Maheshwari, A., & Sharma, R. (2025). Blockchain-Based Document Verification System. Soft Computing Fusion with Applications.
+
 
 
