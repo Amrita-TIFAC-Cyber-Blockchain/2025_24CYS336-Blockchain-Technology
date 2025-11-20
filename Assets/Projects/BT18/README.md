@@ -104,6 +104,8 @@ By combining decentralised identity, cryptographic guarantees, and transparent v
 <img width="446" height="390" alt="image" src="https://github.com/user-attachments/assets/e4cafd22-e873-484f-ade3-5b0cbdd539bc" />
 
 ------
+### Demonstration of the Project - https://www.youtube.com/watch?v=ShZQGLJPrXU
+-----
 ## System Workflow
 
 ### 1. Admin Workflow
@@ -200,6 +202,7 @@ By combining decentralised identity, cryptographic guarantees, and transparent v
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
 
