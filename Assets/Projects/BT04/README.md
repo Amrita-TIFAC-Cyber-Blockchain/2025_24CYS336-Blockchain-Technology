@@ -5,7 +5,8 @@
  
 
 ![](https://img.shields.io/badge/Member-Hemadhri_P_C-gold)  <br/> 
-![](https://img.shields.io/badge/Reviewed-TBD-brown) <br/>
+![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
 
@@ -29,6 +30,26 @@ This article propose a blockchain-based solution for securely storing and verify
 
 ------
 
+### Results
+
+#### Stakeholder Details
+
+| Smart Contract Stakeholders | Address | 
+|:---------------------------:|:-------:|
+| Owner  |  |
+| User 1 |  |
+| User 2 |  | 
+
+#### Transaction Details
+
+| Transaction Action   | Hash   |
+|:---------------------|:------:|
+| Deployment of Contracts |      |
+| 
+
+These transaction are as shown in the [YouTube Demo Video]() 
+
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 | *SDG Goal*                                         | *Alignment with the Project*                                                                                                                                                                      |
 | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,4 +61,5 @@ This article propose a blockchain-based solution for securely storing and verify
 1. Goncharova, A. (2024). Blockchain in digital notary services. Visegrad Journal on Human Rights, (4), 44-48.
 2. Tanriverdí, M. (2024). Publiceduchain: A framework for sharing student-owned educational data on public blockchain network. IEEE Access, 12, 51772-51785.
 3. Mainali, A., Rathore, P., Maheshwari, A., & Sharma, R. (2025). Blockchain-Based Document Verification System. Soft Computing Fusion with Applications.
+
 
