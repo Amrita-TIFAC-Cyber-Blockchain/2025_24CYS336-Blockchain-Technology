@@ -26,21 +26,7 @@ Early attempts at direct P2P lending, such as ETHLend (Aave’s predecessor), ex
 
 ### Results
 
-#### Stakeholder Details
-
-| Smart Contract Stakeholders | Address | 
-|:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
-
-#### Transaction Details
-
-| Transaction Action   | Hash   |
-|:---------------------|:------:|
-| Deployment of Contracts |      |
-
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://youtu.be/lFwRduN38Qg) 
 
 ------
 
@@ -59,5 +45,6 @@ These transaction are as shown in the [YouTube Demo Video]()
 - Chen, Y., & Bellavitis, C. (2020). Blockchain disruption and decentralized finance: The rise of decentralized business models. *Journal of Business Venturing Insights*, 13, e00151.
 - Aave Protocol Documentation. (n.d.). Retrieved from [https://docs.aave.com](https://docs.aave.com)
 - Compound Protocol Documentation. (n.d.). Retrieved from [https://compound.finance/docs](https://compound.finance/docs)
+
 
 
