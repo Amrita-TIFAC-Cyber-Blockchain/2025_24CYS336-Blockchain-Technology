@@ -1,6 +1,10 @@
 # 24CYS336 - Blockchain-Technology 
 
-## BT#24 - EnergyMarket Smart Contract
+## BT#24 
+![MUKESH SINGH](https://img.shields.io/badge/MEMBER-MUKESH-SINGH-gold)   ![CB.EN.U4ELC23027](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23027-blue)<br/>
+![DEEPANA S](https://img.shields.io/badge/MEMBER-DEEPANA-S-gold)   ![CB.EN.U4EEE23109](https://img.shields.io/badge/ROLL--NO-CB.EN.U4EEE23109-blue)<br/>
+![HARSHAN S](https://img.shields.io/badge/MEMBER-HARSHAN-S-gold)   ![CB.EN.U4ELC23](https://img.shields.io/badge/ROLL--NO-CB.EN.U4ECE23-blue)<br/>
+
 ![](https://img.shields.io/badge/SDG--darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
 
