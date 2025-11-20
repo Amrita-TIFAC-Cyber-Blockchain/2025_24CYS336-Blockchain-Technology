@@ -2,7 +2,7 @@
 
 ## BT#25 - 
 
-![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)  ![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold) <br/>
+![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL-KRISHNA-J-gold)  ![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH-SENTHIL-KUMAR-gold) <br/>
 ![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
@@ -29,24 +29,25 @@ Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockch
 <img width="1011" height="351" alt="ARCHITECTURAL BLOCK" src="https://github.com/user-attachments/assets/9cef12a7-4cff-453a-90ab-89a16ea0119e" />
 
 ------
+# RESULTS
 
-### Results
+## STAKEHOLDER DETAILS
 
-#### Stakeholder Details
+| **SMART CONTRACT STAKEHOLDERS** | **ADDRESS** | 
+|:-------------------------------:|:-----------:|
+| **OWNER (DEPLOYER)** | [`0x120837db0c8e662875082055eb2195bab5b66c0e`](https://sepolia.etherscan.io/address/0x120837db0c8e662875082055eb2195bab5b66c0e) |
+| **DEPOT MANAGER** | [`0x8434BCC016dF78CAF6f1D469D44714334229d232`](https://sepolia.etherscan.io/address/0x8434bcc016df78caf6f1d469d44714334229d232) |
+| **AGENCY AUDITOR** | [`0xAc4336fa91E6b2B849115C0C5F9F0A37C47594d7`](https://sepolia.etherscan.io/address/0xac4336fa91e6b2b849115c0c5f9f0a37c47594d7) |
 
-| Smart Contract Stakeholders | Address | 
-|:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+## TRANSACTION DETAILS
 
-#### Transaction Details
+| **TRANSACTION ACTION** | **HASH / ADDRESS** |
+|:----------------------:|:------------------:|
+| **DEPLOYMENT OF CONTRACT** | `0xCa3E12DcADCA6cc8278854ceDa7fcdD0e1d10D73` |
 
-| Transaction Action   | Hash   |
-|:---------------------|:------:|
-| Deployment of Contracts |      |
+ 
+👉 **[YOUTUBE DEMO VIDEO](https://youtu.be/tsMrDYhSHNo)**
 
-These transaction are as shown in the [YouTube Demo Video]() 
 
 ### MAPPING THE PROJECT TO RELEVANT SUSTAINABLE DEVELOPMENT GOALS (SDGS)
 
@@ -80,6 +81,7 @@ OTHER REFERENCE ARTICLES :
 7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
 8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
