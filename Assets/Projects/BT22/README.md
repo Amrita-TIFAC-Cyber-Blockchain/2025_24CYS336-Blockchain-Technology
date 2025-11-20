@@ -4,7 +4,7 @@
 
 ![](https://img.shields.io/badge/Member-Rajith_S-gold) ![](https://img.shields.io/badge/Member-T_Ragulraj-gold) ![](https://img.shields.io/badge/Member-Mithun_Chakkarawarthy_S-gold)  <br/>
 ![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
-![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
+![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
 
@@ -107,6 +107,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
