@@ -109,9 +109,9 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0xD552D310b7967771eBf5c9894FE1f316274f1656 |
+| User 1 | 0xD552D310b7967771eBf5c9894FE1f316274f1656 |
+| User 2 | 0xD552D310b7967771eBf5c9894FE1f316274f1656 | 
 
 #### Transaction Details
 
@@ -147,6 +147,7 @@ These transaction are as shown in the [YouTube Demo Video]()
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
 
 
 
