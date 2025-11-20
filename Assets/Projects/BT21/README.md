@@ -84,13 +84,43 @@ Limitations:
 1. Admin (Contract Owner)
 The Admin is the owner of the main smart contracts (PETToken, Leaderboard, Adoption contracts).
 
-Responsibilities:-
-- Deploys all contracts.
-- Owns permissions for all onlyOwner functions.
-- Mints PET Tokens.
-- Registers Adoption Managers.
-- Updates system settings (leaderboard, token contract, etc.).
-- Performs restricted and high-privilege actions.
+  Responsibilities:
+  - Deploys all contracts.
+  - Owns permissions for all onlyOwner functions.
+  - Mints PET Tokens.
+  - Registers Adoption Managers.
+  - Updates system settings (leaderboard, token contract, etc.).
+  - Performs restricted and high-privilege actions.
+
+  Interaction Level:
+  - Interacts directly with blockchain (Remix, or later MetaMask).
+  - Not accessible to normal users.
+
+2. Adoption Manager
+The Adoption Manager is the layer through which regular users communicate with the blockchain.
+
+  Responsibilities:
+  - Handles all user requests.
+  - Performs safe, non-admin blockchain transactions.
+  - Calls smart contract functions on behalf of the user.
+  - Manages user adoption actions.
+  - Can trigger PETToken rewards for user activity.
+    
+  Purpose:
+  To ensure regular users do not access admin-level functions.
+
+3. Users (Non-Contract Role)
+Users are not part of the contract’s permission system but interact through the Adoption Manager.
+
+  User Activities:
+  - Viewing available dogs.
+  - Requesting adoption manager for adoption.
+  - Checking certificates.
+  - Checking leaderboard.
+  - Earning PET tokens.
+
+Users do not have direct interaction with the admin functions.
+
 
 ### Results
 
@@ -126,6 +156,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
