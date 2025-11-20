@@ -130,16 +130,25 @@ Users do not have direct interaction with the admin functions.
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
-| Dog register 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)  |
-| Dog register 2 |  |
-| Dog register 3 |  |
-| Dog register 4 |  |
+| Admin  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
+| Adoption Manager  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
+| Token Minitng | 0x1f55baa6fd375e254084e27c59f7142f328bb593 |
 
-| Dog request 1 |  |
-| Dog request 2 |  |
-| Accept request |  |
-| Decline request |  |
+| Dog register 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)|
+
+| Dog register 2 |(https://sepolia.etherscan.io/tx/0xaf5c0a9b7ee1122fb14b4819fca28c8a458021b7f7e5cada961a4766838042cb)|
+
+| Dog register 3 |(https://sepolia.etherscan.io/tx/0x324f162f75d3b8ef1a6b8970a65e831e52d2416cf6dc8e13e3e94a35da1fdb49)|
+
+| Dog register 4 |(https://sepolia.etherscan.io/tx/0x030a86636bde53e67911b057f910403485cf55c2625d23daa53702913fe4b041)|
+
+| Dog request 1 |(https://sepolia.etherscan.io/tx/0xbd19b2e764c24f5994d3e7e8eacbf26ce48650c14fd9eea49bba03d40f624f05)|
+
+| Dog request 2 |(https://sepolia.etherscan.io/tx/0xbd19b2e764c24f5994d3e7e8eacbf26ce48650c14fd9eea49bba03d40f624f05)|
+
+| Accept request | (https://sepolia.etherscan.io/tx/0x45bee5cadcb7a9a0d0577bdf503d91fd08e9c86b9a65dff7c8779e001dfb6270)|
+
+| Decline request |(https://sepolia.etherscan.io/tx/0x64fac4045d7da11506dd259a45c9b927d09af155f050813d29cb5c81fe8177cb)|
 
 
 
@@ -172,6 +181,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
