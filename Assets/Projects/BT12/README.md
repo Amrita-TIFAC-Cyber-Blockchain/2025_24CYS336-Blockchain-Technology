@@ -12,11 +12,11 @@
 
 The food supply chain involves multiple stakeholders, including manufacturers, processors, distributors, wholesalers & retailers. Ensuring food safety and product authenticity throughout this chain has become challenging. 
 
--    #### Multiple Intermediaries <br/>
--    #### Lack of Transparency <br/>
--    #### Insufficient Consumer Trust <br/>
--    #### Data Tampering Risks <br/>
--    #### Inefficient Information Flow <br/>
+-    #### Multiple Intermediaries <br>
+-    #### Lack of Transparency <br>
+-    #### Insufficient Consumer Trust <br>
+-    #### Data Tampering Risks <br>
+-    #### Inefficient Information Flow <br>
 
 -----
 ### Abstract
@@ -36,7 +36,7 @@ traceability
 
 2. FSD registers Manufacturer, Distributor, Wholesaler, Retailer, and Customer with company details and wallet addresses.
 
-3. Manufacturer creates a new product using EPC and stores product master data.
+3. The manufacturer creates a new product using EPC and stores product master data.
 
 4. Manufacturer logs first event with batch, storage type, temperature, and receiver details.
 
@@ -48,13 +48,23 @@ traceability
 
 8. All events are stored in separate mappings per role for each EPC.
 
-9. Anyone can check product's existence and its journey using the EPC
+9. Anyone can check the product's existence and its journey using the EPC
 -----
 ### Block Diagram
 <br>
 <img width="1090" height="511" alt="Screenshot 2025-11-21 at 11 27 36 PM" src="https://github.com/user-attachments/assets/35a8b2ff-917a-4409-8fb7-fb7d2ad4072f" />
 
----
+-----
+
+### Information
+#### For registering the Product requires -
+EPC ID, Product Name, Batch ID, Storage Type, and Temperature to be maintained.
+#### For registration, the Company requires - 
+Company Name & GSTIN, FSSAI ID, Location, and Wallet Address. 
+#### Each EVENT Contains - 
+EPC ID, Product Name, From Company & GSTIN, To Company & GSTIN, Transport Details, Wallet Address.
+
+-----
 ### Details of Stakeholders of the Smart Contract
 
 | Stakeholder | Address | 
@@ -81,6 +91,7 @@ These transactions are as shown in the [YouTube Demo Video]()
 -----
 
 ### References
+
 
 
 
