@@ -67,21 +67,15 @@ Final Solution: Strong case for Public Blockchain
 
 ### Results
 
-#### Stakeholder Details
 
-| Smart Contract Stakeholders | Address | 
-|:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts |  0xdbbc3e18e4fce2a880305d53e4ca8f85538483c4a72dbe12d7d2e97142482631    |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y2T7BqyY) 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -101,6 +95,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 [1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
 
 [2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
 
