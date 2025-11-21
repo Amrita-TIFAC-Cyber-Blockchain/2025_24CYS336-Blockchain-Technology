@@ -4,7 +4,6 @@
 
 
 ![](https://img.shields.io/badge/Member-Praveen_S-gold) ![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
@@ -102,6 +101,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 [1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
 
 [2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+
 
 
 
