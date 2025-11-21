@@ -2,8 +2,10 @@
 
 ## BT#12 -  Food Safety Traceability System using Blockchain and EPCIS
 
-![](https://img.shields.io/badge/Name-VIYAS_K-gold)  <br/> 
-![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/Member-VIYAS_K-gold)  <br/> 
+![](https://img.shields.io/badge/SDG--1-No%20Poverty-red)
+![](https://img.shields.io/badge/SDG--9-Sustainable%20Industrial%20Innovation-orange)
+![](https://img.shields.io/badge/SDG--16-Peace%2C%20Justice%20%26%20Strong%20Institutions-purple)<br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
@@ -91,6 +93,7 @@ These transactions are as shown in the [YouTube Demo Video]()
 -----
 
 ### References
+
 
 
 
