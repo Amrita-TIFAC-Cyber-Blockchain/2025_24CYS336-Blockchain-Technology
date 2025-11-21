@@ -1,0 +1,782 @@
+{
+  "contractName": "Panic",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Helper library for emitting standardized panic codes. ```solidity contract Example {      using Panic for uint256;      // Use any of the declared internal constants      function foo() { Panic.GENERIC.panic(); }      // Alternatively      function foo() { Panic.panic(Panic.GENERIC); } } ``` Follows the list from https://github.com/ethereum/solidity/blob/v0.8.24/libsolutil/ErrorCodes.h[libsolutil]. _Available since v5.1._\",\"kind\":\"dev\",\"methods\":{},\"stateVariables\":{\"ARRAY_OUT_OF_BOUNDS\":{\"details\":\"array out of bounds access\"},\"ASSERT\":{\"details\":\"used by the assert() builtin\"},\"DIVISION_BY_ZERO\":{\"details\":\"division or modulo by zero\"},\"EMPTY_ARRAY_POP\":{\"details\":\"empty array pop\"},\"ENUM_CONVERSION_ERROR\":{\"details\":\"enum conversion error\"},\"GENERIC\":{\"details\":\"generic / unspecified error\"},\"INVALID_INTERNAL_FUNCTION\":{\"details\":\"calling invalid internal function\"},\"RESOURCE_ERROR\":{\"details\":\"resource error (too large allocation or too large array)\"},\"STORAGE_ENCODING_ERROR\":{\"details\":\"invalid encoding in storage\"},\"UNDER_OVERFLOW\":{\"details\":\"arithmetic underflow or overflow\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"@openzeppelin/contracts/utils/Panic.sol\":\"Panic\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/utils/Panic.sol\":{\"keccak256\":\"0xf7fe324703a64fc51702311dc51562d5cb1497734f074e4f483bfb6717572d7a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c6a5ff4f9fd8649b7ee20800b7fa387d3465bd77cf20c2d1068cd5c98e1ed57a\",\"dweb:/ipfs/QmVSaVJf9FXFhdYEYeCEfjMVHrxDh5qL4CGkxdMWpQCrqG\"]}},\"version\":1}",
+  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212203b11f0687a9efe6526f6add4c682f8c0211a9310d720f871810a3b98c96f934c64736f6c63430008140033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212203b11f0687a9efe6526f6add4c682f8c0211a9310d720f871810a3b98c96f934c64736f6c63430008140033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "657:1315:13:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "657:1315:13:-:0;;;;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts (last updated v5.1.0) (utils/Panic.sol)\n\npragma solidity ^0.8.20;\n\n/**\n * @dev Helper library for emitting standardized panic codes.\n *\n * ```solidity\n * contract Example {\n *      using Panic for uint256;\n *\n *      // Use any of the declared internal constants\n *      function foo() { Panic.GENERIC.panic(); }\n *\n *      // Alternatively\n *      function foo() { Panic.panic(Panic.GENERIC); }\n * }\n * ```\n *\n * Follows the list from https://github.com/ethereum/solidity/blob/v0.8.24/libsolutil/ErrorCodes.h[libsolutil].\n *\n * _Available since v5.1._\n */\n// slither-disable-next-line unused-state\nlibrary Panic {\n    /// @dev generic / unspecified error\n    uint256 internal constant GENERIC = 0x00;\n    /// @dev used by the assert() builtin\n    uint256 internal constant ASSERT = 0x01;\n    /// @dev arithmetic underflow or overflow\n    uint256 internal constant UNDER_OVERFLOW = 0x11;\n    /// @dev division or modulo by zero\n    uint256 internal constant DIVISION_BY_ZERO = 0x12;\n    /// @dev enum conversion error\n    uint256 internal constant ENUM_CONVERSION_ERROR = 0x21;\n    /// @dev invalid encoding in storage\n    uint256 internal constant STORAGE_ENCODING_ERROR = 0x22;\n    /// @dev empty array pop\n    uint256 internal constant EMPTY_ARRAY_POP = 0x31;\n    /// @dev array out of bounds access\n    uint256 internal constant ARRAY_OUT_OF_BOUNDS = 0x32;\n    /// @dev resource error (too large allocation or too large array)\n    uint256 internal constant RESOURCE_ERROR = 0x41;\n    /// @dev calling invalid internal function\n    uint256 internal constant INVALID_INTERNAL_FUNCTION = 0x51;\n\n    /// @dev Reverts with a panic code. Recommended to use with\n    /// the internal constants with predefined codes.\n    function panic(uint256 code) internal pure {\n        assembly (\"memory-safe\") {\n            mstore(0x00, 0x4e487b71)\n            mstore(0x20, code)\n            revert(0x1c, 0x24)\n        }\n    }\n}\n",
+  "sourcePath": "@openzeppelin/contracts/utils/Panic.sol",
+  "ast": {
+    "absolutePath": "@openzeppelin/contracts/utils/Panic.sol",
+    "exportedSymbols": {
+      "Panic": [
+        2562
+      ]
+    },
+    "id": 2563,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2512,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".20"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "99:24:13"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Panic",
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": {
+          "id": 2513,
+          "nodeType": "StructuredDocumentation",
+          "src": "125:489:13",
+          "text": " @dev Helper library for emitting standardized panic codes.\n ```solidity\n contract Example {\n      using Panic for uint256;\n      // Use any of the declared internal constants\n      function foo() { Panic.GENERIC.panic(); }\n      // Alternatively\n      function foo() { Panic.panic(Panic.GENERIC); }\n }\n ```\n Follows the list from https://github.com/ethereum/solidity/blob/v0.8.24/libsolutil/ErrorCodes.h[libsolutil].\n _Available since v5.1._"
+        },
+        "fullyImplemented": true,
+        "id": 2562,
+        "linearizedBaseContracts": [
+          2562
+        ],
+        "name": "Panic",
+        "nameLocation": "665:5:13",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2514,
+              "nodeType": "StructuredDocumentation",
+              "src": "677:36:13",
+              "text": "@dev generic / unspecified error"
+            },
+            "id": 2517,
+            "mutability": "constant",
+            "name": "GENERIC",
+            "nameLocation": "744:7:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "718:40:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2515,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "718:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783030",
+              "id": 2516,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "754:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0x00"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2518,
+              "nodeType": "StructuredDocumentation",
+              "src": "764:37:13",
+              "text": "@dev used by the assert() builtin"
+            },
+            "id": 2521,
+            "mutability": "constant",
+            "name": "ASSERT",
+            "nameLocation": "832:6:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "806:39:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2519,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "806:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783031",
+              "id": 2520,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "841:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_1_by_1",
+                "typeString": "int_const 1"
+              },
+              "value": "0x01"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2522,
+              "nodeType": "StructuredDocumentation",
+              "src": "851:41:13",
+              "text": "@dev arithmetic underflow or overflow"
+            },
+            "id": 2525,
+            "mutability": "constant",
+            "name": "UNDER_OVERFLOW",
+            "nameLocation": "923:14:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "897:47:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2523,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "897:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783131",
+              "id": 2524,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "940:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_17_by_1",
+                "typeString": "int_const 17"
+              },
+              "value": "0x11"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2526,
+              "nodeType": "StructuredDocumentation",
+              "src": "950:35:13",
+              "text": "@dev division or modulo by zero"
+            },
+            "id": 2529,
+            "mutability": "constant",
+            "name": "DIVISION_BY_ZERO",
+            "nameLocation": "1016:16:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "990:49:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2527,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "990:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783132",
+              "id": 2528,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1035:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_18_by_1",
+                "typeString": "int_const 18"
+              },
+              "value": "0x12"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2530,
+              "nodeType": "StructuredDocumentation",
+              "src": "1045:30:13",
+              "text": "@dev enum conversion error"
+            },
+            "id": 2533,
+            "mutability": "constant",
+            "name": "ENUM_CONVERSION_ERROR",
+            "nameLocation": "1106:21:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "1080:54:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2531,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "1080:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783231",
+              "id": 2532,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1130:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_33_by_1",
+                "typeString": "int_const 33"
+              },
+              "value": "0x21"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2534,
+              "nodeType": "StructuredDocumentation",
+              "src": "1140:36:13",
+              "text": "@dev invalid encoding in storage"
+            },
+            "id": 2537,
+            "mutability": "constant",
+            "name": "STORAGE_ENCODING_ERROR",
+            "nameLocation": "1207:22:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "1181:55:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2535,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "1181:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783232",
+              "id": 2536,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1232:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_34_by_1",
+                "typeString": "int_const 34"
+              },
+              "value": "0x22"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2538,
+              "nodeType": "StructuredDocumentation",
+              "src": "1242:24:13",
+              "text": "@dev empty array pop"
+            },
+            "id": 2541,
+            "mutability": "constant",
+            "name": "EMPTY_ARRAY_POP",
+            "nameLocation": "1297:15:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "1271:48:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2539,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "1271:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783331",
+              "id": 2540,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1315:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_49_by_1",
+                "typeString": "int_const 49"
+              },
+              "value": "0x31"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2542,
+              "nodeType": "StructuredDocumentation",
+              "src": "1325:35:13",
+              "text": "@dev array out of bounds access"
+            },
+            "id": 2545,
+            "mutability": "constant",
+            "name": "ARRAY_OUT_OF_BOUNDS",
+            "nameLocation": "1391:19:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "1365:52:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2543,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "1365:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783332",
+              "id": 2544,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1413:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_50_by_1",
+                "typeString": "int_const 50"
+              },
+              "value": "0x32"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2546,
+              "nodeType": "StructuredDocumentation",
+              "src": "1423:65:13",
+              "text": "@dev resource error (too large allocation or too large array)"
+            },
+            "id": 2549,
+            "mutability": "constant",
+            "name": "RESOURCE_ERROR",
+            "nameLocation": "1519:14:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "1493:47:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2547,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "1493:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783431",
+              "id": 2548,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1536:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_65_by_1",
+                "typeString": "int_const 65"
+              },
+              "value": "0x41"
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": true,
+            "documentation": {
+              "id": 2550,
+              "nodeType": "StructuredDocumentation",
+              "src": "1546:42:13",
+              "text": "@dev calling invalid internal function"
+            },
+            "id": 2553,
+            "mutability": "constant",
+            "name": "INVALID_INTERNAL_FUNCTION",
+            "nameLocation": "1619:25:13",
+            "nodeType": "VariableDeclaration",
+            "scope": 2562,
+            "src": "1593:58:13",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2551,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "1593:7:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30783531",
+              "id": 2552,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "1647:4:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_81_by_1",
+                "typeString": "int_const 81"
+              },
+              "value": "0x51"
+            },
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 2560,
+              "nodeType": "Block",
+              "src": "1819:151:13",
+              "statements": [
+                {
+                  "AST": {
+                    "nodeType": "YulBlock",
+                    "src": "1854:110:13",
+                    "statements": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "1875:4:13",
+                              "type": "",
+                              "value": "0x00"
+                            },
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "1881:10:13",
+                              "type": "",
+                              "value": "0x4e487b71"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "mstore",
+                            "nodeType": "YulIdentifier",
+                            "src": "1868:6:13"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "1868:24:13"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "1868:24:13"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "1912:4:13",
+                              "type": "",
+                              "value": "0x20"
+                            },
+                            {
+                              "name": "code",
+                              "nodeType": "YulIdentifier",
+                              "src": "1918:4:13"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "mstore",
+                            "nodeType": "YulIdentifier",
+                            "src": "1905:6:13"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "1905:18:13"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "1905:18:13"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "1943:4:13",
+                              "type": "",
+                              "value": "0x1c"
+                            },
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "1949:4:13",
+                              "type": "",
+                              "value": "0x24"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "revert",
+                            "nodeType": "YulIdentifier",
+                            "src": "1936:6:13"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "1936:18:13"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "1936:18:13"
+                      }
+                    ]
+                  },
+                  "evmVersion": "london",
+                  "externalReferences": [
+                    {
+                      "declaration": 2556,
+                      "isOffset": false,
+                      "isSlot": false,
+                      "src": "1918:4:13",
+                      "valueSize": 1
+                    }
+                  ],
+                  "flags": [
+                    "memory-safe"
+                  ],
+                  "id": 2559,
+                  "nodeType": "InlineAssembly",
+                  "src": "1829:135:13"
+                }
+              ]
+            },
+            "documentation": {
+              "id": 2554,
+              "nodeType": "StructuredDocumentation",
+              "src": "1658:113:13",
+              "text": "@dev Reverts with a panic code. Recommended to use with\n the internal constants with predefined codes."
+            },
+            "id": 2561,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "panic",
+            "nameLocation": "1785:5:13",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2557,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2556,
+                  "mutability": "mutable",
+                  "name": "code",
+                  "nameLocation": "1799:4:13",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2561,
+                  "src": "1791:12:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2555,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1791:7:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1790:14:13"
+            },
+            "returnParameters": {
+              "id": 2558,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1819:0:13"
+            },
+            "scope": 2562,
+            "src": "1776:194:13",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 2563,
+        "src": "657:1315:13",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "99:1874:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.20+commit.a1b79de6.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2025-11-17T17:39:47.536Z",
+  "devdoc": {
+    "details": "Helper library for emitting standardized panic codes. ```solidity contract Example {      using Panic for uint256;      // Use any of the declared internal constants      function foo() { Panic.GENERIC.panic(); }      // Alternatively      function foo() { Panic.panic(Panic.GENERIC); } } ``` Follows the list from https://github.com/ethereum/solidity/blob/v0.8.24/libsolutil/ErrorCodes.h[libsolutil]. _Available since v5.1._",
+    "kind": "dev",
+    "methods": {},
+    "stateVariables": {
+      "ARRAY_OUT_OF_BOUNDS": {
+        "details": "array out of bounds access"
+      },
+      "ASSERT": {
+        "details": "used by the assert() builtin"
+      },
+      "DIVISION_BY_ZERO": {
+        "details": "division or modulo by zero"
+      },
+      "EMPTY_ARRAY_POP": {
+        "details": "empty array pop"
+      },
+      "ENUM_CONVERSION_ERROR": {
+        "details": "enum conversion error"
+      },
+      "GENERIC": {
+        "details": "generic / unspecified error"
+      },
+      "INVALID_INTERNAL_FUNCTION": {
+        "details": "calling invalid internal function"
+      },
+      "RESOURCE_ERROR": {
+        "details": "resource error (too large allocation or too large array)"
+      },
+      "STORAGE_ENCODING_ERROR": {
+        "details": "invalid encoding in storage"
+      },
+      "UNDER_OVERFLOW": {
+        "details": "arithmetic underflow or overflow"
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
