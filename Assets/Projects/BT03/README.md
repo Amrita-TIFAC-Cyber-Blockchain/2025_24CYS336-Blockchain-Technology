@@ -145,9 +145,8 @@ npm start
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Admin  | 0xda901d0448197534b59584f446eb56058198896a |
+
 
 #### Transaction Details
 
@@ -169,6 +168,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 
 ### References
 - Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
+
 
 
 
