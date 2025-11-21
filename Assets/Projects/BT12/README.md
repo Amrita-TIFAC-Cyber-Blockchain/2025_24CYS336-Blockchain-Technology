@@ -87,12 +87,18 @@ EPC ID, Product Name, From Company & GSTIN, To Company & GSTIN, Transport Detail
 
 These transactions are as shown in the [YouTube Demo Video]() 
 
-### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
+### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+| **SDG Goal**                                         | **Alignment with the Project**                                                                                                                                                                      |
+| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal 1 – No Poverty** | Ensures safe food supply chains, reducing losses and improving fair market access |
+| **Goal 9 – Industry, Innovation & Infrastructure**| Uses Blockchain for transparent, digitised, and traceable food logistics infrastructure |
+| **Goal 16 – Peace, Justice and Strong Institutions** | Promotes trust, accountability, and regulatory compliance through tamper-proof traceability records |
 
 -----
 
 ### References
+
 
 
 
