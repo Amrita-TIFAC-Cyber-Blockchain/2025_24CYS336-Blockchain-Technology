@@ -3,7 +3,7 @@
 ## BT#12 -  Food Safety Traceability System using Blockchain and EPCIS
 
 ![](https://img.shields.io/badge/Name-VIYAS_K-gold)  <br/> 
-![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
@@ -32,25 +32,29 @@ traceability
 
 -----
 ### Dataflow of the System
- 1. The manufacturer assigns a unique ID (e.g., EPC via RFID) to the food batch.
-Event data is collected and stored in the cloud.
- 2. Traceability info is extracted and sent to the Manufacturer’s smart contract via the Blockchain
-module. Once the P2P network confirms the transaction, the goods are shipped.
- 3. Distributor verifies product legitimacy with the Manufacturer’s smart contract.
- 4. Contract checks distributor’s identity & returns the manufacturer server’s details if valid.
- 5. Distributor requests access to the Manufacturer’s server for product event information.
- 6. Manufacturer checks if the Distributor is part of its supply chain via the smart contract. If
-valid, the Manufacturer’s server shares event information with the Distributor.
- 7. Distributor verifies authenticity by comparing the blockchain hash with the received data
-hash.
+1. Food Safety Department (FSD) deploys the contract and becomes the authority for registering all roles.
+
+2. FSD registers Manufacturer, Distributor, Wholesaler, Retailer, and Customer with company details and wallet addresses.
+
+3. Manufacturer creates a new product using EPC and stores product master data.
+
+4. Manufacturer logs first event with batch, storage type, temperature, and receiver details.
+
+5. Distributor logs transport and transfer details for the same EPC.
+
+6. Wholesaler records bulk movement, transport mode, and handover details.
+
+7. Retailer logs final receipt before sales.
+
+8. All events are stored in separate mappings per role for each EPC.
+
+9. Anyone can check product's existence and its journey using the EPC
 -----
 ### Block Diagram
 <br>
 <img width="1090" height="511" alt="Screenshot 2025-11-21 at 11 27 36 PM" src="https://github.com/user-attachments/assets/35a8b2ff-917a-4409-8fb7-fb7d2ad4072f" />
 
 ---
-### Smart Contract Address : [0x6FA8aB8e784bE71Ca5e22BF55Fc275d25e5A1654](https://sepolia.etherscan.io/address/0x6fa8ab8e784be71ca5e22bf55fc275d25e5a1654)
-
 ### Details of Stakeholders of the Smart Contract
 
 | Stakeholder | Address | 
@@ -66,8 +70,8 @@ hash.
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Contr |      |
-| 
+| Contract Deployment | [0x6FA8aB8e784bE71Ca5e22BF55Fc275d25e5A1654](https://sepolia.etherscan.io/address/0x6fa8ab8e784be71ca5e22bf55fc275d25e5a1654) |
+
 
 These transactions are as shown in the [YouTube Demo Video]() 
 
@@ -77,6 +81,7 @@ These transactions are as shown in the [YouTube Demo Video]()
 -----
 
 ### References
+
 
 
 
