@@ -132,7 +132,7 @@ Users do not have direct interaction with the admin functions.
 |:---------------------------:|:-------:|
 | Admin  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
 | Adoption Manager  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
-| Token Minitng | 0x1f55baa6fd375e254084e27c59f7142f328bb593 |
+| Token Minting | 0x1f55baa6fd375e254084e27c59f7142f328bb593 |
 
 | Dog register 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)|
 
@@ -181,6 +181,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
