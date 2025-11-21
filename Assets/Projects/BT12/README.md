@@ -43,15 +43,17 @@ module. Once the P2P network confirms the transaction, the goods are shipped.
 valid, the Manufacturer’s server shares event information with the Distributor.
  7. Distributor verifies authenticity by comparing the blockchain hash with the received data
 hash.
-<br/> <br/> <img width="420" height="299" alt="Screenshot 2025-11-10 at 11 26 47 AM" src="https://github.com/user-attachments/assets/c6b8d2fe-4fcc-4907-89ef-48c5728bcf6a" />
+-----
+### Block Diagram
+<br>
+<img width="1090" height="511" alt="Screenshot 2025-11-21 at 11 27 36 PM" src="https://github.com/user-attachments/assets/35a8b2ff-917a-4409-8fb7-fb7d2ad4072f" />
 
 ---
+### Smart Contract Address : [0x6FA8aB8e784bE71Ca5e22BF55Fc275d25e5A1654](https://sepolia.etherscan.io/address/0x6fa8ab8e784be71ca5e22bf55fc275d25e5a1654)
 
-### Results
+### Details of Stakeholders of the Smart Contract
 
-#### Stakeholder Details
-
-| Smart Contract Stakeholders | Address | 
+| Stakeholder | Address | 
 |:---------------------------:|:-------:|
 | Food Safety Department (Deployer)  | [0x3a5344c3084bd5ebe99bdb253ed55b702ff08846](https://sepolia.etherscan.io/address/0x3a5344c3084bd5ebe99bdb253ed55b702ff08846) |
 | Manufacturer | [0x72d0a1000e49e0137ab7863348703d4cda5c82f8](https://sepolia.etherscan.io/address/0x72d0a1000e49e0137ab7863348703d4cda5c82f8)  |
@@ -60,11 +62,11 @@ hash.
 | Retailer | [0xc2442576542fbaffc3f629136fcb357b0f41f401](https://sepolia.etherscan.io/address/0xc2442576542fbaffc3f629136fcb357b0f41f401) | 
 | Customer | [0xf326e3a35f278396ea632813818be1a261b05c82](https://sepolia.etherscan.io/address/0xf326e3a35f278396ea632813818be1a261b05c82) | 
 
-#### Transaction Details
+### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Contr |      |
 | 
 
 These transactions are as shown in the [YouTube Demo Video]() 
@@ -75,6 +77,7 @@ These transactions are as shown in the [YouTube Demo Video]()
 -----
 
 ### References
+
 
 
 
