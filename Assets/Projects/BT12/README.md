@@ -99,7 +99,11 @@ These transactions are as shown in the [YouTube Demo Video]()
 
 ### References
 
+1. Q. Lin, H. Wang, X. Pei, and J. Wang, "Food Safety Traceability System Based on Blockchain and EPCIS," State Key Laboratory of ASIC and System, Fudan University, Shanghai, China, 2017.
 
+2. R. W. Ahmad, K.-M. Ko, A. Rashid, and J. J. P. C. Rodrigues, "Blockchain for Food Industry: Opportunities, Requirements, Case Studies, and Research Challenges."
+
+-----
 
 
 
