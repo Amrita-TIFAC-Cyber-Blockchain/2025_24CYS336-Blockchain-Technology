@@ -3,7 +3,7 @@
 ## BT#03 - Decentralized Academic Credential Verification System (DCDVS)
 
 ![](https://img.shields.io/badge/Member-Deepak_Kumar_S-gold)  <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) ![](https://img.shields.io/badge/SDG--darkgreen)  <br/>
+![](https://img.shields.io/badge/SDG-4-darkgreen) ![](https://img.shields.io/badge/SDG-8-darkgreen)  ![](https://img.shields.io/badge/SDG-16-darkgreen)<br/>
 ![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
 ------
@@ -168,6 +168,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 
 ### References
 - Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
+
 
 
 
