@@ -1,0 +1,6 @@
+{
+  "name": "Test Plot 1",
+  "description": "50 sqm test plot — demo mint on Ganache",
+  "image": "ipfs://<CID-of-image>",
+  "attributes": [{"trait_type":"Area", "value":"50 sqm"}]
+}
