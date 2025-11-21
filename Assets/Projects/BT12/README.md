@@ -53,9 +53,12 @@ hash.
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Food Safety Department (Deployer)  | [0x3a5344c3084bd5ebe99bdb253ed55b702ff08846](https://sepolia.etherscan.io/address/0x3a5344c3084bd5ebe99bdb253ed55b702ff08846) |
+| Manufacturer | [0x72d0a1000e49e0137ab7863348703d4cda5c82f8](https://sepolia.etherscan.io/address/0x72d0a1000e49e0137ab7863348703d4cda5c82f8)  |
+| Distributor | [0xb99ae4ca0ee0d75162ac1fc0288d43b6fc31a225](https://sepolia.etherscan.io/address/0xb99ae4ca0ee0d75162ac1fc0288d43b6fc31a225) | 
+| Wholesaler | [0x6823b143be3c545dde8575f0a1eab4ef9f8e0b7b](https://sepolia.etherscan.io/address/0x6823b143be3c545dde8575f0a1eab4ef9f8e0b7b) | 
+| Retailer | [0xc2442576542fbaffc3f629136fcb357b0f41f401](https://sepolia.etherscan.io/address/0xc2442576542fbaffc3f629136fcb357b0f41f401) | 
+| Customer | [0xf326e3a35f278396ea632813818be1a261b05c82](https://sepolia.etherscan.io/address/0xf326e3a35f278396ea632813818be1a261b05c82) | 
 
 #### Transaction Details
 
@@ -64,7 +67,7 @@ hash.
 | Deployment of Contracts |      |
 | 
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transactions are as shown in the [YouTube Demo Video]() 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -72,6 +75,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 -----
 
 ### References
+
 
 
 
