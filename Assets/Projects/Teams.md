@@ -32,10 +32,11 @@
 | BT#19 	  |  Gajan S <br/> K R Hariharan    | CB.EN.U4ECE23218 <br/> CB.EN.U4ECE23223 | Energy Trading |
 | BT#20		  | E Eeshwar <br/> Tarun Srivathsan Kannan <br/> Sharath M | CB.EN.U4CCE23012 <br/> CB.EN.U4CCE23058 <br/> CB.EN.U4ECE23043 | Healthcare Data Ownership | 
 | BT#21		  | Mithra K <br/>  Teena Chowdri <br/> Kadiri Sree Charitha | CB.EN.U4CCE23028 <br/> CB.EN.U4ECE23051 <br/> CB.EN.U4ECE23224 | Blockchain-based Ownership & Welfare Management System |
-| BT#22		  | Rajith S <br/> T Ragulraj <br/> Mithun Chakkarawarthy S |  CB.EN.U4CCE23039 <br/> CB.EN.U4ECE23049 <br/> CB.EN.U4ECE23127 | AI-integrated Forex Prediction with Blockchain Logging <br/> Blockchain for Digital Identity Management | 
+| BT#22		  | Rajith S <br/> T Ragulraj <br/> Mithun Chakkarawarthy S |  CB.EN.U4CCE23039 <br/> CB.EN.U4ECE23049 <br/> CB.EN.U4ECE23127 | UniVeritas: Blockchain-Based Identity and Trust Framework for Universities | 
 | BT#23		  | Vasantha Kumar G R <br/> Ashwin Kumar K S <br/>  Karthick A | CB.EN.U4CCE23062 <br/> CB.EN.U4ECE23007 <br/> CB.EN.U4ECE23225 | Blockchain based social media content/in-game asset ownership | 
 | BT#24		  | Harshan S <br/> Deepana <br/> Mukesh Singh <br/>  | CB.EN.U4ECE23119 <br/> CB.EN.U4EEE23109 <br/> CB.EN.U4ELC23027 | Energy Trading for Blockchain enabled Smart Grids |
 | BT#25       | Akilesh Senthil Kumar <br/> Rahul Krishna J | CB.EN.U4ECE23203 <br/> CB.EN.U4ECE23238 |  Blockchain Applications in Defence Logistics|
+
 
 
 
