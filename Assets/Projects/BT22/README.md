@@ -3,7 +3,7 @@
 ## BT#22 UniVeritas: Blockchain-Based Identity and Trust Framework for Universities
 
 ![](https://img.shields.io/badge/Member-Rajith_S-gold) ![](https://img.shields.io/badge/Member-T_Ragulraj-gold) ![](https://img.shields.io/badge/Member-Mithun_Chakkarawarthy_S-gold)  <br/>
-![](https://img.shields.io/badge/SDG-1-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-1,8,9,16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
@@ -17,6 +17,8 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 
 
 -----
+
+
 ### Literature Survey 
 ### Paper 1: Digital Identity Management System Using Blockchain  
 **Authors:** Sulochana Devi, Shrineeth Kotian, Manish Kumavat, Dixit Patel  
@@ -58,30 +60,52 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 - Validated the **system-level impact** and **long-term relevance** of our work.  
 
 
+------
+
 
 ### Architectural Diagram
 
+<img width="2816" height="1444" alt="flowchart" src="https://github.com/user-attachments/assets/1420c936-0311-48a7-81f1-319fcc549828" />
+
 
 ------
+
 
 ### Results
 
 #### Stakeholder Details
 
-| Smart Contract Stakeholders | Address | 
-|:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Smart Contract Stakeholders | Address | Role |
+|:---------------------------:|:-------:|:----:|
+| Dean  | [0xba760f1119fce562098bbc0616fed1006b6c4bfc](https://sepolia.etherscan.io/address/0xba760f1119fce562098bbc0616fed1006b6c4bfc) | Highest authority who approves certificates, assigns HODs, and manages governance decisions |
+| Registrar | [0xeba3cfd5c26e91e087b3b8dbbef57ed1dbc72383](https://sepolia.etherscan.io/address/0xeba3cfd5c26e91e087b3b8dbbef57ed1dbc72383) | Administrative authority who co-approves certificates and handles official academic validations |
+| HOD (CCE) | [0x4efea71b0640c499885ebfae8a34418a7982e454](https://sepolia.etherscan.io/address/0x4efea71b0640c499885ebfae8a34418a7982e454) | Department-level authority responsible for assigning marks, uploading question papers, and managing coordinators |
+| Coordinator (CCE) | [0x64e9857a789d6719c156b420dc355d9b0c9d8400](https://sepolia.etherscan.io/address/0x64e9857a789d6719c156b420dc355d9b0c9d8400) | Department coordinator who registers students, uploads gradesheets, and manages academic workflows |
+| Student (CCE) | [0x6481514b61b4e4ea258c2027e0d768865c383386](https://sepolia.etherscan.io/address/0x6481514b61b4e4ea258c2027e0d768865c383386) | Registered learner who can view their own marks, certificates, and gradesheets stored on-chain |
+| Employer | [0xd4ed8886073f5cfab223992c3b4a538c632f15e2](https://sepolia.etherscan.io/address/0xd4ed8886073f5cfab223992c3b4a538c632f15e2) | A third-party verifier who can instantly validate the authenticity of a student's certificate on-chain using the certificate hash |
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
-| 
+| Deployment of Contracts | [0x9895dAEF06D734525dd33B08725EF2232af36f1d](https://sepolia.etherscan.io/address/0x9895dAEF06D734525dd33B08725EF2232af36f1d) |
+| Dean adds HOD | [0x3d20779aeace65a850aecdb4cea20429f7e8c85a3ce60f375c2b47c87e50d9c5](https://sepolia.etherscan.io/tx/0x3d20779aeace65a850aecdb4cea20429f7e8c85a3ce60f375c2b47c87e50d9c5) |
+| HOD assign Coordinator | [0x439b25fc8761802ae065c0067f3e7a8b5e61aa136e6abde6702d7b04bc9b597f](https://sepolia.etherscan.io/tx/0x439b25fc8761802ae065c0067f3e7a8b5e61aa136e6abde6702d7b04bc9b597f) |
+| Coordinator adds Course (DSA) | [0x32eeaf2de1445b6bd9688f2f8a42558b9aa80917d28281c1aca1b117ceca6d60](https://sepolia.etherscan.io/tx/0x32eeaf2de1445b6bd9688f2f8a42558b9aa80917d28281c1aca1b117ceca6d60) |
+| Coordinator adds Course (OS) | [0x8b47774a2c2afaff4a63e65eb71a3777498331881920537a21a23087a60dab44](https://sepolia.etherscan.io/tx/0x8b47774a2c2afaff4a63e65eb71a3777498331881920537a21a23087a60dab44) |
+| Coordinator registers student | [0xc52ad59b356ee3c11da67522dd746af0f32cbdac453ed3173142d54ab6e461c4](https://sepolia.etherscan.io/tx/0xc52ad59b356ee3c11da67522dd746af0f32cbdac453ed3173142d54ab6e461c4) |
+| HOD uploads Question Paper | [0xd7e73bcf76a1b68d1f1c345005b7ae1ef9fbe97a8e2a71b81308febd73078207](https://sepolia.etherscan.io/tx/0xd7e73bcf76a1b68d1f1c345005b7ae1ef9fbe97a8e2a71b81308febd73078207) |
+| HOD assign Marks | [0x424e5744a71abefcb1f6522cddb8b281f6eeec73e1674453d306a2cbef4a6364](https://sepolia.etherscan.io/tx/0x424e5744a71abefcb1f6522cddb8b281f6eeec73e1674453d306a2cbef4a6364) |
+| Coordinator uploads Gradesheets | [0xb0c231d7dcd64bd9e5bb0aaa4457d283082aa42e34b8c1818cd11e496d85439d](https://sepolia.etherscan.io/tx/0xb0c231d7dcd64bd9e5bb0aaa4457d283082aa42e34b8c1818cd11e496d85439d) |
+| Dean uploads certificates | [0x51b25e55ac0a5e00b967775a27b2947ae3842cab47badd11af3d042c64d7b1c8](https://sepolia.etherscan.io/tx/0x51b25e55ac0a5e00b967775a27b2947ae3842cab47badd11af3d042c64d7b1c8) |
+| Dean revokes a certificate | [0xadf2ea16daf385ee1016b285a79336cd2cb4478345b334066dc3e621e9e68999](https://sepolia.etherscan.io/tx/0xadf2ea16daf385ee1016b285a79336cd2cb4478345b334066dc3e621e9e68999) |
+| Dean changes Registrar | [0x10a3977f0fd056db33e15ef0319aebff2d26586383bef9cbc8f5ed29f1cf60b6](https://sepolia.etherscan.io/tx/0x10a3977f0fd056db33e15ef0319aebff2d26586383bef9cbc8f5ed29f1cf60b6) |
+| Dean can only change Dean | [0x45395b82c4a1cdf6e49bdb6f0fa579cfd99c4385c96a36bba1dd6db5371ec105](https://sepolia.etherscan.io/tx/0x45395b82c4a1cdf6e49bdb6f0fa579cfd99c4385c96a36bba1dd6db5371ec105) |
 
 These transaction are as shown in the [YouTube Demo Video]() 
+
+------
+
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -92,7 +116,9 @@ These transaction are as shown in the [YouTube Demo Video]()
 | Goal 8 - Decent Work and Economic Growth | A Self-Sovereign Identity (SSI) system streamlines hiring and credential verification, reducing friction in the labor market. It empowers individuals to easily prove their qualifications, promoting a merit-based workforce and enabling smoother participation in the modern and gig economies.  |
 | Goal 1 - No Poverty | A secure and accessible digital identity is crucial for financial inclusion. It enables marginalized populations to access bank accounts, credit, and government social safety nets securely and efficiently, ensuring that aid reaches the intended recipients and providing a pathway out of poverty.  |
 
+
 -----
+
 
 ### References
 
@@ -107,6 +133,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
