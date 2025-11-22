@@ -52,7 +52,7 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 |:---------------------|:------:|
 | Deployment of Contracts |   0x0c4afba0eb36bfdcd51101eca5784ceb723827bcae15aeb84a0c9582413977b0   |
 
-These transaction are as shown in the [youtube link](https://youtu.be/FPoqTbRZ6kM?si=RDZLeWN9ySSM3nlG) 
+These transaction are as shown in the [my project youtube link](https://youtu.be/FPoqTbRZ6kM?si=RDZLeWN9ySSM3nlG) 
 
 ------
 
@@ -66,6 +66,7 @@ These transaction are as shown in the [youtube link](https://youtu.be/FPoqTbRZ6k
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
 Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
+
 
 
 
