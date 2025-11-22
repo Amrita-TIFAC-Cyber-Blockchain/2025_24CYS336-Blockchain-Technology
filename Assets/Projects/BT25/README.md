@@ -2,9 +2,10 @@
 
 ## BT#25 - 
 
-![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold)  
-![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold)
-
+<p align="center">
+  <img src="https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold">
+  <img src="https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold">
+</p>
 
 ![](https://img.shields.io/badge/SDG-darkgreen) 
 ![](https://img.shields.io/badge/SDG-darkgreen) <br/>
@@ -87,6 +88,7 @@ OTHER REFERENCE ARTICLES :
 7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
 8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
