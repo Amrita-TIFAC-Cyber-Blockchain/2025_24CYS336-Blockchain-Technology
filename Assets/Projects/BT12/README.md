@@ -85,7 +85,7 @@ EPC ID, Product Name, From Company & GSTIN, To Company & GSTIN, Transport Detail
 | Contract Deployment | [0x6FA8aB8e784bE71Ca5e22BF55Fc275d25e5A1654](https://sepolia.etherscan.io/address/0x6fa8ab8e784be71ca5e22bf55fc275d25e5a1654) |
 
 
-These transactions are as shown in the [YouTube Demo Video]() 
+These transactions are as shown in the [YouTube Demo Video](https://youtu.be/ChPD0d6g_jA) 
 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
@@ -104,6 +104,7 @@ These transactions are as shown in the [YouTube Demo Video]()
 2. R. W. Ahmad, K.-M. Ko, A. Rashid, and J. J. P. C. Rodrigues, "Blockchain for Food Industry: Opportunities, Requirements, Case Studies, and Research Challenges."
 
 -----
+
 
 
 
