@@ -1,0 +1,25 @@
+project_id = "ctwatkcaxccjfdieinxp"
+
+[functions.execute-trade]
+verify_jwt = true
+
+[functions.match-orders]
+verify_jwt = true
+
+[functions.nanogrid-assistant]
+verify_jwt = false
+
+[functions.calculate-leaderboard]
+verify_jwt = false
+
+[functions.track-carbon-impact]
+verify_jwt = true
+
+[functions.check-achievements]
+verify_jwt = true
+
+[functions.generate-analytics]
+verify_jwt = true
+
+[functions.execute-automation]
+verify_jwt = true

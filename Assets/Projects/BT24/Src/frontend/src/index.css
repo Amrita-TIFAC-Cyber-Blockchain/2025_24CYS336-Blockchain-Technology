@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smart Grid 3.0 Design System - Energy-focused theme with green gradients and modern aesthetics */
+
+@layer base {
+  :root {
+    /* Base colors - Dark energy theme */
+    --background: 217 19% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 19% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 19% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Energy-focused primary colors */
+    --primary: 142 76% 36%;
+    --primary-foreground: 217 19% 8%;
+    
+    --primary-glow: 142 76% 55%;
+    --primary-dark: 142 76% 25%;
+
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 32% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 200 98% 39%;
+    --accent-foreground: 217 19% 8%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 142 76% 36%;
+
+    --radius: 0.75rem;
+
+    /* Energy-specific semantic colors */
+    --energy-generation: 142 76% 36%;
+    --energy-consumption: 48 96% 53%;
+    --energy-storage: 200 98% 39%;
+    --energy-trading: 271 81% 56%;
+    
+    /* Status colors */
+    --status-online: 142 76% 36%;
+    --status-warning: 48 96% 53%;
+    --status-offline: 0 62% 50%;
+    
+    /* Gradients */
+    --gradient-energy-primary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 55%));
+    --gradient-energy-glow: linear-gradient(135deg, hsl(142 76% 36% / 0.2), hsl(142 76% 55% / 0.1));
+    --gradient-card: linear-gradient(135deg, hsl(217 19% 10%), hsl(217 32% 12%));
+    --gradient-trading: linear-gradient(135deg, hsl(271 81% 56%), hsl(200 98% 39%));
+    
+    /* Shadows and effects */
+    --shadow-energy-glow: 0 0 30px hsl(142 76% 36% / 0.3);
+    --shadow-card: 0 8px 32px hsl(217 19% 5% / 0.4);
+    --shadow-trading: 0 0 25px hsl(271 81% 56% / 0.2);
+    
+    /* Animation timing */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .light {
+    /* Light mode (keep for compatibility but dark is primary) */
+    --background: 210 40% 98%;
+    --foreground: 217 19% 8%;
+    --card: 0 0% 100%;
+    --card-foreground: 217 19% 8%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 210 40% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* Custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary));
+  }
+
+  /* Energy-specific utility classes */
+  .energy-glow {
+    box-shadow: var(--shadow-energy-glow);
+  }
+
+  .card-shadow {
+    box-shadow: var(--shadow-card);
+  }
+
+  .trading-shadow {
+    box-shadow: var(--shadow-trading);
+  }
+}
