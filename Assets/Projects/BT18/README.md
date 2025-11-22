@@ -100,11 +100,43 @@ By combining decentralised identity, cryptographic guarantees, and transparent v
 - Auto wallet mismatch detection
 
 ------
+
+### Proposed Solution
+
+This project presents an NFT‑based academic credential verification system where institutions issue certificates as soulbound (non‑transferable) NFTs to student wallets. These NFTs contain IPFS‑hosted metadata that stores certificate details securely and immutably.
+
+Key Components:
+- Soulbound NFT Certificates: Prevent transfer, ensuring authenticity of ownership.
+- IPFS Storage: Certificate files & metadata stored off‑chain.
+- Ethers.js + MetaMask: For blockchain transactions. 
+- Role‑based Access: Admin → Institutions → Students. 
+- Revocation Support: Institutions can burn a certificate with on‑chain proof.
+- Web Application: Frontend for issuing, viewing, and verifying credentials.
+
+Benefits:
+- Tamper‑proof certificates
+- Reduced verification time for employers
+- Student ownership and control
+- Lower storage costs using IPFS
+- Transparent issuance & revocation history
+
+-----
 ## Architectural Diagram
 <img width="446" height="390" alt="image" src="https://github.com/user-attachments/assets/e4cafd22-e873-484f-ade3-5b0cbdd539bc" />
 
 ------
 ### Demonstration of the Project - https://www.youtube.com/watch?v=ShZQGLJPrXU
+-----
+
+### Novelty of the System:
+- Soulbound NFTs ensure non-transferable academic credentials.
+- IPFS + blockchain hybrid architecture ensures cost‑effective decentralisation.
+- Admin–institution–student hierarchy ensures trust + transparency.
+- On‑chain revocation offers tamper‑proof auditability.
+- Employer‑friendly public verification removes intermediaries.
+
+
+
 -----
 ## System Workflow
 
@@ -202,6 +234,7 @@ By combining decentralised identity, cryptographic guarantees, and transparent v
 3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
 4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
 5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+
 
 
 
