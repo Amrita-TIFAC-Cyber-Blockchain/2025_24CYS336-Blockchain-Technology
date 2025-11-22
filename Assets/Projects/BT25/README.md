@@ -2,7 +2,7 @@
 
 ## BT#25 - 
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold">
   <img src="https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold">
 </p>
@@ -88,6 +88,7 @@ OTHER REFERENCE ARTICLES :
 7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
 8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
