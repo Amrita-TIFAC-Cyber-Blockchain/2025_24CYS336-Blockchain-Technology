@@ -4,6 +4,7 @@
 
 
 ![](https://img.shields.io/badge/Member-Praveen_S-gold) ![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
+![](https://img.shields.io/badge/SDG-8-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-12-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) ![](https://img.shields.io/badge/SDG-17-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
 
 ------
@@ -27,7 +28,7 @@ To overcome these issues, this project proposes a blockchain-based verification 
 -----
 
 ### Architectural Diagram
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/086994e2-95e9-4e59-bb51-57188d024a86" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/086994e2-95e9-4e59-bb51-57188d024a86" />
 
 
 -----
@@ -92,9 +93,9 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y
 
 ### References
 
-[1] J. Wu, "Detection and Protection of Digital Artworks Using Blockchain Technology," The Light Explorer, vol. 8, no. 4, pp. 1–11, Dec. 2023.
+[1] Wu, J. (2023). Detection and protection of digital artworks using blockchain technology. The Light Explorer, 8(4), 1–11.
 
-[2] S. Ullah, S. U. Bazai, Z. Zaland, M. I. Ghafoor, A. Haider, and L. Hussain, "Ownership Verification for Digital Art Using Smart Contract and Blockchain Technology," in Proc. 17th Int. Conf. Open Source Syst. Technol. (ICOSST), Dec. 2023, pp. 1–6.
+[2] Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership verification for digital art using smart contract and blockchain technology. In Proceedings of the 17th International Conference on Open Source Systems & Technology (ICOSST) (pp. 1–6).
 
 
 
