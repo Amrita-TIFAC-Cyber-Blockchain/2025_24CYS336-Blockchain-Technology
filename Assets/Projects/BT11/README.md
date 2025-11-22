@@ -60,16 +60,24 @@ notes on papers:
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | [0x75Dd20566F7A622C799D6929CdA1CB4b5E76c1Ea](https://sepolia.etherscan.io/address/0x75dd20566f7a622c799d6929cda1cb4b5e76c1ea) |
+| User 2 | [0xE0DffB208b92d744a6FBfFcbE5aA722cF1b91C72](https://sepolia.etherscan.io/address/0xE0DffB208b92d744a6FBfFcbE5aA722cF1b91C72) |
+| User 1 | [0x0c5422fA432A0046b1d604AE79c375244d693910](https://sepolia.etherscan.io/address/0x0c5422fA432A0046b1d604AE79c375244d693910) | 
 
 #### Transaction Details
 
+**note: The server uses the address of owner to access the chain**
+
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
-| 
+| Deployment of Contracts | [0x508a8bb7d65f9a47fe3a1dab1d41ed3183b77fe8a12947238cb03ee5e5291552](https://sepolia.etherscan.io/tx/0x508a8bb7d65f9a47fe3a1dab1d41ed3183b77fe8a12947238cb03ee5e52915520x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5) |
+| 8th update (from user) (here owner) | [0x5ab66abe9198b8218dadb54c8f3f67c960786ef051172d7ad038d347db7465fb](https://sepolia.etherscan.io/tx/0x5ab66abe9198b8218dadb54c8f3f67c960786ef051172d7ad038d347db7465fb) |
+| 8th update (from server) | [0x57f697fad77b28044290ef98847da69abdb37a0d758c683f952b35232ac1c435](https://sepolia.etherscan.io/tx/0x57f697fad77b28044290ef98847da69abdb37a0d758c683f952b35232ac1c435) |
+| 10th update (from user 1 ) | [0xebc98749e16369aa165ea0d06d9f0c5307ef519d5e6e153684f6fb263036be43](https://sepolia.etherscan.io/tx/0xebc98749e16369aa165ea0d06d9f0c5307ef519d5e6e153684f6fb263036be43) |
+| 10th update (from server) | [0xd0a8e58fbf4fd09d04704610f1a2e89e16687a32cc858e9fcbd741b2728d5f3f](https://sepolia.etherscan.io/tx/0xd0a8e58fbf4fd09d04704610f1a2e89e16687a32cc858e9fcbd741b2728d5f3f) |
+| 11th update (from user 2 ) | [0x016578199b3ec64fe97bfb356fe7cd0445d3ebac2413d456a3108d64964776d7](https://sepolia.etherscan.io/tx/0x016578199b3ec64fe97bfb356fe7cd0445d3ebac2413d456a3108d64964776d7) |
+| 11th update (from server) | [0xe18d6195c65dd21f899a9987a790ab2d8ad52eb812235f42ab74a3a715ce1366](https://sepolia.etherscan.io/tx/0xe18d6195c65dd21f899a9987a790ab2d8ad52eb812235f42ab74a3a715ce1366) |
+| Smart Contract Address(ModelAudit) | [0x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5](https://sepolia.etherscan.io/address/0x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5) |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -94,5 +102,6 @@ These transaction are as shown in the [YouTube Demo Video]()
 2) **Drungilas, V., Vaičiukynas**, E., Jurgelaitis, M., Butkienė, R., & Čeponienė, L. (2021). _Towards Blockchain-Based Federated Machine Learning: Smart Contract for Model Inference_. Applied Sciences, 11(3), 1010. https://doi.org/10.3390/app11031010
 
 3) **Wu, L., Ruan, W., Hu, J., & He, Y. (2023)**. _A Survey on Blockchain-Based Federated Learning_. Future Internet, 15(12), 400. https://doi.org/10.3390/fi15120400
+
 
 
