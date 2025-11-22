@@ -72,7 +72,14 @@ The project also supports SDG 16: Peace, Justice, and Strong Institutions, as it
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Deployment of Contracts |   https://sepolia.etherscan.io/tx/0x20d7acb825521fb13745117b1f6d935b159079a2e86a7dafcb72093a8e8b2e32   |
+| Registering Patient | https://sepolia.etherscan.io/tx/0x20d7acb825521fb13745117b1f6d935b159079a2e86a7dafcb72093a8e8b2e32     |
+| Registering Dockter | https://sepolia.etherscan.io/tx/0x4ff2b40241832a7d57c6bfdb9932dec1024f18d47a9fd90c4dc3c3578a13c48e     |
+| Uploading Patient Record By Patient | https://sepolia.etherscan.io/tx/0x4ff2b40241832a7d57c6bfdb9932dec1024f18d47a9fd90c4dc3c3578a13c48e     |
+| Viewing Records By Patient | https://sepolia.etherscan.io/tx/0x4a73ba169ab0334cf72f70047c2326eaa9f34569e345396ad008403c06454544     |
+| Grant Access to View Patient Records | https://sepolia.etherscan.io/tx/0x45104737f1493504d93b1b581501c1853e8d979b566a4a6fa89d964cac9ecf46      |
+| Viewing Patient Records By Docter | https://sepolia.etherscan.io/tx/0x51ae7de78f0e5f8b7db3382f6daf9c1f77dd716e778619a91ce5b739b0af18f2     |
+| Adding Patient Record By Docter | https://sepolia.etherscan.io/tx/0x4fc3ede3049fd45913e760da1c82c6e4f71ae150ebfe44890d8e626910ed99f6    |
 
 These transaction are as shown in the [YouTube Demo Vide](https://youtu.be/H3lLaxPKYOM) 
 
@@ -108,6 +115,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
