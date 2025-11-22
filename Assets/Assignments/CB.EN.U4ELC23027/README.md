@@ -38,7 +38,7 @@
 
 ---
 
-### **Lab 1.2 - Introduction to Solidity**
+### **Lab 2.1 - Introduction to Solidity**
 
 #### **Smart Contract 1**
 
@@ -74,21 +74,66 @@
 ![Smart Contract 2 - Call](Images/3.jpg)  
 ![Smart Contract 2 - Output](Images/4.jpg)
 
-**Decoded Output**
-```json
-{
-  "0": "uint64: 1",
-  "1": "string: Jodhpur",
-  "2": "uint64: 1000000",
-  "3": "uint64: 12",
-  "4": "uint64: 5",
-  "5": "uint64: 100000"
-}
+## 👨‍💻 Assignments - 3
 
+![](https://img.shields.io/badge/Name-MukeshSingh-blue)
 
+### 🌐 **Lab 3.1 - Interplanetary File System**
 
+#### 🧩 Step 1: IPFS Initialization
 
+// 🧱 Step 1: Initialize IPFS repository  
+// ✅ Creates a new local IPFS repository on the system  
+// 🆔 Generates a unique peer identity (public–private key pair)  
+// ⚙️ Prepares the default configuration required to run an IPFS node  
 
+**Screenshot** 🖼️  
+![IPFS Init](Images/5.jpg)
 
+---
 
+#### 🚀 Step 2: Starting the IPFS Daemon
 
+// 🚀 Step 2: Start the IPFS daemon  
+// 🔄 Launches the IPFS node as a background process  
+// 🌍 Connects the node to the IPFS swarm (P2P network)  
+// 📡 Allows the node to send, receive, and share IPFS blocks with other peers  
+
+**Screenshot** 🖼️  
+![IPFS Daemon](Images/6.jpg)
+
+---
+
+#### 📂 Step 3: Adding a File to IPFS
+
+// 📂 Step 3: Add a file to IPFS  
+// ✂️ Splits the file into small blocks and hashes them  
+// 💾 Stores the blocks in the local IPFS repository  
+// 🧾 Generates a unique CID (Content Identifier) for the file based on its content  
+
+**Screenshot** 🖼️  
+![IPFS Add](Images/7.jpg)
+
+---
+
+#### 📥 Step 4: Retrieving File Content (cat)
+
+// 📥 Step 4: Retrieve file content using CID  
+// 🔍 Uses the CID to locate the file in the IPFS network  
+// 🔁 Reads the data either from the local repository or from other peers  
+// 🧭 Demonstrates content-addressable access (file is fetched using hash, not path)  
+
+**Screenshot** 🖼️  
+![IPFS Cat](Images/8.jpg)
+
+---
+
+#### 📌 Step 5: Pinning Content in IPFS
+
+// 📌 Step 5: Pin important content  
+// 📍 Marks the CID as "pinned" in the local IPFS node  
+// 🛡️ Prevents IPFS garbage collection from removing the file’s data  
+// ♻️ Ensures long-term availability of important files on the local node  
+
+**Screenshot** 🖼️  
+![IPFS Pin](Images/9.jpg)  
