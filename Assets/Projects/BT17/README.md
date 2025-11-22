@@ -27,7 +27,17 @@ To overcome these issues, this project proposes a blockchain-based verification 
 
 -----
 
+### Proposed solution
+
+In our proposed solution, the system first starts with an admin, who deploys the smart contract and acts as the platform controller, adding only verified creators as artists and giving each of them a unique artist ID mapped to their wallet address; this prevents random or fake users from uploading art. Once an artist is registered, they create a piece of digital art, upload the actual file to IPFS, and generate a fixed-length bytes32 hash of that file, which becomes the unique fingerprint of that artwork. The artist then calls the registerArtwork function in the DigitalArtNFT contract, passing the title and art hash; the contract checks that the caller is an active artist, that the title is not empty, and that the same hash has not been registered before, and if everything is valid it stores the artwork metadata (artistId, title, artHash, timestamp), mints a new ERC-721 token to the artist’s address, and links the token ID to both the artist and the art hash for future lookup.
+
+Anyone later—buyer, gallery, or verifier—can check authenticity by either entering the token ID or the art hash into the read functions like getArtworkDetails or getArtworkByHash, which return the original registered artist, current owner, and timestamp, thereby proving provenance on-chain while the media itself stays off-chain. A simple but strong novelty in this design is the combination of an admin-curated artist registry with a hash-based NFT minting flow: only approved artists can mint, each artwork is guaranteed to be unique at the hash level, and the system can be naturally extended in the future with an AI-based pre-check (running off-chain) that compares a new image against previously registered hashes or embeddings before the registerArtwork call, turning this into a full “verify before mint” platform for protecting digital art.
+
+
+-----
+
 ### Architectural Diagram
+
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/086994e2-95e9-4e59-bb51-57188d024a86" />
 
 
@@ -78,6 +88,9 @@ Final Solution: Strong case for Public Blockchain
 
 These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y2T7BqyY) 
 
+
+-----
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | **SDG**                                             | **Project’s Alignment Towards the Goal**                                                                                                                                                                                                |
@@ -96,6 +109,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y
 [1] Wu, J. (2023). Detection and protection of digital artworks using blockchain technology. The Light Explorer, 8(4), 1–11.
 
 [2] Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership verification for digital art using smart contract and blockchain technology. In Proceedings of the 17th International Conference on Open Source Systems & Technology (ICOSST) (pp. 1–6).
+
 
 
 
