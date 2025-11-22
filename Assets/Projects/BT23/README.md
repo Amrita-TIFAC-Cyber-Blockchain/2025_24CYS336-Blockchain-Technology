@@ -29,11 +29,11 @@ To address the limitations of centralized platforms and fill the gaps identified
 -----
 ### Architectural Diagram
 
-<img width="250" height="195" alt="image" src="https://github.com/user-attachments/assets/d0af2b50-6883-4338-a8dd-40106a6a6e1a" />
+<img width="334" height="260" alt="image" src="https://github.com/user-attachments/assets/d0af2b50-6883-4338-a8dd-40106a6a6e1a" />
 
 _Image taken from paper-1_
 
-<img width="197" height="170" alt="image" src="https://github.com/user-attachments/assets/9d0fe25d-6240-457b-aada-90e370413863" />
+<img width="263" height="227" alt="image" src="https://github.com/user-attachments/assets/9d0fe25d-6240-457b-aada-90e370413863" />
 
 _Image taken from paper-2_
 
@@ -75,6 +75,7 @@ These transaction are as shown in the [https://youtu.be/Xfo6L_V9xIE](https://you
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
