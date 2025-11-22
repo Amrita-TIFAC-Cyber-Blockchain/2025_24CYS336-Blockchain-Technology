@@ -1,14 +1,16 @@
 # 24CYS336 - Blockchain-Technology 
 
-## BT#25 - 
+## BT#25 – Blockchain Applications in Defence Logistics
+ 
 
 <p align="left">
   <img src="https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J-gold">
   <img src="https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR-gold">
 </p>
 
-![](https://img.shields.io/badge/SDG-darkgreen) 
-![](https://img.shields.io/badge/SDG-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-9-darkgreen)
+![](https://img.shields.io/badge/SDG-12-darkgreen)
+![](https://img.shields.io/badge/SDG-16-darkgreen)
 
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown)
 
@@ -88,6 +90,7 @@ OTHER REFERENCE ARTICLES :
 7. https://timesofindia.indiatimes.com/world/rest-of-world/40m-for-arms-stolen-by-corrupt-officials-ukraine/articleshow/107211044.cms
 
 8. https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
