@@ -3,7 +3,9 @@
 ## BT#23 - 
 
 ![](https://img.shields.io/badge/Vasantha_Kumar_G_R-gold) ![](https://img.shields.io/badge/Ashwin_Kumar_K_S-gold) ![](https://img.shields.io/badge/Karthick_A-gold)  <br/>
-![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/SDG_9-Industry,_Innovation,_and_Infrastructure-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG_12-Responsible_Consumption_and_Production-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG_16-Peace,_Justice,_and_Strong_Institutions-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
 
 
@@ -94,6 +96,7 @@ These transaction are as shown in the [https://youtu.be/Xfo6L_V9xIE](https://you
 ### References
 
 S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
+
 
 
 
