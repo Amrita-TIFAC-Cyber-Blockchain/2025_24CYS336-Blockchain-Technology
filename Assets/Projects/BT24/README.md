@@ -9,7 +9,9 @@
 ![HARSHAN S](https://img.shields.io/badge/MEMBER-HARSHAN%20S-gold)
 
 
-![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-7-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-13-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
+
 ![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
 
 ------
