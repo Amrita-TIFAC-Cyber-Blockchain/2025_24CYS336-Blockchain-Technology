@@ -40,11 +40,11 @@
 <img width="1472" height="130" alt="image" src="https://github.com/user-attachments/assets/fe85e3a8-670c-4ced-b51a-b3c38464bb1a" />
 
 ### Practise Solidity Code
-// SPDX-License-Identifier: GPL-3.0
+    // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity >=0.8.2 <0.9.0;
+    pragma solidity >=0.8.2 <0.9.0;
 
-contract AcademReg {
+    contract AcademReg {
 
     mapping (uint256 => student) studentdetails;
     
@@ -87,6 +87,7 @@ contract AcademReg {
     }
 
 }
+
 
 
 
