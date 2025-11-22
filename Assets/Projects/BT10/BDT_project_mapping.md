@@ -7,13 +7,13 @@ Below is the mapping of my **AI + Blockchain-Based Healthcare System** to the IE
 
 | **IEEE BDT Evaluation Step** | **Project Decision** | **Justification for the Healthcare System** |
 |-------------------------------|----------------------|---------------------------------------------|
-| Can a traditional database meet the project’s needs? | ❌ No | Traditional databases cannot ensure **immutability, decentralization, and tamper-proof audit trails** for AI-generated medical data. |
-| Do multiple participants need to modify or update records? | ✅ Yes | **Doctors, patients, and AI systems** all contribute to updating and accessing Electronic Health Records (EHRs). |
-| Do all participants trust each other? | ❌ No | **Hospitals, patients, and third-party labs** may not fully trust one another — blockchain ensures **data fairness and integrity**. |
-| Would all participants trust a centralized third party? | ❌ No | A **single hospital server** could be compromised; distributed trust through blockchain eliminates the need for central control. |
-| Is the data at risk of being attacked or censored? | ✅ Yes | Medical records are **sensitive and valuable**, often targeted for tampering or unauthorized access. Blockchain ensures **security and auditability**. |
-| Does the data require privacy and confidentiality? | ✅ Yes | Patient health data must remain **private and encrypted**, accessible only to verified stakeholders. |
-| Should access and modification be restricted to authorized users? | ✅ Yes | Only **approved doctors, patients, and healthcare administrators** should have permission to read or write records. Hence, **permissioned blockchain** is essential. |
+| Can a traditional database meet the project’s needs? |  No | Traditional databases cannot ensure **immutability, decentralization, and tamper-proof audit trails** for AI-generated medical data. |
+| Do multiple participants need to modify or update records? |  Yes | **Doctors, patients, and AI systems** all contribute to updating and accessing Electronic Health Records (EHRs). |
+| Do all participants trust each other? |  No | **Hospitals, patients, and third-party labs** may not fully trust one another — blockchain ensures **data fairness and integrity**. |
+| Would all participants trust a centralized third party? | No | A **single hospital server** could be compromised; distributed trust through blockchain eliminates the need for central control. |
+| Is the data at risk of being attacked or censored? | Yes | Medical records are **sensitive and valuable**, often targeted for tampering or unauthorized access. Blockchain ensures **security and auditability**. |
+| Does the data require privacy and confidentiality? |  Yes | Patient health data must remain **private and encrypted**, accessible only to verified stakeholders. |
+| Should access and modification be restricted to authorized users? |  Yes | Only **approved doctors, patients, and healthcare administrators** should have permission to read or write records. Hence, **permissioned blockchain** is essential. |
 
 ---
 ###  **Blockchain Selection Logic for AI-Driven EHR System(Based on IEEE BDT Analysis)**
