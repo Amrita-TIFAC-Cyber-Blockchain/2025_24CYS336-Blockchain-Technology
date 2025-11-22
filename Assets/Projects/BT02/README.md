@@ -147,7 +147,6 @@ npm start
 | Deployment of Contracts - Marketplace | 0x3c0386ee72c053183bf3c40242e363036fc39fed398272560e0fd2c99a860058 |
 | Deployment of Contracts - Registry | 0xba4e356150a9b226050d77bead27e85c868f890143159149972582c9c538dc73 |
 
-These transaction are as shown in the [YouTube Demo Video]() 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
