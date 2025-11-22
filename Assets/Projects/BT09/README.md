@@ -30,6 +30,7 @@ The second paper by Teisserenc and Sepasgozar (2021) talks about ownership using
 
 From the two papers, we can see that one is solving the data integrity problem and the other is solving the ownership problem. In my project, I am combining both these ideas into one single system so that the Digital Twin data is not only secure but also has a clear ownership.
 
+-----
 ### Proposed System
 In the proposed system, the Digital Twin data which comes from the physical asset will first be converted into a hash value using a hashing function. This hash value is then stored in the blockchain through a smart contract. The smart contract will be deployed in a permissioned blockchain network which uses the Proof of Authority (PoA) consensus method. This helps in fast and secure transactions between trusted nodes. The blockchain will store the hash, timestamp, and some metadata of the update. The real data will not be stored in the blockchain but in an off-chain storage like IPFS or a local database. This makes the system light and secure.
 
@@ -55,16 +56,19 @@ The architecture contains four main parts: the physical asset, digital twin, blo
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0x1a0e645b47b4bedd350164aeaab9818a1c19455d |
+| User 1 | 0x7cceafa81b4f2f5ccb3424cb3550629a724bea31 |
+| User 2 | 0xfe55f4524b7f018ad981cb46966b0e28b1abdaa1 | 
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
-
+| Deployment of Contracts | [0x27825b546dbfc27bb1cdcc0cca5f7232d5300aeaa21fe31cb6cfc7526c700cb0](https://sepolia.etherscan.io/tx/0x27825b546dbfc27bb1cdcc0cca5f7232d5300aeaa21fe31cb6cfc7526c700cb0) |
+| Register Twin | [0x03a12b9a572021c508885c1f3bc0b1f9d14608c6c8f0c1d6d6ad40f902686209](https://sepolia.etherscan.io/tx/0x03a12b9a572021c508885c1f3bc0b1f9d14608c6c8f0c1d6d6ad40f902686209)  |
+| Add Twin data(1) | [0x6e93fe4355d9f7afb5e4107f5287417ce3582c73593705cc44d7e1a43c2d99ef](https://sepolia.etherscan.io/tx/0x6e93fe4355d9f7afb5e4107f5287417ce3582c73593705cc44d7e1a43c2d99ef) |
+| Add Twin data(2) | [0x678c52d1e743489d52397fa2e56b6d23e330f26d2107ba8b7f3aec2ea53d525d](https://sepolia.etherscan.io/tx/0x678c52d1e743489d52397fa2e56b6d23e330f26d2107ba8b7f3aec2ea53d525d) |
+| Ownership Transfer | [0x07f559b196353f516ee80fdedc4245dac8a5609dc2c6c9df77b8f8b429747822](https://sepolia.etherscan.io/tx/0x07f559b196353f516ee80fdedc4245dac8a5609dc2c6c9df77b8f8b429747822) |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -86,6 +90,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
