@@ -142,7 +142,7 @@ npm start
 ### Results
 
 #### Stakeholder Details
-
+Used GANACHE LOCAL BLOCKCHAIN:
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
 | Admin  | 0xda901d0448197534b59584f446eb56058198896a |
@@ -152,7 +152,8 @@ npm start
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
+| Migrations Contract |   0x62f5a945e6b66b2adae7c3288535e5a9e8f020b667bcda3b1eefa59f964d2637   |
+| Certificate Verifier |0x25f84c6ca0ae06af8e88098e666df7dac6d22ffc223be63f27c576500846863e |
 
 These transaction are as shown in the [YouTube Demo Video]() 
 
@@ -168,6 +169,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 
 ### References
 - Saleh, O. S., Ghazali, O., & Idris, N. B. (2023). Enhancing academic certificate privacy with a hyperledger fabric blockchain-based access control approach. SN Computer Science, 4(5), 602.
+
 
 
 
