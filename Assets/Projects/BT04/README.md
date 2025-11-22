@@ -22,10 +22,21 @@ This artical is introduced, allowing students to own and manage their data throu
 3. **Blockchain based document verification system - Mainali,Rathore,Maheshwari,Sharma (2023)** <br/>
 This article propose a blockchain-based solution for securely storing and verifying educational certificates. Documents are converted into a one-way hash and stored on the blockchain. Employers can verify authenticity by comparing the hash with the blockchain record. If altered, the hashes won’t match, ensuring tamper-proof credential validation.
 -----
+
+### Proposed Solution
 ### Architectural Diagram
 <img width="1024" height="1536" alt="image" src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT04/assets/ARCHITECTURE.png" />
 
-------
+### Novelty
+1. Student-Owned Data and Decentralization (Web3 Focus)
+The most important new thing is that the student now has control over the data.
+_ **Student Data Ownership:** With many current solutions, educational institutions create and manage educational data on the blockchain. However, your approach makes sure that students own the data.
+- **Fully Decentralized Infrastructure:** The framework uses a public blockchain network (like Ethereum) to make sure that the structure is completely decentralized and open, so there is no need for a single central authority to store and control everything. The literature says that managing data under student ownership makes your approach a pioneer for future studies in this area.
+
+2. Integration and Real-World Application Stack
+Another new thing about the system is that it can be set up in detail with specific, easy-to-use tools.
+_ **Integration with LMS:** The project's framework, PublicEduChain, gives a clear, step-by-step guide on how to connect the public blockchain to popular Learning Management Systems (LMS) like Moodle. It does this by using tools like MetaMask for identity and PHP/APIs for data access.
+_ **Cost Transparency:** Adding information on how to figure out gas fees (transaction costs) for making a smart contract and writing data to it on the public network is seen as a big step forward in the field. This information is very important for putting the proposed solution into practice in the real world.
 
 ### Results
 
@@ -33,17 +44,15 @@ This article propose a blockchain-based solution for securely storing and verify
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  |  |
-| User 1 |  |
-| User 2 |  | 
+| Owner  | 0x04Fc4e9E713ba83A887E223ACAa02E13C607709e |
+| User 1 | 0xbdef3533b0ebd2aa9abb192d012caabc23a04d37 |
+| User 2 | 0x5de9e3a8a8fbadbc5381fdaf577025af5835d131 | 
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |      |
-
-These transaction are as shown in the [YouTube Demo Video]() 
+| Deployment of Contracts |  0x291dfe7fb38bb9a633c6fb817c700a26769174448e63aece59e78cc2827a1715    |
 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
@@ -57,6 +66,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 1. Goncharova, A. (2024). Blockchain in digital notary services. Visegrad Journal on Human Rights, (4), 44-48.
 2. Tanriverdí, M. (2024). Publiceduchain: A framework for sharing student-owned educational data on public blockchain network. IEEE Access, 12, 51772-51785.
 3. Mainali, A., Rathore, P., Maheshwari, A., & Sharma, R. (2025). Blockchain-Based Document Verification System. Soft Computing Fusion with Applications.
+
 
 
 
