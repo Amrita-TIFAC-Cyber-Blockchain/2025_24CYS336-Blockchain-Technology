@@ -9,12 +9,12 @@ The ipfs hash values are generated automatically , the files are stored in pinat
 
 ## 🌐 APPLICATION LIVE
 Access the DApp here: [DAPP](https://jrk-007.github.io/DAPP/)
+WebSite for defence logistics : [WEBSITE](https://sol-playground-studio.lovable.app/)
 
 ## 🧭 PURPOSE : 
 This DApp interfaces with the `DefenceLogistics` smart contract deployed on the Ethereum Sepolia test network. It enables three distinct roles — Logistics Officer, Depot Manager, and Auditor — to interact with asset lifecycle functions such as registration, transfer, audit, and document association via IPFS.
 
 
 ## 📁 FILE REFERENCE
-
 The DApp’s frontend source is hosted here: [DAPP REPO LINK ](https://github.com/JRK-007/DAPP/tree/main)  
 ---
