@@ -39,6 +39,54 @@
 
 <img width="1472" height="130" alt="image" src="https://github.com/user-attachments/assets/fe85e3a8-670c-4ced-b51a-b3c38464bb1a" />
 
+### Practise Solidity Code
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.8.2 <0.9.0;
+
+contract AcademReg {
+
+    mapping (uint256 => student) studentdetails;
+    
+    struct student {
+       string name;
+       string department;
+       uint256 year;
+    }
+    
+    student s;
+
+    address classadv;
+    address principal;
+    address owner;
+
+    constructor() {
+        owner = msg.sender;
+        classadv = 0x5c6B0f7Bf3E7ce046039Bd8FABdfD3f9F5021678;
+        principal = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
+    }
+
+    modifier isclassadv() {
+        require(msg.sender == classadv, "Only class advisor can call this function");
+        _;
+    }
+
+
+    function setvalue(uint256 _rno, string memory _name, string memory _department, uint256 _year) public isclassadv {
+        
+        s.name = _name;
+        s.department = _department;
+        s.year = _year;
+
+        studentdetails[_rno] = s; 
+    }
+
+    function getvalue(uint256 _rno) public view returns(string memory, string memory, uint256) {
+        student memory s1  = studentdetails[_rno];
+        return (s1.name, s1.department, s1.year);
+    }
+
+}
 
 
 
