@@ -1,0 +1,59 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.tabs button.active {
+  background: #007bff;
+  color: white;
+}
+
+.form-section input,
+.form-section textarea {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.form-section button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.list-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-section th,
+.list-section td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.msg { padding: 12px; margin: 12px 0; border-radius: 6px; }
+.msg.error { background: #ffe6e6; color: #990000; border: 1px solid #ffa0a0; }
+.msg.success { background: #e6ffef; color: #006600; border: 1px solid #b2f0c6; }
+

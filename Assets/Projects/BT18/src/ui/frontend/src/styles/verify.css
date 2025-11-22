@@ -1,0 +1,29 @@
+.verify-container {
+  max-width: 650px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.valid {
+  color: #2ecc71;
+  font-size: 18px;
+}
+
+.revoked {
+  color: #e74c3c;
+  font-size: 18px;
+}
+
+.cert-details p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.cert-details a {
+  color: #007bff;
+  text-decoration: none;
+}

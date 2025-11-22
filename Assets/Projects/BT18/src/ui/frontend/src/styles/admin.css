@@ -1,0 +1,88 @@
+.admin-dashboard {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.admin-dashboard h1 {
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Toggle Button Styles */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  padding: 8px 16px;
+  border: 1px solid #0077b6;
+  background-color: white;
+  color: #0077b6;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.toggle-buttons button.active {
+  background-color: #0077b6;
+  color: white;
+}
+
+/* Institution Cards */
+.inst-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+}
+
+.inst-card.pending {
+  border-left: 6px solid #f9a825;
+}
+
+.inst-card.approved {
+  border-left: 6px solid #2e7d32;
+}
+
+.inst-card button {
+  margin-right: 10px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inst-card button:last-child {
+  background-color: #d62828;
+}
+
+/* Add Institution Section */
+.add-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-section input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-section button {
+  width: 200px;
+  background-color: #0096c7;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}

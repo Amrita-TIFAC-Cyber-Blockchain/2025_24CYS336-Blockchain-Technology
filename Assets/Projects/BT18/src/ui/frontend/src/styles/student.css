@@ -1,0 +1,80 @@
+/* student.css */
+
+/* Overall container */
+.student-dashboard {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+.student-dashboard h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+/* Certificate card grid */
+.certificate-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.certificate-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.certificate-card p {
+  color: #555;
+  margin: 0.3rem 0;
+}
+
+/* Buttons */
+.certificate-card button {
+  background-color: #3b82f6;
+  border: none;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.certificate-card button:hover {
+  background-color: #2563eb;
+}
+
+/* Disabled or revoke button */
+.certificate-card button:nth-child(2) {
+  background-color: #dc2626;
+}
+
+.certificate-card button:nth-child(2):hover {
+  background-color: #b91c1c;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .certificate-card {
+    padding: 1rem;
+  }
+
+  .certificate-card h3 {
+    font-size: 1.1rem;
+  }
+}
