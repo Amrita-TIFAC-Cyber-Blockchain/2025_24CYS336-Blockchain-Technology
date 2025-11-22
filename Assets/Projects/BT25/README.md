@@ -31,6 +31,7 @@ Every transaction—registering, transferring, or confirming the delivery of def
 Traceable, tamper-proof records: Every transaction such as asset registration, transfer, and delivery is recorded immutably, reducing fraud and simplifying audits.​
 
 Real-world pilots: NATO, UK Ministry of Defence, and US DoD have piloted blockchain solutions for procurement, weapons/equipment tracking, and audit logging, reporting improved efficiency, transparency, and reduced counterfeiting.​
+
 -----
 
 ### PROPOSED SOLUTION
@@ -218,6 +219,7 @@ This system significantly improves defence supply chain integrity, prevents frau
 
 8. Economic Times. (2024). *Over 4800 stolen weapons remain unrecovered in Manipur.*  
    https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
