@@ -70,7 +70,7 @@ The architecture contains four main parts: the physical asset, digital twin, blo
 | Add Twin data(2) | [0x678c52d1e743489d52397fa2e56b6d23e330f26d2107ba8b7f3aec2ea53d525d](https://sepolia.etherscan.io/tx/0x678c52d1e743489d52397fa2e56b6d23e330f26d2107ba8b7f3aec2ea53d525d) |
 | Ownership Transfer | [0x07f559b196353f516ee80fdedc4245dac8a5609dc2c6c9df77b8f8b429747822](https://sepolia.etherscan.io/tx/0x07f559b196353f516ee80fdedc4245dac8a5609dc2c6c9df77b8f8b429747822) |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://www.youtube.com/watch?v=vUbUnmFjodM) 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 SDG 9: Industry, Innovation, and Infrastructure: Fosters industrial innovation and resilient infrastructure through predictive maintenance and optimized asset management.
@@ -90,6 +90,7 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
+
 
 
 
