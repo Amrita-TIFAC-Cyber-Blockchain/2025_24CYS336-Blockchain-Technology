@@ -2,8 +2,8 @@
 
 ## BT#25 - 
 
-![RAHUL KRISHNA J | CB.EN.U4ECE23238](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J_%7C_CB.EN.U4ECE23238-gold)
-![AKILESH SENTHIL KUMAR | CB.EN.U4ECE23203](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR_%7C_CB.EN.U4ECE23203-gold) <br/>
+![RAHUL KRISHNA J](https://img.shields.io/badge/MEMBER-RAHUL--KRISHNA--J_%7C_CB.EN.U4ECE23238-gold)
+![AKILESH SENTHIL KUMAR](https://img.shields.io/badge/MEMBER-AKILESH--SENTHIL--KUMAR_%7C_CB.EN.U4ECE23203-gold) <br/>
 
 ![](https://img.shields.io/badge/SDG-darkgreen) 
 ![](https://img.shields.io/badge/SDG-darkgreen) <br/>
