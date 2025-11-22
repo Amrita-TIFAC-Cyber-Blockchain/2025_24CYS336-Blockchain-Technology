@@ -1,8 +1,8 @@
 # 24CYS336 - Blockchain-Technology 
 
-## BT#14
+## BT#14 - PatientManagementSystem
 ![](https://img.shields.io/badge/Member-Duvvuru_Akshaya_Saketh_Reddy-gold) ![](https://img.shields.io/badge/Member-Shyam-gold)  <br/> 
-![](https://img.shields.io/badge/SDG-1-darkgreen)  ![](https://img.shields.io/badge/SDG-2-darkgreen)  ![](https://img.shields.io/badge/SDG-3-darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-3-darkgreen)  ![](https://img.shields.io/badge/SDG-9-darkgreen)  ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
@@ -44,6 +44,19 @@ Blockchain technology offers an effective solution to these problems. It enables
 ### Architectural Diagram :-
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/5f4f2cfc-e258-4126-b3c3-1f6b5984a865" />
+
+------
+
+
+
+### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
+This project aligns primarily with SDG 3: Good Health and Well-Being, as it enhances healthcare delivery by ensuring secure, reliable, and tamper-proof access to medical records. By improving accuracy, reducing medical errors, and increasing patient access to their own data, the system supports better clinical outcomes and patient empowerment.
+
+It further contributes to SDG 9: Industry, Innovation, and Infrastructure by introducing a modern, decentralized data management architecture using advanced technologies such as blockchain and cryptographic identity management. This promotes innovation and modernization within the healthcare infrastructure.
+
+The project also supports SDG 16: Peace, Justice, and Strong Institutions, as it increases transparency, auditability, and accountability within medical record management. Immutable logs, access controls, and verifiable data integrity reduce fraud, unauthorized access, and corruption in healthcare systems.
+
+------
 
 ### Results
 
@@ -95,6 +108,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
