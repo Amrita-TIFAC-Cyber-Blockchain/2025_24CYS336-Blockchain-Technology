@@ -74,7 +74,7 @@ The project also supports SDG 16: Peace, Justice, and Strong Institutions, as it
 |:---------------------|:------:|
 | Deployment of Contracts |      |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Vide](https://youtu.be/H3lLaxPKYOM) 
 
 ------
 
@@ -108,6 +108,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
