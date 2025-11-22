@@ -241,18 +241,13 @@ contract AcademicRecordSystem {
     }
 
 
-    // ------------------------------
-    // EMPLOYER VERIFICATION
-    // ------------------------------
+    // Employer Verification
 
     function verifyCertificate(bytes32 certHash) external view returns (bool) {
         return validCertificates[certHash];
     }
 
 
-    // ------------------------------
-    // VIEW HELPERS
-    // ------------------------------
 
     function getStudentInfo(address studentAddr)
         external
@@ -282,3 +277,4 @@ contract AcademicRecordSystem {
         return revocationLogs;
     }
 }
+
