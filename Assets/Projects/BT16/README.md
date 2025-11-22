@@ -19,9 +19,34 @@ Farooq et al. (2022) proposed a decentralized blockchain-based Voting Management
 González et al. (2022) addressed the limitations of both centralized systems and permissionless blockchains, which suffer from scalability issues and computational inefficiency. They presented an enterprise blockchain solution built on Hyperledger Fabric, a permissioned blockchain platform. The system utilizes Non-Fungible Tokens (NFTs) as digital ballots to enable complete traceability and prevent duplication. Smart contracts enforce role-based access control, ensuring only authorized participants can cast votes. Unlike energy-intensive proof-of-work systems, their permissioned blockchain architecture provides high performance and security with significantly lower energy consumption, making it practical for large-scale electoral applications.
 
 -----
+### Proposed Solution
+
+To overcome the limitations of traditional voting systems, a secure, accessible, and transparent digital voting platform is proposed. The idea is to develop a mobile application that allows citizens—especially elderly individuals, people with disabilities, and voters in remote areas—to cast their votes without needing to physically visit polling stations. The system uses facial recognition for authentication, ensuring that only the legitimate voter can access their ballot and preventing impersonation or multiple voting.
+
+To guarantee the integrity of the voting process, the application is integrated with a blockchain-based smart contract. Every vote is recorded immutably on the blockchain, eliminating the possibility of tampering, unauthorized modifications, or fraudulent entries. Voters can verify that their vote has been successfully recorded, while the system maintains complete anonymity. The smart contract also handles candidate registration, voter registration, vote casting, and result calculation with full transparency.
+
+This combined approach—biometric authentication for secure identity verification, and blockchain for trustless, tamper-proof vote storage—provides a secure, verifiable, and user-friendly alternative to conventional voting systems.
+
+-----
 ### Architectural Diagram
 
 <img width="1748" height="1240" alt="Blockchain Network (1)" src="https://github.com/user-attachments/assets/f2961ae3-e09d-4f15-9c2c-bdb80c4a15be" />
+
+-----
+### Modules
+
+The Voter Management Module handles the registration and verification of voters. Each voter is stored with basic details such as name, blockchain address, and voting status. This module ensures that only legitimate, registered voters can participate in the election. It also prevents double voting using the hasVoted flag and restricts viewing of voter information to either the Election Commission or the voter themselves.
+
+The Candidate Management Module is responsible for adding and managing candidates. It stores details such as name, address, and current vote count. The system ensures that no candidate is registered more than once, while also maintaining a list of all candidates through an array. Access to candidate details is restricted to the candidate themselves or the Election Commission to maintain privacy and security.
+
+The Voting Module enables the actual casting of votes. It checks whether the voter is registered, whether the chosen candidate exists, and whether the voter has already voted. Once all conditions are satisfied, the module increments the selected candidate’s vote count and updates the voter’s status to prevent duplicate voting. This ensures that the voting process remains secure and tamper-proof.
+
+The Vote Counting and Result Module allows the Election Commission to count votes transparently once voting is completed. It scans through the registered candidates, identifies the one with the highest number of votes, and stores the final winner’s details. The result can be viewed by anyone, ensuring transparency and accuracy in the outcome of the election.
+
+------
+### Novelty
+
+The novelty of the system lies in combining biometric facial recognition with blockchain-based voting to create a secure, accessible, and tamper-proof election platform. The mobile application uses facial recognition to verify identity, ensuring that only the legitimate voter can cast a vote, while the blockchain guarantees that every vote is recorded immutably and cannot be altered or deleted. This integration eliminates impersonation, prevents multiple voting, and removes the need for physical polling stations, making the system especially beneficial for elderly users, people with disabilities, and individuals in remote locations. By merging strong biometric authentication with transparent and decentralized vote storage, the system provides a trustworthy and user-friendly alternative to traditional voting methods.
 
 ------
 
@@ -63,9 +88,10 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/7SrD
 -----
 
 ### References
-<1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959-59969.
+<1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959–59969. https://doi.org/10.1109/access.2022.3180168
 
-<2>Denis González, C., Frias Mena, D., Massó Muñoz, A., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531.
+<2>González, C. D., Mena, D. F., Muñoz, A. M., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531. https://doi.org/10.3390/app12020531
+
 
 
 
