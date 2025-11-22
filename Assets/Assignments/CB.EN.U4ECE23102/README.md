@@ -27,7 +27,7 @@
 | Store and retrieve 3      | [0x3791695557c871f79862e0deaf1dd8916c5eefdb0a41ad84f15c682ead46c830](https://sepolia.etherscan.io/tx/0x3791695557c871f79862e0deaf1dd8916c5eefdb0a41ad84f15c682ead46c830) |
 
 ![](https://img.shields.io/badge/Date-22/9/25-purple) <br/>
-### Lab X - Solidity and Remix IDE (22/9/25)  
+### Lab X - Solidity and Remix IDE (22/9/25) and practise
 | Smart Contract Address | [0xc94bc18cf3492a81e783a175b342329a3c878013](https://sepolia.etherscan.io/tx/0x2a2e0a91d7a2b29931f31c3b52540cb93ddeb390dc646d55ed03edff849fb385) |
 |:----------------------:|:-------------------------------------:|
 | Store and retrieve 1      | [0x682177de5beefa8bca0d27165b0a9001fd0583fc9749bf16851ae68f30a73ed6](https://sepolia.etherscan.io/tx/0x682177de5beefa8bca0d27165b0a9001fd0583fc9749bf16851ae68f30a73ed6) |
@@ -40,6 +40,7 @@
 <img width="1472" height="130" alt="image" src="https://github.com/user-attachments/assets/fe85e3a8-670c-4ced-b51a-b3c38464bb1a" /> <br/>
 ### Saving the file
 <img width="1450" height="115" alt="image" src="https://github.com/user-attachments/assets/b22c7bdd-b875-46ca-b3fe-d75c43c8fa1b" /> <br/>
+
 
 
 
