@@ -230,11 +230,12 @@ Benefits:
 
 ### References
 
-1. X. Zhao and Y.-W. Si, "NFTCert: NFT-based certificates with online payment gateway," in 2021 IEEE International Conference on Blockchain (Blockchain), 2021, pp. 538-543.
-2. C. Delgado-von-Eitzen, L. Anido-Rifón, and M. J. Fernández-Iglesias, "NFTs for the issuance and validation of academic information that complies with the GDPR," Appl. Sci., vol. 14, no. 2, Art. no. 706, Jan. 2024.
-3. P. Khati, A. K. Shrestha, and J. Vassileva, "Student certificate sharing system using blockchain and NFTs," in International Congress on Blockchain and Applications, Cham, Switzerland: Springer Nature, 2023, pp. 61–70.
-4. N. N. Kumar, R. S. Kumar, R. R. Basale, and M. Saffath, "Decentralized storage of educational assets using NFTs and blockchain technology," in 2022 4th International Conference on Smart Systems and Inventive Technology (ICSSIT), 2022, pp. 260-266.
-5. T. Rahman, S. I. Mouno, A. M. Raatul, A. K. Al Azad, and N. Mansoor, "Verifi-chain: A credentials verifier using blockchain and IPFS," in International Conference on Information, Communication and Computing Technology, Singapore: Springer Nature Singapore, 2023, pp. 361–371.
+- Zhao, X., & Si, Y. W. (2021, December). NFTCert: NFT-based certificates with online payment gateway. In 2021 IEEE International Conference on Blockchain (Blockchain) (pp. 538-543). IEEE.
+- Delgado-von-Eitzen, C., Anido-Rifón, L., & Fernández-Iglesias, M. J. (2024). Nfts for the issuance and validation of academic information that complies with the gdpr. Applied Sciences, 14(2), 706.
+- Khati, P., Shrestha, A. K., & Vassileva, J. (2023, July). Student certificate sharing system using blockchain and nfts. In International Congress on Blockchain and Applications (pp. 61-70). Cham: Springer Nature Switzerland.
+- Kumar, N. N., Kumar, R. S., Basale, R. R., & Saffath, M. (2022, January). Decentralized storage of educational assets using NFTs and blockchain technology. In 2022 4th international conference on smart systems and inventive technology (ICSSIT) (pp. 260-266). IEEE.
+- Rahman, T., Mouno, S. I., Raatul, A. M., Al Azad, A. K., & Mansoor, N. (2023, May). Verifi-chain: a credentials verifier using blockchain and IPFS. In International Conference on Information, Communication and Computing Technology (pp. 361-371). Singapore: Springer Nature Singapore.
+
 
 
 
