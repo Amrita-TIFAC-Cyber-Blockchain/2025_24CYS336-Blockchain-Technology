@@ -1,6 +1,6 @@
 # 24CYS336 - Blockchain-Technology 
 
-## BT#17 - Detecting Plagiarism and Fake Copies in Digital Art using AI
+## BT#17 - Detecting Art Storage And Verification Using Blockchain Technology
 
 
 ![](https://img.shields.io/badge/Member-Praveen_S-gold) ![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
@@ -109,6 +109,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y
 [1] Wu, J. (2023). Detection and protection of digital artworks using blockchain technology. The Light Explorer, 8(4), 1–11.
 
 [2] Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership verification for digital art using smart contract and blockchain technology. In Proceedings of the 17th International Conference on Open Source Systems & Technology (ICOSST) (pp. 1–6).
+
 
 
 
