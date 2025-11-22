@@ -4,8 +4,8 @@
  
 
 <p align="left">
-  <img src="https://img.shields.io/badge/MEMBER-RAHUL-KRISHNA-J_-_CB.EN.U4ECE23238-gold">
-  <img src="https://img.shields.io/badge/MEMBER-AKILESH-SENTHIL-KUMAR_-_CB.EN.U4ECE23203-gold">
+  <img src="https://img.shields.io/badge/MEMBER-RAHUL-KRISHNA-J_-CB.EN.U4ECE23238-gold">
+  <img src="https://img.shields.io/badge/MEMBER-AKILESH-SENTHIL-KUMAR_-CB.EN.U4ECE23203-gold">
 </p>
 
 
@@ -220,6 +220,7 @@ This system significantly improves defence supply chain integrity, prevents frau
 
 8. Economic Times. (2024). *Over 4800 stolen weapons remain unrecovered in Manipur.*  
    https://economictimes.indiatimes.com/news/defence/over-4800-stolen-weapons-remain-unrecovered-in-ethnic-strife-torn-manipur/articleshow/113555478.cms
+
 
 
 
