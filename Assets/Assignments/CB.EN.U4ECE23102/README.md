@@ -34,12 +34,13 @@
 | Store and retrieve 2      | [0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c](https://sepolia.etherscan.io/tx/0xc0aa4fd1b069724c1e8edea5932430a1b5d677e476a51348536293841c4eed2c) |
 
 
-### IPFS Implementation
+### IPFS Implementation (In my pc, ipfs works in the powershell only when I give the commands starting with .\ipfs)
 <img width="866" height="210" alt="image" src="https://github.com/user-attachments/assets/5f4bd496-29ad-48ac-9015-cd4ce9cc2723" /> <br/>
 ### Adding a file
 <img width="1472" height="130" alt="image" src="https://github.com/user-attachments/assets/fe85e3a8-670c-4ced-b51a-b3c38464bb1a" /> <br/>
 ### Saving the file
 <img width="1450" height="115" alt="image" src="https://github.com/user-attachments/assets/b22c7bdd-b875-46ca-b3fe-d75c43c8fa1b" /> <br/>
+
 
 
 
