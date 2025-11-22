@@ -3,7 +3,10 @@
 ## BT#11 - Blockchain-Backed Auditability for Recommender Systems
 
 ![](https://img.shields.io/badge/Member-Shankar_N_K-gold) <br/> 
-![](https://img.shields.io/badge/SDG--darkgreen) <br/>
+![](https://img.shields.io/badge/SDG-9-darkgreen) 
+![](https://img.shields.io/badge/SDG-10-darkgreen) 
+![](https://img.shields.io/badge/SDG-12-darkgreen) 
+![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
 
 ------
@@ -91,4 +94,5 @@ These transaction are as shown in the [YouTube Demo Video]()
 2) **Drungilas, V., Vaičiukynas**, E., Jurgelaitis, M., Butkienė, R., & Čeponienė, L. (2021). _Towards Blockchain-Based Federated Machine Learning: Smart Contract for Model Inference_. Applied Sciences, 11(3), 1010. https://doi.org/10.3390/app11031010
 
 3) **Wu, L., Ruan, W., Hu, J., & He, Y. (2023)**. _A Survey on Blockchain-Based Federated Learning_. Future Internet, 15(12), 400. https://doi.org/10.3390/fi15120400
+
 
