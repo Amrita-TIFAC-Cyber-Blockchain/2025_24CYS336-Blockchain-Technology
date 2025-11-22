@@ -12,47 +12,48 @@
 
 ### Lab - RSA implementation
 
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/ac7e39ddac11f9766ac9795d7a6913925780fc53/Assets/Assignments/CB.EN.U4CYS22020/Assests/RSA_1.png" alt="Screenshot">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/RSA_1.png" alt="Screenshot">
 Encrypting with proper e and d values:
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/ac7e39ddac11f9766ac9795d7a6913925780fc53/Assets/Assignments/CB.EN.U4CYS22020/Assests/RSA_2.png" alt="Screenshot">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/RSA_2.png" alt="Screenshot">
 Decrypting with the cipher text:
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/0ca9b4577d9751399657e0a8ba31b8ccd8a2d4a4/Assets/Assignments/CB.EN.U4CYS22020/Assests/RSA_3.png" alt="Screenshot">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/RSA_3.png" alt="Screenshot">
 
 |:--------------:|:-----------------------------:|
 
 
 ### Lab - IPFS
 #### IPFS Start daemon:
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/b6aaaeaa175cf67c051c9838d4ba9b9ff632ec72/Assets/Assignments/CB.EN.U4CYS22020/Assests/IPFS_1.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/IPFS_1.png">
 
 #### IPFS Adding a file:
 
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/b6aaaeaa175cf67c051c9838d4ba9b9ff632ec72/Assets/Assignments/CB.EN.U4CYS22020/Assests/IPFS_3.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/IPFS_2.png">
 
 #### IPFS cat (Opening the file via CID):
 
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/b6aaaeaa175cf67c051c9838d4ba9b9ff632ec72/Assets/Assignments/CB.EN.U4CYS22020/Assests/IPFS_4.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/IPFS_3.png">
 
 #### IPFS pin add (Pinning a file to avoid deletion during garbage collection)
 
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/b6aaaeaa175cf67c051c9838d4ba9b9ff632ec72/Assets/Assignments/CB.EN.U4CYS22020/Assests/IPFS_5.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/IPFS_4.png">
 
 #### IPFS dag stat (Block distribution of the file)
 
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/b6aaaeaa175cf67c051c9838d4ba9b9ff632ec72/Assets/Assignments/CB.EN.U4CYS22020/Assests/IPFS_6.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/25521c21ef73ef11edda19d7417d44cdef5a5f9d/Assets/Assignments/CB.EN.U4CYS22003/images/IPFS_5.png">
 
 |:--------------:|:-----------------------------:|
 ### Lab - Solidity contract deployment (Grocery management)
 
-| Smart Contract Address | 0x6d689450a2842d2fef0362fe0ec7c24dddd35010 |
+| Smart Contract Address | 0xB5C42bECe3c2C8D1518a1a69810cd87Dc3e9965c |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | (https://sepolia.etherscan.io/tx/0xf792358921a2ab16f73f5cb187444f644035dfd71af1d76ec9966d5f4096bb8a)    |
+| Transaction Desc.      | (https://sepolia.etherscan.io/address/0xB5C42bECe3c2C8D1518a1a69810cd87Dc3e9965c)    |
 
 ### Lab - Solidity contract deployment (Certificate Registry)
 
-| Smart Contract Address | 0x59b9414ab7040dd8c51667c705a328dbae98b58f |
+| Smart Contract Address | 0x001457D6dE8667Eb2960BB758184C378214df8FB |
 |:----------------------:|:-------------------------------------:|
-| Transaction Desc.      | (https://sepolia.etherscan.io/tx/0x505d6c180add94788f96896682bc98ff888fcc2785d00241523dd9f071c11ea0)|
+| Transaction Desc.      | (https://sepolia.etherscan.io/address/0x001457D6dE8667Eb2960BB758184C378214df8FB)|
+
 
 
 
