@@ -77,3 +77,78 @@ serve(async (req) => {
     );
   }
 });
+
+import { useState } from 'react';
+import { toast } from 'sonner';
+import { supabase } from '@/integrations/supabase/client';
+
+const IPFS_GATEWAY = 'https://gateway.pinata.cloud/ipfs/';
+
+export interface IPFSFile {
+  hash: string;
+  name: string;
+  uploadedAt: Date;
+  size: number;
+}
+
+export const useIPFS = () => {
+  const [isUploading, setIsUploading] = useState(false);
+  const [uploadedFiles, setUploadedFiles] = useState<IPFSFile[]>([]);
+
+  const uploadFile = async (file: File) => {
+    if (!file) return null;
+
+    setIsUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const { data, error } = await supabase.functions.invoke('upload-to-ipfs', {
+        body: formData,
+      });
+
+      if (error) {
+        console.error('Upload error:', error);
+        toast.error('Upload Failed', {
+          description: error.message || 'Failed to upload file to IPFS',
+        });
+        return null;
+      }
+
+      const ipfsFile: IPFSFile = {
+        hash: data.hash,
+        name: data.name,
+        uploadedAt: new Date(),
+        size: data.size,
+      };
+
+      setUploadedFiles((prev) => [ipfsFile, ...prev]);
+      
+      toast.success('File Uploaded to IPFS', {
+        description: `${file.name} uploaded successfully`,
+      });
+
+      return ipfsFile;
+    } catch (error: any) {
+      console.error('IPFS upload error:', error);
+      toast.error('Upload Failed', {
+        description: error.message || 'Failed to upload file to IPFS',
+      });
+      return null;
+    } finally {
+      setIsUploading(false);
+    }
+  };
+
+  const getFileUrl = (hash: string) => {
+    return `${IPFS_GATEWAY}${hash}`;
+  };
+
+  return {
+    uploadFile,
+    isUploading,
+    uploadedFiles,
+    getFileUrl,
+  };
+};
+
