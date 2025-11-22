@@ -102,7 +102,7 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 | Dean changes Registrar | [0x10a3977f0fd056db33e15ef0319aebff2d26586383bef9cbc8f5ed29f1cf60b6](https://sepolia.etherscan.io/tx/0x10a3977f0fd056db33e15ef0319aebff2d26586383bef9cbc8f5ed29f1cf60b6) |
 | Dean can only change Dean | [0x45395b82c4a1cdf6e49bdb6f0fa579cfd99c4385c96a36bba1dd6db5371ec105](https://sepolia.etherscan.io/tx/0x45395b82c4a1cdf6e49bdb6f0fa579cfd99c4385c96a36bba1dd6db5371ec105) |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video](https://youtu.be/_LLnanOCrpU?si=Mo1TR-GtxKPGIFTT) 
 
 ------
 
@@ -133,6 +133,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
