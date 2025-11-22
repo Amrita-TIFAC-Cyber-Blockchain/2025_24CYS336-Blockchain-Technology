@@ -20,6 +20,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; Therefore, the problem is to develop a system that brings auditability and verifiable accountability to recommender models hence allowing every model update or decision pathway to be cryptographically verifiable without revealing private data or exposing proprietary algorithms. Such a mechanism would help restore trust, ensure compliance with explainable AI mandates, and promote ethical deployment of recommendation technologies.
 
 -----
+
 ### Literature Survey 
 
 Existing research on integrating AI/ML with blockchain can be summarised to three points
@@ -44,15 +45,31 @@ notes on papers:
 &nbsp;&nbsp;&nbsp;&nbsp; **Kayikci & Khoshgoftaar (2024)** presented a detailed survey on integrating blockchain with machine learning, outlining how blockchain contributes to trust, transparency, and data provenance while supporting decentralized learning. The authors identified key challenges — such as scalability limits, computational cost, and privacy concerns — and suggested hybrid approaches that store hashes of model states or updates instead of raw parameters, combined with off-chain processing for efficiency. They also discussed batching strategies and interoperability layers to improve transaction throughput. This paper reinforces the architectural decisions of our project by validating the use of lightweight on-chain verification as a practical solution for maintaining accountability without burdening the blockchain network.
 
 &nbsp;&nbsp;&nbsp;&nbsp; **Wu et al. (2023)** provide a comprehensive survey of the integration of Federated Learning (FL) and blockchain (dubbed “BFL” – blockchain-based federated learning). The paper outlines how blockchain technologies support federated learning by enabling decentralised aggregation, enhancing provenance of updates, and incentivising participation. It also delves into the major challenges—such as efficiency loss, network latency, large-scale communication overhead, and privacy risks—and suggests workarounds including off-chain storage of heavy data, use of lightweight blockchain metadata (e.g., hashes), and hybrid architectures combining chain and off-chain components
-  
 
 -----
+
+### Proposed Solution
+  
+&nbsp;&nbsp;&nbsp;&nbsp; The proposed system aims to introduce auditability and verifiable accountability into recommender systems by combining traditional machine learning with blockchain-based logging. The core recommendation model runs off-chain on a standard Python ML server, where user inputs are processed, predictions are generated, and model updates are performed through incremental learning. Instead of storing raw data or parameters on-chain, the system generates cryptographic hashes representing the user’s input and the updated model state. These hashes are then recorded immutably on a blockchain ledger through a smart contract. This design ensures that every model update, and the interaction that caused it, can be verified later without exposing private data or requiring access to proprietary model internals.
+
+&nbsp;&nbsp;&nbsp;&nbsp; To support real-time user interaction, a simple frontend interface collects user attributes and their feedback on the model’s predictions. This information is sent to the backend, which updates the model where appropriate and logs the corresponding hash on the blockchain. The smart contract maintains a transparent, append-only history of these updates, allowing anyone to audit when and why a model state changed. By leveraging blockchain only for verification, and not for heavy computation, the solution achieves a balance between transparency, scalability, and practicality, demonstrating how blockchain can meaningfully improve trust in recommender systems without disrupting their performance.
+
+-----
+
 ### Architectural Diagram
 <p align = "center">
   <img src="architectural diagram modelupdatelogger_.png" alt="diagram" width="600">
 </p>
 
 ------
+
+### Novelty of the Project
+
+&nbsp;&nbsp;&nbsp;&nbsp;This project introduces a unique hybrid architecture that brings auditability to recommender systems by recording only cryptographic hashes of user interactions and model updates on a blockchain. Unlike existing approaches that attempt to store full model parameters or run training on-chain—which is computationally infeasible—this work separates computation (off-chain) from verification (on-chain) in a practical way. The system shows how a recommender model can remain fully functional while gaining an immutable, tamper-proof trail of how each interaction influences its evolution.
+
+&nbsp;&nbsp;&nbsp;&nbsp;A second novelty lies in demonstrating a transparent end-to-end pathway: user feedback → ML model update → blockchain hash logging → verifiable audit trail. This prototype showcases how accountability can be added to real-time recommendation pipelines without modifying the underlying blockchain software or compromising user privacy. By integrating on-device hashing, lightweight smart contracts, and incremental model training, the project provides a replicable blueprint for building explainable, trustworthy AI systems using blockchain—not as a storage layer, but as a cryptographic accountability layer.
+
+-------
 
 ### Results
 
@@ -79,7 +96,7 @@ notes on papers:
 | 11th update (from server) | [0xe18d6195c65dd21f899a9987a790ab2d8ad52eb812235f42ab74a3a715ce1366](https://sepolia.etherscan.io/tx/0xe18d6195c65dd21f899a9987a790ab2d8ad52eb812235f42ab74a3a715ce1366) |
 | Smart Contract Address(ModelAudit) | [0x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5](https://sepolia.etherscan.io/address/0x2b23CA876e4666C493fdc07Db5FE2BBEebe428D5) |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+These transaction are as shown in the [YouTube Demo Video-](https://youtu.be/CTcaDMseYq0) 
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -102,6 +119,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 2) **Drungilas, V., Vaičiukynas**, E., Jurgelaitis, M., Butkienė, R., & Čeponienė, L. (2021). _Towards Blockchain-Based Federated Machine Learning: Smart Contract for Model Inference_. Applied Sciences, 11(3), 1010. https://doi.org/10.3390/app11031010
 
 3) **Wu, L., Ruan, W., Hu, J., & He, Y. (2023)**. _A Survey on Blockchain-Based Federated Learning_. Future Internet, 15(12), 400. https://doi.org/10.3390/fi15120400
+
 
 
 
