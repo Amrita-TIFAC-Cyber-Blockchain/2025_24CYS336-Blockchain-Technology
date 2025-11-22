@@ -39,6 +39,8 @@
 ### Adding a file
 <img width="1472" height="130" alt="image" src="https://github.com/user-attachments/assets/fe85e3a8-670c-4ced-b51a-b3c38464bb1a" />
 ### Saving the file
+<img width="1450" height="115" alt="image" src="https://github.com/user-attachments/assets/b22c7bdd-b875-46ca-b3fe-d75c43c8fa1b" />
+
 
 
 
