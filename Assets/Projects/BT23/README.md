@@ -2,12 +2,9 @@
 
 ## BT#23 - 
 
-![](https://img.shields.io/badge/Vasantha_Kumar_G_R-gold) ![](https://img.shields.io/badge/Ashwin_Kumar_K_S-gold) ![](https://img.shields.io/badge/Karthick_A-gold)  <br/>
-![](https://img.shields.io/badge/SDG_9-Industry,_Innovation,_and_Infrastructure-darkgreen) <br/>
-![](https://img.shields.io/badge/SDG_12-Responsible_Consumption_and_Production-darkgreen) <br/>
-![](https://img.shields.io/badge/SDG_16-Peace,_Justice,_and_Strong_Institutions-darkgreen) <br/>
+![](https://img.shields.io/badge/Member-Vasantha_Kumar_G_R-gold) ![](https://img.shields.io/badge/Member-Ashwin_Kumar_K_S-gold) ![](https://img.shields.io/badge/Member-Karthick_A-gold)  <br/>
+![](https://img.shields.io/badge/SDG_9-Industry,_Innovation,_and_Infrastructure-darkgreen) ![](https://img.shields.io/badge/SDG_12-Responsible_Consumption_and_Production-darkgreen) ![](https://img.shields.io/badge/SDG_16-Peace,_Justice,_and_Strong_Institutions-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-19th_Nov_2025-brown) <br/>
-
 
 ------
 
@@ -29,15 +26,16 @@ To address the limitations of centralized platforms and fill the gaps identified
 -----
 ### Architectural Diagram
 
-<img width="500" height="390" alt="image" src="https://github.com/user-attachments/assets/d0af2b50-6883-4338-a8dd-40106a6a6e1a" />
+<p align="center">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/d0af2b50-6883-4338-a8dd-40106a6a6e1a"> <br/> 
+_Source: Paper-1_ <br/> 
+</p>
+<p align="center">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9d0fe25d-6240-457b-aada-90e370413863"> <br/> 
+_Source: Paper-2_
+</p> 
 
-_Image taken from paper-1_
-
-<img width="394" height="341" alt="image" src="https://github.com/user-attachments/assets/9d0fe25d-6240-457b-aada-90e370413863" />
-
-_Image taken from paper-2_
-
-
+-----
 
 ### Results
 
@@ -54,9 +52,9 @@ _Image taken from paper-2_
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
 | Deployment of Contracts |  0xa36d5fc0047297203357b319a64903016277d4d6052d53362d06e415f65990cb    |
-| 
 
-These transaction are as shown in the [https://youtu.be/Xfo6L_V9xIE](https://youtu.be/Xfo6L_V9xIE) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/Xfo6L_V9xIE)
 
 ------
 
@@ -68,8 +66,6 @@ These transaction are as shown in the [https://youtu.be/Xfo6L_V9xIE](https://you
 | **SDG 12** | Responsible Consumption and Production   | Encourages ethical creation, ownership, and sharing of digital assets.                |
 | **SDG 16** | Peace, Justice, and Strong Institutions  | Enhances transparency and fairness in online transactions and ownership management.   |
 
-
-
 -----
 
 ### References
@@ -77,36 +73,4 @@ These transaction are as shown in the [https://youtu.be/Xfo6L_V9xIE](https://you
 [1]  S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
 
 [2] Ritu, S. Shreya, S. Kumar, S. Tirkey, S. K. Agarwala and L. K. Gupta, "Decentralized Social Media Application Based On Blockchain And NFT Technology," 2023 International Conference on Integrated Intelligence and Communication Systems (ICIICS), Kalaburagi, India, 2023, pp. 1-7, doi: 10.1109/ICIICS59993.2023.10421587. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
