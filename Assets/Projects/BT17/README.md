@@ -92,8 +92,8 @@ Final Solution: Strong case for Public Blockchain
 |:---------------------|:------:|
 | Deployment of Contracts | 0xdbbc3e18e4fce2a880305d53e4ca8f85538483c4a72dbe12d7d2e97142482631    |
 
-These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y2T7BqyY) 
-
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/G34Y2T7BqyY)
 
 -----
 
@@ -115,6 +115,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/G34Y
 [1] Wu, J. (2023). Detection and protection of digital artworks using blockchain technology. The Light Explorer, 8(4), 1–11.
 
 [2] Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership verification for digital art using smart contract and blockchain technology. In Proceedings of the 17th International Conference on Open Source Systems & Technology (ICOSST) (pp. 1–6).
+
 
 
 
