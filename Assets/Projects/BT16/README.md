@@ -30,7 +30,7 @@ This combined approach—biometric authentication for secure identity verificati
 -----
 ### Architectural Diagram
 
-<img width="1748" height="1240" alt="Blockchain Network (1)" src="https://github.com/user-attachments/assets/f2961ae3-e09d-4f15-9c2c-bdb80c4a15be" />
+<img width="800" alt="Blockchain Network (1)" src="https://github.com/user-attachments/assets/f2961ae3-e09d-4f15-9c2c-bdb80c4a15be" />
 
 -----
 ### Modules
@@ -76,7 +76,8 @@ The novelty of the system lies in combining biometric facial recognition with bl
 | Voter 2 Voting |   0x93edd0eacac87b4fa7cb8e7cd4eea04e47d7af4364cbbd967e7de83c200dfd37   |
 | Count Votes |  0xd41ab687cebaf8090defff1417d4fb26fbbc7b41514f932d761053854ca31675   |
 
-These transaction are as shown in the [YouTube Demo Video](https://youtu.be/7SrDYXUkSPA) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/7SrDYXUkSPA)
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -91,6 +92,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/7SrD
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959–59969. https://doi.org/10.1109/access.2022.3180168
 
 <2>González, C. D., Mena, D. F., Muñoz, A. M., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531. https://doi.org/10.3390/app12020531
+
 
 
 
