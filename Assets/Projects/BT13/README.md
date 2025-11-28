@@ -11,10 +11,7 @@
 ------
 
 ### Problem Statement
-Waste management is one of the most global issues that must be addressed to ensure environmental In particular, the improper disposal of electronic waste (e-waste) has emerged as a critical concern, as it releases toxic substances such as mercury, lead, and cadmium into the environment.
-These hazardous materials casue serious risks to human health and contribute to long-term environmental degradation. Furthermore, valuable resources embedded in electronic devices—such as gold, copper, and rare earth metals are often lost due to inefficient or improper recycling methods.
-The current e-waste management  faces several challenges, including the lack of real-time tracking mechanisms, limited accountability among stakeholders, and insufficient public awareness. Without transparent and traceable systems, it becomes increasingly difficult to monitor the flow of e-waste from its source to recycling facilities, leading to untracked disposal and potential misuse.
-This project aims to address these challenges by developing a blockchain-based e-waste management and tracking system that ensures transparency, traceability, and accountability across the e-waste lifecycle. By integrating an incentive-driven reward mechanism, the system encourages proper disposal practices, enhances stakeholder participation, and enables secure, immutable tracking of e-waste from generation to final recycling.
+Waste management is one of the most global issues that must be addressed to ensure environmental In particular, the improper disposal of electronic waste (e-waste) has emerged as a critical concern, as it releases toxic substances such as mercury, lead, and cadmium into the environment. These hazardous materials cause serious risks to human health and contribute to long-term environmental degradation. Furthermore, valuable resources embedded in electronic devices—such as gold, copper, and rare earth metals are often lost due to inefficient or improper recycling methods. The current e-waste management  faces several challenges, including the lack of real-time tracking mechanisms, limited accountability among stakeholders, and insufficient public awareness. Without transparent and traceable systems, it becomes increasingly difficult to monitor the flow of e-waste from its source to recycling facilities, leading to untracked disposal and potential misuse. This project aims to address these challenges by developing a blockchain-based e-waste management and tracking system that ensures transparency, traceability, and accountability across the e-waste lifecycle. By integrating an incentive-driven reward mechanism, the system encourages proper disposal practices, enhances stakeholder participation, and enables secure, immutable tracking of e-waste from generation to final recycling.
 
 -----
 ### Literature Survey 
@@ -30,8 +27,10 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 
 -----
 ### Architectural Diagram
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/e974f7b5-cdf2-448a-8fce-9388664ad28f" />
 
+<p align="center">
+  <img width="600" alt="image" src="https://github.com/user-attachments/assets/e974f7b5-cdf2-448a-8fce-9388664ad28f" />
+</p>
 
 ### Results
 
@@ -52,7 +51,8 @@ We also looked at the paper "Blockchain Based Waste Management" by Preethi Gopal
 |:---------------------|:------:|
 | Deployment of Contracts |   0x0c4afba0eb36bfdcd51101eca5784ceb723827bcae15aeb84a0c9582413977b0   |
 
-These transaction are as shown in the [my project youtube link](https://youtu.be/FPoqTbRZ6kM?si=RDZLeWN9ySSM3nlG) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/FPoqTbRZ6kM?si=RDZLeWN9ySSM3nlG)
 
 ------
 
@@ -66,6 +66,7 @@ These transaction are as shown in the [my project youtube link](https://youtu.be
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
 Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
+
 
 
 
