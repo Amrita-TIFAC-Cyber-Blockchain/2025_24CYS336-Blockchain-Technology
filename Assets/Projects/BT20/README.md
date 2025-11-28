@@ -21,12 +21,15 @@ We studied the paper “A Patient-Centric Health Information Exchange Framework 
 -----
 ### Architectural Diagram
 
-![WhatsApp Image 2025-08-09 at 16 04 31_ac6f7676](https://github.com/user-attachments/assets/6c95bcda-1727-480d-8ebe-3b78ed6c2e0c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6c95bcda-1727-480d-8ebe-3b78ed6c2e0c" width=500 />
+</p>
 
 -----
+
 ### Results 
 
-Video Link : https://youtu.be/1I7A_QbPOfM
+#### Stakeholder Details
 
 | Role               | Address                                                                                                                         |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,7 +38,7 @@ Video Link : https://youtu.be/1I7A_QbPOfM
 | **Hospital 2**     | [`0xC5578AFc6782F7be49b2F32c92d7B6F496a766Aa`](https://sepolia.etherscan.io/address/0xC5578AFc6782F7be49b2F32c92d7B6F496a766Aa) |
 | **Patient**        | [`0x9a9Eb409c23015aD438e6C1a32B044A2CbcA5945`](https://sepolia.etherscan.io/address/0x9a9Eb409c23015aD438e6C1a32B044A2CbcA5945) |
 
-
+#### Transaction Details
 | Action                                  | Transaction Hash                                                                                                                                                           |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Registering Hospital 1                  | [`0xc0a7378f600d9115fcc02a39598ab6187a8eec36647234de052aeed3d73f0302`](https://sepolia.etherscan.io/tx/0xc0a7378f600d9115fcc02a39598ab6187a8eec36647234de052aeed3d73f0302) |
@@ -47,7 +50,8 @@ Video Link : https://youtu.be/1I7A_QbPOfM
 | Access Granted to Hospital 2 by Patient | [`0xa874962a9520faa0c6a7c961d80b6ab3c3daad237e35aef48188c769750880c6`](https://sepolia.etherscan.io/tx/0xa874962a9520faa0c6a7c961d80b6ab3c3daad237e35aef48188c769750880c6) |
 | Revoke Access from Hospital 1           | [`0xeeafbbd36ab8eb7e01c54491759304ca3a8d6c9f1c9316f7a9bc540c7851a03f`](https://sepolia.etherscan.io/tx/0xeeafbbd36ab8eb7e01c54491759304ca3a8d6c9f1c9316f7a9bc540c7851a03f) |
 
-
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/1I7A_QbPOfM)
 
 ------
 
@@ -64,6 +68,7 @@ Video Link : https://youtu.be/1I7A_QbPOfM
 [1] Pinto, R. P., Silva, B. M., & Inacio, P. R. (2022). A system for the promotion of traceability and ownership of health data using blockchain. IEEE Access, 10, 92760-92773.
 
 [2] Zhuang, Y., Sheets, L. R., Chen, Y. W., Shae, Z. Y., Tsai, J. J., & Shyu, C. R. (2020). A patient-centric health information exchange framework using blockchain technology. IEEE journal of biomedical and health informatics, 24(8), 2169-2176.
+
 
 
 
