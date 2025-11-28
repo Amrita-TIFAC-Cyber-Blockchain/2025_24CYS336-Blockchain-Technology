@@ -8,77 +8,68 @@
 ------
 
 ### Problem Statement
-In India, the process of adopting stray dogs is often informal, unregulated, and lacks 
-transparency. There is no unified, verifiable digital registry to track the adoption status, 
-vaccination records, or ownership history of rescued dogs. This gap leads to critical issues such 
-as: 
+In India, the process of adopting stray dogs is often informal, unregulated, and lacks transparency. There is no unified, verifiable digital registry to track the adoption status, vaccination records, or ownership history of rescued dogs. This gap leads to critical issues such as: 
 
-1.Re-abandonment of adopted dogs (without consequences) 
+1. Re-abandonment of adopted dogs (without consequences) 
 
-2.Fake or unverifiable vaccination/sterilization claims
+2. Fake or unverifiable vaccination/sterilization claims
 
-3.Duplicate dog registrations across multiple NGOs 
+3. Duplicate dog registrations across multiple NGOs 
 
-4.Illegal dog trade and resale of adopted animals 
+4. Illegal dog trade and resale of adopted animals 
 
-5.Lack of accountability and traceability in the system
+5. Lack of accountability and traceability in the system
 
 These challenges not only reduce public trust in adoption systems but also harm the welfare of street dogs. There is a pressing need for a decentralized, tamper-proof, and privacy-respecting solution that allows NGOs, adopters, and the public to interact with the system securely and transparently.
 
 -----
 ### Literature Survey 
-1. We studied the paper titled “Provoke and Approach for Developing PET DApp using 
-Blockchain-Based Technology”, which provides a foundation for integrating Privacy-Enhancing 
-Technologies (PETs) in Decentralized Applications (DApps). 
-Insights and Relevance: 
-• Emphasizes privacy-first designs in blockchain systems 
-•  Explores Zero-Knowledge Proofs (ZKPs) to ensure user identity protection 
-•  Proposes modular DApp architecture using smart contracts and off-chain storage (IPFS) 
-•  Encourages user-controlled data access 
-How It Informed Our Project: 
-• On-chain hashed identities protect adopter privacy while ensuring traceable ownership 
-• IPFS used for storing documents securely, metadata on-chain 
-• Smart contracts automate dog registration, adoption verification, and rewards 
-• NFT-based certificates and ERC-20 tokens incentivize responsible adoption
 
-2. We explored the paper titled “Adoption of pets in distributed network using blockchain 
-technology” which showcases how blockchain can be leveraged to create a secure, transparent, 
-and decentralized framework for pet adoption. 
-Key Takeaways: 
-• Demonstrates how Ethereum smart contracts can automate pet adoption and payment 
-processes. 
-• Highlights the benefits of a decentralized P2P network to eliminate single points of 
-failure. 
-• Explains gas costs, transaction execution, and security features of blockchain. 
-• Emphasizes the immutability of data and secure record-keeping through hash values.  
-Project Influence: 
-• -Inspired the use of smart contracts for automated pet registration and adoption 
-transactions. 
-• -Encouraged the integration of a decentralized ledger for tracking ownership and 
-preventing fraud. 
-• -Guided us to leverage Metamask and Ether for secure, verifiable payments. 
-• -Motivated the design of a transparent adoption process where all transactions are 
-immutable and traceable.
+1. We studied the paper titled “Provoke and Approach for Developing PET DApp using Blockchain-Based Technology”, which provides a foundation for integrating Privacy-Enhancing Technologies (PETs) in Decentralized Applications (DApps).
 
-3.  We explored the paper titled “Applications of Blockchain Techniques in Pet Adoption 
-Industry” 
-Highlights: 
-• Traditional adoption processes are complex and time-consuming, discouraging potential 
-adopters. 
-• Smart contracts can automate the adoption process, manage data securely, and ensure 
-trustless transactions between pet owners and adopters. 
-• Involves creating a web interface that displays pet profiles with search, registration, and 
-adoption 
-• buttons 
-• Includes a Lost & Found system to report, locate, and return lost pets with 
-incentives for finders. 
-Limitations: 
-• No way to verify authenticity of pet data (e.g., vaccination). 
-• No eligibility checks for adopters (unlike shelters), risking pet safety. 
-• Lost pets may go unreported if found by someone not using the app.
+    **Insights and Relevance:** <br/>
+      • Emphasizes privacy-first designs in blockchain systems <br/>
+      •  Explores Zero-Knowledge Proofs (ZKPs) to ensure user identity protection  <br/>
+      •  Proposes modular DApp architecture using smart contracts and off-chain storage (IPFS)  <br/>
+      •  Encourages user-controlled data access  <br/>
+      
+    **How It Informed Our Project:**  <br/>
+      • On-chain hashed identities protect adopter privacy while ensuring traceable ownership  <br/>
+      • IPFS used for storing documents securely, metadata on-chain  <br/>
+      • Smart contracts automate dog registration, adoption verification, and rewards  <br/>
+      • NFT-based certificates and ERC-20 tokens incentivize responsible adoption <br/>
+
+2. We explored the paper titled “Adoption of pets in distributed network using blockchain technology” which showcases how blockchain can be leveraged to create a secure, transparent, and decentralized framework for pet adoption.
+
+    **Key Takeaways:**  <br/>
+      • Demonstrates how Ethereum smart contracts can automate pet adoption and payment processes. <br/>
+      • Highlights the benefits of a decentralized P2P network to eliminate single points of failure. <br/>
+      • Explains gas costs, transaction execution, and security features of blockchain. <br/>
+      • Emphasizes the immutability of data and secure record-keeping through hash values. <br/>
+      
+    **Project Influence:** <br/>
+      • Inspired the use of smart contracts for automated pet registration and adoption transactions. <br/>
+      • Encouraged the integration of a decentralized ledger for tracking ownership and preventing fraud. <br/>
+      • Guided us to leverage Metamask and Ether for secure, verifiable payments. <br/>
+      • Motivated the design of a transparent adoption process where all transactions are immutable and traceable. <br/>
+
+3.  We explored the paper titled “Applications of Blockchain Techniques in Pet Adoption Industry”
+   
+    **Highlights:** <br/>
+      • Traditional adoption processes are complex and time-consuming, discouraging potential adopters.  <br/>
+      • Smart contracts can automate the adoption process, manage data securely, and ensure trustless transactions between pet owners and adopters. <br/>
+      • Involves creating a web interface that displays pet profiles with search, registration, and adoption buttons <br/>
+      • Includes a Lost & Found system to report, locate, and return lost pets with incentives for finders <br/>
+      
+    **Limitations:** <br/>
+      • No way to verify authenticity of pet data (e.g., vaccination) <br/>
+      • No eligibility checks for adopters (unlike shelters), risking pet safety <br/>
+      • Lost pets may go unreported if found by someone not using the app <br/>
+  
 -----
+
 ### Architectural Diagram
-<img width="804" height="461" alt="image" src="https://github.com/user-attachments/assets/9e5ec5d3-a5e3-4e32-bdf0-93106441c58b" />
+<img width="804" alt="image" src="https://github.com/user-attachments/assets/9e5ec5d3-a5e3-4e32-bdf0-93106441c58b" />
 
 ### Role Structure of the Adoption System
 #### 1. Admin (Contract Owner)
@@ -96,7 +87,6 @@ The Admin is the owner of the main smart contracts (PETToken, Leaderboard, Adopt
   - Interacts directly with blockchain (Remix, or later MetaMask).
   - Not accessible to normal users.
     
-
 #### 2. Adoption Manager
 The Adoption Manager is the layer through which regular users communicate with the blockchain.
 
@@ -110,7 +100,6 @@ The Adoption Manager is the layer through which regular users communicate with t
   Purpose:
   To ensure regular users do not access admin-level functions.
 
-
 #### 3. Users (Non-Contract Role)
 Users are not part of the contract’s permission system but interact through the Adoption Manager.
 
@@ -123,7 +112,6 @@ Users are not part of the contract’s permission system but interact through th
 
 Users do not have direct interaction with the admin functions.
 
-
 ### Results
 
 #### Stakeholder Details
@@ -134,36 +122,27 @@ Users do not have direct interaction with the admin functions.
 | Adoption Manager  | 0x650933554e06a8e02f2e28df3bb805d7a8206cb4 |
 | Token Minting | 0x1f55baa6fd375e254084e27c59f7142f328bb593 |
 
-| Dog register 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)|
-
-| Dog register 2 |(https://sepolia.etherscan.io/tx/0xaf5c0a9b7ee1122fb14b4819fca28c8a458021b7f7e5cada961a4766838042cb)|
-
-| Dog register 3 |(https://sepolia.etherscan.io/tx/0x324f162f75d3b8ef1a6b8970a65e831e52d2416cf6dc8e13e3e94a35da1fdb49)|
-
-| Dog register 4 |(https://sepolia.etherscan.io/tx/0x030a86636bde53e67911b057f910403485cf55c2625d23daa53702913fe4b041)|
-
-| Dog request 1 |(https://sepolia.etherscan.io/tx/0xbd19b2e764c24f5994d3e7e8eacbf26ce48650c14fd9eea49bba03d40f624f05)|
-
-| Dog request 2 |(https://sepolia.etherscan.io/tx/0xbd19b2e764c24f5994d3e7e8eacbf26ce48650c14fd9eea49bba03d40f624f05)|
-
-| Accept request | (https://sepolia.etherscan.io/tx/0x45bee5cadcb7a9a0d0577bdf503d91fd08e9c86b9a65dff7c8779e001dfb6270)|
-
-| Decline request |(https://sepolia.etherscan.io/tx/0x64fac4045d7da11506dd259a45c9b927d09af155f050813d29cb5c81fe8177cb)|
-
-
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contract 1 |(https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4)|
-| Deployment of Contract 2 |(https://sepolia.etherscan.io/address/0xC35712e7F50cfEF21aAC357A5462f945c4055a13)|
-| Deployment of Contract 3 |(https://sepolia.etherscan.io/address/0xb1e4F67521De8B89F79c5674cc993351B19e9807)|
-| Deployment of Contract 4 |(https://sepolia.etherscan.io/address/0x5c38393171732f32e61a0860683a97a41EaE3a58)|
-| Deployment of Contract 5 |(https://sepolia.etherscan.io/address/0x2140136b95CA7f5c6817754D061976Ec4195c023)|
+| Deployment of Contract 1 | [Click Here](https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4) |
+| Deployment of Contract 2 | [Click Here](https://sepolia.etherscan.io/address/0xC35712e7F50cfEF21aAC357A5462f945c4055a13) |
+| Deployment of Contract 3 | [Click Here](https://sepolia.etherscan.io/address/0xb1e4F67521De8B89F79c5674cc993351B19e9807) |
+| Deployment of Contract 4 | [Click Here](https://sepolia.etherscan.io/address/0x5c38393171732f32e61a0860683a97a41EaE3a58) |
+| Deployment of Contract 5 | [Click Here](https://sepolia.etherscan.io/address/0x2140136b95CA7f5c6817754D061976Ec4195c023) |
+| Dog Register 1 | [Click Here](https://sepolia.etherscan.io/address/0x650933554e06A8e02f2e28Df3bb805d7A8206cB4) |
+| Dog Register 2 | [Click Here](https://sepolia.etherscan.io/tx/0xaf5c0a9b7ee1122fb14b4819fca28c8a458021b7f7e5cada961a4766838042cb) |
+| Dog Register 3 | [Click Here](https://sepolia.etherscan.io/tx/0x324f162f75d3b8ef1a6b8970a65e831e52d2416cf6dc8e13e3e94a35da1fdb49) |
+| Dog Register 4 | [Click Here](https://sepolia.etherscan.io/tx/0x030a86636bde53e67911b057f910403485cf55c2625d23daa53702913fe4b041) |
+| Dog Request 1 | [Click Here](https://sepolia.etherscan.io/tx/0xbd19b2e764c24f5994d3e7e8eacbf26ce48650c14fd9eea49bba03d40f624f05) |
+| Dog Request 2 | [Click Here](https://sepolia.etherscan.io/tx/0xbd19b2e764c24f5994d3e7e8eacbf26ce48650c14fd9eea49bba03d40f624f05) |
+| Accept Request | [Click Here](https://sepolia.etherscan.io/tx/0x45bee5cadcb7a9a0d0577bdf503d91fd08e9c86b9a65dff7c8779e001dfb6270) |
+| Decline Request | [Click Here](https://sepolia.etherscan.io/tx/0x64fac4045d7da11506dd259a45c9b927d09af155f050813d29cb5c81fe8177cb) |
 
-
-These transaction are as shown in the [https://youtu.be/mAR-Yb5Ps4Q] 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/mAR-Yb5Ps4Q)
 
 ------
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
@@ -181,6 +160,7 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
+
 
 
 
