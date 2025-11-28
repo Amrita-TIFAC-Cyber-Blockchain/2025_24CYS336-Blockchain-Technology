@@ -39,8 +39,7 @@ Previous research has tested various pricing strategies—like real-time pricing
 
 The architectural diagram of the **Blockchain-Based Multi-Energy System** is shown below.
 <p align="center">
- <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2fd8c451-c504-4b71-bbde-9240226c7e17" />
-
+ <img width="800" alt="image" src="https://github.com/user-attachments/assets/2fd8c451-c504-4b71-bbde-9240226c7e17" />
 </p>
 
 #### Architecture Description
@@ -117,9 +116,10 @@ Below is the simple step-by-step workflow of the `MultiEnergyBlocks` contract:
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contract |   https://sepolia.etherscan.io/tx/0x7eab1d7bb5f2e5d1929348944b32d9679c0e7f23c12099c01deb60e64ba060db   |
+| Deployment of Contract |   [Click Here](https://sepolia.etherscan.io/tx/0x7eab1d7bb5f2e5d1929348944b32d9679c0e7f23c12099c01deb60e64ba060db) |
 
-These transaction are as shown in the [https://youtu.be/rVMWrXd1If4]() 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/rVMWrXd1If4)
 
 ###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -147,6 +147,7 @@ These transaction are as shown in the [https://youtu.be/rVMWrXd1If4]()
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
+
 
 
 
