@@ -18,9 +18,8 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 
 -----
 
-
 ### Literature Survey 
-### Paper 1: Digital Identity Management System Using Blockchain  
+#### Paper 1: Digital Identity Management System Using Blockchain  
 **Authors:** Sulochana Devi, Shrineeth Kotian, Manish Kumavat, Dixit Patel  
 
 **Key Insights:**  
@@ -34,7 +33,7 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 - Inspired the use of **hashed data** for privacy protection.  
 - Reinforced our model for **user-controlled consent**.
 
-### Paper 2: Digital Identity Using Blockchain Technology  
+#### Paper 2: Digital Identity Using Blockchain Technology  
 **Authors:** Alexandru-Cristian Careja, Nicolae Tapus  
 
 **Key Insights:**  
@@ -46,7 +45,7 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 - Influenced our use of **cryptographic signatures**.  
 - Guided the decision to store only **references/hashes** on-chain.
 
-### Paper 3: How Digital Identity on Blockchain Can Contribute in a Smart City Environment  
+#### Paper 3: How Digital Identity on Blockchain Can Contribute in a Smart City Environment  
 **Authors:** Robledo, Rivera, Avalos, Larios  
 **Affiliation:** Universidad de Guadalajara, IBM Mexico  
 
@@ -59,17 +58,13 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 - Expanded our focus to **urban governance** applications.  
 - Validated the **system-level impact** and **long-term relevance** of our work.  
 
-
 ------
-
 
 ### Architectural Diagram
 
-<img width="2816" height="1444" alt="flowchart" src="https://github.com/user-attachments/assets/1420c936-0311-48a7-81f1-319fcc549828" />
-
+<img width="2816" alt="flowchart" src="https://github.com/user-attachments/assets/1420c936-0311-48a7-81f1-319fcc549828" />
 
 ------
-
 
 ### Results
 
@@ -102,7 +97,8 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 | Dean changes Registrar | [0x10a3977f0fd056db33e15ef0319aebff2d26586383bef9cbc8f5ed29f1cf60b6](https://sepolia.etherscan.io/tx/0x10a3977f0fd056db33e15ef0319aebff2d26586383bef9cbc8f5ed29f1cf60b6) |
 | Dean can only change Dean | [0x45395b82c4a1cdf6e49bdb6f0fa579cfd99c4385c96a36bba1dd6db5371ec105](https://sepolia.etherscan.io/tx/0x45395b82c4a1cdf6e49bdb6f0fa579cfd99c4385c96a36bba1dd6db5371ec105) |
 
-These transaction are as shown in the [YouTube Demo Video](https://youtu.be/_LLnanOCrpU?si=Mo1TR-GtxKPGIFTT) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/_LLnanOCrpU?si=Mo1TR-GtxKPGIFTT)
 
 ------
 
@@ -116,9 +112,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/_LLn
 | Goal 8 - Decent Work and Economic Growth | A Self-Sovereign Identity (SSI) system streamlines hiring and credential verification, reducing friction in the labor market. It empowers individuals to easily prove their qualifications, promoting a merit-based workforce and enabling smoother participation in the modern and gig economies.  |
 | Goal 1 - No Poverty | A secure and accessible digital identity is crucial for financial inclusion. It enables marginalized populations to access bank accounts, credit, and government social safety nets securely and efficiently, ensuring that aid reaches the intended recipients and providing a pathway out of poverty.  |
 
-
 -----
-
 
 ### References
 
@@ -133,12 +127,6 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/_LLn
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
-
-
-
-
-
-
 
 
 
