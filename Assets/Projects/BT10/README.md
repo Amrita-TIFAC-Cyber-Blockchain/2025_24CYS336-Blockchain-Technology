@@ -2,7 +2,7 @@
 
 ## BT#10 - A Blockchain-Guarded AI Diagnosis Platform with Patient-Controlled EHR Access and Gas Price Prediction
 
-![](https://img.shields.io/badge/Member-Rithiik_S-red)  <br/> 
+![](https://img.shields.io/badge/Member-Rithiik_S-gold)  <br/> 
 ![](https://img.shields.io/badge/SDG-3-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen)    <br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
@@ -13,14 +13,12 @@ Despite the advancements in digital healthcare, the current systems have a hard 
 
 
 -----
-#  Literature Survey — AI and Blockchain for E-Health
+###  Literature Survey — AI and Blockchain for E-Health
 
-##  Overview
+####  Overview
 This literature survey explores how **Artificial Intelligence (AI)** and **Blockchain** technologies are combined to enhance **security, transparency, and efficiency** in healthcare systems, especially for **Electronic Health Records (EHR)** and **medical decision support**. The goal is to ensure **data integrity**, **privacy**, and **cost-effective** management of sensitive health information.
 
----
-
-##  Existing Research
+####  Existing Research
 
 Recent research has focused on integrating blockchain with AI to make healthcare systems more secure and intelligent.  
 Alabdulatif et al. (2023) proposed a framework that uses blockchain to record AI-generated medical predictions, making them **tamper-proof and auditable**. This ensures that doctors and auditors can verify that no data or AI decision has been altered. Their model also uses **access control mechanisms** through smart contracts to restrict access to EHRs only for authorized users, improving **trust and accountability** in AI-based healthcare systems.
@@ -29,9 +27,7 @@ Similarly, Mandarino et al. (2024) developed a **blockchain-based EHR system** t
 
 Together, these studies demonstrate that combining **AI, blockchain, and edge computing** can deliver a healthcare system that is **secure, fast, auditable, and scalable**, addressing key challenges like data privacy, transparency, and cost.
 
----
-
-##  Common Design Insights
+####  Common Design Insights
 
 1. **Data Security through Blockchain**
    - Store patient records off-chain (encrypted) and keep only hashes or summaries on-chain.
@@ -47,9 +43,7 @@ Together, these studies demonstrate that combining **AI, blockchain, and edge co
 4. **Transparency and Auditability**
    - Every medical action or AI decision can be logged as a blockchain transaction, providing **traceability** and **integrity**.
 
----
-
-##  Comparison
+####  Comparison
 
 | Feature | Alabdulatif et al. (2023) | Mandarino et al. (2024) |
 |----------|---------------------------|---------------------------|
@@ -58,8 +52,7 @@ Together, these studies demonstrate that combining **AI, blockchain, and edge co
 | Goal | Data integrity & audit | Speed & cost reduction |
 | Use Case | Secure medical AI system | Scalable hospital EHR |
 
----
-##  Implications 
+####  Implications 
 
  Developing blockchain or AI-based healthcare projects:
 - Use **Blockchain** for storing access logs and verification records.  
@@ -69,9 +62,8 @@ Together, these studies demonstrate that combining **AI, blockchain, and edge co
 
 These approaches not only enhance **security and scalability** but also align your project with **real-world healthcare needs**.
 
----
 
-##  Comparative Summary
+####  Comparative Summary
 
 | Aspect | Combined Research Focus |
 |--------|--------------------------|
@@ -81,14 +73,11 @@ These approaches not only enhance **security and scalability** but also align yo
 | **Access Control** | Smart contracts with roles and permissions |
 | **Use Cases** | EHR management, AI-assisted diagnosis, real-time data sharing |
 
----
-
-
 -----
 ### Architectural Diagram
-<img width="3006" height="1375" alt="github_blockchain" src="https://github.com/user-attachments/assets/faea006f-8fa3-4354-bcfc-0754f6f1d1bd" />
-
-
+<p align="center">
+<img width="3000" alt="github_blockchain" src="https://github.com/user-attachments/assets/faea006f-8fa3-4354-bcfc-0754f6f1d1bd" />
+</p>
 
 ------
 ###  Proposed System Architecture (Workflow Explanation)
@@ -96,7 +85,6 @@ These approaches not only enhance **security and scalability** but also align yo
 The proposed system integrates **Artificial Intelligence (AI)**, **Blockchain**, and **Edge Computing** to create a **secure, efficient, and transparent healthcare system**.  
 It ensures that patient health data and AI-based medical predictions are **tamper-proof, traceable, and accessible only to authorized users**.
 
----
 
 ####  **Workflow Steps**
 
@@ -121,7 +109,6 @@ It ensures that patient health data and AI-based medical predictions are **tampe
    - Every action (data upload, access, or update) is recorded as a **blockchain transaction**, creating a permanent **audit trail**.  
    - This ensures accountability and helps trace the origin of every medical decision or data change.
 
----
 
 ####  **System Components**
 
@@ -133,7 +120,6 @@ It ensures that patient health data and AI-based medical predictions are **tampe
 | **Smart Contracts** | Handle data access policies, authentication, and consent management. |
 | **Off-Chain Storage** | Stores encrypted EHR and large medical files (HIPAA/GDPR compliant). |
 
----
 
 ####  **Key Advantages**
 -  **Security:** Immutable records ensure data cannot be altered or deleted.  
@@ -150,9 +136,9 @@ It ensures that patient health data and AI-based medical predictions are **tampe
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner(Patient)  |  [0x149ee3612e9386ec587e964a34b67aaffdaaf708](https://sepolia.etherscan.io/address/0x149ee3612e9386ec587e964a34b67aaffdaaf708)|  
+| Owner (Patient)  |  [0x149ee3612e9386ec587e964a34b67aaffdaaf708](https://sepolia.etherscan.io/address/0x149ee3612e9386ec587e964a34b67aaffdaaf708)|  
 | Doctor1 | [0xb25e515a8d64976d46483e329d5508667a6295be](https://sepolia.etherscan.io/address/0xb25e515a8d64976d46483e329d5508667a6295be)|
-| Doctor2|  [0xd64deEd9710f0b2Be9eb7EB04caB040b8E3CD7d3](https://sepolia.etherscan.io/address/0xd64deed9710f0b2be9eb7eb04cab040b8e3cd7d3)| 
+| Doctor2 |  [0xd64deEd9710f0b2Be9eb7EB04caB040b8E3CD7d3](https://sepolia.etherscan.io/address/0xd64deed9710f0b2be9eb7eb04cab040b8e3cd7d3)| 
 
 #### Transaction Details
 
@@ -160,13 +146,15 @@ It ensures that patient health data and AI-based medical predictions are **tampe
 |:---------------------|:------:|
 | AIDiagnosisContract |  [0xa2ab57ee41475aad9f8c832b6717ea97084894dd26e652b71d1be48e990eb317](https://sepolia.etherscan.io/tx/0xa2ab57ee41475aad9f8c832b6717ea97084894dd26e652b71d1be48e990eb317)    |
 | EHRControlContract | [0x5f3aef09d02d6a9faafb3baa7d30c8d1446a63d3ac3cf17232c89045eb64a00c](https://sepolia.etherscan.io/tx/0x5f3aef09d02d6a9faafb3baa7d30c8d1446a63d3ac3cf17232c89045eb64a00c)|
-| Ownable(Transfer Ownership)| [0xcd6630239f8daa1224086f2a403e6d2815425369344fcb39278d8c99e07ac95e](https://sepolia.etherscan.io/tx/0xcd6630239f8daa1224086f2a403e6d2815425369344fcb39278d8c99e07ac95e)|
-|Granting access to Doctor| [0x78c0a76dc7b9497377c109a8d5dc4df431583991ae843a75ecd91504511a8d93](https://sepolia.etherscan.io/tx/0x78c0a76dc7b9497377c109a8d5dc4df431583991ae843a75ecd91504511a8d93)|
-|Revoke access to Doctor| [0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3](https://sepolia.etherscan.io/tx/0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3)|
-|RunOnChainPrediction| [0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d](https://sepolia.etherscan.io/tx/0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d)|
+| Ownable (Transfer Ownership)| [0xcd6630239f8daa1224086f2a403e6d2815425369344fcb39278d8c99e07ac95e](https://sepolia.etherscan.io/tx/0xcd6630239f8daa1224086f2a403e6d2815425369344fcb39278d8c99e07ac95e)|
+| Granting access to Doctor| [0x78c0a76dc7b9497377c109a8d5dc4df431583991ae843a75ecd91504511a8d93](https://sepolia.etherscan.io/tx/0x78c0a76dc7b9497377c109a8d5dc4df431583991ae843a75ecd91504511a8d93)|
+| Revoke access to Doctor| [0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3](https://sepolia.etherscan.io/tx/0xf8b626f68a9b397711cc4aef05b20f2906f48550b1ae5265d16d5ed86722a2a3)|
+| RunOnChainPrediction| [0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d](https://sepolia.etherscan.io/tx/0x9fbe4bd26708818b95c58a88b4a2b7d34461599626e71322eeda861d2c112f2d)|
 
-These transaction are as shown in the [YouTube Demo Video](https://youtu.be/qTwAIpuDvuw) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/qTwAIpuDvuw)
 
+---
 ###  Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 This project combining **Artificial Intelligence (AI)** and **Blockchain** for secure Electronic Health Records (EHR) and medical decision support — aligns with multiple **United Nations Sustainable Development Goals (SDGs)**. The system promotes transparency, efficiency, and equity in healthcare delivery through technology.
@@ -178,24 +166,9 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 | **SDG 10 – Reduced Inequalities** | Reduce inequality within and among countries. | Secure digital health platforms allow **equal access to trusted healthcare data**, especially for patients in rural or underdeveloped regions. |
 | **SDG 16 – Peace, Justice, and Strong Institutions** | Promote just, peaceful, and inclusive societies. | Blockchain’s **transparency and immutability** enhance trust in medical systems, supporting ethical data use and responsible health governance. |
 
----
 -----
+
 ### References
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
