@@ -31,19 +31,14 @@ To overcome this, modern research adopts a hybrid blockchain + IPFS architecture
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-| Owner  | 0xF5c3938cC94B1fdE9170920F2B3f86b196A35163 |
+| Owner  | 0x8D3838b5eE34AA59Bd98Df03F07aF2CA8758C064 |
 
-#### Transaction Details
 
-| Transaction Action   | Hash   |
-|:---------------------|:------:|
-| Deployment of Contracts - Migrations | 0x956e28f48e902571306e939c10c669593f54b24b2f5f4896c627df2762b4a213 |
-| Deployment of Contracts - AssetNFT | 0xc6f9d124b1c1b5229bf47ac5c62a3f303b38906f0737d07d1e34e683682da4df |
-| Deployment of Contracts - Fractionalizer | 0x9e494c53a3c5c86a80b6ca179034b389464042d5f2e2b8bfb20a092e2504cc4e |
-| Deployment of Contracts - Marketplace | 0x3c0386ee72c053183bf3c40242e363036fc39fed398272560e0fd2c99a860058 |
-| Deployment of Contracts - Registry | 0xba4e356150a9b226050d77bead27e85c868f890143159149972582c9c538dc73 |
+These transactions are as shown in the 
+[YouTube Demo Video](https://youtu.be/EPGPfOTBl3E)
 
-These transaction are as shown in the [YouTube Demo Video]() 
+[![Demo Video](https://img.youtube.com/vi/EPGPfOTBl3E/maxresdefault.jpg)](https://youtu.be/EPGPfOTBl3E)
+
 
 ------
 
@@ -60,6 +55,7 @@ These transaction are as shown in the [YouTube Demo Video]()
 
 **Pandiyaraj, A., & Narayanan, P. (2023). Evidence Protection System Using Blockchain Technology.  
 Amrita Vishwa Vidyapeetham.**
+
 
 
 
