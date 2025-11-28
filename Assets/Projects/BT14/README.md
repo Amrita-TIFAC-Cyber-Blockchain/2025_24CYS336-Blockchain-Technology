@@ -1,37 +1,37 @@
 # 24CYS336 - Blockchain-Technology 
 
-## BT#14 - PatientManagementSystem
+## BT#14 - Patient Management System
 ![](https://img.shields.io/badge/Member-Duvvuru_Akshaya_Saketh_Reddy-gold) ![](https://img.shields.io/badge/Member-Shyam-gold)  <br/> 
 ![](https://img.shields.io/badge/SDG-3-darkgreen)  ![](https://img.shields.io/badge/SDG-9-darkgreen)  ![](https://img.shields.io/badge/SDG-16-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-17th_Nov_2025-brown) <br/>
 
 ------
 
-### Problem Statement :-
+### Problem Statement
 
-#### Vulnerability to Hacking and Database Breaches :
+#### Vulnerability to Hacking and Database Breaches:
 Most hospitals store patient data in centralized electronic databases, which are prime targets for cyberattacks. Real-world incidents (e.g., the 2017 Cosmetic Institute and medical Amazon database breaches) show how unauthorized parties can hack and leak sensitive medical records.
 
-#### Mutable and Alterable Medical Records :
+#### Mutable and Alterable Medical Records:
 Traditional systems allow users with sufficient privileges to alter or delete medical records, often without a clear audit trail. This increases the risk of data tampering and medical fraud.
 
-#### Lack of Trust in Data Provenance :
+#### Lack of Trust in Data Provenance:
 When doctors upload medical records, there's often no robust, tamper-evident way to verify when, how, or by whom the data was entered. This lack of transparency undermines trust in data authenticity.
 
-#### No True Patient Ownership or Immediate Access :
+#### No True Patient Ownership or Immediate Access:
 Hospitals legally own and control medical records. Patients often face slow, complicated, and incomplete processes when trying to access their own data.
 
-#### Fragmented, Siloed, and Non-Interoperable Data :
+#### Fragmented, Siloed, and Non-Interoperable Data:
 Medical records are scattered across institutions using different data standards and formats. This fragmentation prevents a unified view of a patient's medical history and leads to redundant testing and missed critical information.
 
-#### Restricted Data Sharing and Lack of Patient Control :
+#### Restricted Data Sharing and Lack of Patient Control:
 Patients have little control over who can access their data. Record sharing between hospitals is cumbersome, rarely automated, and often blocked by policy or cost constraints.
 
-#### Data Integrity Risks and Lack of Audit Trail :
+#### Data Integrity Risks and Lack of Audit Trail:
 There is limited ability to track who accessed or modified records, making compliance verification and security audits difficult and unreliable.
 
 -----
-### Literature Survey :-
+### Literature Survey
 
 Centralized storage of medical records is common in most hospitals today. This approach makes sensitive patient data a target for hacking and unauthorized access. There have been real cases where databases have been breached, exposing confidential records. Additionally, in traditional systems, those with special access can alter or delete records without leaving a clear trace, making it hard to prove data integrity or trace any changes made to patient information.
 
@@ -43,11 +43,11 @@ Blockchain technology offers an effective solution to these problems. It enables
 -----
 ### Architectural Diagram :-
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/5f4f2cfc-e258-4126-b3c3-1f6b5984a865" />
+<p align="center">
+  <img width="750" alt="image" src="https://github.com/user-attachments/assets/5f4f2cfc-e258-4126-b3c3-1f6b5984a865" />
+</p>
 
 ------
-
-
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 This project aligns primarily with SDG 3: Good Health and Well-Being, as it enhances healthcare delivery by ensuring secure, reliable, and tamper-proof access to medical records. By improving accuracy, reducing medical errors, and increasing patient access to their own data, the system supports better clinical outcomes and patient empowerment.
@@ -72,16 +72,17 @@ The project also supports SDG 16: Peace, Justice, and Strong Institutions, as it
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |   https://sepolia.etherscan.io/tx/0x20d7acb825521fb13745117b1f6d935b159079a2e86a7dafcb72093a8e8b2e32   |
-| Registering Patient | https://sepolia.etherscan.io/tx/0x20d7acb825521fb13745117b1f6d935b159079a2e86a7dafcb72093a8e8b2e32     |
-| Registering Dockter | https://sepolia.etherscan.io/tx/0x4ff2b40241832a7d57c6bfdb9932dec1024f18d47a9fd90c4dc3c3578a13c48e     |
-| Uploading Patient Record By Patient | https://sepolia.etherscan.io/tx/0x4ff2b40241832a7d57c6bfdb9932dec1024f18d47a9fd90c4dc3c3578a13c48e     |
-| Viewing Records By Patient | https://sepolia.etherscan.io/tx/0x4a73ba169ab0334cf72f70047c2326eaa9f34569e345396ad008403c06454544     |
-| Grant Access to View Patient Records | https://sepolia.etherscan.io/tx/0x45104737f1493504d93b1b581501c1853e8d979b566a4a6fa89d964cac9ecf46      |
-| Viewing Patient Records By Docter | https://sepolia.etherscan.io/tx/0x51ae7de78f0e5f8b7db3382f6daf9c1f77dd716e778619a91ce5b739b0af18f2     |
-| Adding Patient Record By Docter | https://sepolia.etherscan.io/tx/0x4fc3ede3049fd45913e760da1c82c6e4f71ae150ebfe44890d8e626910ed99f6    |
+| Deployment of Contracts | [Click Here](https://sepolia.etherscan.io/tx/0x20d7acb825521fb13745117b1f6d935b159079a2e86a7dafcb72093a8e8b2e32)   |
+| Registering Patient | [Click Here](https://sepolia.etherscan.io/tx/0x20d7acb825521fb13745117b1f6d935b159079a2e86a7dafcb72093a8e8b2e32) |
+| Registering Dockter | [Click Here](https://sepolia.etherscan.io/tx/0x4ff2b40241832a7d57c6bfdb9932dec1024f18d47a9fd90c4dc3c3578a13c48e)  |
+| Uploading Patient Record By Patient | [Click Here](https://sepolia.etherscan.io/tx/0x4ff2b40241832a7d57c6bfdb9932dec1024f18d47a9fd90c4dc3c3578a13c48e) |
+| Viewing Records By Patient | [Click Here](https://sepolia.etherscan.io/tx/0x4a73ba169ab0334cf72f70047c2326eaa9f34569e345396ad008403c06454544) | 
+| Grant Access to View Patient Records | [Click Here](https://sepolia.etherscan.io/tx/0x45104737f1493504d93b1b581501c1853e8d979b566a4a6fa89d964cac9ecf46)  |
+| Viewing Patient Records By Docter | [Click Here](https://sepolia.etherscan.io/tx/0x51ae7de78f0e5f8b7db3382f6daf9c1f77dd716e778619a91ce5b739b0af18f2) |
+| Adding Patient Record By Docter | [Click Here](https://sepolia.etherscan.io/tx/0x4fc3ede3049fd45913e760da1c82c6e4f71ae150ebfe44890d8e626910ed99f6) |
 
-These transaction are as shown in the [YouTube Demo Vide](https://youtu.be/H3lLaxPKYOM) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/H3lLaxPKYOM)
 
 ------
 
@@ -115,6 +116,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
