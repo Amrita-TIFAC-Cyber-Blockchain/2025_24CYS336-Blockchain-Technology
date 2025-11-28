@@ -11,16 +11,16 @@
 ------
 
 ### Problem Statement
-A Digital twin is a virtual copy of a physical asset like a machine,sensor or any device(all the functionaliites of the physical asset can be done by the virtual one - simulate the behavior of the real one). It is mainly used to monitor and analyse the real-world physical asset. Thus by analysing the behavior of the virtual copy, we can analyse the current status of the device and make decisions that could improve performance and also prevent future failures in the system. 
+A Digital twin is a virtual copy of a physical asset like a machine, sensor or any device (all the functionaliites of the physical asset can be done by the virtual one - simulate the behavior of the real one). It is mainly used to monitor and analyse the real-world physical asset. Thus by analysing the behavior of the virtual copy, we can analyse the current status of the device and make decisions that could improve performance and also prevent future failures in the system. 
 
 The major challenges faced in these systems are:
-1)Digital twin data can be modified or tampered. Ex: The reading from a temperature sensor can be changed from the original.
-2)Ownership issues like which party own the Digital twin, when the asset is shared among different stakeholders. 
+    1. Digital twin data can be modified or tampered. Ex: The reading from a temperature sensor can be changed from the original.
+    2. Ownership issues like which party own the Digital twin, when the asset is shared among different stakeholders. 
 
 Therefore the problem is to provide a secure,transperant and immutable data logging for the Digital Twin, so the the data cannot be tampered providing data integrity where the ownership is protected.
 
-
 -----
+
 ### Literature Survey 
 Many studies have been done on Digital Twin systems to improve trust and security. The two main challenges most of the papers talk about are how to protect the twin data from tampering and how to show who owns the Digital Twin. Some papers use blockchain to secure the data while others use NFT for ownership.
 
@@ -44,7 +44,10 @@ This way, the proposed integration provides a secure, transparent, and trustable
 
 -----
 ### Architectural Diagram
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/056d9ce7-ef78-4641-86a1-339a38de0def" />
+
+<p align="center">
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/056d9ce7-ef78-4641-86a1-339a38de0def" />
+</p>
 
 The architecture contains four main parts: the physical asset, digital twin, blockchain, and off-chain storage. The physical asset sends data to the twin, which generates a hash and sends it to blockchain for verification. The blockchain records this hash with time and metadata using a smart contract. The off-chain storage keeps the actual twin data. Each digital twin is linked to an NFT which shows its ownership.
 
@@ -70,7 +73,10 @@ The architecture contains four main parts: the physical asset, digital twin, blo
 | Add Twin data(2) | [0x678c52d1e743489d52397fa2e56b6d23e330f26d2107ba8b7f3aec2ea53d525d](https://sepolia.etherscan.io/tx/0x678c52d1e743489d52397fa2e56b6d23e330f26d2107ba8b7f3aec2ea53d525d) |
 | Ownership Transfer | [0x07f559b196353f516ee80fdedc4245dac8a5609dc2c6c9df77b8f8b429747822](https://sepolia.etherscan.io/tx/0x07f559b196353f516ee80fdedc4245dac8a5609dc2c6c9df77b8f8b429747822) |
 
-These transaction are as shown in the [YouTube Demo Video](https://www.youtube.com/watch?v=vUbUnmFjodM) 
+#### Demo Video
+The Demo Video is available [here](https://www.youtube.com/watch?v=vUbUnmFjodM)
+
+------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 SDG 9: Industry, Innovation, and Infrastructure: Fosters industrial innovation and resilient infrastructure through predictive maintenance and optimized asset management.
@@ -90,24 +96,4 @@ SDG 17: Partnerships for the Goals: Facilitates partnerships by providing a secu
 - Nielsen, C. P., Andersen, S. B., & Pop, O. (2020). Digital twin and blockchain: Proof of concept. Procedia CIRP, 93, 291–296. https://doi.org/10.1016/j.procir.2020.04.045
 
 - Teisserenc, B., & Sepasgozar, S. (2021). Digital twin non-fungible token (DT-NFT): A token-based data ownership model for the AEC industry. Automation in Construction, 132, 103940. https://doi.org/10.1016/j.autcon.2021.103940
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
