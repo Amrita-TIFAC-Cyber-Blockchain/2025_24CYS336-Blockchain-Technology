@@ -30,17 +30,18 @@ Financial Inclusivity: The platform offers small-scale farmers improved access t
 
 Proposed System: The paper outlines a web-based system where farmers can register, get loans, insure crops, and get paid instantly. The system also allows buyers to connect directly with farmers, ensuring authenticity and traceability. The system proposes a "Proof-of-Farmer Algorithm" to validate transactions and enhance security.
 
-
-
- Takeaways
+Takeaways
 This paper establishes a transformative model for the agricultural sector by integrating DeFi and Ethereum smart contracts. The research demonstrates that this approach can significantly improve financial inclusivity and market access for small-scale farmers by providing a transparent, secure, and decentralized platform for financial services and supply chain management. It effectively addresses traditional challenges like supply chain inefficiencies, data opacity, and limited access to financial resources. The findings suggest that this framework has the potential to create a more resilient, efficient, and equitable agricultural landscape.
 
 
 
 -----
-### Architectural Diagram:
-<img width="940" height="734" alt="image" src="https://github.com/user-attachments/assets/553502aa-5068-4235-8344-d03026834716" />
 
+### Architectural Diagram:
+
+<p align="center">
+  <img width="780"  alt="image" src="https://github.com/user-attachments/assets/553502aa-5068-4235-8344-d03026834716" />
+</p>
 
 
 ### Results
@@ -54,14 +55,14 @@ This paper establishes a transformative model for the agricultural sector by int
 |  Lender    | 0x2722f8c8f31cb1fea6ec13b383cb76e6f2282823 | 
 |  Insurance | 0x2722f8c8f31cb1fea6ec13b383cb76e6f2282823 | 
 
-
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts | 0x1c69592a483689d7e4fb892f276cd6942ac08ce6     |
+| Deployment of Contracts | 0x1c69592a483689d7e4fb892f276cd6942ac08ce6 |
 
-These transaction are as shown in the [YouTube Demo Video]() 
+#### Demo Video
+The Demo Video is available [here](https://www.youtube.com/watch?v=)
 
 ------
 
@@ -70,26 +71,14 @@ These transaction are as shown in the [YouTube Demo Video]()
 Goal 1 – No Poverty
 Through blockchain-based DeFi lending, the project removes middlemen and reduces transaction costs, allowing underserved communities (like small-scale farmers) to access affordable credit and improve financial resilience.
 
-
 Goal 2 – Decent Work and Economic Growth
 By enabling peer-to-peer financing and tokenized asset trading via decentralized exchange infrastructure (DEXI), the project creates an open, merit-based financial system that promotes entrepreneurship, job creation, and rural economic growth.
 
-
 Goal 3 – Industry, Innovation, and Infrastructure
 The integration of blockchain, smart contracts, and decentralized storage builds a secure and modern digital financial infrastructure, fostering innovation in agricultural financing and asset management.
-
-
-
 
 -----
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
-
-
-
-
-
-
-
 
