@@ -46,7 +46,7 @@ In conclusion, there is a clear and pressing need for a decentralised credential
  In [5], Rahman et al. proposed Verifi-Chain, a semi-decentralised proof-of-concept for credential verification that incorporates a human-in-the-loop pre-verification process, where a trusted administrator manually verifies submitted credentials with the issuing entity, uploads verified documents to IPFS to obtain a CID, and anchors the CID on-chain. The system employs tiered access control that allows applicants to accept or reject employer view requests, maintaining applicant privacy and offering direct control over sharing. While this does involve a centralised verification actor, the pre-verification process significantly mitigates fraud risk through limiting recording on the immutable ledger to pre-checked documents only.
  
 -----
-## Project Description
+### Project Description
 
 The NFT-Based Educational Credential Verification System is a blockchain-powered platform designed to issue, store, and verify academic certificates in a secure, tamper-proof, and decentralised manner. Traditional certificate systems rely heavily on centralised storage, manual verification, and physical documentation, thus making them vulnerable to forgery, loss, and inefficient validation processes. This project addresses these challenges by leveraging the Ethereum blockchain, Non-Fungible Tokens (NFTs), and IPFS decentralised storage to provide an immutable and verifiable credentialing system.
 
@@ -57,45 +57,45 @@ Students receive certificates directly into their wallets, enabling them to show
 By combining decentralised identity, cryptographic guarantees, and transparent verification, this system provides a modern, trustworthy, and efficient alternative to traditional academic credential workflows.
 
 -----
-## Project Features
+### Project Features
 
-### Authentication & Authorization
+#### Authentication & Authorization
 - JWT-based login system 
 - Role-based access control (Admin / Institution / Student)
 - Auto wallet verification with MetaMask
 
-### Admin Functionalities
+#### Admin Functionalities
 - Approve/remove institutions
 - View registered institutions
 - Monitor on-chain transactions
 
-### Institution Functionalities
+#### Institution Functionalities
 - Issue certificate NFTs to students
 - Upload certificate files to IPFS
 - Store metadata & txHash in backend
 - Revoke certificates on-chain
 - View all issued certificates
 
-### Certificate NFT (Soulbound)
+#### Certificate NFT (Soulbound)
 - Non-transferable ERC721 token  
 - On-chain minting  
 - On-chain burning (revocation)  
 - Verifiable IPFS metadata  
 - Issuer-locked permissions  
 
-### Verification
+#### Verification
 - Anyone can verify an NFT certificate by:
   - Token ID  
   - Wallet address  
   - IPFS metadata  
   - Event logs  
 
-### IPFS Integration (Pinata)
+#### IPFS Integration (Pinata)
 - File upload (PDF, PNG, JPEG)
 - JSON metadata upload
 - `ipfs://` URIs managed properly  
 
-### Frontend-Blockchain Sync
+#### Frontend-Blockchain Sync
 - Ethers.js for contract calls
 - Event log parsing for tokenId
 - Auto wallet mismatch detection
@@ -122,12 +122,11 @@ Benefits:
 - Transparent issuance & revocation history
 
 -----
-## Architectural Diagram
-<img width="446" height="390" alt="image" src="https://github.com/user-attachments/assets/e4cafd22-e873-484f-ade3-5b0cbdd539bc" />
+### Architectural Diagram
 
-------
-### Demonstration of the Project - https://www.youtube.com/watch?v=ShZQGLJPrXU
------
+<p align="center">
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/e4cafd22-e873-484f-ade3-5b0cbdd539bc" />
+</p>
 
 ### Novelty of the System:
 - Soulbound NFTs ensure non-transferable academic credentials.
@@ -136,22 +135,18 @@ Benefits:
 - On‑chain revocation offers tamper‑proof auditability.
 - Employer‑friendly public verification removes intermediaries.
 
-
-
 -----
-## System Workflow
+### System Workflow
 
-### 1. Admin Workflow
+#### 1. Admin Workflow
 1. Admin logs in and connects to MetaMask.  
 2. Admin registers institutions through `addInstitution()`.  
 3. Admin can remove institutions via `removeInstitution()`.  
 4. Backend syncs institution approval status in MongoDB.
 
----
+#### 2. Institution Workflow
 
-### 2. Institution Workflow
-
-#### A. Issuing Certificates
+##### A. Issuing Certificates
 1. Institution logs in and connects to MetaMask.  
 2. Institution uploads the certificate file to the frontend.  
 3. Backend uploads file/metadata to Pinata → returns IPFS URI.  
@@ -159,22 +154,22 @@ Benefits:
 5. Smart contract mints an NFT certificate to the student's wallet.  
 6. Frontend sends minted certificate details to backend for DB storage.
 
-#### B. Revoking Certificates
+##### B. Revoking Certificates
 1. Institution enters tokenId + reason.  
 2. Institution confirms MetaMask transaction calling `revokeCertificate()`.  
 3. Smart contract burns the token and emits a revocation event.  
 4. Frontend updates backend to mark certificate as revoked in DB.
 
----
-
-### 3. Student Workflow
+#### 3. Student Workflow
 1. Student logs in to view all received certificates.  
 2. Frontend fetches certificate data from backend.  
 3. Frontend loads IPFS metadata (JSON + certificate file).  
 4. Verification is performed on-chain using tokenURI and issuer lookups.
 
 ------
-## Deployed Contract & Wallet Addresses 
+### Results
+
+#### Stakeholder Address
 
 | Role / Purpose | Address | 
 |-----------------------|---------|
@@ -186,33 +181,36 @@ Benefits:
 | **Student 2 Wallet** | 0x71572605e7ce981265be0797c72826444a91d8c6 | 
 | **Contract Address** | 0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a |
 
+#### Demo Video
+The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
+
 ------
 
-## Tech Stack
+### Tech Stack
 
-### Frontend
+#### Frontend
 - React.js
 - Ethers.js 
 - MetaMask API
 
-### Backend
+#### Backend
 - Node.js
 - Express.js
 - JWT Authentication
 - Multer (for file processing)
 - bcrypt.js (password hashing)
 
-### Database
+#### Database
 - MongoDB Atlas
 
-### Blockchain
+#### Blockchain
 - Solidity (v0.8.x)
 - Ethereum Sepolia Testnet
 - OpenZeppelin Contracts v5.4.0
 - Remix (deployment & debugging)
 - MetaMask wallet
 
-### Storage
+#### Storage
 - Pinata IPFS
 - IPFS Metadata (JSON + file)
 
@@ -235,17 +233,3 @@ Benefits:
 - Khati, P., Shrestha, A. K., & Vassileva, J. (2023, July). Student certificate sharing system using blockchain and nfts. In International Congress on Blockchain and Applications (pp. 61-70). Cham: Springer Nature Switzerland.
 - Kumar, N. N., Kumar, R. S., Basale, R. R., & Saffath, M. (2022, January). Decentralized storage of educational assets using NFTs and blockchain technology. In 2022 4th international conference on smart systems and inventive technology (ICSSIT) (pp. 260-266). IEEE.
 - Rahman, T., Mouno, S. I., Raatul, A. M., Al Azad, A. K., & Mansoor, N. (2023, May). Verifi-chain: a credentials verifier using blockchain and IPFS. In International Conference on Information, Communication and Computing Technology (pp. 361-371). Singapore: Springer Nature Singapore.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
