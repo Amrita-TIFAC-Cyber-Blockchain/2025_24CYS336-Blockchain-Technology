@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#12 -  Food Safety Traceability System using Blockchain and EPCIS
@@ -102,3 +106,4 @@ The Demo Video is available [here](https://youtu.be/ChPD0d6g_jA)
 1. Q. Lin, H. Wang, X. Pei, and J. Wang, "Food Safety Traceability System Based on Blockchain and EPCIS," State Key Laboratory of ASIC and System, Fudan University, Shanghai, China, 2017.
 
 2. R. W. Ahmad, K.-M. Ko, A. Rashid, and J. J. P. C. Rodrigues, "Blockchain for Food Industry: Opportunities, Requirements, Case Studies, and Research Challenges."
+
