@@ -1,8 +1,10 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#17 - Digital Art Storage And Verification Using Blockchain Technology
-
-
 ![](https://img.shields.io/badge/Member-Praveen_S-gold) ![](https://img.shields.io/badge/Member-Akshay_R-gold)  <br/> 
 ![](https://img.shields.io/badge/SDG-8-darkgreen) ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-12-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen) ![](https://img.shields.io/badge/SDG-17-darkgreen) <br/>
 ![](https://img.shields.io/badge/Reviewed-20th_Nov_2025-brown) <br/>
@@ -115,23 +117,4 @@ The Demo Video is available [here](https://youtu.be/G34Y2T7BqyY)
 [1] Wu, J. (2023). Detection and protection of digital artworks using blockchain technology. The Light Explorer, 8(4), 1–11.
 
 [2] Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership verification for digital art using smart contract and blockchain technology. In Proceedings of the 17th International Conference on Open Source Systems & Technology (ICOSST) (pp. 1–6).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
