@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#10 - A Blockchain-Guarded AI Diagnosis Platform with Patient-Controlled EHR Access and Gas Price Prediction
@@ -10,7 +14,6 @@
 
 ### Problem Statement
 Despite the advancements in digital healthcare, the current systems have a hard time delivering a safe and patient-centric environment. Patients have little visibility and control over who can access their medical records, and centralized data is vulnerable to unauthorized access. AI models utilized for diagnosis are open to attacks that can affect their accuracy, potentially threatening lives. On top of that, the blockchain-based solutions suffer from high and unstable transaction fees which limits their practical use. Without transparent audit trails or verifiable AI decisions, there is still a major challenge in trust and accountability when it comes to healthcare technology nowadays.
-
 
 -----
 ###  Literature Survey — AI and Blockchain for E-Health
@@ -172,3 +175,4 @@ This project combining **Artificial Intelligence (AI)** and **Blockchain** for s
 - Alabdulatif, A., et al. (2023). *Leveraging Artificial Intelligence in Blockchain-Based E-Health for Safer Decision Making.* [DOI: 10.3390/app13021035](https://doi.org/10.3390/app13021035)
   
 - Mandarino, A., et al. (2024). *A Blockchain-Based Electronic Health Record (EHR) System for Edge Computing Enhancing Security and Cost Efficiency.* [DOI: 10.3390/computers13060132](https://doi.org/10.3390/computers13060132)
+
