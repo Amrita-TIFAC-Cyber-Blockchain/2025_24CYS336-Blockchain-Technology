@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#01 - Evidence Protection System using Blockchain Technology
@@ -26,6 +30,9 @@ To overcome this, modern research adopts a hybrid blockchain + IPFS architecture
 <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT01/architecture.png" width=500 />
 </p>
 
+
+### System Setup
+
 ### Results
 
 #### Stakeholder Details
@@ -53,4 +60,5 @@ The Demo Video is available [here](https://youtu.be/EPGPfOTBl3E)
 
 **Pandiyaraj, A., & Narayanan, P. (2023). Evidence Protection System Using Blockchain Technology.  
 Amrita Vishwa Vidyapeetham.**
+
 
