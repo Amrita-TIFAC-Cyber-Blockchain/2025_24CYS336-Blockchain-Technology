@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#14 - Patient Management System
@@ -116,6 +120,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
