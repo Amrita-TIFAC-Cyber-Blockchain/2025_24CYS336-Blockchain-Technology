@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#18: NFT-Based Educational Credential Verification System
@@ -224,6 +228,7 @@ The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
 | **SDG 9: Industry, Innovation, and Infrastructure**          | The system builds a resilient, innovative digital infrastructure for the global education sector by applying cutting-edge NFT technology to solve long-standing challenges in credential management. |
 | **SDG 8: Decent Work and Economic Growth**                  | By providing a fraud-proof method for verifying skills, the system fosters a fairer and more efficient job market, empowering individuals with greater control over their professional identity. |
 | **SDG 16: Peace, Justice, and Strong Institutions**          | This project directly combats credential fraud, a form of institutional corruption, and enhances accountability through the transparent, immutable, and auditable provenance of NFTs. |
+
 -----
 
 ### References
@@ -233,3 +238,4 @@ The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
 - Khati, P., Shrestha, A. K., & Vassileva, J. (2023, July). Student certificate sharing system using blockchain and nfts. In International Congress on Blockchain and Applications (pp. 61-70). Cham: Springer Nature Switzerland.
 - Kumar, N. N., Kumar, R. S., Basale, R. R., & Saffath, M. (2022, January). Decentralized storage of educational assets using NFTs and blockchain technology. In 2022 4th international conference on smart systems and inventive technology (ICSSIT) (pp. 260-266). IEEE.
 - Rahman, T., Mouno, S. I., Raatul, A. M., Al Azad, A. K., & Mansoor, N. (2023, May). Verifi-chain: a credentials verifier using blockchain and IPFS. In International Conference on Information, Communication and Computing Technology (pp. 361-371). Singapore: Springer Nature Singapore.
+
