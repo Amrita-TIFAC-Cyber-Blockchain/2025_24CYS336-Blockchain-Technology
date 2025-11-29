@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#13 - Blockchain-Based E-Waste Management and Tracking System
@@ -66,6 +70,7 @@ The Demo Video is available [here](https://youtu.be/FPoqTbRZ6kM?si=RDZLeWN9ySSM3
 ### References
 Gopalakrishnan, P., & Ramaguru, R. (2019). Blockchain based waste management. International Journal of Engineering and Advanced Technology, 8(5), 2632-2635.
 Mishra, Anuj & Sathe, Ishan & Kotangale, Prof. (2022). E-Waste Management System using Blockchain. 2454-9150. 10.35291/2454-9150.2022.0127. 
+
 
 
 
