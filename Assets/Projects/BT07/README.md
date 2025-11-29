@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#07 - Non-Custodial Stablecoin-Based Secured P2P Lending Marketplace
@@ -46,6 +50,7 @@ The Demo Video is available [here](https://youtu.be/lFwRduN38Qg)
 - Chen, Y., & Bellavitis, C. (2020). Blockchain disruption and decentralized finance: The rise of decentralized business models. *Journal of Business Venturing Insights*, 13, e00151.
 - Aave Protocol Documentation. (n.d.). Retrieved from [https://docs.aave.com](https://docs.aave.com)
 - Compound Protocol Documentation. (n.d.). Retrieved from [https://compound.finance/docs](https://compound.finance/docs)
+
 
 
 
