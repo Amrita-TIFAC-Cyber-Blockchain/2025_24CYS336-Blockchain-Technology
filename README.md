@@ -78,13 +78,11 @@
 | Publication of Quiz - 1 Marks in MyAmrita | 29 - Jul - 2025 | ![](https://img.shields.io/badge/Completed-darkgreen)    | 
 | Submission of Problem Statement      | 12 - Aug - 2025 |          |
 | Mid-Term Examination                 | 26 - Aug - 2025 |  ![](https://img.shields.io/badge/Completed-darkgreen)    | 
-| Mini-Project Review - 1              | 15 - Sept - 2025 |          |
-| Quiz - 2                             | 29 - Sept - 2025     |          |
-| Lab Evaluation - 2                   | 29 - Sept - 2025     |          |
-| Mini-Project Review - 2              | 06 - Oct - 2025      |          |
-| End Semester Examination             | Oct - 2025      |          |
-| Publication of Results               | Nov - 2025      |          |
-| Report Submission                    | Nov - 2025      |          | 
+| Quiz - 2                             | 29 - Sept - 2025     |   ![](https://img.shields.io/badge/Completed-darkgreen)        |
+| Lab Evaluation - 2                   | 29 - Sept - 2025     |   ![](https://img.shields.io/badge/Completed-darkgreen)        |
+| End Semester Examination             | Oct - 2025      |  ![](https://img.shields.io/badge/Completed-darkgreen)         |
+| Publication of Results               | Dec - 2025      |          |
+| Report Submission                    | Dec - 2025      |          | 
 
 #### Lab Schedule 
 
