@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#22 UniVeritas: Blockchain-Based Identity and Trust Framework for Universities
@@ -127,6 +131,7 @@ The Demo Video is available [here](https://youtu.be/_LLnanOCrpU?si=Mo1TR-GtxKPGI
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
