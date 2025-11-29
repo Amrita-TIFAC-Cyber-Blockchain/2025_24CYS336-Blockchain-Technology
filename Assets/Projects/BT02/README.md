@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#02 - Real-world Asset (RWA) Tokenization
@@ -166,4 +170,4 @@ The Demo Video is available [here](https://youtu.be/)
 -   Zhao, X., Ding, J., Su, Y., et al. (2025). Scalable & secure real-world asset tokenization using Ethereum staking & Layer-2 solutions.
 -   Heines, R., Dick, C., Pohle, C., Jung, R. (2021). The Tokenization of Everything: Towards a Framework for Understanding the Potentials of Tokenized Assets. PACIS
 -   Boggio Viola, A. (2023/24). The Tokenization of Assets: Analysing the Emergence of a New Market Trend. Master’s thesis, Politecnico di Torino.
--   (https://docs.openzeppelin.com/contracts/)
+-   OpenZeppelin Documentation. https://docs.openzeppelin.com/contracts/
