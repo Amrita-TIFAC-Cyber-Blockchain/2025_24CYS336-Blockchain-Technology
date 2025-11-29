@@ -76,9 +76,12 @@ This project demonstrates a simple **Enterprise E-Voting System** built using:
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts | 0xf46d54f6809DBB9867E0E130FF09E18Ba76174fe     |
+| Deployment of Contracts | 0xf46d54f6809DBB9867E0E130FF09E18Ba76174fe |
 
-These transaction are as shown in the [YouTube Demo Video](https://youtu.be/t6vp9mm-YIQ) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/t6vp9mm-YIQ)
+
+---
 
 ## Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -99,6 +102,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/t6vp
 [7] González, C. D., García, M., & Pacheco, J. (2022). Electronic Voting System Using an Enterprise Blockchain. Journal of Systems Architecture.  
 
 ------
+
 
 
 
