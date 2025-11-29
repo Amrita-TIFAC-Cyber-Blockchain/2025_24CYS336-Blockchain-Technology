@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#24 - Smart Grid P2P Energy Trading Market
@@ -152,7 +156,6 @@ The Demo Video is available [here](https://www.youtube.com/watch?v=n9KG7wkeUs0)
 | **SDG 9** | Industry, Innovation and Infrastructure |Leverages cutting-edge digital technologies (AI, DT, Metaverse, Blockchain) for grid modernization and intelligence. Creates resilient infrastructure capable of handling dynamic load and cyber threats |
 | **SDG 13** | Climate Action | Incentivizes emission reductions and the adoption of clean energy. The proposed trading framework demonstrates superiority in carbon emission reduction compared to centralized models. |
 | **SDG 16** | Peace, Justice and Strong Institutions | Ensures transparent, verifiable, and non-tamperable energy transactions via blockchain and smart contracts. Enhances trust and reduces fraud/disputes in the energy marketplace. |
-
 
 -----
 
