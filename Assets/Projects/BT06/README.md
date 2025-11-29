@@ -2,7 +2,7 @@
 
 ## BT#06 - DocSort
 
-![](https://img.shields.io/badge/Member-Meera-gold)  <br/> 
+![](https://img.shields.io/badge/Member-Meera_N-gold)  <br/> 
 ![](https://img.shields.io/badge/SDG-9-darkgreen) ![](https://img.shields.io/badge/SDG-16-darkgreen)  <br/>
 ![](https://img.shields.io/badge/Reviewed-18th_Nov_2025-brown) <br/>
 
@@ -25,7 +25,10 @@ They present a decentralized framework for urban incident reporting, highlightin
 
 -----
 ### Architectural Diagram
-<img src="Diagram.png" alt="Architectural Diagram" width="500">
+
+<p align="center">
+  <img src="Diagram.png" alt="Architectural Diagram" width="450">
+</p>
 
 ------
 
@@ -41,8 +44,10 @@ I deployed in Remix itself for demonstration purposes
 | User 1 | 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2 |
 | User 2 | 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db | 
 
+#### Demo Video
+The Demo Video is available [here](https://www.youtube.com/watch?v=Hz5oZKH41zY)
 
-These transaction are as shown in the [YouTube Demo Video](https://www.youtube.com/watch?v=Hz5oZKH41zY) 
+------
 
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
@@ -79,6 +84,7 @@ open collaborative development. The Journal of Systems and Software, 230, 112477
 O. (2024). Revolutionizing Healthcare Record Management: Secure Documentation
 Storage and Access through Advanced Blockchain Solutions.
 - Diallo, E.-h., Abdallah, R., Dib, M., & Dib, O. (2024). Decentralized Incident Reporting: Mobilizing Urban Communities with Blockchain. Smart Cities, 7(4), 2283–2317.
+
 
 
 
