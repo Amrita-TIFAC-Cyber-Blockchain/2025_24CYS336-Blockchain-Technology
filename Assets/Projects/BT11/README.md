@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#11 - Blockchain-Backed Auditability for Recommender Systems
@@ -115,6 +119,7 @@ The Demo Video is available [here](https://youtu.be/CTcaDMseYq0)
 2) **Drungilas, V., Vaičiukynas**, E., Jurgelaitis, M., Butkienė, R., & Čeponienė, L. (2021). _Towards Blockchain-Based Federated Machine Learning: Smart Contract for Model Inference_. Applied Sciences, 11(3), 1010. https://doi.org/10.3390/app11031010
 
 3) **Wu, L., Ruan, W., Hu, J., & He, Y. (2023)**. _A Survey on Blockchain-Based Federated Learning_. Future Internet, 15(12), 400. https://doi.org/10.3390/fi15120400
+
 
 
 
