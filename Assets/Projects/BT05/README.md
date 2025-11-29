@@ -1,6 +1,8 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
 
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#05 - BlockVote: Enterprise E-Voting System
 
@@ -102,6 +104,7 @@ The Demo Video is available [here](https://youtu.be/t6vp9mm-YIQ)
 [7] González, C. D., García, M., & Pacheco, J. (2022). Electronic Voting System Using an Enterprise Blockchain. Journal of Systems Architecture.  
 
 ------
+
 
 
 
