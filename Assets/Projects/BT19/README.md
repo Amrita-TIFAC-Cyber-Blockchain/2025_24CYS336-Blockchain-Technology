@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain Technology  
 
 ##  BT#19 – Blockchain-Based Multi-Energy System  
@@ -147,30 +151,3 @@ The Demo Video is available [here](https://youtu.be/rVMWrXd1If4)
    Proceedings of the 50th Hawaii International Conference on System Sciences (HICSS-50), Waikoloa Village, Hawaii, January 4–7, 2017 (pp. 1543–1552). AIS Electronic Library (AISeL).
 
 4. Mancarella, P. (2014). *MES (multi-energy systems): An overview of concepts and evaluation models.* **Energy**, 65, 1–17.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
