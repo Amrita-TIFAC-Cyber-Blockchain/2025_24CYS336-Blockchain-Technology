@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#16 - Voting System 
@@ -79,6 +83,8 @@ The novelty of the system lies in combining biometric facial recognition with bl
 #### Demo Video
 The Demo Video is available [here](https://youtu.be/7SrDYXUkSPA)
 
+-----
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 
 | SDG | Alignment |
@@ -92,28 +98,3 @@ The Demo Video is available [here](https://youtu.be/7SrDYXUkSPA)
 <1>Farooq, M. S., Iftikhar, U., & Khelifi, A. (2022). A framework to make voting system transparent using blockchain technology. IEEE Access, 10, 59959–59969. https://doi.org/10.1109/access.2022.3180168
 
 <2>González, C. D., Mena, D. F., Muñoz, A. M., Rojas, O., & Sosa-Gómez, G. (2022). Electronic voting system using an enterprise blockchain. Applied Sciences, 12(2), 531. https://doi.org/10.3390/app12020531
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
