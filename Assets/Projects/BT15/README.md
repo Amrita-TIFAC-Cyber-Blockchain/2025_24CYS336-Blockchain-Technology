@@ -1,6 +1,8 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
 
 # 24CYS336 - Blockchain-Technology 
-![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 
 ## BT#15
 
@@ -67,12 +69,6 @@ The Demo Video is available [here](https://www.youtube.com/watch?v=KOWh2ZSnAZo)
 ---------
 
 ### References
-Suganya, M., Madhavi, K., Yadav, K., Abbas, H. M., & Ganesh, N. (2024, November). Developing a Blockchain-Based Decentralized Application for Real Estate Transactions. In 2024 International Conference on IoT, Communication and Automation Technology (ICICAT) (pp. 1356-1360). IEEE.
+- Suganya, M., Madhavi, K., Yadav, K., Abbas, H. M., & Ganesh, N. (2024, November). Developing a Blockchain-Based Decentralized Application for Real Estate Transactions. In 2024 International Conference on IoT, Communication and Automation Technology (ICICAT) (pp. 1356-1360). IEEE.
 
-Miah, M. (2022). A comprehensive data analytics study on the use of blockchain technology in real estate. International Journal of Engineering Science and Computing, 12(10).
-
-
-
-
-
-
+- Miah, M. (2022). A comprehensive data analytics study on the use of blockchain technology in real estate. International Journal of Engineering Science and Computing, 12(10).
