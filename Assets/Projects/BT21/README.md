@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#21 - 
@@ -145,6 +149,7 @@ Users do not have direct interaction with the admin functions.
 The Demo Video is available [here](https://youtu.be/mAR-Yb5Ps4Q)
 
 ------
+
 ### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
 SDG 11: Sustainable Cities and Communities: The project's goal to formalize and bring transparency to the adoption of stray dogs in India could contribute to creating safer and more inclusive urban environments for both animals and people. By addressing issues like re-abandonment and illegal trade, it promotes a more responsible and humane approach to managing stray animal populations in communities.
 
@@ -160,19 +165,4 @@ SDG 17: Partnerships for the Goals: The project's design facilitates interaction
 [2]Gururaj, H. L., Manoj, A. A., Kumar, A. A., Nagarajath, S. M., & Kumar, V. R. (2020). Adoption of pets in distributed network using blockchain technology. International Journal of Blockchains and Cryptocurrencies, 1(2), 107-120.
 
 [3]Zhou, Y. Applications of Blockchain Techniques in Pet Adoption Industry.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
