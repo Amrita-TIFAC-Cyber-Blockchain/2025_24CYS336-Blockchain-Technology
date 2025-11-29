@@ -26,7 +26,8 @@ Early attempts at direct P2P lending, such as ETHLend (Aave’s predecessor), ex
 
 ### Results
 
-These transaction are as shown in the [YouTube Demo Video](https://youtu.be/lFwRduN38Qg) 
+#### Demo Video
+The Demo Video is available [here](https://youtu.be/lFwRduN38Qg)
 
 ------
 
@@ -45,6 +46,7 @@ These transaction are as shown in the [YouTube Demo Video](https://youtu.be/lFwR
 - Chen, Y., & Bellavitis, C. (2020). Blockchain disruption and decentralized finance: The rise of decentralized business models. *Journal of Business Venturing Insights*, 13, e00151.
 - Aave Protocol Documentation. (n.d.). Retrieved from [https://docs.aave.com](https://docs.aave.com)
 - Compound Protocol Documentation. (n.d.). Retrieved from [https://compound.finance/docs](https://compound.finance/docs)
+
 
 
 
