@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
+</p>
+
 # 24CYS336 - Blockchain-Technology 
 
 ## BT#06 - DocSort
@@ -84,6 +88,7 @@ open collaborative development. The Journal of Systems and Software, 230, 112477
 O. (2024). Revolutionizing Healthcare Record Management: Secure Documentation
 Storage and Access through Advanced Blockchain Solutions.
 - Diallo, E.-h., Abdallah, R., Dib, M., & Dib, O. (2024). Decentralized Incident Reporting: Mobilizing Urban Communities with Blockchain. Smart Cities, 7(4), 2283–2317.
+
 
 
 
