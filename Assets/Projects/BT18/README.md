@@ -185,6 +185,14 @@ Benefits:
 | **Student 2 Wallet** | 0x71572605e7ce981265be0797c72826444a91d8c6 | 
 | **Contract Address** | [0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a](https://sepolia.etherscan.io/address/0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a) |
 
+#### Transactions
+
+| Purpose | Hash | 
+|-----------------------|---------| 
+| **Add Institution** | [0x4890119a118e030786068999e3cdddf6b554cd4d5cfc30a04536bbae520283ff](https://sepolia.etherscan.io/tx/0x4890119a118e030786068999e3cdddf6b554cd4d5cfc30a04536bbae520283ff) | 
+| **Issue Certificate** | [0x6509050eb97a97c6cc5464a656addc57e00351c6ba096b1b9fd88795cc7e2e24](https://sepolia.etherscan.io/tx/0x6509050eb97a97c6cc5464a656addc57e00351c6ba096b1b9fd88795cc7e2e24) | 
+| **Revoke Certificate** | [0xbbe063eedd40d4a3a9d0e0df48ce17affdb3500fe5ffe7dbc8737764bd5e5322](https://sepolia.etherscan.io/tx/0xbbe063eedd40d4a3a9d0e0df48ce17affdb3500fe5ffe7dbc8737764bd5e5322) | 
+| **Remove Institution** | [0x6001addb79db73536421faa050fe0ea49ad27979d35fba442aefbec70c6c57f5](https://sepolia.etherscan.io/tx/0x6001addb79db73536421faa050fe0ea49ad27979d35fba442aefbec70c6c57f5) | 
 #### Demo Video
 The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
 
@@ -238,5 +246,6 @@ The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
 - Khati, P., Shrestha, A. K., & Vassileva, J. (2023, July). Student certificate sharing system using blockchain and nfts. In International Congress on Blockchain and Applications (pp. 61-70). Cham: Springer Nature Switzerland.
 - Kumar, N. N., Kumar, R. S., Basale, R. R., & Saffath, M. (2022, January). Decentralized storage of educational assets using NFTs and blockchain technology. In 2022 4th international conference on smart systems and inventive technology (ICSSIT) (pp. 260-266). IEEE.
 - Rahman, T., Mouno, S. I., Raatul, A. M., Al Azad, A. K., & Mansoor, N. (2023, May). Verifi-chain: a credentials verifier using blockchain and IPFS. In International Conference on Information, Communication and Computing Technology (pp. 361-371). Singapore: Springer Nature Singapore.
+
 
 
