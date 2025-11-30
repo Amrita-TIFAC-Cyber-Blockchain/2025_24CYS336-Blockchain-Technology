@@ -3,7 +3,7 @@ The Application enables automatic connection with METAMASK ACCOUNTS , if the app
 It automatically connects to the account which is manually selected by the user in metamask and the transaction request is raised when done by respective accounts and people only.
 
 The contract address is pasted into the web application code which is aldredy deployed using solidity program :
-[PROGRAM](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT25/CODES/DefenceLogistics.sol).
+[PROGRAM](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT25/contracts/Defence_Logistics.sol).
 
 The ipfs hash values are generated automatically , the files are stored in pinata account and generates ipfs hash which can be used for verification later or document access by authorities respectivly.
 
