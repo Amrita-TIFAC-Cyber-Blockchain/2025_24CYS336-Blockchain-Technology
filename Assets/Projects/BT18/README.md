@@ -183,7 +183,7 @@ Benefits:
 | **Institution 3 Wallet** | 0xe3f898384ab8c26c3fefa8e16f0ac2a1d49722ff | 
 | **Student 1 Wallet** | 0x16a042126ab1d7b7bc86ec645d50b01787c71fbb | 
 | **Student 2 Wallet** | 0x71572605e7ce981265be0797c72826444a91d8c6 | 
-| **Contract Address** | 0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a |
+| **Contract Address** | [0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a](https://sepolia.etherscan.io/address/0xb16b0D7CB29f1de5C2f0F5dFA4742e3023eB447a) |
 
 #### Demo Video
 The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
@@ -238,4 +238,5 @@ The Demo Video is available [here](https://www.youtube.com/watch?v=ShZQGLJPrXU)
 - Khati, P., Shrestha, A. K., & Vassileva, J. (2023, July). Student certificate sharing system using blockchain and nfts. In International Congress on Blockchain and Applications (pp. 61-70). Cham: Springer Nature Switzerland.
 - Kumar, N. N., Kumar, R. S., Basale, R. R., & Saffath, M. (2022, January). Decentralized storage of educational assets using NFTs and blockchain technology. In 2022 4th international conference on smart systems and inventive technology (ICSSIT) (pp. 260-266). IEEE.
 - Rahman, T., Mouno, S. I., Raatul, A. M., Al Azad, A. K., & Mansoor, N. (2023, May). Verifi-chain: a credentials verifier using blockchain and IPFS. In International Conference on Information, Communication and Computing Technology (pp. 361-371). Singapore: Springer Nature Singapore.
+
 
