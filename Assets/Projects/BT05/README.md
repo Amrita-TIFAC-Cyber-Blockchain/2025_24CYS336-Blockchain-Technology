@@ -61,6 +61,11 @@ This project builds upon these foundational works by implementing a blockchain-b
     - The smart contract automatically tallies the results.
     - The frontend displays final results with full transparency and accuracy.
 ---
+## Architectural Diagram
+<img src = https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Projects/BT05/src/Architectural_Diagram.png>
+
+---
+
 ## Modules
 1. **Smart Contract Module**  ``Voting.sol``
     - Handles election creation, candidate registration, vote casting, and result tallying.  
@@ -128,6 +133,7 @@ Zhao, Z., & Chan, A. (2019). How to vote privately using blockchain: Privacy-pre
 Zyskind, G., Nathan, O., & Pentland, A. (2015). Decentralizing privacy: Using blockchain to protect personal data. *2015 IEEE Security and Privacy Workshops (SPW)*, 180–184. https://doi.org/10.1109/SPW.2015.27  
 
 ------
+
 
 
 
