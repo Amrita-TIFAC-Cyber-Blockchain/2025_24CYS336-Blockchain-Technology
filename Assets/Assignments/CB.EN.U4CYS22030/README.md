@@ -11,7 +11,7 @@
 |:--------------:|:-----------------------------:|
 
 ### Lab - RSA implementation
-<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22030/RSA.png">
+<img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22030/Assets/RSA.png">
 
 ### Lab - Solidity contract deployment (Certificate Registry)
 
@@ -30,3 +30,9 @@
 | Smart Contract Address | 0x60Ed7e67e26d5fdde35C248fa553B6B0b13Cb4e6 |
 |:----------------------:|:-------------------------------------:|
 | Transaction Desc.      | https://sepolia.etherscan.io/tx/0x2acd0f7709e789b742c91122a893ee9113cd8f29f93c1ac2eb2d847664e63b7b
+
+### Lab - IPFS   
+The commands `ipfs cat`, `ipfs pin add`, and `ipfs dag stat` are used for viewing the contents of a file, pinning a file to avoid garbage collection, and checking the block distribution of the file respectively.   
+
+<img src= "https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/blob/main/Assets/Assignments/CB.EN.U4CYS22030/Assets/ipfs_2.png">
+
