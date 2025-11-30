@@ -23,7 +23,7 @@ Our Project **“Blockchain Applications in Defence Logistics”** satisfies eve
 
 ---
 
-TEST CASES USED AND RESPECTIVE OUTPUTS ARE PRESENT IN IMAGES FOLDER : [LINK FOR IMAGES FOLDER](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/tree/main/Assets/Projects/BT25/IMAGES)
+TEST CASES USED AND RESPECTIVE OUTPUTS ARE PRESENT IN IMAGES FOLDER : [LINK FOR IMAGES FOLDER](https://github.com/Amrita-TIFAC-Cyber-Blockchain/2025_24CYS336-Blockchain-Technology/tree/main/Assets/Projects/BT25/images)
 
 
 ## 1. Successful Asset Registration
