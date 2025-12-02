@@ -43,39 +43,6 @@ Anyone later—buyer, gallery, or verifier—can check authenticity by either en
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/086994e2-95e9-4e59-bb51-57188d024a86" />
 
 
------
-
-### Blockchain Decision Tree (NITI Aayog)
-1) Is there a compelling business case to reduce intermediaries?
-Answer: Yes
-
-2) Are multiple (i.e. 2 or more) stakeholders involved?
-Answer: Yes
-
-3) Are you working with digital assets instead of physical assets?
-Answer: Yes
-
-4) Do multiple parties require shared write access?
-Answer: Yes
-
-5) Do you require high performance/rapid transactions (milliseconds)?
-Answer: No
-
-6) Do you intend to store non-transactional data as part of your solution?
-Answer: No
-
-7) Do you want/need to rely on a trusted party i.e. for compliance reasons?
-Answer: No
-
-8) Do you need the ability to control functionality?
-Answer: No
-
-9) Should transactions be public?
-Answer: Yes
-
-Final Solution: Strong case for Public Blockchain
-
-
 ------
 
 ### Results
@@ -117,4 +84,5 @@ The Demo Video is available [here](https://youtu.be/G34Y2T7BqyY)
 [1] Wu, J. (2023). Detection and protection of digital artworks using blockchain technology. The Light Explorer, 8(4), 1–11.
 
 [2] Ullah, S., Bazai, S. U., Zaland, Z., Ghafoor, M. I., Haider, A., & Hussain, L. (2023, December). Ownership verification for digital art using smart contract and blockchain technology. In Proceedings of the 17th International Conference on Open Source Systems & Technology (ICOSST) (pp. 1–6).
+
 
