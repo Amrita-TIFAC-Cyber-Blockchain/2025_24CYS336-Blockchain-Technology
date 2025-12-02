@@ -82,8 +82,8 @@ They ensure system security, enforce platform rules, and maintain the integrity 
 
 | Smart Contract Stakeholders | Address | 
 |:---------------------------:|:-------:|
-|  Admin     |  0xc12eb3c0cbf6bbc4d76fc5a612f8ee8bae61b8c8 |
-|  Farmer    | 0x0344f4ef81b3ecaca983c7aa431be28142d7a5cd |
+|  Admin     |  [0x97d01a4add074002f9ccb4fc4404a6968770bb8794bf20fcec2a2667d228e9f4](https://sepolia.etherscan.io/tx/0x97d01a4add074002f9ccb4fc4404a6968770bb8794bf20fcec2a2667d228e9f4) |
+|  Farmer    |[0xdbab2631d51d6491292696d08799dee3d6549bfb25e191e1826576a69fd8487d](https://sepolia.etherscan.io/tx/0xdbab2631d51d6491292696d08799dee3d6549bfb25e191e1826576a69fd8487d) |
 |  Lender    | 0x2722f8c8f31cb1fea6ec13b383cb76e6f2282823 | 
 |  Insurance | 0x2722f8c8f31cb1fea6ec13b383cb76e6f2282823 | 
 
@@ -113,6 +113,7 @@ The integration of blockchain, smart contracts, and decentralized storage builds
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
+
 
 
 
