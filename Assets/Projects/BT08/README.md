@@ -84,14 +84,14 @@ They ensure system security, enforce platform rules, and maintain the integrity 
 |:---------------------------:|:-------:|
 |  Admin     |  [0x97d01a4add074002f9ccb4fc4404a6968770bb8794bf20fcec2a2667d228e9f4](https://sepolia.etherscan.io/tx/0x97d01a4add074002f9ccb4fc4404a6968770bb8794bf20fcec2a2667d228e9f4) |
 |  Farmer    |[0xdbab2631d51d6491292696d08799dee3d6549bfb25e191e1826576a69fd8487d](https://sepolia.etherscan.io/tx/0xdbab2631d51d6491292696d08799dee3d6549bfb25e191e1826576a69fd8487d) |
-|  Lender    | [0x46cf6948856a90f32fe23358b641668cbe9b31d95e65953a4ec6adfcc4245a10].(https://epolia.etherscan.io/tx/0x46cf6948856a90f32fe23358b641668cbe9b31d95e65953a4ec6adfcc4245a10) | 
-|  Insurance | [0xe309c144d32733d34459cea73c934a45b1c7745118c7ea4e00f5df8f147752e6].(https://sepolia.etherscan.io/tx/0xe309c144d32733d34459cea73c934a45b1c7745118c7ea4e00f5df8f147752e6) | 
+|  Lender    | [0x46cf6948856a90f32fe23358b641668cbe9b31d95e65953a4ec6adfcc4245a10](https://epolia.etherscan.io/tx/0x46cf6948856a90f32fe23358b641668cbe9b31d95e65953a4ec6adfcc4245a10) | 
+|  Insurance | [0xe309c144d32733d34459cea73c934a45b1c7745118c7ea4e00f5df8f147752e6](https://sepolia.etherscan.io/tx/0xe309c144d32733d34459cea73c934a45b1c7745118c7ea4e00f5df8f147752e6) | 
 
 #### Transaction Details
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |[0x48b8af2893becce167f222583b22541b3ee153f7f4568b4839ddfa29df436e64].(https://sepolia.etherscan.io/tx/0x48b8af2893becce167f222583b22541b3ee153f7f4568b4839ddfa29df436e64) |
+| Deployment of Contracts |[0x48b8af2893becce167f222583b22541b3ee153f7f4568b4839ddfa29df436e64](https://sepolia.etherscan.io/tx/0x48b8af2893becce167f222583b22541b3ee153f7f4568b4839ddfa29df436e64) |
 
 #### Demo Video
 The Demo Video is available [here](https://www.youtube.com/watch?v=)
@@ -113,6 +113,7 @@ The integration of blockchain, smart contracts, and decentralized storage builds
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
+
 
 
 
