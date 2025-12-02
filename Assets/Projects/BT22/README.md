@@ -70,6 +70,53 @@ Therefore, there is a pressing need for a decentralised, privacy-focused, and us
 
 ------
 
+## Proposed Solution
+### - Role-Based Access Control
+UniVeritas models actual university hierarchy by assigning on-chain permissions to:
+
+- Dean – highest authority who assigns HODs, issues certificates, and can revoke credentials.
+- Registrar – co-authority for certificate issuance and validation.
+- HOD – manages departmental academics including marks and question papers.
+- Coordinator – handles student onboarding and gradesheet uploads.
+- Student – can view their own marks, certificates, and gradesheets.
+- Employer – publicly verifies student certificates without needing system access.
+
+### - Decentralized Student Identity & Record Storage
+- Each student is registered on-chain with immutable data:
+    - Name
+    - Roll Number
+    - Department
+- Academic artifacts stored include:
+    - Marks
+    - Gradesheets (IPFS)
+    - Certificates (IPFS + hash)
+    - Question Papers (IPFS + timestamp)
+
+### - IPFS + Blockchain for Document Integrity
+Large documents (certificates, question papers, gradesheets) are stored in IPFS.
+Blockchain stores their cryptographic hashes, ensuring:
+- Documents are verifiable
+- Tampering becomes impossible
+- Storage remains low cost
+
+### - Revocation Mechanism With Audit Logs
+The Dean can revoke any certificate, and the system logs:
+- Certificate hash
+- Student address
+- Timestamp
+- Revocation reason
+
+### - Employer Verification
+Any employer or third party can verify a student’s certificate using:
+ ```bash
+    verifyCertificate(certHash)
+```
+This returns true if the certificate is valid and false if:
+- It was never issued
+- It has been revoked
+- It is fake
+
+------
 ### Results
 
 #### Stakeholder Details
@@ -131,6 +178,7 @@ The Demo Video is available [here](https://youtu.be/_LLnanOCrpU?si=Mo1TR-GtxKPGI
 3. Robledo, Rivera, Avalos, Larios. Universidad de Guadalajara, IBM Mexico.  
    *How Digital Identity on Blockchain Can Contribute in a Smart City Environment.*  
    [Details: Smart city use cases, Estonia e-ID example, and gaps in cross-platform/legal standards.]  
+
 
 
 
