@@ -54,6 +54,7 @@ The proposed solution introduces a blockchain-based decentralized financial ecos
 <p align="center">
   <img width="680"  alt="image" src="https://github.com/user-attachments/assets/553502aa-5068-4235-8344-d03026834716" />
 </p>
+
 ### Roles:
 🌾 Farmer
 
@@ -112,6 +113,7 @@ The integration of blockchain, smart contracts, and decentralized storage builds
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
+
 
 
 
