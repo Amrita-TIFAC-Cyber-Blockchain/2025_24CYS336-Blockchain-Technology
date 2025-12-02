@@ -54,7 +54,26 @@ The proposed solution introduces a blockchain-based decentralized financial ecos
 <p align="center">
   <img width="680"  alt="image" src="https://github.com/user-attachments/assets/553502aa-5068-4235-8344-d03026834716" />
 </p>
+### Roles:
+🌾 Farmer
 
+Farmers use the platform to request loans, register produce, and receive immediate payments through smart contracts.
+They benefit from transparent pricing, fair trade, and an on-chain credit score that builds financial credibility.
+
+💰 Lender
+
+Lenders supply capital to fund farmers’ loan requests using decentralized stablecoin transactions.
+They earn interest automatically, with repayments distributed proportionally through secure blockchain mechanisms.
+
+🌍 Investor
+
+Investors participate globally in agriculture-focused financial pools to support farming activities.
+They gain exposure to stable, traceable agricultural investments with guaranteed transparency and automated returns.
+
+🛡️ Admin
+
+Admins manage user onboarding, verify farmer identities, and authorize delivery verifiers.
+They ensure system security, enforce platform rules, and maintain the integrity of all smart contract operations.
 
 ### Results
 
@@ -93,6 +112,7 @@ The integration of blockchain, smart contracts, and decentralized storage builds
 
 ### References:
 Minu, M. S., Suryaa, S. R., Titus, J. J., & Sharan, S. (2024, July). Empowering Small-Scale Farmers with Decentralized Finance (DeFi) via Ethereum Smart Contracts. In 2024 2nd International Conference on Sustainable Computing and Smart Systems (ICSCSS) (pp. 683-690). IEEE.
+
 
 
 
