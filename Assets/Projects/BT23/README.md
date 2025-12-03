@@ -55,9 +55,9 @@ _Source: Paper-2_
 
 | Transaction Action   | Hash   |
 |:---------------------|:------:|
-| Deployment of Contracts |  0xa36d5fc0047297203357b319a64903016277d4d6052d53362d06e415f65990cb    |
-| New User Registration   |  0x172374cf42def604e92134dc0e88cf10e701326c485b5d8614670903dd8863b7    |
-| New Post Creation       |  0x0081dbe39744adb3ba4a93cf96360ae46cdd7ae10071670074e69da0adda47eb    |
+| Deployment of Contracts |  [0xa36d5fc0047297203357b319a64903016277d4d6052d53362d06e415f65990cb](https://sepolia.etherscan.io/tx/0xa36d5fc0047297203357b319a64903016277d4d6052d53362d06e415f65990cb)    |
+| New User Registration   |  [0x172374cf42def604e92134dc0e88cf10e701326c485b5d8614670903dd8863b7](https://sepolia.etherscan.io/tx/0x172374cf42def604e92134dc0e88cf10e701326c485b5d8614670903dd8863b7)    |
+| New Post Creation       |  [0x0081dbe39744adb3ba4a93cf96360ae46cdd7ae10071670074e69da0adda47eb](https://sepolia.etherscan.io/tx/0x0081dbe39744adb3ba4a93cf96360ae46cdd7ae10071670074e69da0adda47eb)    |
 
 #### Demo Video
 The Demo Video is available [here](https://youtu.be/Xfo6L_V9xIE)
@@ -79,6 +79,7 @@ The Demo Video is available [here](https://youtu.be/Xfo6L_V9xIE)
 [1]  S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
 
 [2] Ritu, S. Shreya, S. Kumar, S. Tirkey, S. K. Agarwala and L. K. Gupta, "Decentralized Social Media Application Based On Blockchain And NFT Technology," 2023 International Conference on Integrated Intelligence and Communication Systems (ICIICS), Kalaburagi, India, 2023, pp. 1-7, doi: 10.1109/ICIICS59993.2023.10421587. 
+
 
 
 
