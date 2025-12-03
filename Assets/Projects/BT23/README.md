@@ -4,7 +4,7 @@
 
 # 24CYS336 - Blockchain-Technology 
 
-## BT#23 - 
+## BT#23 - DECENTRALIZED SOCIAL MEDIA
 
 ![](https://img.shields.io/badge/Member-Vasantha_Kumar_G_R-gold) ![](https://img.shields.io/badge/Member-Ashwin_Kumar_K_S-gold) ![](https://img.shields.io/badge/Member-Karthick_A-gold)  <br/>
 ![](https://img.shields.io/badge/SDG_9-Industry,_Innovation,_and_Infrastructure-darkgreen) ![](https://img.shields.io/badge/SDG_12-Responsible_Consumption_and_Production-darkgreen) ![](https://img.shields.io/badge/SDG_16-Peace,_Justice,_and_Strong_Institutions-darkgreen) <br/>
@@ -77,5 +77,6 @@ The Demo Video is available [here](https://youtu.be/Xfo6L_V9xIE)
 [1]  S. Jadon, K. Bhat, K. R. Jenni, K. Vedantha, L. R R and P. B. Honnavalli, "Non-Fungible Token Enhanced Blockchain-Based Online Social Network," in IEEE Access, vol. 12, pp. 92368-92385, 2024, doi: 10.1109/ACCESS.2024.3422530.
 
 [2] Ritu, S. Shreya, S. Kumar, S. Tirkey, S. K. Agarwala and L. K. Gupta, "Decentralized Social Media Application Based On Blockchain And NFT Technology," 2023 International Conference on Integrated Intelligence and Communication Systems (ICIICS), Kalaburagi, India, 2023, pp. 1-7, doi: 10.1109/ICIICS59993.2023.10421587. 
+
 
 
