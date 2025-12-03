@@ -53,15 +53,6 @@ Blockchain technology offers an effective solution to these problems. It enables
 
 ------
 
-### Mapping the Project to Relevant Sustainable Development Goals (SDGs)
-This project aligns primarily with SDG 3: Good Health and Well-Being, as it enhances healthcare delivery by ensuring secure, reliable, and tamper-proof access to medical records. By improving accuracy, reducing medical errors, and increasing patient access to their own data, the system supports better clinical outcomes and patient empowerment.
-
-It further contributes to SDG 9: Industry, Innovation, and Infrastructure by introducing a modern, decentralized data management architecture using advanced technologies such as blockchain and cryptographic identity management. This promotes innovation and modernization within the healthcare infrastructure.
-
-The project also supports SDG 16: Peace, Justice, and Strong Institutions, as it increases transparency, auditability, and accountability within medical record management. Immutable logs, access controls, and verifiable data integrity reduce fraud, unauthorized access, and corruption in healthcare systems.
-
-------
-
 ### Results
 
 #### Stakeholder Details
@@ -120,6 +111,7 @@ The blockchain's immutable ledger serves as a perfect, verifiable audit trail. E
 
 1) Chen, Y., Ding, S., Xu, Z., Zheng, H., & Yang, S. (2019). Blockchain-based medical records secure storage and medical service framework. Journal of medical systems, 43(1), 5.
 2) Azaria, A., Ekblaw, A., Vieira, T., & Lippman, A. (2016, August). Medrec: Using blockchain for medical data access and permission management. In 2016 2nd international conference on open and big data (OBD) (pp. 25-30). IEEE.
+
 
 
 
