@@ -5,7 +5,7 @@
 # 24CYS336 - Blockchain-Technology 
 
 ## Smart India Hackathon 2025 - Internal Hackathon 
-### Blockchain Technology 
+![](https://img.shields.io/badge/GC-Awarded-blue)
 
 #### SIH25002 - Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID 
 
