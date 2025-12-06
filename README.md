@@ -2,7 +2,7 @@
     <img src="https://github.com/Amrita-TIFAC-Cyber-Blockchain/.github/blob/main/profile/img/AVV_CYS_Logo.png" alt ="Amrita TIFAC" width="700" />
 </p>
 
-# 24CYS336 - Blockchain Technology  ![](https://img.shields.io/badge/Live-blue)
+# 24CYS336 - Blockchain Technology  ![](https://img.shields.io/badge/Completed-darkgreen)
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 ![](https://img.shields.io/badge/Lecture-2-orange) ![](https://img.shields.io/badge/Practical-3-orange)  ![](https://img.shields.io/badge/Credits-3-orange) <br/>
 ![](https://img.shields.io/badge/Students-42-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CCE-14-blue) ![](https://img.shields.io/badge/ECE-19-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
@@ -80,9 +80,9 @@
 | Mid-Term Examination                 | 26 - Aug - 2025 |  ![](https://img.shields.io/badge/Completed-darkgreen)    | 
 | Quiz - 2                             | 29 - Sept - 2025     |   ![](https://img.shields.io/badge/Completed-darkgreen)        |
 | Lab Evaluation - 2                   | 29 - Sept - 2025     |   ![](https://img.shields.io/badge/Completed-darkgreen)        |
-| End Semester Examination             | Oct - 2025      |  ![](https://img.shields.io/badge/Completed-darkgreen)         |
-| Publication of Results               | Dec - 2025      |          |
-| Report Submission                    | Dec - 2025      |          | 
+| End Semester Examination             | 17 - Oct - 2025      |  ![](https://img.shields.io/badge/Completed-darkgreen)         |
+| Publication of Results               | 12 - Dec - 2025      |          |
+
 
 #### Lab Schedule 
 
