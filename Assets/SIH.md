@@ -32,7 +32,6 @@
 
 | SIH Code       | Team Name                 | Student Name                       | Register Number        |
 |:--------------:|:-------------------------:|------------------------------------|------------------------|
-| SIH25-A0H-T231 | Solace                    | HARISH VENKAT                      | CB.EN.U4ECE23219       |
 | SIH25-A0H-T231 | Solace                    | Deepana S                          | CB.EN.U4EEE23109       |
 | SIH25-A0H-T231 | Solace                    | HARSHAN S                          | CB.EN.U4ECE23119       |
 
