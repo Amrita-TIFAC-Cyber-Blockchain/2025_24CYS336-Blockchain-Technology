@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/Batch-22UCYS-gold) ![](https://img.shields.io/badge/UG-blue) ![](https://img.shields.io/badge/Subject-Blockchain-blue) <br/>
 ![](https://img.shields.io/badge/Lecture-2-orange) ![](https://img.shields.io/badge/Practical-3-orange)  ![](https://img.shields.io/badge/Credits-3-orange) <br/>
 ![](https://img.shields.io/badge/Students-42-gold) ![](https://img.shields.io/badge/CYS-7-blue) ![](https://img.shields.io/badge/CCE-14-blue) ![](https://img.shields.io/badge/ECE-19-blue) ![](https://img.shields.io/badge/EEE-1-blue) ![](https://img.shields.io/badge/ELC-1-blue) <br/> 
-![](https://img.shields.io/badge/Course_Outcome_Attainment-TBD-blue) ![](https://img.shields.io/badge/Average_Marks-TBD-blue) ![](https://img.shields.io/badge/Course_Feedback-TBD-blue) 
+![](https://img.shields.io/badge/Pass_Percent-100-darkgreen) ![](https://img.shields.io/badge/Average_Marks-64.48-blue) <br/> ![](https://img.shields.io/badge/Course_Outcome_Attainment-TBD-blue)  ![](https://img.shields.io/badge/Course_Feedback-TBD-blue) 
 
 #### Course Instructor:  Mr. Ramaguru Radhakrishnan, Assistant Professor (Senior Grade), TIFAC-CORE in Cyber Security.
 
